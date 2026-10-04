@@ -1,0 +1,9 @@
+domain,id_start,id_end,planned_count
+sleep_duration,K001,K016,16
+sleep_timing,K017,K032,16
+temporary_variation,K033,K040,8
+daily_activity,K041,K056,16
+low_movement,K057,K068,12
+activity_sleep_context,K069,K076,8
+personal_monitoring,K077,K088,12
+measurement_quality,K089,K096,8

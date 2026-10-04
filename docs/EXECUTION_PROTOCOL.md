@@ -1,0 +1,31 @@
+# Execution-qwen-v1 protocol
+
+This is execution of design-v1 under the follow-up request, not a redesign. The 24-case distribution, raw data contract, matched axes, corpus taxonomy and evidence limits remain fixed. All cases are synthetic. No Personal Evidence method, C2, final recommendation ranking or official PHIA implementation is included.
+
+## Amendments authorized by the execution request
+
+Gold is explicitly **PROVISIONAL_LLM_GOLD**. Following the user's provider change, two separate fresh-context qwen3.8-max judge calls annotate every pair, followed by a third fresh-context qwen3.8-max adjudication of every pair, including agreements. Different rubric perspectives and shuffled item order do not establish independent model errors: all three roles share weights. This does not replace human or clinician review. Neither judges nor adjudicator receive case_type, A/B/C, designer notes, representations or retrieval results. Knowledge item references are shuffled opaque hashes, so taxonomy ID ranges do not disclose domain. All raw wearable observations and the same arithmetic statistics are supplied.
+
+The requested comparison contains four baselines and intentionally no Evidence method. Therefore design-v1's proposed Evidence-vs-summary primary comparison cannot be claimed as performed. Baseline differences and compression failures diagnose whether further research is warranted. No post-result case, knowledge, prompt, query or threshold changes are permitted.
+
+B1 is a strong generic longitudinal summary; B2 is user-oriented Insight-style, never called official PHIA. Both may preserve quantitative changes, baseline, persistence, trends, weekday/weekend structure and multivariable associations. B3 generates five complementary retrieval queries from the same raw input, without access to the corpus. Its five retrieval operations are fused by fixed RRF (k=60) within each retriever; this resource difference must be reported rather than described as an equal-number-of-search comparison. B4 renders deterministic numeric facts without health interpretation, and has no model generation advantage.
+
+English is used for all representations and knowledge text. B1-B3 use qwen3.8-max, three fresh-context runs, common 256-token final text budget measured by fixed cl100k_base tokenizer. API temperature=0 and max_tokens=16384 are fixed; no unverified seed control is assumed. Actual pre-enforcement length, truncation, usage, HTTP request identifiers and input hashes are retained. Repeats at temperature=0 may be identical and are not independent participants. B4 is deterministic and repeats are copies, not independent samples. Aliased provider model identifiers are fixed, but unpublished server weights are not an immutable snapshot.
+
+Calls use the user-confirmed Alibaba Cloud workspace endpoint over the OpenAI-compatible HTTP API. No tools, web search, project context or conversation history are sent. JSON structure and task-specific coverage are validated locally; malformed/truncated/tool-call responses are rejected. Credentials are supplied only through a process environment, provisioned from Windows user-bound DPAPI storage outside the project; never persisted in prompts, source or experiment logs. See [official HTTP compatibility documentation](https://www.alibabacloud.com/help/en/model-studio/compatibility-of-openai-with-dashscope). The aborted Codex model run is archived under outputs/archive_codex_aborted and excluded from final inputs, labels, representations, audits and metrics. Cases are deterministic synthetic data, not LLM-generated participant records.
+
+## Retrieval freeze
+
+Cost control: enable_thinking=false is fixed for every Qwen role. This parameter was verified by a real HTTP200 probe with no reasoning-token usage. It does not shorten supplied raw data or weaken any baseline's permitted content. Report API usage separately from the aborted archived run.
+
+Only title + content are indexed. BM25 uses the fixed Unicode word regex in retrieval.py, casefolding, no stemming/stopword removal, k1=1.5 and b=0.75. Queries are capped at 512 lexical tokens equally across baselines. Dense is BAAI/bge-m3 at commit `5617a9f61b028005a4858fdac845db406aefb181`, using normalized cosine embeddings, empty query/document prefixes and model max length 512 subword tokens. Lexical and subword token units differ, but the configuration is identical across baselines within a retriever. Truncation is logged. Ties use ascending knowledge IDs; top-k=20 supports all requested metrics. Corpus, representation, config and code hashes must be saved before evaluating.
+
+Metrics are Recall@5/10/20, strong Recall@10, graded nDCG@10 and irrelevant_fraction@10. Missing denominators are N/A; empty retrieval is separately reported. Means use case-level repeated-run aggregation, not labels as independent samples. Matched cases form five clusters, plus fourteen individual cases, for nineteen bootstrap units. All four classes and A/B/C strata are reported as exploratory small-sample results.
+
+## Source and validity limits
+
+Verified knowledge means that a real authority source was fetched, a support anchor and locator checked, and an LLM editor checked the paraphrase. It does **not** mean independent human medical review. Dates that cannot be verified remain unknown. Source snapshots/hashes, source revisions, condition limitations and quota adjustments must be recorded.
+
+No source-supported joint diagnostic condition is presumed for RHR-rise/HRV-fall concurrence. If the two matched cases legitimately have the same provisional relevance, report this failure of identification. Similarly, low-movement estimates do not establish sitting posture; unknown exercise intensity cannot establish guideline compliance. Semantic failure audits are also provisional LLM judgments, separate from deterministic arithmetic and retrieval results.
+
+The final research assessment is one of A/B/C/D/E specified by the user. It must consider sources, provisional gold reliability, repeat consistency, matched-pair outcomes, query-generation recovery and false positives. An unsupported or inconclusive hypothesis is a valid result. Since no Evidence representation is run, no direct efficacy claim about an invented method is possible.

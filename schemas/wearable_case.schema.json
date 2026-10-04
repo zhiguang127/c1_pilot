@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:c1-pilot:wearable-case:1.0",
+  "title": "C1 longitudinal wearable case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "case_type", "window_days", "baseline_days", "periods", "observations", "derived_statistics", "metadata", "designer_notes"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^C(00[1-9]|01[0-9]|02[0-4])$"},
+    "case_type": {"enum": ["single_variable", "personal_baseline", "temporal_pattern", "multivariable"]},
+    "window_days": {"type": "integer", "minimum": 1},
+    "baseline_days": {"type": "integer", "minimum": 1},
+    "periods": {
+      "type": "object", "additionalProperties": false,
+      "required": ["baseline", "window"],
+      "properties": {"baseline": {"$ref": "#/$defs/period"}, "window": {"$ref": "#/$defs/period"}}
+    },
+    "observations": {
+      "type": "object", "additionalProperties": false,
+      "required": ["baseline_daily", "window_daily"],
+      "properties": {
+        "baseline_daily": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/daily"}},
+        "window_daily": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/daily"}}
+      }
+    },
+    "derived_statistics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["calculation_revision", "metric_statistics"],
+      "properties": {
+        "calculation_revision": {"const": "stats-v1"},
+        "metric_statistics": {
+          "type": "object", "minProperties": 1,
+          "propertyNames": {"$ref": "#/$defs/numeric_metric_name"},
+          "additionalProperties": {"$ref": "#/$defs/metric_statistics"}
+        },
+        "grouped_statistics": {
+          "type": "array", "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["metric", "period", "group", "statistics"],
+            "properties": {
+              "metric": {"$ref": "#/$defs/numeric_metric_name"},
+              "period": {"enum": ["baseline", "window"]},
+              "group": {"enum": ["weekday", "weekend"]},
+              "statistics": {"$ref": "#/$defs/statistics"}
+            }
+          }
+        },
+        "paired_statistics": {
+          "type": "array", "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["x_metric", "y_metric", "period", "lag_days", "paired_count", "pearson_r"],
+            "properties": {
+              "x_metric": {"$ref": "#/$defs/numeric_metric_name"},
+              "y_metric": {"$ref": "#/$defs/numeric_metric_name"},
+              "period": {"enum": ["baseline", "window"]},
+              "lag_days": {"type": "integer", "minimum": -1, "maximum": 1},
+              "paired_count": {"type": "integer", "minimum": 0},
+              "pearson_r": {"type": ["number", "null"], "minimum": -1, "maximum": 1}
+            }
+          }
+        },
+        "frequency_statistics": {
+          "type": "array", "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["metric", "period", "operator", "threshold", "matching_count", "valid_count", "longest_run_days"],
+            "properties": {
+              "metric": {"$ref": "#/$defs/numeric_metric_name"},
+              "period": {"enum": ["baseline", "window"]},
+              "operator": {"enum": ["lt", "le", "gt", "ge"]},
+              "threshold": {"type": "number"},
+              "matching_count": {"type": "integer", "minimum": 0},
+              "valid_count": {"type": "integer", "minimum": 0},
+              "longest_run_days": {"type": "integer", "minimum": 0}
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object", "additionalProperties": false,
+      "required": ["synthetic", "data_origin", "age_band", "timezone", "device", "quality_policy"],
+      "properties": {
+        "synthetic": {"type": "boolean"},
+        "data_origin": {"type": "string", "minLength": 1},
+        "age_band": {"const": "18-60"},
+        "timezone": {"type": "string", "minLength": 1},
+        "device": {
+          "type": "object", "additionalProperties": false,
+          "required": ["name", "metric_definition_revision"],
+          "properties": {"name": {"type": "string", "minLength": 1}, "metric_definition_revision": {"type": "string", "minLength": 1}}
+        },
+        "quality_policy": {
+          "type": "object", "additionalProperties": false,
+          "required": ["revision", "daytime_required_wear_minutes", "nighttime_validity_rule"],
+          "properties": {
+            "revision": {"type": "string", "minLength": 1},
+            "daytime_required_wear_minutes": {"type": "integer", "minimum": 0, "maximum": 1440},
+            "nighttime_validity_rule": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    },
+    "designer_notes": {
+      "type": "object", "additionalProperties": false,
+      "required": ["intended_pattern", "expected_difficulty", "stratum", "rationale", "matched_group"],
+      "properties": {
+        "intended_pattern": {"type": "string", "minLength": 1},
+        "expected_difficulty": {"enum": ["easy", "representation_sensitive", "negative_distractor"]},
+        "stratum": {"enum": ["A", "B", "C"]},
+        "rationale": {"type": "string", "minLength": 1},
+        "matched_group": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "$defs": {
+    "period": {
+      "type": "object", "additionalProperties": false, "required": ["start_date", "end_date"],
+      "properties": {"start_date": {"type": "string", "format": "date"}, "end_date": {"type": "string", "format": "date"}}
+    },
+    "timestamp": {"type": "string", "format": "date-time", "pattern": "(Z|[+-][0-9]{2}:[0-9]{2})$"},
+    "minutes": {"type": ["number", "null"], "minimum": 0, "maximum": 1440},
+    "numeric_metric_name": {"enum": ["sleep_duration_minutes", "steps", "activity_duration_minutes", "low_movement_minutes", "resting_heart_rate_bpm", "hrv_rmssd_ms", "sleep_start_minutes_from_local_noon", "sleep_end_minutes_from_local_noon"]},
+    "metrics": {
+      "type": "object", "additionalProperties": false, "minProperties": 1,
+      "properties": {
+        "sleep_duration_minutes": {"$ref": "#/$defs/minutes"},
+        "sleep_start_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+        "sleep_end_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]},
+        "steps": {"type": ["integer", "null"], "minimum": 0},
+        "activity_duration_minutes": {"$ref": "#/$defs/minutes"},
+        "low_movement_minutes": {"$ref": "#/$defs/minutes"},
+        "resting_heart_rate_bpm": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "hrv_rmssd_ms": {"type": ["number", "null"], "minimum": 0}
+      }
+    },
+    "daily": {
+      "type": "object", "additionalProperties": false,
+      "required": ["date", "daytime_wear_minutes", "metrics", "missing_reasons"],
+      "properties": {
+        "date": {"type": "string", "format": "date"},
+        "daytime_wear_minutes": {"type": ["integer", "null"], "minimum": 0, "maximum": 1440},
+        "nighttime_coverage_minutes": {"$ref": "#/$defs/minutes"},
+        "metrics": {"$ref": "#/$defs/metrics"},
+        "missing_reasons": {
+          "type": "object",
+          "propertyNames": {"enum": ["sleep_duration_minutes", "sleep_start_at", "sleep_end_at", "steps", "activity_duration_minutes", "low_movement_minutes", "resting_heart_rate_bpm", "hrv_rmssd_ms"]},
+          "additionalProperties": {"enum": ["not_worn", "insufficient_coverage", "device_error", "not_supported", "unknown"]}
+        },
+        "activity_intervals": {"type": "array", "items": {"$ref": "#/$defs/activity_interval"}},
+        "low_movement_intervals": {"type": "array", "items": {"$ref": "#/$defs/interval"}}
+      }
+    },
+    "interval": {
+      "type": "object", "additionalProperties": false, "required": ["start_at", "end_at"],
+      "properties": {"start_at": {"$ref": "#/$defs/timestamp"}, "end_at": {"$ref": "#/$defs/timestamp"}}
+    },
+    "activity_interval": {
+      "type": "object", "additionalProperties": false, "required": ["start_at", "end_at", "intensity"],
+      "properties": {"start_at": {"$ref": "#/$defs/timestamp"}, "end_at": {"$ref": "#/$defs/timestamp"}, "intensity": {"enum": ["light", "moderate", "vigorous", "unknown"]}}
+    },
+    "statistics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["valid_count", "missing_count", "mean", "median", "variance", "min", "max", "slope_per_day", "adjacent_mean_abs_delta"],
+      "properties": {
+        "valid_count": {"type": "integer", "minimum": 0},
+        "missing_count": {"type": "integer", "minimum": 0},
+        "mean": {"type": ["number", "null"]},
+        "median": {"type": ["number", "null"]},
+        "variance": {"type": ["number", "null"], "minimum": 0},
+        "min": {"type": ["number", "null"]},
+        "max": {"type": ["number", "null"]},
+        "slope_per_day": {"type": ["number", "null"]},
+        "adjacent_mean_abs_delta": {"type": ["number", "null"], "minimum": 0}
+      }
+    },
+    "metric_statistics": {
+      "type": "object", "additionalProperties": false, "required": ["baseline", "window", "comparison"],
+      "properties": {
+        "baseline": {"$ref": "#/$defs/statistics"},
+        "window": {"$ref": "#/$defs/statistics"},
+        "comparison": {
+          "type": "object", "additionalProperties": false,
+          "required": ["mean_difference", "relative_mean_difference"],
+          "properties": {"mean_difference": {"type": ["number", "null"]}, "relative_mean_difference": {"type": ["number", "null"]}}
+        }
+      }
+    }
+  }
+}

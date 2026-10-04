@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:c1-pilot:knowledge-item:1.0",
+  "title": "C1 source-grounded knowledge item",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "id", "status", "domain", "title", "content", "source", "source_url", "source_locator", "source_accessed_on", "language", "keywords", "applicability", "provenance"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^K(00[1-9]|0[1-8][0-9]|09[0-6])$"},
+    "status": {"enum": ["draft", "verified"]},
+    "domain": {"enum": ["sleep_duration", "sleep_timing", "temporary_variation", "daily_activity", "low_movement", "activity_sleep_context", "personal_monitoring", "measurement_quality"]},
+    "title": {"type": "string", "minLength": 1},
+    "content": {"type": "string"},
+    "source": {"type": ["string", "null"]},
+    "source_url": {"anyOf": [{"type": "string", "format": "uri", "pattern": "^https://"}, {"type": "null"}]},
+    "source_locator": {"type": ["string", "null"]},
+    "source_accessed_on": {"type": ["string", "null"], "format": "date"},
+    "language": {"enum": ["zh-CN", "en"]},
+    "keywords": {"$ref": "#/$defs/string_list"},
+    "applicability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["population", "observable_conditions", "required_context", "non_applicable_conditions"],
+      "properties": {
+        "population": {"$ref": "#/$defs/string_list"},
+        "observable_conditions": {"$ref": "#/$defs/string_list"},
+        "required_context": {"$ref": "#/$defs/string_list"},
+        "non_applicable_conditions": {"$ref": "#/$defs/string_list"}
+      }
+    },
+    "provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["content_revision", "editorial_status", "source_published_on", "license_note"],
+      "properties": {
+        "content_revision": {"type": "string", "minLength": 1},
+        "editorial_status": {"enum": ["pending_source_review", "reviewed"]},
+        "source_published_on": {"type": ["string", "null"], "format": "date"},
+        "license_note": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [{
+    "if": {"properties": {"status": {"const": "verified"}}},
+    "then": {"properties": {
+      "content": {"type": "string", "minLength": 1, "pattern": "\\S"},
+      "source": {"type": "string", "minLength": 1, "pattern": "\\S"},
+      "source_url": {"type": "string", "format": "uri", "pattern": "^https://"},
+      "source_locator": {"type": "string", "minLength": 1, "pattern": "\\S"},
+      "source_accessed_on": {"type": "string", "format": "date"},
+      "applicability": {"properties": {"population": {"minItems": 1}, "observable_conditions": {"minItems": 1}}},
+      "provenance": {"properties": {"editorial_status": {"const": "reviewed"}}}
+    }}
+  }],
+  "$defs": {
+    "string_list": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

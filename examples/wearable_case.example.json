@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "id": "C008",
+  "case_type": "personal_baseline",
+  "window_days": 14,
+  "baseline_days": 28,
+  "periods": {
+    "baseline": {"start_date": "2026-03-02", "end_date": "2026-03-29"},
+    "window": {"start_date": "2026-03-30", "end_date": "2026-04-12"}
+  },
+  "observations": {
+    "baseline_daily": [
+      {"date": "2026-03-02", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 9000}, "missing_reasons": {}},
+      {"date": "2026-03-03", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 10000}, "missing_reasons": {}},
+      {"date": "2026-03-04", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 9500}, "missing_reasons": {}},
+      {"date": "2026-03-05", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9200}, "missing_reasons": {}},
+      {"date": "2026-03-06", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 9800}, "missing_reasons": {}},
+      {"date": "2026-03-07", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 9400}, "missing_reasons": {}},
+      {"date": "2026-03-08", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9600}, "missing_reasons": {}},
+      {"date": "2026-03-09", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 9000}, "missing_reasons": {}},
+      {"date": "2026-03-10", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 10000}, "missing_reasons": {}},
+      {"date": "2026-03-11", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 9500}, "missing_reasons": {}},
+      {"date": "2026-03-12", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9200}, "missing_reasons": {}},
+      {"date": "2026-03-13", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 9800}, "missing_reasons": {}},
+      {"date": "2026-03-14", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 9400}, "missing_reasons": {}},
+      {"date": "2026-03-15", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9600}, "missing_reasons": {}},
+      {"date": "2026-03-16", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 9000}, "missing_reasons": {}},
+      {"date": "2026-03-17", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 10000}, "missing_reasons": {}},
+      {"date": "2026-03-18", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 9500}, "missing_reasons": {}},
+      {"date": "2026-03-19", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9200}, "missing_reasons": {}},
+      {"date": "2026-03-20", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 9800}, "missing_reasons": {}},
+      {"date": "2026-03-21", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 9400}, "missing_reasons": {}},
+      {"date": "2026-03-22", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9600}, "missing_reasons": {}},
+      {"date": "2026-03-23", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 9000}, "missing_reasons": {}},
+      {"date": "2026-03-24", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 10000}, "missing_reasons": {}},
+      {"date": "2026-03-25", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 9500}, "missing_reasons": {}},
+      {"date": "2026-03-26", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9200}, "missing_reasons": {}},
+      {"date": "2026-03-27", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 9800}, "missing_reasons": {}},
+      {"date": "2026-03-28", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 9400}, "missing_reasons": {}},
+      {"date": "2026-03-29", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 9600}, "missing_reasons": {}}
+    ],
+    "window_daily": [
+      {"date": "2026-03-30", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 6500}, "missing_reasons": {}},
+      {"date": "2026-03-31", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 6800}, "missing_reasons": {}},
+      {"date": "2026-04-01", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 6200}, "missing_reasons": {}},
+      {"date": "2026-04-02", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 6700}, "missing_reasons": {}},
+      {"date": "2026-04-03", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 6400}, "missing_reasons": {}},
+      {"date": "2026-04-04", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 6600}, "missing_reasons": {}},
+      {"date": "2026-04-05", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 6300}, "missing_reasons": {}},
+      {"date": "2026-04-06", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 445, "steps": 6500}, "missing_reasons": {}},
+      {"date": "2026-04-07", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 455, "steps": 6800}, "missing_reasons": {}},
+      {"date": "2026-04-08", "daytime_wear_minutes": 360, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": null}, "missing_reasons": {"steps": "insufficient_coverage"}},
+      {"date": "2026-04-09", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 440, "steps": 6700}, "missing_reasons": {}},
+      {"date": "2026-04-10", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 460, "steps": 6400}, "missing_reasons": {}},
+      {"date": "2026-04-11", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 6600}, "missing_reasons": {}},
+      {"date": "2026-04-12", "daytime_wear_minutes": 900, "nighttime_coverage_minutes": 480, "metrics": {"sleep_duration_minutes": 450, "steps": 6300}, "missing_reasons": {}}
+    ]
+  },
+  "derived_statistics": {
+    "calculation_revision": "stats-v1",
+    "metric_statistics": {
+      "steps": {
+        "baseline": {"valid_count": 28, "missing_count": 0, "mean": 9500, "median": 9500, "variance": 100000, "min": 9000, "max": 10000, "slope_per_day": 1.970443350, "adjacent_mean_abs_delta": 511.111111111},
+        "window": {"valid_count": 13, "missing_count": 1, "mean": 6523.076923077, "median": 6500, "variance": 35621.301775148, "min": 6200, "max": 6800, "slope_per_day": -3.588850174, "adjacent_mean_abs_delta": 318.181818182},
+        "comparison": {"mean_difference": -2976.923076923, "relative_mean_difference": -0.313360324}
+      },
+      "sleep_duration_minutes": {
+        "baseline": {"valid_count": 28, "missing_count": 0, "mean": 450, "median": 450, "variance": 35.714285714, "min": 440, "max": 460, "slope_per_day": 0.032840722, "adjacent_mean_abs_delta": 8.518518519},
+        "window": {"valid_count": 14, "missing_count": 0, "mean": 450, "median": 450, "variance": 35.714285714, "min": 440, "max": 460, "slope_per_day": 0.131868132, "adjacent_mean_abs_delta": 8.846153846},
+        "comparison": {"mean_difference": 0, "relative_mean_difference": 0}
+      }
+    }
+  },
+  "metadata": {
+    "synthetic": true,
+    "data_origin": "Hand-authored schema example; not a real participant or a finalized benchmark record.",
+    "age_band": "18-60",
+    "timezone": "Asia/Shanghai",
+    "device": {"name": "synthetic_consumer_wearable", "metric_definition_revision": "synthetic-v1"},
+    "quality_policy": {
+      "revision": "quality-v1",
+      "daytime_required_wear_minutes": 720,
+      "nighttime_validity_rule": "Synthetic sleep observations have 480 minutes of complete overnight coverage, independent of daytime coverage; daytime low coverage affects steps only."
+    }
+  },
+  "designer_notes": {
+    "intended_pattern": "Current steps are lower than the personal baseline while sleep duration is unchanged; one step observation is missing.",
+    "expected_difficulty": "representation_sensitive",
+    "stratum": "B",
+    "rationale": "Test whether a modest current activity amount and explicit personal comparison are retained. A summary that preserves this comparison can succeed. No gold labels are implied.",
+    "matched_group": null
+  }
+}

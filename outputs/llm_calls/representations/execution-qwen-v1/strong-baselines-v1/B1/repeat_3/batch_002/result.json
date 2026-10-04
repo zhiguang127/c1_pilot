@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2f379fa4a808b90c",
+      "text": "Over 28 baseline days, sleep averaged 470 min (start ~22:50, end fixed 07:00), steps 9552, activity 55 min, RHR 56 bpm, RMSSD 45 ms. In the 14-day window, steps dropped 33% to mean 6433 while sleep, activity (~53 min), low movement, RHR, and RMSSD remained stable. Daytime metrics were missing on Apr 7 due to insufficient wear; nighttime data persisted throughout. Evening activity occurred near 21:00 daily. Paired correlations between metrics were weak in both periods."
+    },
+    {
+      "case_ref": "sample_ee525be46f256837",
+      "text": "During the 28-day baseline, sleep averaged 481 min starting ~22:39 and ending at 07:00, with steps ~7976, activity 56 min, RHR 56 bpm, and RMSSD 45 ms. In the 14-day window, sleep start shifted abruptly later (mean ~23:38), reducing mean sleep by 59 min to 422 min for the first 7 nights (Mar 30–Apr 5). From Apr 6 onward, sleep timing and duration returned to baseline levels. Steps, activity, RHR, and RMSSD remained stable throughout. No strong cross-metric relationships were observed."
+    },
+    {
+      "case_ref": "sample_d921a0972c269117",
+      "text": "Across the 28-day baseline, sleep averaged 481 min (start ~22:39, end 07:00), steps 7976, activity 56 min, RHR 56 bpm, and RMSSD 45 ms. In the 14-day window, sleep was stable through Apr 5. From Apr 6–12, sleep start shifted approximately one hour later (mean ~00:36), reducing sleep duration to 357–368 min per night. Steps, activity, low movement, RHR, and RMSSD remained unchanged across both periods. The late sleep onset persisted through the end of observation without recovery. Cross-metric correlations were weak."
+    },
+    {
+      "case_ref": "sample_42940b941d60f03b",
+      "text": "Over the 28-day baseline, sleep averaged 471 min (start ~22:50, end fixed 07:00), steps 7938, activity 55 min, RHR 62 bpm, and RMSSD 45 ms. During the 14-day window, all metrics remained stable: sleep mean 472 min, steps 7923, activity 56 min, RHR 62 bpm, RMSSD 45 ms. Sleep timing, daily activity intervals near 21:00, and low movement patterns showed no meaningful change. Day-to-day variability was consistent across periods. Paired correlations among steps, activity, sleep, RHR, and RMSSD were weak or absent in both baseline and window."
+    }
+  ]
+}

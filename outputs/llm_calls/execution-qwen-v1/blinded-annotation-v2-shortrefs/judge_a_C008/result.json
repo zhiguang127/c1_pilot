@@ -1,0 +1,772 @@
+{
+  "labels": [
+    {
+      "item_ref": "item_001",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Window steps dropped ~3100/day; activity duration stable ~53 min.",
+      "item_condition_evidence": "Requires reported time barrier to apply diary suggestion.",
+      "rationale": "Steps declined but activity minutes did not; no reported time barrier supports this item."
+    },
+    {
+      "item_ref": "item_002",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start times stable ~22:45-22:57; sleep end fixed at 07:00 throughout.",
+      "item_condition_evidence": "Requires pre-bed routine consideration or relaxation difficulty.",
+      "rationale": "No sleep timing shift or reported relaxation difficulty; generic advice with no connection."
+    },
+    {
+      "item_ref": "item_003",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "All sleep occurs overnight, ending at 07:00 daily.",
+      "item_condition_evidence": "Requires confirmed daytime sleep and shift work.",
+      "rationale": "Only overnight sleep recorded; shift work and daytime sleep conditions not met."
+    },
+    {
+      "item_ref": "item_004",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60.",
+      "item_condition_evidence": "Applies only to teenagers aged 13-17.",
+      "rationale": "Age band explicitly excludes teenagers; item not applicable."
+    },
+    {
+      "item_ref": "item_005",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Mean sleep duration ~470 min (~7.8h); no subjective refreshment data.",
+      "item_condition_evidence": "Requires >8h sleep plus reported lack of refreshment.",
+      "rationale": "Sleep under 8h and no refreshment report; required conditions absent."
+    },
+    {
+      "item_ref": "item_006",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "HRV metric is hrv_rmssd_ms; metadata defines night RMSSD.",
+      "item_condition_evidence": "HRV records identify RMSSD as their metric.",
+      "rationale": "Directly confirms the HRV metric definition used in the wearable data."
+    },
+    {
+      "item_ref": "item_007",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "14-day window sleep mean ~470 min; no symptom history provided.",
+      "item_condition_evidence": "Requires symptom history and onset for insomnia categorization.",
+      "rationale": "No reported sleeping difficulties; cannot diagnose insomnia from duration alone."
+    },
+    {
+      "item_ref": "item_008",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Low movement minutes baseline mean 448, window mean 451; device low movement is not confirmed sitting.",
+      "item_condition_evidence": "Requires confirmed sitting for sedentary-time conclusion.",
+      "rationale": "Low movement increased slightly but posture unconfirmed; condition not met."
+    },
+    {
+      "item_ref": "item_009",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start variance similar on weekdays/weekends; wake time fixed at 07:00 always.",
+      "item_condition_evidence": "Requires substantial weekday-weekend schedule difference.",
+      "rationale": "Weekday and weekend sleep times are nearly identical; condition contradicted."
+    },
+    {
+      "item_ref": "item_010",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration stable ~470 min across both periods; no shortening observed.",
+      "item_condition_evidence": "Requires repeatedly shortened sleep opportunity.",
+      "rationale": "No evidence of insufficient or squeezed sleep; condition not met."
+    },
+    {
+      "item_ref": "item_011",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration mean 469.5 baseline, 469.9 window; consistently ~7.8h.",
+      "item_condition_evidence": "Requires several shortened nights below needed amount.",
+      "rationale": "Sleep duration is stable and adequate; no repeated sleep loss observed."
+    },
+    {
+      "item_ref": "item_012",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration ~470 min nightly; no food intake or appetite data.",
+      "item_condition_evidence": "Requires repeated insufficient sleep and appetite information.",
+      "rationale": "Sleep is sufficient and no appetite data exists; conditions not met."
+    },
+    {
+      "item_ref": "item_013",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Wake time fixed at 07:00 every day; no bad night reported.",
+      "item_condition_evidence": "Requires recent bad night and reported sleeping difficulties.",
+      "rationale": "No reported bad night or insomnia symptoms; condition not met."
+    },
+    {
+      "item_ref": "item_014",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Steps dropped ~3119/day in window; activity duration remained ~53 min.",
+      "item_condition_evidence": "Steps change while other activity may differ; intensity unknown.",
+      "rationale": "Core explains why large step drop coexists with stable activity minutes."
+    },
+    {
+      "item_ref": "item_015",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No alcohol intake data recorded.",
+      "item_condition_evidence": "Requires reported alcohol use near bedtime.",
+      "rationale": "Alcohol exposure unknown; condition not met."
+    },
+    {
+      "item_ref": "item_016",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "RHR mean 56.1 baseline, 56.3 window; HRV RMSSD mean 45.2 baseline, 45.5 window.",
+      "item_condition_evidence": "HRV and heart-rate estimates interpreted together.",
+      "rationale": "Supports distinguishing RHR from HRV when reviewing both stable trends."
+    },
+    {
+      "item_ref": "item_017",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Age band 18-60; sleep duration mean ~470 min (~7.8h) across all days.",
+      "item_condition_evidence": "Adults 18-60 need >=7h sleep; age band compatible.",
+      "rationale": "Directly confirms observed sleep meets CDC recommendation for this age group."
+    },
+    {
+      "item_ref": "item_018",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Only steps, activity minutes, and low movement recorded; no strengthening data.",
+      "item_condition_evidence": "Requires strengthening activity records including days and muscle groups.",
+      "rationale": "No muscle-strengthening records available; condition not met."
+    },
+    {
+      "item_ref": "item_019",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration stable; no social preference or motivation data.",
+      "item_condition_evidence": "Requires reported motivational or social barrier.",
+      "rationale": "No evidence of motivational barrier; generic advice without connection."
+    },
+    {
+      "item_ref": "item_020",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Only sleep start, end, and duration recorded; no awakening data.",
+      "item_condition_evidence": "Requires documented repeated awakenings or sleep continuity measure.",
+      "rationale": "Awakening history unavailable; condition not met."
+    },
+    {
+      "item_ref": "item_021",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR and HRV stable; no health concerns reported.",
+      "item_condition_evidence": "Requires reported health concerns about a vital trend.",
+      "rationale": "No reported concerns; generic disclaimer without specific connection."
+    },
+    {
+      "item_ref": "item_022",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Wake time exactly 07:00 every single day; no sleeping difficulties reported.",
+      "item_condition_evidence": "Requires inconsistent wake time with reported sleeping difficulties.",
+      "rationale": "Wake time perfectly consistent; condition contradicted."
+    },
+    {
+      "item_ref": "item_023",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Only sleep duration and timing recorded; no sleep-stage data.",
+      "item_condition_evidence": "Requires sleep-stage measurements.",
+      "rationale": "No sleep-stage data available; condition not met."
+    },
+    {
+      "item_ref": "item_024",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "RHR recorded daily over 28 baseline + 14 window days, mean ~56 bpm.",
+      "item_condition_evidence": "Repeated resting heart-rate readings available for trend review.",
+      "rationale": "Supports interpreting the multi-day RHR series rather than isolated values."
+    },
+    {
+      "item_ref": "item_025",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Activity intervals recorded 21:00-~22:00 daily; sleep starts ~22:45-22:57.",
+      "item_condition_evidence": "Activity intervals needed for timing comparisons with subsequent sleep.",
+      "rationale": "Supports comparing evening activity timing with following sleep onset."
+    },
+    {
+      "item_ref": "item_026",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR stable 55-57 bpm; no caffeine, stress, or medication data.",
+      "item_condition_evidence": "Requires RHR change and exposure info to attribute cause.",
+      "rationale": "RHR essentially unchanged; no exposures recorded to explain anything."
+    },
+    {
+      "item_ref": "item_027",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep pattern highly stable; no awakenings or naps recorded.",
+      "item_condition_evidence": "Requires changed or variable sleep pattern needing review.",
+      "rationale": "Sleep pattern is stable, not variable; condition not met."
+    },
+    {
+      "item_ref": "item_028",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Low movement intervals present; no workplace or desk context known.",
+      "item_condition_evidence": "Requires desk work with prolonged sitting context.",
+      "rationale": "Work context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_029",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep ~470 min nightly; no cognitive performance data.",
+      "item_condition_evidence": "Requires repeatedly shortened sleep and symptoms of impairment.",
+      "rationale": "Sleep is adequate and no cognitive symptoms reported; condition not met."
+    },
+    {
+      "item_ref": "item_030",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No meal timing or size data recorded.",
+      "item_condition_evidence": "Requires known large meal shortly before bed.",
+      "rationale": "Meal information unknown; condition not met."
+    },
+    {
+      "item_ref": "item_031",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Low movement intervals ~44-46 min each; device low movement is not confirmed sitting.",
+      "item_condition_evidence": "Requires mobility/posture context for individual sitting claim.",
+      "rationale": "Posture unconfirmed; cannot establish actual sitting behavior."
+    },
+    {
+      "item_ref": "item_032",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep ~470 min (~7.8h), meeting adult recommendations.",
+      "item_condition_evidence": "Requires consistently short sleep below needs.",
+      "rationale": "Sleep duration is sufficient; condition contradicted."
+    },
+    {
+      "item_ref": "item_033",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Activity intervals 21:00-~22:00; sleep starts ~22:45-22:57; intensity unknown.",
+      "item_condition_evidence": "Activity occurs close to bedtime; intensity must be known.",
+      "rationale": "Late activity present but intensity unknown; partially relevant context."
+    },
+    {
+      "item_ref": "item_034",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration stable ~470 min; no repeated restriction observed.",
+      "item_condition_evidence": "Requires several nights of reduced sleep duration.",
+      "rationale": "No sleep restriction present; condition contradicted."
+    },
+    {
+      "item_ref": "item_035",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No travel or time-zone change data recorded.",
+      "item_condition_evidence": "Requires planned short trip across time zones.",
+      "rationale": "Travel context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_036",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps decreased; no stair access or mobility data.",
+      "item_condition_evidence": "Requires accessible stairs and safe mobility context.",
+      "rationale": "Stair access unknown; generic advice without connection."
+    },
+    {
+      "item_ref": "item_037",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Only sleep duration/timing recorded; no quality indicators like awakenings.",
+      "item_condition_evidence": "Duration recorded but quality unknown; requires subjective measures.",
+      "rationale": "Clarifies that available duration data does not establish sleep quality."
+    },
+    {
+      "item_ref": "item_038",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Single synthetic device used throughout; no device switch indicated.",
+      "item_condition_evidence": "Requires device or algorithm change affecting comparisons.",
+      "rationale": "Same device throughout; condition not met."
+    },
+    {
+      "item_ref": "item_039",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep ~470 min nightly; no infection or immune data.",
+      "item_condition_evidence": "Requires ongoing insufficient sleep.",
+      "rationale": "Sleep is sufficient; condition contradicted."
+    },
+    {
+      "item_ref": "item_040",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep ~470 min (~7.8h); age band 18-60.",
+      "item_condition_evidence": "Adult sleep duration being reviewed; individual experience needed.",
+      "rationale": "Contextualizes evaluating this person's sleep against population averages."
+    },
+    {
+      "item_ref": "item_041",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep timing highly consistent; no shift work indicated.",
+      "item_condition_evidence": "Requires confirmed changing shift-work schedule.",
+      "rationale": "Shift work unknown; condition not met."
+    },
+    {
+      "item_ref": "item_042",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration stable ~53 min; steps dropped but intensity unknown.",
+      "item_condition_evidence": "Requires recently low or reduced physical activity with health context.",
+      "rationale": "Activity minutes stable; step drop doesn't confirm inactivity without intensity."
+    },
+    {
+      "item_ref": "item_043",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No television viewing or screen habit data recorded.",
+      "item_condition_evidence": "Requires prolonged sitting while watching television.",
+      "rationale": "Screen habits unknown; condition not met."
+    },
+    {
+      "item_ref": "item_044",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Daily RHR recorded; metadata notes nocturnal RHR and RMSSD separately.",
+      "item_condition_evidence": "Daily resting heart-rate trend being interpreted; measure context known.",
+      "rationale": "Supports distinguishing daily RHR from sleeping heart rate in this dataset."
+    },
+    {
+      "item_ref": "item_045",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration ~53 min daily; intensity unknown.",
+      "item_condition_evidence": "Requires intensity information to count recommended aerobic minutes.",
+      "rationale": "Generic encouragement; intensity unknown so guideline relevance unclear."
+    },
+    {
+      "item_ref": "item_046",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No bedroom environment data recorded.",
+      "item_condition_evidence": "Requires known disruptive bedroom environment.",
+      "rationale": "Environment unknown; condition not met."
+    },
+    {
+      "item_ref": "item_047",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No tiredness or energy level data recorded.",
+      "item_condition_evidence": "Requires reported tiredness limiting activity.",
+      "rationale": "No tiredness history; condition not met."
+    },
+    {
+      "item_ref": "item_048",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Nighttime coverage 483-498 min; Apr 7 daytime wear only 360 min.",
+      "item_condition_evidence": "Overnight vitals require separate night-time wear information.",
+      "rationale": "Confirms night coverage validity despite Apr 7 daytime insufficiency."
+    },
+    {
+      "item_ref": "item_049",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Age band 18-60; not 65+.",
+      "item_condition_evidence": "Requires age at least 65.",
+      "rationale": "Age band explicitly excludes 65+; condition contradicted."
+    },
+    {
+      "item_ref": "item_050",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "RHR recorded daily, mean ~56 bpm, range 55-57.",
+      "item_condition_evidence": "Resting heart rate observations available for interpretation.",
+      "rationale": "Defines what the recorded RHR metric represents in this dataset."
+    },
+    {
+      "item_ref": "item_051",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No workplace or meeting data recorded.",
+      "item_condition_evidence": "Requires meetings or desk work involving prolonged sitting.",
+      "rationale": "Workplace context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_052",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "HRV RMSSD stable 43-47 ms across both periods.",
+      "item_condition_evidence": "HRV level being reviewed; personal history context needed.",
+      "rationale": "Supports interpreting stable HRV within personal context rather than universally."
+    },
+    {
+      "item_ref": "item_053",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration ~53 min daily; intensity unknown.",
+      "item_condition_evidence": "Requires intensity for counting guideline minutes.",
+      "rationale": "Intensity unknown; cannot assess guideline accumulation."
+    },
+    {
+      "item_ref": "item_054",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration ~53 min daily; all intensities unknown.",
+      "item_condition_evidence": "Requires known moderate-intensity aerobic minutes.",
+      "rationale": "Intensity unknown; condition not met for guideline assessment."
+    },
+    {
+      "item_ref": "item_055",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Low movement ~448-451 min/day in ~45 min intervals; posture unconfirmed.",
+      "item_condition_evidence": "Low-movement intervals available without posture measurement.",
+      "rationale": "Directly warns against treating these low-movement intervals as confirmed sitting."
+    },
+    {
+      "item_ref": "item_056",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No nap data recorded.",
+      "item_condition_evidence": "Requires recorded naps after shortened sleep.",
+      "rationale": "Nap information absent; condition not met."
+    },
+    {
+      "item_ref": "item_057",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No nicotine or smoking data recorded.",
+      "item_condition_evidence": "Requires established nicotine exposure.",
+      "rationale": "Nicotine use unknown; condition not met."
+    },
+    {
+      "item_ref": "item_058",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No shift work or caffeine data recorded.",
+      "item_condition_evidence": "Requires shift schedule and caffeine intake.",
+      "rationale": "Both conditions unknown; item not applicable."
+    },
+    {
+      "item_ref": "item_059",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No caffeine intake data recorded.",
+      "item_condition_evidence": "Requires known afternoon/evening caffeine use.",
+      "rationale": "Caffeine history absent; condition not met."
+    },
+    {
+      "item_ref": "item_060",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "HRV RMSSD recorded nightly, stable 43-47 ms.",
+      "item_condition_evidence": "HRV trend available for wellness monitoring.",
+      "rationale": "Clarifies HRV data is for wellness observation, not medical diagnosis."
+    },
+    {
+      "item_ref": "item_061",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No schedule constraint or competing demand data recorded.",
+      "item_condition_evidence": "Requires reported competing demands reducing activity.",
+      "rationale": "Schedule reason unknown; condition not met."
+    },
+    {
+      "item_ref": "item_062",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No nap data recorded.",
+      "item_condition_evidence": "Requires adult naps recorded or reported.",
+      "rationale": "Nap history unknown; condition not met."
+    },
+    {
+      "item_ref": "item_063",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No shift work data recorded.",
+      "item_condition_evidence": "Requires confirmed shift work.",
+      "rationale": "Shift work unknown; condition not met."
+    },
+    {
+      "item_ref": "item_064",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration stable; no outdoor exposure data.",
+      "item_condition_evidence": "Requires outdoor access and mobility for specific plan.",
+      "rationale": "Cannot infer outdoor exposure from movement counts; condition not met."
+    },
+    {
+      "item_ref": "item_065",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No commuting or transport data recorded.",
+      "item_condition_evidence": "Requires established sedentary commuting context.",
+      "rationale": "Commute unknown; condition not met."
+    },
+    {
+      "item_ref": "item_066",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Steps dropped ~3119/day while activity duration stayed ~53 min.",
+      "item_condition_evidence": "Step readings change with possible measurement limitations; arm swing needed.",
+      "rationale": "Core explains step drop mechanism when arm motion changes despite stable activity."
+    },
+    {
+      "item_ref": "item_067",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Age band 18-60; not 61-64.",
+      "item_condition_evidence": "Requires age 61-64 established.",
+      "rationale": "Age band does not match; condition contradicted."
+    },
+    {
+      "item_ref": "item_068",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No screen or light exposure data recorded.",
+      "item_condition_evidence": "Requires known bright-screen exposure before bed.",
+      "rationale": "Exposure unknown; condition not met."
+    },
+    {
+      "item_ref": "item_069",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity duration stable; sleep stable; no causal link established.",
+      "item_condition_evidence": "Requires joint review without declaring causation from few observations.",
+      "rationale": "Generic benefit statement; no specific pattern explained here."
+    },
+    {
+      "item_ref": "item_070",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Weekday/weekend sleep means nearly identical (~469.5 vs 469.5 baseline).",
+      "item_condition_evidence": "Requires longer sleep and later timing on days off.",
+      "rationale": "No weekend sleep extension observed; condition contradicted."
+    },
+    {
+      "item_ref": "item_071",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "All activity interval intensities marked unknown.",
+      "item_condition_evidence": "Requires observed effort or talk-test during aerobic activity.",
+      "rationale": "Effort unrecorded; condition not met."
+    },
+    {
+      "item_ref": "item_072",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start SD small; wake time exactly 07:00 daily.",
+      "item_condition_evidence": "Requires repeated variability in bedtime or wake time.",
+      "rationale": "Schedule is highly consistent; condition contradicted."
+    },
+    {
+      "item_ref": "item_073",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No chronic condition or disability data recorded.",
+      "item_condition_evidence": "Requires established chronic condition or special need.",
+      "rationale": "Medical context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_074",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity ~53 min; low movement ~450 min; posture unconfirmed.",
+      "item_condition_evidence": "Requires sitting posture and known intensity for guideline claims.",
+      "rationale": "Posture unconfirmed; cannot establish prolonged sitting concern."
+    },
+    {
+      "item_ref": "item_075",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "HRV RMSSD recorded nightly; sleep durations 463-478 min (>3h).",
+      "item_condition_evidence": "Compatible collection definition and sleep coverage for HRV.",
+      "rationale": "Confirms sleep periods exceed 3h threshold needed for valid HRV collection."
+    },
+    {
+      "item_ref": "item_076",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No preference or availability data recorded.",
+      "item_condition_evidence": "Requires personal preferences and availability for choosing options.",
+      "rationale": "Preferences unknown; generic advice without connection."
+    },
+    {
+      "item_ref": "item_077",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No travel history recorded; timezone Asia/Shanghai constant.",
+      "item_condition_evidence": "Requires confirmed travel across time zones.",
+      "rationale": "Travel context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_078",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity intensity unknown for all intervals.",
+      "item_condition_evidence": "Requires known vigorous intensity documentation.",
+      "rationale": "Intensity unknown; condition not met."
+    },
+    {
+      "item_ref": "item_079",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR stable 55-57 bpm; no wear quality issues noted.",
+      "item_condition_evidence": "Requires unreliable readings or wear quality changes.",
+      "rationale": "No evidence of fit problems; condition not met."
+    },
+    {
+      "item_ref": "item_080",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No sleepiness or driving data recorded.",
+      "item_condition_evidence": "Requires reported sleepiness and driving plans.",
+      "rationale": "Sleepiness and driving context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_081",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No leisure routine or seated hobby data recorded.",
+      "item_condition_evidence": "Requires substantial habitual seated leisure context.",
+      "rationale": "Leisure context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_082",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Nighttime coverage 483-498 min all nights; no missing sleep records.",
+      "item_condition_evidence": "Night-time wear record available for sleep detection.",
+      "rationale": "Confirms device was worn overnight supporting valid sleep detection."
+    },
+    {
+      "item_ref": "item_083",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration ~470 min derived from device; boundaries recorded.",
+      "item_condition_evidence": "Device-estimated sleep duration and boundaries available.",
+      "rationale": "Clarifies that recorded sleep duration is an estimate, not clinical measurement."
+    },
+    {
+      "item_ref": "item_084",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No emergency responder deployment context recorded.",
+      "item_condition_evidence": "Requires confirmed emergency-response deployment context.",
+      "rationale": "Deployment context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_085",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity 21:00-22:00; no insomnia symptoms reported.",
+      "item_condition_evidence": "Requires exercise near bedtime with reported insomnia symptoms.",
+      "rationale": "No insomnia symptoms; temporal adjacency alone insufficient."
+    },
+    {
+      "item_ref": "item_086",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "All activity intensities unknown; no fitness level data.",
+      "item_condition_evidence": "Requires fitness or perceived effort for intensity interpretation.",
+      "rationale": "Intensity and fitness unknown; condition not met."
+    },
+    {
+      "item_ref": "item_087",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No substance or medication data recorded.",
+      "item_condition_evidence": "Requires substance and medication history for causal interpretation.",
+      "rationale": "Exposures unrecorded; condition not met."
+    },
+    {
+      "item_ref": "item_088",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps dropped; no transport or mobility context recorded.",
+      "item_condition_evidence": "Requires mobility and transport context for specific options.",
+      "rationale": "Transport context unknown; generic advice without connection."
+    },
+    {
+      "item_ref": "item_089",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start ~22:45-22:57; no pre-bed activity data recorded.",
+      "item_condition_evidence": "Requires information about pre-bed activities for targeted advice.",
+      "rationale": "Pre-bed activities unknown; condition not met."
+    },
+    {
+      "item_ref": "item_090",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No sleeping difficulties reported; 14-day window only.",
+      "item_condition_evidence": "Requires months-long difficulties or failed habit changes.",
+      "rationale": "No reported insomnia; brief window insufficient for this guidance."
+    },
+    {
+      "item_ref": "item_091",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Activity intensity unknown; guideline attainment unverified.",
+      "item_condition_evidence": "Requires known intensity and weekly duration above minimum.",
+      "rationale": "Intensity unknown; cannot assess additional benefit eligibility."
+    },
+    {
+      "item_ref": "item_092",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Apr 7 steps/activity null due to 360 min daytime wear; sleep metrics present.",
+      "item_condition_evidence": "Missing vitals with limited data; not physiological zeros.",
+      "rationale": "Explains Apr 7 missing daytime metrics reflect insufficient coverage, not zero activity."
+    },
+    {
+      "item_ref": "item_093",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "No workday lunch-break context recorded.",
+      "item_condition_evidence": "Requires known workday lunch-break access and mobility.",
+      "rationale": "Lunch-break context unknown; condition not met."
+    },
+    {
+      "item_ref": "item_094",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Steps dropped ~3119; activity duration stable ~53 min; low movement stable.",
+      "item_condition_evidence": "Everyday movement considered separately from formal exercise.",
+      "rationale": "Supports distinguishing step-based movement from total activity in observed data."
+    },
+    {
+      "item_ref": "item_095",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "28-day baseline provides personal history for all vitals.",
+      "item_condition_evidence": "Sufficient same-metric personal history for trend context.",
+      "rationale": "Baseline period enables personal-range comparison for window observations."
+    },
+    {
+      "item_ref": "item_096",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Apr 7 steps null with insufficient_coverage reason; sleep metrics present.",
+      "item_condition_evidence": "Missing data can result from sync/support rather than health change.",
+      "rationale": "Explains Apr 7 missing steps as data availability issue, not physiological change."
+    }
+  ]
+}

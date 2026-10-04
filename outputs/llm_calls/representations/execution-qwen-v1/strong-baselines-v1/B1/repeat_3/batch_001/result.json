@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_634a74781104fc89",
+      "text": "Over 28 baseline days, sleep averaged 469 min (start ~22:51, end 07:00), steps ~7985/day, activity ~54 min, RHR ~56 bpm, RMSSD ~45 ms. In the 14-day window, sleep start shifted abruptly to ~01:07 while end remained 07:00, reducing duration by ~138 min to ~331 min nightly. Steps fell sharply to ~2643/day (-67%). Activity minutes (~55), low movement (~451), RHR (~56), and RMSSD (~45) stayed near baseline. Weekday/weekend patterns were similar. No recovery toward baseline was observed. Paired correlations were weak in both periods."
+    },
+    {
+      "case_ref": "sample_12837a30b91b9fbe",
+      "text": "During the 28-day baseline, sleep averaged 471 min (start ~22:50, end 07:00), steps ~7998/day, activity ~55 min, RHR ~56 bpm, RMSSD ~45 ms. In the 14-day window, sleep timing and duration remained stable (mean 469 min). Steps dropped markedly to ~2321/day (-71%). Activity minutes fell from ~55 to ~5/day, with several zero-activity days. Low movement (~448), RHR (~56), and RMSSD (~45) were unchanged. Patterns persisted across weekdays and weekends without recovery. Baseline step-activity correlation was weak; window correlations remained negligible."
+    },
+    {
+      "case_ref": "sample_428714e84f129728",
+      "text": "Across 28 baseline days, sleep averaged 471 min (start ~22:49, end 07:00), steps ~7938/day, activity ~55 min, RHR ~52 bpm, RMSSD ~45 ms. In the 14-day window, sleep timing, duration (~472 min), steps (~7923), activity (~56 min), low movement (~447), and RMSSD (~45) all remained stable relative to baseline. Resting heart rate increased abruptly by ~10 bpm to ~62, persisting throughout the window (range 61-63) without return toward baseline. Weekday/weekend structure was consistent. Paired correlations between metrics were weak or absent in both periods."
+    },
+    {
+      "case_ref": "sample_6afee74fd2861af0",
+      "text": "During the 28-day baseline, sleep averaged 469 min (start ~22:51, end 07:00), steps ~8019/day, activity ~55 min, RHR ~57 bpm, RMSSD ~45 ms. In the 14-day window, weekday sleep onset delayed ~70 min to ~00:10 with duration reduced to ~390 min, while wake time stayed at 07:00. Weekend sleep extended to ~571 min with wake shifting to 11:00. Steps (~7939), activity (~55 min), low movement (~451), RHR (~56), and RMSSD (~45) remained near baseline. The weekday/weekend sleep divergence persisted throughout without recovery. Cross-metric correlations were weak."
+    }
+  ]
+}

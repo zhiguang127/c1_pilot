@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K033",
+      "assessment": "supported",
+      "rationale": "Source explicitly lists bedtimes, night awakenings, morning wake times, and naps as sleep diary entries. The interpretive note about preserving a sequence is a reasonable paraphrase of the diary's purpose.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K034",
+      "assessment": "supported",
+      "rationale": "Source states 'If you regularly lose sleep... the sleep loss adds up' and defines sleep debt. The content accurately reflects accumulation; the note that improvement does not quantify complete recovery aligns with the source stating naps and extra weekend sleep cannot fully make up for lost sleep.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K035",
+      "assessment": "supported",
+      "rationale": "Source directly states 'Sleeping more on days off might be a sign that you aren't getting enough sleep' and 'it can upset your body's sleep-wake rhythm.' Content matches exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K019"
+      ]
+    },
+    {
+      "knowledge_id": "K036",
+      "assessment": "supported",
+      "rationale": "Source states 'Naps may give a short-term boost in alertness and performance. However, napping doesn't supply all the other benefits of nighttime sleep, so you can't really make up for lost sleep.' Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K037",
+      "assessment": "supported",
+      "rationale": "Source under insomnia self-treatment says 'do not sleep in after a bad night's sleep – stick to your regular sleeping hours instead.' The caveat that a resolved short episode does not prove insomnia is a conservative editorial limit consistent with the source defining insomnia as regularly having problems sleeping.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K018"
+      ]
+    },
+    {
+      "knowledge_id": "K038",
+      "assessment": "supported",
+      "rationale": "Source explicitly defines short-term insomnia as less than 3 months and long-term as 3 months or longer, based on symptom history ('You have insomnia if you regularly...'). The caution against using only 14 days of device estimates is a valid conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K016"
+      ]
+    },
+    {
+      "knowledge_id": "K039",
+      "assessment": "supported",
+      "rationale": "Source defines jet lag as disturbed sleep after a long flight, advises changing sleep schedule to the new time zone, and provides an alternative for short trips (2-3 days). The statement that timing change alone does not establish jet lag is a correct conservative limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K040",
+      "assessment": "supported",
+      "rationale": "Source explicitly states: 'If your trip is short (2 to 3 days), you could try not changing your eating and sleeping times to the new time zone, to avoid needing to change your schedule again when you get back.' Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K039"
+      ]
+    },
+    {
+      "knowledge_id": "K041",
+      "assessment": "supported",
+      "rationale": "Source states 'Some physical activity is better than none. Adults who sit less and do any amount of moderate- or vigorous-intensity physical activity gain some health benefits.' Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K042",
+      "assessment": "supported",
+      "rationale": "Source states 'If you have been inactive, you may need to start exercising slowly. You can keep adding more gradually... Even small increases in exercise can benefit your health.' Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K043",
+      "assessment": "supported",
+      "rationale": "Source states 'adults need 150 minutes of moderate-intensity physical activity a week.' The caveat that device moving minutes/steps are insufficient without intensity data is a valid conservative editorial limit grounded in the explicit 'moderate-intensity' requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K044",
+      "assessment": "supported",
+      "rationale": "Source states 'This can also be 75 minutes of vigorous-intensity...' The caveat requiring actual vigorous activity rather than assuming total movement has that intensity is a valid conservative limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K045",
+      "assessment": "supported",
+      "rationale": "Source states 'you don't have to do it all at once... You can spread your activity out during the week and break it up into smaller chunks of time.' Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K046",
+      "assessment": "supported",
+      "rationale": "Source states 'adults need at least 2 days of muscle-strengthening activity each week' working 'all major muscle groups.' The note that step counts do not show this is a valid conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K047",
+      "assessment": "supported",
+      "rationale": "Source states 'If you go beyond 150 minutes a week of moderate-intensity activity, or 75 minutes a week of vigorous-intensity activity... you'll gain even more health benefits.' The caveat requiring known intensity is valid.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K048",
+      "assessment": "supported",
+      "rationale": "Source states 'an activity that is vigorous for a person of average fitness may only be moderate for a very fit person.' The conclusion that intensity cannot be assigned solely from daily movement totals is a valid inference from the relative intensity definition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

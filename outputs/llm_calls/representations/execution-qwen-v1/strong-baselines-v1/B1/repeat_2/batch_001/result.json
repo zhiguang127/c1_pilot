@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3159a77476d400f2",
+      "text": "Over the 28-day baseline, sleep averaged 470.5 min (start ~22:50, end fixed at 07:00), steps ~7998/day with ~55 min activity, resting HR ~56 bpm, and RMSSD ~45 ms. In the 14-day window, sleep remained stable (mean 469 min, unchanged timing). Steps dropped abruptly to ~2321/day (-71%) and activity fell to ~5 min/day (-91%), persisting throughout. Low-movement minutes were unchanged (~448 vs ~451). Resting HR and RMSSD stayed near baseline. The evening activity block present every baseline day was nearly absent in the window. Weekday/weekend patterns did not differ meaningfully. Paired correlations were weak in both periods."
+    },
+    {
+      "case_ref": "sample_7de66e1de896dc00",
+      "text": "During the 28-day baseline, sleep averaged 469 min starting ~22:51 and ending exactly 07:00 daily, steps ~7985/day, activity ~54 min/day, resting HR ~56 bpm, and RMSSD ~45 ms. In the 14-day window, sleep onset shifted abruptly from ~22:51 to ~01:08 while wake time remained 07:00, reducing sleep duration by ~138 min/day (-29%) consistently. Steps fell to ~2643/day (-67%). Activity duration remained stable (~55 min/day) as did low-movement minutes (~451), resting HR (~56), and RMSSD (~45). No weekday/weekend differences emerged. Paired correlations were weak across both periods."
+    },
+    {
+      "case_ref": "sample_ac1d07ee01bc3c76",
+      "text": "In the 28-day baseline, sleep averaged 469 min (start ~22:51, end fixed 07:00), steps ~8019/day, activity ~55 min/day, resting HR 56.5 bpm, and RMSSD ~45 ms. During the 14-day window, a clear weekday/weekend split emerged. On 10 weekdays, sleep onset delayed to ~00:10 with duration dropping to ~390 min (-79 min), while steps, activity, HR, and RMSSD remained near baseline. On 4 weekend days, sleep onset shifted to ~01:10 but offset extended to 11:00, increasing duration to ~570 min (+101 min). Steps, activity, and autonomic metrics stayed stable throughout. Low-movement minutes were unchanged overall."
+    },
+    {
+      "case_ref": "sample_0ce72b16d8a094a5",
+      "text": "Across the 28-day baseline and 14-day window, all metrics remained highly stable. Sleep averaged ~475 min nightly, starting exactly at 01:00 and ending at 09:00 every day with zero variance in timing. Steps averaged ~7963 (baseline) and ~7935 (window). Activity duration stayed near 54 min/day, low-movement minutes near 450, resting HR ~56 bpm, and RMSSD ~45 ms. No meaningful changes in means, variability, or trends occurred between periods. Weekday and weekend values were comparable. Paired correlations between activity, sleep, HR, and RMSSD were weak or absent throughout."
+    }
+  ]
+}

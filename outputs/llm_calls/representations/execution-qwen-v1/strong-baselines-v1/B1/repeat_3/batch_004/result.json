@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_8ca46d97901f44a3",
+      "text": "Over 28 baseline days and 14 window days with complete wear, all metrics remained highly stable. Sleep averaged ~470 min (22:50–07:00), steps ~8000, activity ~55 min, low movement ~450 min, RHR ~56 bpm, and RMSSD ~40 ms. Window means differed by <1% from baseline. Day-to-day variability decreased slightly in the window for sleep and HRV. Activity showed a weak negative correlation with steps in baseline but not in the window. No sustained shifts or temporal structure changes were observed."
+    },
+    {
+      "case_ref": "sample_801e31ab16d9a295",
+      "text": "Across 28 baseline and 14 window days with full wear, most metrics were stable. Sleep averaged ~471 min (baseline) vs ~468 min (window), ending consistently at 07:00. Steps averaged ~8066 vs ~7954. Activity (~55 min), low movement (~451 min), and RHR (~56 bpm) were unchanged. RMSSD mean fell from 45.3 to 43.1 ms, driven by a single weekend drop to 23 ms on Apr 5; otherwise it stayed near 43–47 ms. Baseline RMSSD variance was very low (1.6); window variance rose to 32.8 due to that outlier."
+    },
+    {
+      "case_ref": "sample_323873fa0be416ec",
+      "text": "During the 28-day baseline, daily steps averaged ~8009 with stable sleep (~470 min, 22:50–07:00), activity (~55 min), low movement (~451 min), RHR (~56 bpm), and RMSSD (~45 ms). In the 14-day window, steps dropped abruptly to a mean of ~2335 (range 2064–2636), a 71% decrease persisting throughout. All other metrics remained near baseline levels: sleep ~470 min, activity ~55 min, low movement ~453 min, RHR ~56 bpm, RMSSD ~45 ms. No gradual transition preceded the step reduction."
+    },
+    {
+      "case_ref": "sample_89b435aaf692161e",
+      "text": "During the 28-day baseline, daily steps averaged ~2818 with stable sleep (~471 min, 22:50–07:00), activity (~56 min), low movement (~451 min), RHR (~56 bpm), and RMSSD (~45 ms). In the 14-day window, steps increased abruptly to a mean of ~7927 (range 7636–8320), nearly tripling and persisting throughout. All other metrics remained near baseline levels: sleep ~469 min, activity ~55 min, low movement ~447 min, RHR ~56 bpm, RMSSD ~45 ms. Low movement decreased slightly. No gradual transition preceded the step increase."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_8ca46d97901f44a3",
+      "queries": [
+        "wearable longitudinal stability of sleep duration and resting heart rate across 28-day baseline and 14-day follow-up with no mean change",
+        "daily RMSSD alternating between 26 and 54 ms with weak same-day correlation to resting heart rate in wearable data",
+        "consistent sleep end time at exactly 07:00 every day with sleep start varying around 22:50 over 42 days",
+        "evening activity intervals from 21:00 to approximately 22:00 daily with unknown intensity and stable active minutes",
+        "ten daytime low movement intervals of roughly 45 minutes each between 10:00 and 18:30 persisting across all observed days"
+      ]
+    },
+    {
+      "case_ref": "sample_801e31ab16d9a295",
+      "queries": [
+        "isolated HRV RMSSD drop to 23 ms on a single weekend day within otherwise stable 43-47 ms range over 42 days",
+        "sleep onset delayed by average 3.2 minutes per day in 14-day window compared to 28-day personal baseline",
+        "negative correlation between resting heart rate and HRV RMSSD emerging only in follow-up window not baseline",
+        "stable daily step count near 8000 and activity duration near 55 minutes across 28-day baseline and 14-day window",
+        "consistent sleep end time at 07:00 with sleep duration variance decreasing slightly in follow-up period"
+      ]
+    },
+    {
+      "case_ref": "sample_323873fa0be416ec",
+      "queries": [
+        "sudden persistent drop in daily steps from 8000 baseline to approximately 2300 during 14-day follow-up while activity minutes remain stable",
+        "stable HRV RMSSD between 43 and 47 ms across 42 days with no trend despite large step count reduction",
+        "activity duration minutes unchanged near 55 per day before and after abrupt step count decrease in wearable record",
+        "low movement minutes remaining near 452 daily despite step count falling by over 70 percent in follow-up window",
+        "negative correlation between resting heart rate and HRV appearing only in 14-day window with r equals -0.57"
+      ]
+    },
+    {
+      "case_ref": "sample_89b435aaf692161e",
+      "queries": [
+        "sustained increase in daily steps from 2800 baseline to 7900 during 14-day follow-up without change in activity duration minutes",
+        "stable sleep duration near 470 minutes and consistent 07:00 wake time across 42 days despite large step count change",
+        "HRV RMSSD remaining tightly between 43 and 47 ms throughout baseline and follow-up with no trend or shift",
+        "low movement minutes decreasing slightly from 451 to 447 per day coinciding with step count tripling in follow-up",
+        "absence of correlation between daily steps and activity duration minutes across both baseline and follow-up periods"
+      ]
+    }
+  ]
+}

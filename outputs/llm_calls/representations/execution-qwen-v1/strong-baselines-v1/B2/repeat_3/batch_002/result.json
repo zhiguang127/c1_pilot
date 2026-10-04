@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2f379fa4a808b90c",
+      "text": "Your sleep stayed very stable: averaging about 470 minutes in both your 28-day baseline and the recent 14 days, consistently ending at 07:00 with starts near 22:50. Resting heart rate (~56 bpm) and HRV (~45 ms) were also unchanged. The main shift was in steps, which dropped from ~9,550 to ~6,430 per day (about -33%), while recorded active minutes barely changed (~55 to ~53). This suggests fewer steps outside those activity periods. On April 7, daytime wear was only 360 minutes, so steps, activity, and low-movement data are missing for that day; this is not zero activity. Low-movement minutes remained near 450. No clear relationship between evening activity and next-night sleep was observed."
+    },
+    {
+      "case_ref": "sample_ee525be46f256837",
+      "text": "During your 28-day baseline you slept around 481 minutes nightly, starting near 22:40 and ending at 07:00. In the recent 14 days, average sleep dropped to about 422 minutes, driven by a distinct block from March 30 to April 5 where sleep started after midnight (around 00:32-00:43) and lasted 357-368 minutes. From April 6 onward, sleep timing returned to your baseline pattern (starts ~22:35-22:46, durations 474-485 min). Steps (~7,980), active minutes (~55), resting heart rate (~56 bpm), and HRV (~45 ms) remained stable throughout. The temporary shorter sleep reflects later bedtimes rather than earlier wake times, as your 07:00 wake time never changed."
+    },
+    {
+      "case_ref": "sample_d921a0972c269117",
+      "text": "Your patterns over the recent 14 days closely matched your 28-day baseline. Sleep averaged about 481 minutes in the baseline and 422 minutes overall in the window, but this average reflects two phases: from March 30 to April 5, sleep started after midnight and lasted 357-368 minutes, then from April 6 onward it returned to your typical ~22:35-22:46 start and 474-485 minute duration. Wake time remained fixed at 07:00 throughout. Steps (~7,980), active minutes (~55), resting heart rate (~56 bpm), and HRV (~45 ms) were stable across both periods. The brief late-sleep phase resolved within the window without changes in other metrics."
+    },
+    {
+      "case_ref": "sample_42940b941d60f03b",
+      "text": "Your recent 14 days closely matched your 28-day baseline across all tracked measures. Sleep duration averaged about 471 minutes in the baseline and 472 minutes recently, consistently ending at 07:00 with starts near 22:50. Daily steps remained around 7,930-7,920, and active minutes held near 55-56. Resting heart rate stayed at approximately 62 bpm and HRV around 45 ms, with no meaningful shifts. Low-movement minutes were stable near 450. Day-to-day variability was similar in both periods. No consistent relationship was observed between evening activity duration and the following night's sleep. Your routine appears highly stable."
+    }
+  ]
+}

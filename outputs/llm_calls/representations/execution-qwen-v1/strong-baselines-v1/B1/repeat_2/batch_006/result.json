@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_9b3ff859d9bec486",
+      "text": "Over 28 baseline days, sleep averaged 471 min (start ~22:50, end fixed 07:00), steps ~8066, activity ~55 min, RHR ~56 bpm, RMSSD ~45 ms. In the 14-day window, patterns remained stable: sleep -3 min, steps -112, activity unchanged, RHR -0.5 bpm. One isolated RMSSD drop to 23 ms on Apr 5 recovered to 43 ms next day; window RMSSD variance rose. Weekday/weekend structure and evening activity timing persisted. No lagged activity-sleep or same-day RHR-RMSSD relationships were evident."
+    },
+    {
+      "case_ref": "sample_57f611dd4b2ab003",
+      "text": "During the 28-day baseline, sleep averaged 471 min (start ~22:50, end fixed 07:00), steps ~7938, activity ~55 min, RHR ~52 bpm, RMSSD ~45 ms. In the 14-day window, RHR rose abruptly by ~10 bpm to ~62 and persisted throughout, while sleep, steps, activity, low movement, and RMSSD remained near baseline levels. Sleep timing, weekday/weekend structure, and evening activity intervals were unchanged. Paired correlations between metrics were weak in both periods."
+    },
+    {
+      "case_ref": "sample_6eec85b3c4f2fb93",
+      "text": "Across 28 baseline days, sleep averaged 481 min (start ~22:40, end fixed 07:00), steps ~7976, activity ~56 min, RHR ~56 bpm, RMSSD ~45 ms. In the 14-day window, sleep start shifted abruptly later from Apr 6 onward (to ~00:30-00:43), reducing recorded sleep to ~357-368 min for 7 consecutive nights before partial return. Steps, activity, low movement, RHR, and RMSSD remained stable. The sleep reduction coincided with reduced nighttime coverage (~377-388 min vs ~500 baseline)."
+    },
+    {
+      "case_ref": "sample_61018e0de4ab948a",
+      "text": "Over 28 baseline days, sleep averaged 470 min (start ~22:50, end fixed 07:00), steps ~7940, activity ~54 min, RHR ~56 bpm, RMSSD ~44 ms. In the 14-day window, sleep timing became irregular, alternating between earlier starts (~22:15) ending at 06:30 and later starts (~00:37-00:44) ending at 09:00. Mean sleep duration increased ~9 min. Steps rose slightly (+112/day). Activity decreased ~2 min. RHR and RMSSD remained stable. Day-to-day sleep timing variability increased markedly compared to baseline."
+    }
+  ]
+}

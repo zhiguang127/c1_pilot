@@ -1,0 +1,17 @@
+{
+  "label_kind": "PROVISIONAL_LLM_GOLD",
+  "case_count": 24,
+  "knowledge_count": 96,
+  "label_count": 2304,
+  "run_count": 576,
+  "case_aggregation": "mean within each case over repeats, then equal-weight case means",
+  "independent_construction_units": 19,
+  "all_zero_cases": [],
+  "no_strong_cases": [],
+  "na_policy": "Recall/strong recall/nDCG zero denominators and empty irrelevant fraction are N/A",
+  "graded_gain": "2^relevance - 1",
+  "discount": "log2(rank + 1)",
+  "smallest_effect_reference_ndcg": 0.05,
+  "knowledge_group_diagnostics": "Same globaltop10, no subgroup reranking; measurement_quality, personal_monitoring, and six behavior/context domains separately reported",
+  "comparisons_status": "exploratory; the originally planned Personal Evidence comparison is not implemented"
+}

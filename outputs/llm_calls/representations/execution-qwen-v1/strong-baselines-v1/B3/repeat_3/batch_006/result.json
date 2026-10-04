@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_ae2025f9ed2694c2",
+      "queries": [
+        "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms isolated days then recovery within two weeks",
+        "stable sleep timing with fixed 7am wake time and consistent 10:43-10:58pm bedtime over 42 days of wearable data",
+        "evening activity intervals consistently starting at 21:00 daily with unknown intensity in longitudinal wearable records",
+        "resting heart rate stable between 55-57 bpm across 28-day baseline and 14-day follow-up with no trend change",
+        "daytime low movement minutes structured as ten 44-minute blocks separated by 5-minute gaps throughout observation period"
+      ]
+    },
+    {
+      "case_ref": "sample_b1bb4e0fe38d3896",
+      "queries": [
+        "sleep onset delayed from 22:45 to after midnight reducing sleep duration by 30 minutes per night over 14 days",
+        "activity duration alternating between 45 and 90 minutes every other day during a two-week wearable observation window",
+        "nocturnal wearable coverage dropping from 490 minutes to 405 minutes coinciding with later sleep start times",
+        "daily step count remaining near 8000 steps despite large shifts in sleep timing and activity duration patterns",
+        "HRV RMSSD stable between 43-47 ms across baseline and follow-up periods while sleep schedule changes substantially"
+      ]
+    },
+    {
+      "case_ref": "sample_0b64101da6aac779",
+      "queries": [
+        "consistent 1am to 9am sleep schedule maintained across 42 consecutive days of wearable monitoring",
+        "daily activity duration stable near 54 minutes with low variance over 28-day baseline and 14-day window",
+        "low movement minutes averaging 450 per day with minimal change between baseline and follow-up periods",
+        "resting heart rate fluctuating only between 55 and 57 bpm across six weeks of continuous wearable data",
+        "step count variability decreasing from baseline variance 62704 to window variance 36769 in longitudinal tracking"
+      ]
+    },
+    {
+      "case_ref": "sample_10a8bc96d6fed707",
+      "queries": [
+        "low movement minutes increasing abruptly from variable 438-462 range to exactly 480 minutes every day for 14 days",
+        "daytime activity pattern shifting from continuous 44-minute blocks to 15-minute segments with 1-minute activity bursts",
+        "evening activity intervals changing from single 50-60 minute block to fragmented 20-28 minute sessions near 21:00",
+        "sleep duration and resting heart rate remaining stable despite major restructuring of daytime movement patterns",
+        "HRV RMSSD maintaining 43-47 ms range across baseline and window periods while low movement minutes become constant"
+      ]
+    }
+  ]
+}

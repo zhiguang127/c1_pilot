@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_93f8d63109301e24",
+      "text": "Your sleep, steps, activity, resting heart rate, and low movement stayed close to your 28-day baseline over the past 14 days. Sleep averaged ~469 min (baseline ~470), ending consistently at 07:00, with starts shifting ~2 min later. Steps held near ~8,060/day. One notable change: HRV (RMSSD) dropped from a stable baseline mean of 44.5 ms to 39.4 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms. Day-to-day HRV variability increased markedly. Resting heart rate remained steady at ~56 bpm. The brief HRV dip was isolated; continued monitoring may clarify whether such fluctuations recur."
+    },
+    {
+      "case_ref": "sample_2b04e2e8dd5691b1",
+      "text": "Over the past 14 days, your sleep, activity duration (~55 min/day), resting heart rate (~56 bpm), HRV (~45 ms), and low movement remained very close to your 28-day baseline. Sleep averaged ~470 min, consistently ending at 07:00. The major change is in steps: they dropped from a baseline average of ~8,009/day to ~2,335/day, a ~71% decrease sustained across all 14 days, affecting weekdays and weekends alike. Despite this large reduction in recorded steps, your active minutes did not change, suggesting step counting conditions changed while overall active time was maintained. Other metrics showed no corresponding shift."
+    },
+    {
+      "case_ref": "sample_554cb87f02ca49a4",
+      "text": "Your sleep, steps (~8,000/day), activity (~55 min/day), and low movement remained stable relative to your 28-day baseline over the past 14 days. Sleep averaged ~470 min, consistently ending at 07:00. Two metrics shifted: resting heart rate rose from a tight baseline range of 55–57 bpm (mean 56.0) to 55–67 bpm (mean 58.7), with values of 65–67 bpm on Apr 3–6 before returning to 55–57 bpm. HRV (RMSSD) dropped from a stable baseline mean of 45.0 ms to 38.9 ms, falling to 23–26 ms on Apr 7–10 before recovering to 45–47 ms. These changes coincided in early April and then resolved."
+    },
+    {
+      "case_ref": "sample_fcbb50a5c89187d7",
+      "text": "Your sleep, resting heart rate (~56 bpm), HRV (~45 ms), activity (~54 min/day), and low movement remained stable compared to your 28-day baseline over the past 14 days. Sleep averaged ~470 min, consistently ending at 07:00. The main change is in steps: they decreased from a baseline average of ~9,552/day to ~6,433/day, a ~33% drop sustained throughout the window. On Apr 7, daytime wear was only 360 minutes, so steps, activity, and low movement were not recorded that day; nighttime sleep and heart metrics were captured normally. Aside from the step reduction, your other metrics showed no meaningful shift."
+    }
+  ]
+}

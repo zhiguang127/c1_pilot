@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b1e770e3027181a0",
+      "text": "During your 14-day window, sleep start shifted from ~22:50 to ~01:10 while wake time stayed fixed at 07:00. Sleep duration dropped ~138 min/day (from ~469 to ~331). Steps fell ~67% (from ~7,985 to ~2,643/day). Activity minutes (~55), low movement (~450), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) remained near baseline. The shorter sleep reflects the later onset rather than earlier waking."
+    },
+    {
+      "case_ref": "sample_790b0b4bc30b5c3e",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~471 min (baseline ~470), starting around 22:50 and ending at 07:00 consistently. Steps held near ~8,038/day (baseline ~8,026). Activity minutes (~55), resting heart rate (~56 bpm), and HRV RMSSD (~46 ms) were stable. Low movement minutes rose ~31 min/day (from ~449 to 480), with no day-to-day variation in the window. Overall patterns persisted without notable shifts."
+    },
+    {
+      "case_ref": "sample_f1d8756309b00ea5",
+      "text": "In your 14-day window, steps declined ~33% (from ~9,552 to ~6,433/day; one day missing due to insufficient wear). Sleep timing, duration (~470 min), activity minutes (~53–55), low movement (~448–451), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) all remained near your 28-day baseline. The step reduction was consistent across weekdays and weekends, while other metrics showed no meaningful change."
+    },
+    {
+      "case_ref": "sample_e787e4e0c89a7cd1",
+      "text": "For the first 6 days of your 14-day window, sleep and daily metrics matched your 28-day baseline (sleep ~480 min, steps ~7,976). From April 6 onward, sleep start shifted ~2 hours later (to ~00:35) while wake time stayed at 07:00, reducing sleep by ~120 min/night. Nighttime coverage dropped accordingly. Steps, activity (~55 min), low movement (~450 min), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) remained stable throughout."
+    }
+  ]
+}

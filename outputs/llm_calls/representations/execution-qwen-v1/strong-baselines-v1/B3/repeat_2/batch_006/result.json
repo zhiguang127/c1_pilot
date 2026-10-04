@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_9b3ff859d9bec486",
+      "queries": [
+        "wearable HRV RMSSD single-day drop to 23 ms from personal baseline mean of 45 ms with next-day return to 43 ms and measurement uncertainty",
+        "sleep onset delayed by average 3 minutes in 14-day window compared to 28-day baseline while wake time remains fixed at 07:00 daily",
+        "resting heart rate decreased by 0.5 bpm on average over 14 days relative to 28-day baseline with stable variance across weekdays and weekends",
+        "daily step count declined by 112 steps on average in follow-up window versus baseline with steeper negative weekday slope of -7.3 steps per day",
+        "no correlation between evening activity duration and next-morning sleep duration in baseline or follow-up periods using lag-1 alignment"
+      ]
+    },
+    {
+      "case_ref": "sample_57f611dd4b2ab003",
+      "queries": [
+        "sustained resting heart rate increase of approximately 10 bpm from baseline mean 52 to follow-up mean 62 persisting across all 14 days without return",
+        "HRV RMSSD remained stable near 45 ms despite concurrent 10 bpm resting heart rate elevation over a two-week observation window",
+        "sleep duration and timing unchanged during period of elevated resting heart rate with consistent 07:00 wake time and 471-minute average sleep",
+        "daily step count and active minutes showed no meaningful change relative to 28-day baseline during 14-day window with elevated resting heart rate",
+        "low movement minutes decreased slightly by 3 minutes on average in follow-up window while activity duration increased by 1.5 minutes versus baseline"
+      ]
+    },
+    {
+      "case_ref": "sample_6eec85b3c4f2fb93",
+      "queries": [
+        "abrupt sleep onset delay from approximately 22:40 to after midnight starting on day 7 of 14-day window reducing sleep duration by 59 minutes on average",
+        "nighttime wearable coverage dropped from approximately 500 minutes to 380 minutes coinciding with delayed sleep onset and shorter recorded sleep",
+        "sleep end time remained fixed at 07:00 throughout 28-day baseline and 14-day window despite large shifts in sleep start time",
+        "daily step count and activity duration remained stable across the period when sleep timing shifted abruptly and duration shortened",
+        "HRV RMSSD and resting heart rate showed no sustained change during abrupt sleep schedule shift with reduced nighttime sensor coverage"
+      ]
+    },
+    {
+      "case_ref": "sample_61018e0de4ab948a",
+      "queries": [
+        "sleep schedule shifted to alternating early sleep onset near 22:15 with 06:30 wake and late onset after midnight with 09:00 wake during 14-day window",
+        "sleep duration increased by 8.5 minutes on average in follow-up window compared to 28-day baseline despite highly variable sleep timing",
+        "daily step count increased by 112 steps on average in 14-day window relative to baseline with positive slope of 21 steps per day",
+        "activity duration decreased by 1.7 minutes on average in follow-up window while low movement minutes decreased by 2.6 minutes versus baseline",
+        "HRV RMSSD increased by 0.8 ms on average in follow-up window with higher day-to-day variability compared to stable 28-day baseline"
+      ]
+    }
+  ]
+}

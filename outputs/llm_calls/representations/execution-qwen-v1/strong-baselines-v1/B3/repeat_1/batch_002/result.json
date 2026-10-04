@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_f00826ce58f54514",
+      "queries": [
+        "wearable sleep duration stable across 28-day baseline and 14-day follow-up with consistent 7am wake time",
+        "daily steps unchanged between baseline mean 7938 and window mean 7923 with no weekday weekend difference",
+        "resting heart rate 61-63 bpm and RMSSD 43-47 ms stable over 42 days with weak same-day correlation",
+        "evening activity intervals consistently starting at 21:00 with unknown intensity across all observed days",
+        "low movement minutes slightly decreased by 3 minutes per day in follow-up compared to 28-day baseline"
+      ]
+    },
+    {
+      "case_ref": "sample_d0a5b6f2398d4ebc",
+      "queries": [
+        "single isolated HRV RMSSD drop to 23 ms on one day returning to 43-47 ms range in wearable record",
+        "sleep start time delayed by average 3.2 minutes from local noon in 14-day window versus 28-day baseline",
+        "resting heart rate decreased by 0.5 bpm from baseline 56.3 to window 55.8 with persistent low values",
+        "steps declined by 112 per day in follow-up window compared to 28-day personal baseline mean 8066",
+        "weak negative correlation between resting heart rate and HRV RMSSD during 14-day observation window"
+      ]
+    },
+    {
+      "case_ref": "sample_e97142a55baea655",
+      "queries": [
+        "sustained step count decrease from baseline mean 7998 to 2321 per day across entire 14-day window",
+        "activity duration dropped from 55 minutes baseline to under 10 minutes daily for 14 consecutive days",
+        "sleep duration remained stable near 470 minutes despite large reduction in daytime steps and activity",
+        "low movement minutes unchanged at approximately 450 per day while active minutes fell to near zero",
+        "resting heart rate and HRV RMSSD stable across 14-day period of markedly reduced step counts"
+      ]
+    },
+    {
+      "case_ref": "sample_9e2cc57b2faef23c",
+      "queries": [
+        "resting heart rate increased from baseline mean 51.8 bpm to 61.7 bpm sustained across 14-day window",
+        "sleep duration stable near 471 minutes and wake time fixed at 7am despite 10 bpm heart rate rise",
+        "daily steps and activity duration unchanged between baseline and follow-up during heart rate increase",
+        "HRV RMSSD remained stable at 44-45 ms while resting heart rate rose by approximately 10 bpm",
+        "low movement minutes slightly decreased by 3 minutes per day during period of elevated resting heart rate"
+      ]
+    }
+  ]
+}

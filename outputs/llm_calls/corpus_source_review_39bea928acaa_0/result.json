@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K001",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 18–60 years 7 or more hours'. The content accurately reflects this. The advisory note about reviewing time rather than diagnosing is a conservative editorial caveat, not a fabricated source claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K002",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 61–64 years 7–9 hours'. The content and applicability conditions correctly reflect the age band and recommendation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K003",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 65 years and older 7–8 hours'. The content accurately states this range and notes it differs from younger adults (who have '7 or more' or '7-9').",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K004",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Teen 13–17 years 8–10 hours'. The content and applicability are accurate. The warning against transferring adult targets is a reasonable editorial inference from the distinct age bands.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K005",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explicitly states 'Sleep is often the first thing that busy people squeeze out of their schedules. Making time to sleep will help you protect your health and well-being.' The content is a faithful paraphrase.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K006",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'A common myth is that people can learn to get by on little sleep with no negative effects.' The content accurately reflects this rejection of adaptation without adverse effects.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K007",
+      "assessment": "supported",
+      "rationale": "The CDC source defines quality sleep as 'uninterrupted and refreshing' and lists trouble falling asleep, repeated awakenings, and feeling tired despite enough sleep as signs of poor quality. The content is fully grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K008"
+      ]
+    },
+    {
+      "knowledge_id": "K008",
+      "assessment": "supported",
+      "rationale": "The CDC source lists 'Repeatedly waking up during the night' under signs of poor sleep quality. The content accurately isolates this as a separate concern from total duration.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K007"
+      ]
+    },
+    {
+      "knowledge_id": "K009",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'You also should talk with your doctor if you sleep more than 8 hours a night, but don't feel well rested.' The content accurately captures the threshold and the requirement for subjective reporting.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K010",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Studies show that a good night's sleep improves learning and problem-solving skills. Sleep also helps you pay attention...' The content and caveats about wearable limitations are appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K011",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'After several nights of losing sleep... your ability to function suffers' and notes people may have slower reaction times and make more mistakes. It also notes some people think they function well despite deficiency. Content is grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K012",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Ongoing sleep deficiency can change the way your body’s natural defense against germs and sickness responds.' The content accurately reflects this general immune link without overclaiming diagnostic capability.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K013",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explains that insufficient sleep raises ghrelin and lowers leptin, affecting hunger and fullness. The content accurately summarizes this hormonal mechanism and appropriately limits individual inference.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K014",
+      "assessment": "supported",
+      "rationale": "The NHS source lists 'do not drive when you feel sleepy' under Don't advice for insomnia. The content accurately reflects this safety instruction and its dependence on actual sleepiness.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K015",
+      "assessment": "supported",
+      "rationale": "The NHS source states 'Everyone needs different amounts of sleep. On average: adults need 7 to 9 hours'. The content accurately reflects both the variability and the average range.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K016",
+      "assessment": "supported",
+      "rationale": "The NHS source advises seeing a GP if 'changing your sleeping habits has not helped', 'you've had trouble sleeping for months', or 'your insomnia is affecting your daily life in a way that makes it hard for you to cope'. The content and caveats are accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

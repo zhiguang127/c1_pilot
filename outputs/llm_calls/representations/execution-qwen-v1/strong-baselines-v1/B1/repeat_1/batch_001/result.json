@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2e3166f6475aca54",
+      "text": "Over 28 days baseline then 14 days window, sleep duration (~470 min), steps (~8000), activity (~55 min), and low movement (~451 min) remained stable with consistent sleep timing (start ~22:50, end 07:00). Resting heart rate rose from a tight 55-57 bpm baseline to 65-67 bpm on window days 5-8 before returning to 55-57 bpm. HRV RMSSD concurrently dropped from 43-47 ms to 23-26 ms during the same four-day interval, recovering to 44-47 ms thereafter. Window RHR-HRV correlation was strongly inverse (r=-0.97) versus weak at baseline (r=0.13). Daytime wear was complete throughout."
+    },
+    {
+      "case_ref": "sample_fc5d91e2f9081f52",
+      "text": "During the 28-day baseline, sleep averaged ~469 min starting ~22:50 and ending 07:00, with steps ~8019, activity ~55 min, resting heart rate 55-57 bpm, and HRV RMSSD 43-47 ms. In the 14-day window, weekday sleep shifted markedly later, starting after midnight (~00:10) and ending at 07:00, reducing duration to ~390 min. Weekend sleep also started after midnight but extended to 11:00, increasing duration to ~570 min. Steps, activity, low movement, RHR, and HRV remained near baseline levels. Sleep timing variance increased substantially in the window."
+    },
+    {
+      "case_ref": "sample_8d5aede9373bb3fa",
+      "text": "Across the 28-day baseline, daily steps averaged ~2818 with sleep ~471 min (start ~22:50, end 07:00), activity ~56 min, low movement ~451 min, resting heart rate 55-57 bpm, and HRV RMSSD 43-47 ms. In the 14-day window, steps increased sharply to a mean of ~7927 per day, nearly tripling. Sleep timing, duration, activity duration, low movement, RHR, and HRV all remained stable and near baseline values. No other metric changed meaningfully alongside the step increase. Daytime wear was complete throughout both periods."
+    },
+    {
+      "case_ref": "sample_7c2fa0bcac64337f",
+      "text": "During the 28-day baseline, steps averaged ~8009 per day with sleep ~470 min (start ~22:50, end 07:00), activity ~55 min, low movement ~451 min, resting heart rate 55-57 bpm, and HRV RMSSD 43-47 ms. In the 14-day window, steps declined sharply to a mean of ~2335 per day, roughly one-third of baseline. Sleep timing, duration, activity duration, low movement, RHR, and HRV remained stable and near baseline levels throughout. No other metric changed meaningfully alongside the step decrease. Wear compliance was complete across all 42 days."
+    }
+  ]
+}

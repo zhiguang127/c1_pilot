@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K017",
+      "assessment": "supported",
+      "rationale": "The source explicitly states 'Go to bed and wake up at the same time every day.' The content accurately paraphrases this. The applicability note about reviewing routine consistency is a reasonable editorial framing, not a fabricated source claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K018"
+      ]
+    },
+    {
+      "knowledge_id": "K018",
+      "assessment": "supported",
+      "rationale": "The NHS insomnia page under 'How you can treat insomnia yourself' lists 'wake up and get out of bed at the same time every day.' The item correctly scopes this to people with sleeping difficulties/insomnia as per the source context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K017"
+      ]
+    },
+    {
+      "knowledge_id": "K019",
+      "assessment": "supported",
+      "rationale": "Source states 'Try to keep the same sleep schedule on weeknights and weekends. Limit the difference to no more than about an hour. Staying up late and sleeping in late on weekends can disrupt your body clock's sleep-wake rhythm.' All claims match.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K020",
+      "assessment": "supported",
+      "rationale": "Source states 'Use the hour before bed for quiet time.' The content and applicability caveats about what a bedtime record can or cannot reveal are conservative editorial limits, not fabricated assertions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K021",
+      "assessment": "supported",
+      "rationale": "Source advises avoiding 'bright artificial light, such as from a TV or computer screen' because 'The light may signal the brain that it's time to be awake.' Title and content accurately reflect this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K022",
+      "assessment": "supported",
+      "rationale": "Source states 'The effects of caffeine can last up to 8 hours. So, a cup of coffee in the late afternoon can make it hard for you to fall asleep at night.' Content matches exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K023",
+      "assessment": "supported",
+      "rationale": "Source states 'Avoid heavy or large meals within a few hours of bedtime. (Having a light snack is okay.)' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K024",
+      "assessment": "supported",
+      "rationale": "Source states 'Also, avoid alcoholic drinks before bed.' Content accurately reflects this. The caveat about needing drinking history is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K025",
+      "assessment": "supported",
+      "rationale": "Source states 'Nicotine and caffeine are stimulants, and both substances can interfere with sleep.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K026",
+      "assessment": "supported",
+      "rationale": "Source states 'Keep your bedroom quiet, cool, and dark (a dim night light is fine, if needed).' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K027",
+      "assessment": "supported",
+      "rationale": "Source states 'Take a hot bath or use relaxation techniques before bed.' Content accurately reflects this as optional routine advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K028",
+      "assessment": "supported",
+      "rationale": "Source states 'if you have trouble falling asleep at night, limit naps or take them earlier in the afternoon. Adults should nap for no more than 20 minutes.' Content accurately captures both the duration limit and the conditional timing advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K029",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Limit shift changes so your body clock can adjust.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K030",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Keep the lights bright at work.' Content accurately distinguishes this work-context advice from pre-bedtime light avoidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K031",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Limit caffeine use to the first part of your shift.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K032",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Remove sound and light distractions in your bedroom during daytime sleep (for example, use light-blocking curtains).' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

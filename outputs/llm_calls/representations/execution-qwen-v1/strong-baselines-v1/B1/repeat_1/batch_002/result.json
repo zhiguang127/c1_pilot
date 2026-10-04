@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_f00826ce58f54514",
+      "text": "Over 28 baseline days and 14 window days with complete wear, all metrics remained highly stable. Sleep duration averaged ~471 min (baseline) vs ~472 min (window), consistently ending at 07:00 with starts near 22:50. Steps (~7938 vs ~7923), activity (~55 vs ~56 min), low movement (~450 vs ~447 min), resting HR (~61.8 vs ~61.7 bpm), and RMSSD (~44.8 vs ~45.1 ms) showed negligible shifts. Weekday/weekend patterns were similar across periods. Paired correlations between activity and next-day sleep, steps and activity, and RHR and RMSSD were weak in both periods. No sustained directional changes occurred."
+    },
+    {
+      "case_ref": "sample_d0a5b6f2398d4ebc",
+      "text": "Across 28 baseline and 14 window days with full wear, most metrics stayed stable. Sleep averaged ~471 min (baseline) vs ~468 min (window), always ending at 07:00; sleep start shifted ~3 min later. Steps (~8066 vs ~7954), activity (~55 min both), low movement (~451 vs ~453 min), and resting HR (~56.3 vs ~55.8 bpm) changed minimally. However, RMSSD dropped from a stable ~45.3 ms to ~43.1 ms, driven by an isolated value of 23 ms on Apr 5 that returned to 43 ms the next day; excluding it, window RMSSD was ~44.6 ms. Paired correlations remained weak throughout."
+    },
+    {
+      "case_ref": "sample_e97142a55baea655",
+      "text": "During the 28-day baseline, metrics were stable with full wear: sleep ~471 min ending at 07:00, steps ~7998, activity ~55 min, low movement ~451 min, resting HR ~56.1 bpm, and RMSSD ~45.3 ms. In the 14-day window, steps fell abruptly to ~2321/day (−71%) and activity to ~5 min/day (from ~55 min), persisting throughout. Sleep remained near ~469 min with unchanged timing. Low movement (~448 min), resting HR (~56.3 bpm), and RMSSD (~44.8 ms) were stable. The step and activity reductions were continuous without recovery; other metrics were unaffected."
+    },
+    {
+      "case_ref": "sample_9e2cc57b2faef23c",
+      "text": "Over 28 baseline days with complete wear, metrics were stable: sleep ~471 min ending exactly at 07:00 daily, steps ~7938, activity ~55 min, low movement ~450 min, resting HR ~51.8 bpm, and RMSSD ~44.8 ms. In the 14-day window, resting HR rose abruptly to ~61.7 bpm (+10 bpm, +19%) from day one and persisted throughout. All other metrics remained near baseline levels: sleep ~472 min, steps ~7923, activity ~56 min, low movement ~447 min, and RMSSD ~45.1 ms. Sleep timing, weekday/weekend structure, and paired correlations were unchanged. The HR shift was sustained without return toward baseline."
+    }
+  ]
+}

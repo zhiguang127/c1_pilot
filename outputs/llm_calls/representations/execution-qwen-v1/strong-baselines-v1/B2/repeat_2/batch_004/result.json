@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_de8e7cd3707bcdf4",
+      "text": "Your sleep timing shifted markedly in the recent 14 days: you began sleeping about two hours earlier (around 23:10 vs your baseline ~01:10), while still waking at 07:00. This increased your average sleep duration from ~5.5 to ~7.5 hours per night. Your daily steps (~8,000), active minutes (~55), resting heart rate (~56 bpm), and HRV (~45 ms) all remained stable and close to your 28-day baseline. The earlier sleep start is the primary change; other metrics show no meaningful shift."
+    },
+    {
+      "case_ref": "sample_038472ef90433a46",
+      "text": "In the recent 14 days, your sleep pattern changed notably compared to your 28-day baseline. You started sleeping roughly two hours later (around 00:50 vs ~22:55), while still waking at 07:00, reducing your average sleep from about 7.7 to 5.8 hours. Despite this, your daily steps (~8,000), active minutes (~55), low-movement time, resting heart rate (~55-56 bpm), and HRV (~45 ms) all stayed very close to baseline levels. The shorter sleep window is the main observed difference; daytime activity and heart metrics remained consistent."
+    },
+    {
+      "case_ref": "sample_c351cdfa90b005b7",
+      "text": "Over the recent 14 days, your patterns closely matched your 28-day baseline. Sleep duration averaged about 7.9 hours, consistently starting near 22:50 and ending at 07:00. Daily steps stayed around 7,900-8,000, with active minutes near 55 and low-movement minutes near 450. Resting heart rate held steady at ~62 bpm and HRV at ~45 ms. No meaningful shifts were observed in any metric. Your day-to-day variability also remained similar to baseline, reflecting a highly stable routine across both periods."
+    },
+    {
+      "case_ref": "sample_f4da56c02d218ed2",
+      "text": "For most of the recent 14 days, your metrics matched your 28-day baseline: sleep near 7.8 hours (starting ~22:50, ending 07:00), steps ~8,000, active minutes ~55, and resting heart rate ~56 bpm. However, on April 3-6, your resting heart rate rose to 65-67 bpm (baseline 55-57) and HRV dropped to 23-26 ms (baseline 43-47). Both returned to baseline levels by April 7. Sleep, steps, and activity did not change during those four days. This isolated multi-day deviation resolved fully."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "item_001",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR constant 61 bpm across all 42 days; variance 0.0, no trend or change observed.",
+      "item_condition_evidence": "Item requires repeated RHR readings or a recent change to be informative about trends.",
+      "rationale": "No RHR variation exists in the data; multi-day trend guidance is generic background with no concrete connection."
+    },
+    {
+      "item_ref": "item_002",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes (8 hours) every day; age band is 18-60.",
+      "item_condition_evidence": "Item applies when sleep duration is below the 7-hour recommendation for adults 18-60.",
+      "rationale": "Observed 8-hour sleep meets and exceeds the 7-hour threshold; required condition of short sleep is contradicted."
+    },
+    {
+      "item_ref": "item_003",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start 23:00 and end 07:00 daily; sleep_start_minutes_from_local_noon variance 0.0 across all days.",
+      "item_condition_evidence": "Item applies when there is repeated variability in bedtime or wake time.",
+      "rationale": "Bedtime and wake time are perfectly consistent; required condition of variability is directly contradicted by zero variance."
+    },
+    {
+      "item_ref": "item_004",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60; sleep duration is 480 minutes daily.",
+      "item_condition_evidence": "Item explicitly requires age 61 to 64 to be established; non-applicable for other age groups.",
+      "rationale": "Subject age band 18-60 does not match the required 61-64 range; item conditions are contradicted."
+    },
+    {
+      "item_ref": "item_005",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration 480 min recorded daily; sleep boundaries 23:00-07:00 span exactly 480 min; device is synthetic wearable.",
+      "item_condition_evidence": "Item applies when device-estimated sleep duration and sleep boundaries are both available.",
+      "rationale": "Both estimated duration and boundaries are present, but they are identical here, making the distinction only contextually relevant."
+    },
+    {
+      "item_ref": "item_006",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Steps null on Feb 5, 8, 11, 14 due to insufficient daytime coverage (360 min < 720 min required).",
+      "item_condition_evidence": "Item applies when step readings change with possible measurement limitations like wear context changes.",
+      "rationale": "Missing steps result from reduced wear time rather than arm motion issues, providing partial contextual support for measurement limitations."
+    }
+  ]
+}

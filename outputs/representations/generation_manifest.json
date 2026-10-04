@@ -1,0 +1,980 @@
+{
+  "configuration_revision": "execution-qwen-v1",
+  "prompt_revision": "strong-baselines-v1",
+  "model": "qwen3.8-max",
+  "token_counter": "cl100k_base",
+  "output_budget_tokens": 256,
+  "case_count": 24,
+  "input_hashes": {
+    "C001": "0c1e803ce2367c38de7c4482a3afe7051f6411fc1e9c820996d564b6c8d2f834",
+    "C002": "7b387875ebd262f9e69a6d08deeef8984a50326e57794a64e2bd7e27344f92f0",
+    "C003": "3ccd9655fc833fd911504b11bd771ed76d7c091edac6abb38c1953bd0c4574ef",
+    "C004": "f46cf06c4854ffa5a8d82b7607976298505bbe58cde9f9270988e3339df32397",
+    "C005": "68a99ded437e52a6e055c6a1fea2785e41912d17584945e4976c794064008c0c",
+    "C006": "8b767f06265f573552488640a6df6a36ba6aae05f0006c8ff04aa05f7329582e",
+    "C007": "30dcd5fc76aa013475a26321d5e24eb6caefd3aa078a5d1ad9e23c827b45cdf4",
+    "C008": "df8f26d62e7d124c57766565eb57de6b3cdcf7f1346aabc35444c919792609d1",
+    "C009": "8d36ce4e59cb7d048ba4f55b0fe2f1f1f6cc55e192c377a70119cbedc292d8e7",
+    "C010": "874fb49268749d725394e1037725ed05a94d9f732f258a7e754e137e24a293a8",
+    "C011": "0feffffc2e66d46c2a90b4a2a6fc6eb3d1373ae60eb359b9edf3b0fbf25494f4",
+    "C012": "bacc2c0983a96fcebdecca05f939d076dc15c25274bd2d61784dc8c1826e3289",
+    "C013": "08e83f1850a2dbf783ee7d723a43dfc08c51a709c759bcab9bbc9a2f806f4b17",
+    "C014": "7feb38b1b7feb340679408e7c119ae148e21b2e1e63c1b15e6ea50c9973b1134",
+    "C015": "7a07da162e985c7460b68e638f776fe3246af45d0d402b3e1533960efa941773",
+    "C016": "29f8ed42164952acb322ec5837146c0b1a82ff4fb6c40410c3fc3a103c626970",
+    "C017": "6fdc7d55ee169f5fcfc09c17ee7190f25fc96e50782bb7c6cecf1a64632ced88",
+    "C018": "ddf4e1568cfef4e64d5e723cdf85d580339b9b678a350c93d1a7b03ee7f46b60",
+    "C019": "06dba4643f5cc284f0923fefdb17eca25e1f49fa609fe77b705a7b7d97fef9be",
+    "C020": "62a035ca9555a638e974ea1bf5326b9d1ff29daecadb60ba02c6c05ec3a1b2a6",
+    "C021": "4330e028671ef93b6b4eb2fbac606a3d66d96f872df65eb6d00383d8a1922873",
+    "C022": "39951673ded491972006f9ddf5944360389c9df849d4a69ba43cf020de85d265",
+    "C023": "d5c76c281aa29bf985e6268811351c4a2d8ff02bf06578685c89a5f98b5cdfa7",
+    "C024": "3d35f85eba7ba6aa443621a1fb13537e6478f4c836fb749da5418343655ca214"
+  },
+  "selected_baselines": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "repeat_ids": [
+    1,
+    2,
+    3
+  ],
+  "same_input_for_all_conditions": true,
+  "provider_sampling_seed_available": false,
+  "jobs": [
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 1,
+      "case_ids": [
+        "C022",
+        "C015",
+        "C010",
+        "C002"
+      ],
+      "case_refs": [
+        "sample_2e3166f6475aca54",
+        "sample_fc5d91e2f9081f52",
+        "sample_8d5aede9373bb3fa",
+        "sample_7c2fa0bcac64337f"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 2,
+      "case_ids": [
+        "C011",
+        "C006",
+        "C014",
+        "C009"
+      ],
+      "case_refs": [
+        "sample_f00826ce58f54514",
+        "sample_d0a5b6f2398d4ebc",
+        "sample_e97142a55baea655",
+        "sample_9e2cc57b2faef23c"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 3,
+      "case_ids": [
+        "C012",
+        "C021",
+        "C024",
+        "C007"
+      ],
+      "case_refs": [
+        "sample_b3b5f1a8a69d8cdc",
+        "sample_60ee25e54744726b",
+        "sample_638fa86161cb0355",
+        "sample_2a7014f62869c2b9"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 4,
+      "case_ids": [
+        "C004",
+        "C013",
+        "C023",
+        "C001"
+      ],
+      "case_refs": [
+        "sample_5f92088738b354c4",
+        "sample_2628ad1bc996ceaf",
+        "sample_291467c938997fee",
+        "sample_bb758b54bff66927"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 5,
+      "case_ids": [
+        "C020",
+        "C005",
+        "C017",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_b977d7c729a9dca4",
+        "sample_ef09d03733a860b3",
+        "sample_20d9f060bef33f98",
+        "sample_fc6bc727701ebc5c"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "batch_number": 6,
+      "case_ids": [
+        "C019",
+        "C018",
+        "C008",
+        "C003"
+      ],
+      "case_refs": [
+        "sample_b1e770e3027181a0",
+        "sample_790b0b4bc30b5c3e",
+        "sample_f1d8756309b00ea5",
+        "sample_e787e4e0c89a7cd1"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 1,
+      "case_ids": [
+        "C022",
+        "C015",
+        "C010",
+        "C002"
+      ],
+      "case_refs": [
+        "sample_2e3166f6475aca54",
+        "sample_fc5d91e2f9081f52",
+        "sample_8d5aede9373bb3fa",
+        "sample_7c2fa0bcac64337f"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 2,
+      "case_ids": [
+        "C011",
+        "C006",
+        "C014",
+        "C009"
+      ],
+      "case_refs": [
+        "sample_f00826ce58f54514",
+        "sample_d0a5b6f2398d4ebc",
+        "sample_e97142a55baea655",
+        "sample_9e2cc57b2faef23c"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 3,
+      "case_ids": [
+        "C012",
+        "C021",
+        "C024",
+        "C007"
+      ],
+      "case_refs": [
+        "sample_b3b5f1a8a69d8cdc",
+        "sample_60ee25e54744726b",
+        "sample_638fa86161cb0355",
+        "sample_2a7014f62869c2b9"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 4,
+      "case_ids": [
+        "C004",
+        "C013",
+        "C023",
+        "C001"
+      ],
+      "case_refs": [
+        "sample_5f92088738b354c4",
+        "sample_2628ad1bc996ceaf",
+        "sample_291467c938997fee",
+        "sample_bb758b54bff66927"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 5,
+      "case_ids": [
+        "C020",
+        "C005",
+        "C017",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_b977d7c729a9dca4",
+        "sample_ef09d03733a860b3",
+        "sample_20d9f060bef33f98",
+        "sample_fc6bc727701ebc5c"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "batch_number": 6,
+      "case_ids": [
+        "C019",
+        "C018",
+        "C008",
+        "C003"
+      ],
+      "case_refs": [
+        "sample_b1e770e3027181a0",
+        "sample_790b0b4bc30b5c3e",
+        "sample_f1d8756309b00ea5",
+        "sample_e787e4e0c89a7cd1"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 1,
+      "case_ids": [
+        "C022",
+        "C015",
+        "C010",
+        "C002"
+      ],
+      "case_refs": [
+        "sample_2e3166f6475aca54",
+        "sample_fc5d91e2f9081f52",
+        "sample_8d5aede9373bb3fa",
+        "sample_7c2fa0bcac64337f"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 2,
+      "case_ids": [
+        "C011",
+        "C006",
+        "C014",
+        "C009"
+      ],
+      "case_refs": [
+        "sample_f00826ce58f54514",
+        "sample_d0a5b6f2398d4ebc",
+        "sample_e97142a55baea655",
+        "sample_9e2cc57b2faef23c"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 3,
+      "case_ids": [
+        "C012",
+        "C021",
+        "C024",
+        "C007"
+      ],
+      "case_refs": [
+        "sample_b3b5f1a8a69d8cdc",
+        "sample_60ee25e54744726b",
+        "sample_638fa86161cb0355",
+        "sample_2a7014f62869c2b9"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 4,
+      "case_ids": [
+        "C004",
+        "C013",
+        "C023",
+        "C001"
+      ],
+      "case_refs": [
+        "sample_5f92088738b354c4",
+        "sample_2628ad1bc996ceaf",
+        "sample_291467c938997fee",
+        "sample_bb758b54bff66927"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 5,
+      "case_ids": [
+        "C020",
+        "C005",
+        "C017",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_b977d7c729a9dca4",
+        "sample_ef09d03733a860b3",
+        "sample_20d9f060bef33f98",
+        "sample_fc6bc727701ebc5c"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "batch_number": 6,
+      "case_ids": [
+        "C019",
+        "C018",
+        "C008",
+        "C003"
+      ],
+      "case_refs": [
+        "sample_b1e770e3027181a0",
+        "sample_790b0b4bc30b5c3e",
+        "sample_f1d8756309b00ea5",
+        "sample_e787e4e0c89a7cd1"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 1,
+      "case_ids": [
+        "C014",
+        "C019",
+        "C015",
+        "C017"
+      ],
+      "case_refs": [
+        "sample_3159a77476d400f2",
+        "sample_7de66e1de896dc00",
+        "sample_ac1d07ee01bc3c76",
+        "sample_0ce72b16d8a094a5"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 2,
+      "case_ids": [
+        "C018",
+        "C020",
+        "C005",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_30eeebbcb3af6958",
+        "sample_ee652a22a0edb710",
+        "sample_496a352e5f95a52f",
+        "sample_377d6b28febce198"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 3,
+      "case_ids": [
+        "C004",
+        "C002",
+        "C024",
+        "C008"
+      ],
+      "case_refs": [
+        "sample_93f8d63109301e24",
+        "sample_2b04e2e8dd5691b1",
+        "sample_554cb87f02ca49a4",
+        "sample_fcbb50a5c89187d7"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 4,
+      "case_ids": [
+        "C007",
+        "C001",
+        "C011",
+        "C022"
+      ],
+      "case_refs": [
+        "sample_de8e7cd3707bcdf4",
+        "sample_038472ef90433a46",
+        "sample_c351cdfa90b005b7",
+        "sample_f4da56c02d218ed2"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 5,
+      "case_ids": [
+        "C012",
+        "C023",
+        "C021",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_b81ddc462cc2764d",
+        "sample_bb8fb30970c60404",
+        "sample_51960540cc887954",
+        "sample_62721a92dbc25f07"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "batch_number": 6,
+      "case_ids": [
+        "C006",
+        "C009",
+        "C003",
+        "C013"
+      ],
+      "case_refs": [
+        "sample_9b3ff859d9bec486",
+        "sample_57f611dd4b2ab003",
+        "sample_6eec85b3c4f2fb93",
+        "sample_61018e0de4ab948a"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 1,
+      "case_ids": [
+        "C014",
+        "C019",
+        "C015",
+        "C017"
+      ],
+      "case_refs": [
+        "sample_3159a77476d400f2",
+        "sample_7de66e1de896dc00",
+        "sample_ac1d07ee01bc3c76",
+        "sample_0ce72b16d8a094a5"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 2,
+      "case_ids": [
+        "C018",
+        "C020",
+        "C005",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_30eeebbcb3af6958",
+        "sample_ee652a22a0edb710",
+        "sample_496a352e5f95a52f",
+        "sample_377d6b28febce198"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 3,
+      "case_ids": [
+        "C004",
+        "C002",
+        "C024",
+        "C008"
+      ],
+      "case_refs": [
+        "sample_93f8d63109301e24",
+        "sample_2b04e2e8dd5691b1",
+        "sample_554cb87f02ca49a4",
+        "sample_fcbb50a5c89187d7"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 4,
+      "case_ids": [
+        "C007",
+        "C001",
+        "C011",
+        "C022"
+      ],
+      "case_refs": [
+        "sample_de8e7cd3707bcdf4",
+        "sample_038472ef90433a46",
+        "sample_c351cdfa90b005b7",
+        "sample_f4da56c02d218ed2"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 5,
+      "case_ids": [
+        "C012",
+        "C023",
+        "C021",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_b81ddc462cc2764d",
+        "sample_bb8fb30970c60404",
+        "sample_51960540cc887954",
+        "sample_62721a92dbc25f07"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "batch_number": 6,
+      "case_ids": [
+        "C006",
+        "C009",
+        "C003",
+        "C013"
+      ],
+      "case_refs": [
+        "sample_9b3ff859d9bec486",
+        "sample_57f611dd4b2ab003",
+        "sample_6eec85b3c4f2fb93",
+        "sample_61018e0de4ab948a"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 1,
+      "case_ids": [
+        "C014",
+        "C019",
+        "C015",
+        "C017"
+      ],
+      "case_refs": [
+        "sample_3159a77476d400f2",
+        "sample_7de66e1de896dc00",
+        "sample_ac1d07ee01bc3c76",
+        "sample_0ce72b16d8a094a5"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 2,
+      "case_ids": [
+        "C018",
+        "C020",
+        "C005",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_30eeebbcb3af6958",
+        "sample_ee652a22a0edb710",
+        "sample_496a352e5f95a52f",
+        "sample_377d6b28febce198"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 3,
+      "case_ids": [
+        "C004",
+        "C002",
+        "C024",
+        "C008"
+      ],
+      "case_refs": [
+        "sample_93f8d63109301e24",
+        "sample_2b04e2e8dd5691b1",
+        "sample_554cb87f02ca49a4",
+        "sample_fcbb50a5c89187d7"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 4,
+      "case_ids": [
+        "C007",
+        "C001",
+        "C011",
+        "C022"
+      ],
+      "case_refs": [
+        "sample_de8e7cd3707bcdf4",
+        "sample_038472ef90433a46",
+        "sample_c351cdfa90b005b7",
+        "sample_f4da56c02d218ed2"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 5,
+      "case_ids": [
+        "C012",
+        "C023",
+        "C021",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_b81ddc462cc2764d",
+        "sample_bb8fb30970c60404",
+        "sample_51960540cc887954",
+        "sample_62721a92dbc25f07"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "batch_number": 6,
+      "case_ids": [
+        "C006",
+        "C009",
+        "C003",
+        "C013"
+      ],
+      "case_refs": [
+        "sample_9b3ff859d9bec486",
+        "sample_57f611dd4b2ab003",
+        "sample_6eec85b3c4f2fb93",
+        "sample_61018e0de4ab948a"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 1,
+      "case_ids": [
+        "C019",
+        "C014",
+        "C009",
+        "C015"
+      ],
+      "case_refs": [
+        "sample_634a74781104fc89",
+        "sample_12837a30b91b9fbe",
+        "sample_428714e84f129728",
+        "sample_6afee74fd2861af0"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 2,
+      "case_ids": [
+        "C008",
+        "C005",
+        "C003",
+        "C011"
+      ],
+      "case_refs": [
+        "sample_2f379fa4a808b90c",
+        "sample_ee525be46f256837",
+        "sample_d921a0972c269117",
+        "sample_42940b941d60f03b"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 3,
+      "case_ids": [
+        "C001",
+        "C020",
+        "C022",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_3ebc9dd41fdddf5b",
+        "sample_e1879e777a2ec87c",
+        "sample_4bd546c39d8dc9d3",
+        "sample_7c5ba32ffe7d3c25"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 4,
+      "case_ids": [
+        "C012",
+        "C006",
+        "C002",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_8ca46d97901f44a3",
+        "sample_801e31ab16d9a295",
+        "sample_323873fa0be416ec",
+        "sample_89b435aaf692161e"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 5,
+      "case_ids": [
+        "C007",
+        "C013",
+        "C024",
+        "C021"
+      ],
+      "case_refs": [
+        "sample_163b1862742bf872",
+        "sample_66dd8b37958c142d",
+        "sample_9e90fbbaa606c039",
+        "sample_c6e0c78041734a4e"
+      ]
+    },
+    {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "batch_number": 6,
+      "case_ids": [
+        "C004",
+        "C023",
+        "C017",
+        "C018"
+      ],
+      "case_refs": [
+        "sample_ae2025f9ed2694c2",
+        "sample_b1bb4e0fe38d3896",
+        "sample_0b64101da6aac779",
+        "sample_10a8bc96d6fed707"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 1,
+      "case_ids": [
+        "C019",
+        "C014",
+        "C009",
+        "C015"
+      ],
+      "case_refs": [
+        "sample_634a74781104fc89",
+        "sample_12837a30b91b9fbe",
+        "sample_428714e84f129728",
+        "sample_6afee74fd2861af0"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 2,
+      "case_ids": [
+        "C008",
+        "C005",
+        "C003",
+        "C011"
+      ],
+      "case_refs": [
+        "sample_2f379fa4a808b90c",
+        "sample_ee525be46f256837",
+        "sample_d921a0972c269117",
+        "sample_42940b941d60f03b"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 3,
+      "case_ids": [
+        "C001",
+        "C020",
+        "C022",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_3ebc9dd41fdddf5b",
+        "sample_e1879e777a2ec87c",
+        "sample_4bd546c39d8dc9d3",
+        "sample_7c5ba32ffe7d3c25"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 4,
+      "case_ids": [
+        "C012",
+        "C006",
+        "C002",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_8ca46d97901f44a3",
+        "sample_801e31ab16d9a295",
+        "sample_323873fa0be416ec",
+        "sample_89b435aaf692161e"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 5,
+      "case_ids": [
+        "C007",
+        "C013",
+        "C024",
+        "C021"
+      ],
+      "case_refs": [
+        "sample_163b1862742bf872",
+        "sample_66dd8b37958c142d",
+        "sample_9e90fbbaa606c039",
+        "sample_c6e0c78041734a4e"
+      ]
+    },
+    {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "batch_number": 6,
+      "case_ids": [
+        "C004",
+        "C023",
+        "C017",
+        "C018"
+      ],
+      "case_refs": [
+        "sample_ae2025f9ed2694c2",
+        "sample_b1bb4e0fe38d3896",
+        "sample_0b64101da6aac779",
+        "sample_10a8bc96d6fed707"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 1,
+      "case_ids": [
+        "C019",
+        "C014",
+        "C009",
+        "C015"
+      ],
+      "case_refs": [
+        "sample_634a74781104fc89",
+        "sample_12837a30b91b9fbe",
+        "sample_428714e84f129728",
+        "sample_6afee74fd2861af0"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 2,
+      "case_ids": [
+        "C008",
+        "C005",
+        "C003",
+        "C011"
+      ],
+      "case_refs": [
+        "sample_2f379fa4a808b90c",
+        "sample_ee525be46f256837",
+        "sample_d921a0972c269117",
+        "sample_42940b941d60f03b"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 3,
+      "case_ids": [
+        "C001",
+        "C020",
+        "C022",
+        "C016"
+      ],
+      "case_refs": [
+        "sample_3ebc9dd41fdddf5b",
+        "sample_e1879e777a2ec87c",
+        "sample_4bd546c39d8dc9d3",
+        "sample_7c5ba32ffe7d3c25"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 4,
+      "case_ids": [
+        "C012",
+        "C006",
+        "C002",
+        "C010"
+      ],
+      "case_refs": [
+        "sample_8ca46d97901f44a3",
+        "sample_801e31ab16d9a295",
+        "sample_323873fa0be416ec",
+        "sample_89b435aaf692161e"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 5,
+      "case_ids": [
+        "C007",
+        "C013",
+        "C024",
+        "C021"
+      ],
+      "case_refs": [
+        "sample_163b1862742bf872",
+        "sample_66dd8b37958c142d",
+        "sample_9e90fbbaa606c039",
+        "sample_c6e0c78041734a4e"
+      ]
+    },
+    {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "batch_number": 6,
+      "case_ids": [
+        "C004",
+        "C023",
+        "C017",
+        "C018"
+      ],
+      "case_refs": [
+        "sample_ae2025f9ed2694c2",
+        "sample_b1bb4e0fe38d3896",
+        "sample_0b64101da6aac779",
+        "sample_10a8bc96d6fed707"
+      ]
+    }
+  ],
+  "protocol_notes": [
+    "Fresh tool-free model context for each four-case batch; anonymous shuffled refs.",
+    "Three model repeats; deterministic B4 duplicated for the common output shape.",
+    "No corpus, labels, designer fields or original case identifiers are visible to models.",
+    "Hard 256-token final text budget; complete raw provider responses retained in model call logs.",
+    "B3 has five query slots and a shared total text budget, with five retrieval operations later.",
+    "B4 full numerical facts are unbudgeted; inspect shared retriever truncation and length effects."
+  ],
+  "prompt_hashes": {
+    "B1": "0b74226ef4cacc96e958659088704192ba3ef73820d4a0fc996e24d9f4923d45",
+    "B2": "78bc61614fa86b34b17ac06bfae5c67b74c9653330e06c2e68822c25fe60a22f",
+    "B3": "54d3a6868f678ad6828e1dda8b2debaf5ec2016c3506adebd94753a07f27641e"
+  }
+}

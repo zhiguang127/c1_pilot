@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2e3166f6475aca54",
+      "queries": [
+        "transient resting heart rate increase from 56 to 67 bpm and RMSSD drop from 45 to 23 ms over four days then return to baseline in wearable data",
+        "strong negative correlation between daily resting heart rate and HRV RMSSD during a two-week window with elevated variance compared to stable 28-day baseline",
+        "stable sleep duration near 470 minutes and fixed wake time at 07:00 across 42 consecutive days of continuous wearable monitoring",
+        "daily steps around 8000 and active minutes near 55 remaining unchanged despite transient autonomic shifts in a longitudinal wearable record",
+        "repeated low movement intervals of approximately 45 minutes each occurring ten times daily between 10:00 and 18:30 across all observed days"
+      ]
+    },
+    {
+      "case_ref": "sample_fc5d91e2f9081f52",
+      "queries": [
+        "weekday sleep start delayed from 22:50 to after midnight with sleep duration dropping from 469 to 390 minutes while weekend sleep extends to 570 minutes ending at 11:00",
+        "bimodal sleep timing pattern with short weekday sleep starting after midnight and long weekend sleep starting after 01:00 persisting across a 14-day observation window",
+        "stable resting heart rate near 56 bpm and HRV RMSSD near 45 ms despite large shifts in sleep timing and duration across weekdays and weekends",
+        "daily step count remaining near 8000 and active minutes near 55 despite abrupt changes in sleep schedule between weekdays and weekends",
+        "low movement minutes stable near 451 per day with no change across periods despite major sleep timing restructuring on weekends versus weekdays"
+      ]
+    },
+    {
+      "case_ref": "sample_8d5aede9373bb3fa",
+      "queries": [
+        "abrupt sustained increase in daily steps from 2800 baseline to 7900 in a 14-day window while activity duration remains near 55 minutes throughout",
+        "daily step count tripling from under 3000 to nearly 8000 without corresponding change in active minutes or low movement minutes across 42 days",
+        "sleep duration stable near 470 minutes and wake time fixed at 07:00 despite large persistent increase in daily step count",
+        "resting heart rate stable at 56 bpm and HRV RMSSD near 45 ms with no correlation to steps before or after a sudden step count increase",
+        "low movement minutes remaining near 450 per day despite daily steps increasing by over 5000 in a two-week period"
+      ]
+    },
+    {
+      "case_ref": "sample_7c2fa0bcac64337f",
+      "queries": [
+        "sustained decrease in daily steps from 8000 to 2300 over 14 days while activity duration remains near 55 minutes and sleep stays near 470 minutes",
+        "daily step count dropping by more than 70 percent without change in active minutes low movement minutes or sleep duration in longitudinal wearable data",
+        "stable sleep duration near 470 minutes and consistent sleep timing despite large persistent reduction in daily step count over two weeks",
+        "resting heart rate near 56 bpm and HRV RMSSD near 45 ms remaining unchanged despite a sustained drop in daily steps from 8000 to 2300",
+        "weak negative correlation between steps and activity duration emerging only after step count decreased sharply while active minutes stayed constant"
+      ]
+    }
+  ]
+}

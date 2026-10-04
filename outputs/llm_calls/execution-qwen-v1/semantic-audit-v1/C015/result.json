@@ -1,0 +1,787 @@
+{
+  "facts": [
+    {
+      "fact_id": "F1",
+      "fact_statement": "Baseline sleep duration averaged 468.75 minutes (2026-03-02 to 2026-03-29). In the window, weekday sleep dropped to a mean of 389.9 minutes while weekend sleep rose to 569.75 minutes (2026-03-30 to 2026-04-12).",
+      "knowledge_ids": [
+        "K001",
+        "K019",
+        "K035"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Baseline mean 468.75 from derived_statistics.metric_statistics.sleep_duration_minutes.baseline.mean over 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "grouped_statistics.sleep_duration_minutes.window.weekday.mean",
+            "grouped_statistics.sleep_duration_minutes.window.weekend.mean"
+          ],
+          "explanation": "Weekday mean 389.9 and weekend mean 569.75 from grouped statistics for the 14-day window."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "weekday sleep starts shifted later to ~00:10 with durations near ~390 min",
+          "rationale": "Accurately describes the weekday sleep reduction to approximately 390 minutes."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "shortening to ~390 min. On 4 weekend days, sleep extended to ~11:00, lengthening to ~570 min.",
+          "rationale": "Correctly captures both weekday shortening and weekend lengthening."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Weekday sleep start shifted ~80 min later (to ~00:10) with duration dropping to ~390 min",
+          "rationale": "Accurately reports the weekday duration drop to approximately 390 minutes."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "duration dropping to ~390 min (-79 min)",
+          "rationale": "Reports the weekday duration drop; the -79 min delta is relative to baseline mean, which is arithmetically consistent."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "weekday sleep onset delayed ~70 min to ~00:10 with duration reduced to ~390 min",
+          "rationale": "Correctly identifies the weekday duration reduction."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "sleep duration dropping from 469 to 390 minutes while weekend sleep extends to 570 minutes",
+          "rationale": "Accurately states both weekday and weekend duration changes."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "weekend sleep duration increased to 570 minutes",
+          "rationale": "Correctly identifies the weekend increase."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "weekend sleep duration increasing to 570 minutes",
+          "rationale": "Correctly identifies the weekend increase."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "reducing duration to ~390 min. Weekend sleep also started after midnight but extended to 11:00, increasing duration to ~570 min.",
+          "rationale": "Accurately captures both weekday and weekend duration shifts."
+        }
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "fact_statement": "Baseline sleep start times were consistent near 22:51 (mean 651.25 minutes from local noon). Window weekday sleep starts shifted to approximately 00:10 (mean 730.1 minutes from noon), and weekend sleep starts shifted to approximately 01:10 (mean 790.25 minutes from noon).",
+      "knowledge_ids": [
+        "K017",
+        "K019",
+        "K035"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_start_at",
+            "derived_statistics.metric_statistics.sleep_start_minutes_from_local_noon.baseline.mean"
+          ],
+          "explanation": "Baseline sleep start mean 651.25 minutes from noon corresponds to approximately 22:51."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_start_at",
+            "grouped_statistics.sleep_start_minutes_from_local_noon.window.weekday.mean",
+            "grouped_statistics.sleep_start_minutes_from_local_noon.window.weekend.mean"
+          ],
+          "explanation": "Weekday mean 730.1 minutes from noon is approximately 00:10; weekend mean 790.25 is approximately 01:10."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "starting ~22:51",
+          "rationale": "Accurately approximates the baseline sleep start time."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "~22:51–07:00",
+          "rationale": "Accurately approximates the baseline sleep start time."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "starting ~22:50",
+          "rationale": "Close approximation of the baseline sleep start time."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "start ~22:51",
+          "rationale": "Accurately approximates the baseline sleep start time."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "start ~22:51",
+          "rationale": "Accurately approximates the baseline sleep start time."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "weekday sleep start delayed from 22:50 to after midnight",
+          "rationale": "Accurately describes the shift in weekday sleep start."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention baseline sleep start time or the specific timing shift magnitude."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "sleep onset moving from 22:50 to after midnight on weekdays and after 01:00 on weekends",
+          "rationale": "Accurately describes the shift for both day groups."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "starting ~22:50",
+          "rationale": "Close approximation of the baseline sleep start time."
+        }
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "fact_statement": "Baseline sleep end was fixed at 07:00 every day (1140 minutes from noon). In the window, weekday sleep ends remained at 07:00, but weekend sleep ends shifted to 11:00 (1380 minutes from noon) on 2026-04-04, 2026-04-05, 2026-04-11, and 2026-04-12.",
+      "knowledge_ids": [
+        "K017",
+        "K019",
+        "K035"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at",
+            "derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.baseline.mean"
+          ],
+          "explanation": "All 28 baseline days show sleep_end_at 07:00, corresponding to 1140 minutes from noon with zero variance."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-04-04",
+            "2026-04-05",
+            "2026-04-11",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at",
+            "grouped_statistics.sleep_end_minutes_from_local_noon.window.weekend.mean"
+          ],
+          "explanation": "Four weekend days show sleep_end_at 11:00 (1380 minutes from noon); all other window days remain at 07:00."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "ending at 07:00",
+          "rationale": "Correctly notes the baseline and weekday sleep end time."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "ended at 07:00",
+          "rationale": "Correctly notes the baseline sleep end time."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "wake extending to 11:00",
+          "rationale": "Correctly notes the weekend wake time extension."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "offset extended to 11:00",
+          "rationale": "Correctly notes the weekend sleep offset extension."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "wake shifting to 11:00",
+          "rationale": "Correctly notes the weekend wake time shift."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "weekend sleep extends to 570 minutes ending at 11:00",
+          "rationale": "Correctly notes the weekend sleep end time."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "sleep end delayed to 11:00 on four weekend days",
+          "rationale": "Correctly specifies the count and timing of weekend extensions."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "wake time shifting from 07:00 to 11:00",
+          "rationale": "Correctly notes the wake time shift."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "extended to 11:00",
+          "rationale": "Correctly notes the weekend sleep extension."
+        }
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "fact_statement": "Daily steps averaged 8018.5 in the baseline and 7938.79 in the window, a small decrease of approximately 79.7 steps per day. Activity duration averaged 55.39 minutes in the baseline and 54.71 minutes in the window.",
+      "knowledge_ids": [
+        "K050",
+        "K096"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.steps",
+            "metrics.activity_duration_minutes",
+            "derived_statistics.metric_statistics.steps.baseline.mean",
+            "derived_statistics.metric_statistics.activity_duration_minutes.baseline.mean"
+          ],
+          "explanation": "Baseline means computed over 28 valid days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.steps",
+            "metrics.activity_duration_minutes",
+            "derived_statistics.metric_statistics.steps.window.mean",
+            "derived_statistics.metric_statistics.activity_duration_minutes.window.mean"
+          ],
+          "explanation": "Window means computed over 14 valid days; difference is -79.71 steps and -0.68 activity minutes."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7,939), activity (~55 min)",
+          "rationale": "Accurately approximates the window step and activity averages."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "steps, active minutes, low-movement minutes, resting heart rate, and HRV all remained near baseline levels",
+          "rationale": "Qualitatively correct that changes are minimal."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Steps, active minutes, RHR, and RMSSD stayed near baseline throughout",
+          "rationale": "Qualitatively correct description of stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "Steps, activity, and autonomic metrics stayed stable throughout",
+          "rationale": "Qualitatively correct description of stability."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7939), activity (~55 min)",
+          "rationale": "Accurately approximates the window averages."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "daily step count remaining near 8000 and active minutes near 55",
+          "rationale": "Accurately approximates the values."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "steps activity duration low movement minutes resting heart rate and HRV RMSSD remained within baseline ranges",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "daily steps remaining stable near 8000 and activity minutes near 55",
+          "rationale": "Accurately approximates the values."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "Steps, activity, low movement, RHR, and HRV remained near baseline levels",
+          "rationale": "Qualitatively correct."
+        }
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "fact_statement": "Resting heart rate averaged 56.5 bpm in the baseline and 56.14 bpm in the window. HRV RMSSD averaged 45.25 ms in the baseline and 45.36 ms in the window. Both metrics showed negligible change between periods.",
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K080",
+        "K081",
+        "K083",
+        "K085"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "metrics.hrv_rmssd_ms",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.mean",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.mean"
+          ],
+          "explanation": "Baseline means over 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "metrics.hrv_rmssd_ms",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.window.mean",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean"
+          ],
+          "explanation": "Window means over 14 days; differences are -0.36 bpm and +0.11 ms respectively."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate (~56 bpm), and HRV (~45 ms) all remained near baseline",
+          "rationale": "Accurately approximates the window values and their stability."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate ~57 bpm, and HRV ~45 ms",
+          "rationale": "Approximates baseline values; slightly rounds RHR up but acceptable."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "stable RHR (~56.5 bpm) and RMSSD (~45 ms)",
+          "rationale": "Accurately reports baseline means."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "resting HR 56.5 bpm, and RMSSD ~45 ms",
+          "rationale": "Accurately reports baseline means."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "RHR (~56), and RMSSD (~45) remained near baseline",
+          "rationale": "Accurately approximates window values."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "stable resting heart rate near 56 bpm and HRV RMSSD near 45 ms",
+          "rationale": "Accurately approximates the values."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate and HRV RMSSD remained within baseline ranges",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate staying within baseline range",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate 55-57 bpm, and HRV RMSSD 43-47 ms",
+          "rationale": "Accurately reports the observed baseline ranges."
+        }
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "fact_statement": "Low movement minutes averaged 450.96 in the baseline and 451.43 in the window, showing virtually no change (difference of 0.46 minutes).",
+      "knowledge_ids": [
+        "K057",
+        "K058",
+        "K059",
+        "K068"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.low_movement_minutes",
+            "derived_statistics.metric_statistics.low_movement_minutes.baseline.mean"
+          ],
+          "explanation": "Baseline mean over 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.low_movement_minutes",
+            "derived_statistics.metric_statistics.low_movement_minutes.window.mean"
+          ],
+          "explanation": "Window mean over 14 days; difference is +0.46 minutes."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention low movement minutes."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "low-movement minutes... all remained near baseline levels",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not explicitly mention low movement minutes."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "Low-movement minutes were unchanged overall",
+          "rationale": "Accurately describes the negligible change."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "low movement (~451)",
+          "rationale": "Accurately approximates the window mean."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes stable near 451 per day with no change across periods",
+          "rationale": "Accurately describes the stability."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes... remained within baseline ranges",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes... staying within baseline range",
+          "rationale": "Qualitatively correct."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "low movement... remained near baseline levels",
+          "rationale": "Qualitatively correct."
+        }
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "fact_statement": "Sleep duration variance increased dramatically from 21.76 in the baseline to 6608.78 in the window, driven by the bimodal weekday/weekend pattern in the window period.",
+      "knowledge_ids": [
+        "K017",
+        "K019",
+        "K033"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "derived_statistics.metric_statistics.sleep_duration_minutes.baseline.variance"
+          ],
+          "explanation": "Baseline variance 21.76 indicates highly consistent sleep duration."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "derived_statistics.metric_statistics.sleep_duration_minutes.window.variance"
+          ],
+          "explanation": "Window variance 6608.78 reflects the large spread between ~390-minute weekday and ~570-minute weekend nights."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "The main change is a weekday/weekend split in sleep timing and duration",
+          "rationale": "Identifies the structural cause of the variance increase."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "This weekday/weekend contrast introduces variability not present in your baseline",
+          "rationale": "Explicitly notes the new variability."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "a pronounced weekday shortening and weekend lengthening of sleep, absent in your prior 28 days",
+          "rationale": "Describes the bimodal pattern causing variance."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "a clear weekday/weekend split emerged",
+          "rationale": "Identifies the structural change."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "The weekday/weekend sleep divergence persisted throughout without recovery",
+          "rationale": "Notes the persistent divergence."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "bimodal sleep timing pattern with short weekday sleep starting after midnight and long weekend sleep starting after 01:00",
+          "rationale": "Explicitly names the bimodal pattern."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "sleep timing variability increased sharply in the window with standard deviation rising from 5 minutes to 27 minutes",
+          "rationale": "Quantifies the variance increase via standard deviation (sqrt(21.76)=4.66, sqrt(6608.78)=81.3; however, the stated SDs of 5 and 27 do not match the raw data variance figures exactly, so this is uncertain regarding exact numbers but retained for direction)."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "increased variance in sleep duration during follow-up driven entirely by weekend wake time extension to 11:00",
+          "rationale": "Attributes variance increase to the weekend extension."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "Sleep timing variance increased substantially in the window",
+          "rationale": "Notes the variance increase."
+        }
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "fact_statement": "In the window, evening activity intervals consistently started at 21:00 each day (e.g., 2026-03-30T21:00:00+08:00 through 2026-04-12T21:00:00+08:00), and the lag-1 Pearson correlation between activity duration and next-day sleep was -0.148.",
+      "knowledge_ids": [
+        "K073"
+      ],
+      "raw_data_support": [
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "activity_intervals.0.start_at",
+            "paired_statistics.window.x_metric_activity_duration_minutes.y_metric_sleep_duration_minutes.lag_days_1.pearson_r"
+          ],
+          "explanation": "Every window day has an activity interval starting at 21:00. The paired statistic shows a weak negative lag-1 correlation of -0.148."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "Cross-metric correlations were weak",
+          "rationale": "Consistent with the observed Pearson r of -0.148."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing or cross-metric correlations."
+        }
+      ]
+    }
+  ],
+  "unsupported_interpretations": [
+    {
+      "representation_ref": "R05",
+      "claim_excerpt": "persisted throughout without recovery",
+      "why_unsupported": "The raw data shows a repeating weekly pattern of short weekday and long weekend sleep. Describing this as 'without recovery' implies a cumulative deficit model that is not established by the observations alone; the weekend extension could itself be the recovery mechanism.",
+      "raw_data_context": "Weekend sleep durations of 565-575 minutes follow weekday durations of 386-393 minutes in a repeating cycle."
+    },
+    {
+      "representation_ref": "R07",
+      "claim_excerpt": "standard deviation rising from 5 minutes to 27 minutes",
+      "why_unsupported": "The derived statistics report variances of 21.76 (baseline) and 6608.78 (window). The square roots are approximately 4.66 and 81.3 minutes respectively, not 5 and 27. The stated standard deviations do not match the provided arithmetic.",
+      "raw_data_context": "derived_statistics.metric_statistics.sleep_duration_minutes.baseline.variance = 21.758928571429; window.variance = 6608.775510204082."
+    },
+    {
+      "representation_ref": "R08",
+      "claim_excerpt": "driven entirely by weekend wake time extension to 11:00",
+      "why_unsupported": "While the weekend wake extension contributes substantially, the weekday sleep onset delay also contributes to the overall variance increase. Attributing it 'entirely' to one factor overstates what the data supports.",
+      "raw_data_context": "Weekday sleep start shifted from ~22:51 to ~00:10, reducing duration from ~469 to ~390 minutes, which also increases variance."
+    }
+  ],
+  "potential_retrieval_noise": [
+    {
+      "representation_ref": "R01",
+      "representation_excerpt": "still ending at 07:00",
+      "possible_mechanism": "Overgeneralization of weekday pattern to entire window without noting weekend exceptions initially, though the representation does separately mention weekend endings at 11:00.",
+      "raw_fact_or_missing_context": "Weekend sleep ends at 11:00 on 4 days in the window, not 07:00.",
+      "confidence": "low"
+    },
+    {
+      "representation_ref": "R02",
+      "representation_excerpt": "resting heart rate ~57 bpm",
+      "possible_mechanism": "Rounding the baseline mean of 56.5 bpm up to 57 bpm may introduce slight imprecision when comparing to window values.",
+      "raw_fact_or_missing_context": "Baseline RHR mean is 56.5 bpm, median 57.0 bpm.",
+      "confidence": "low"
+    },
+    {
+      "representation_ref": "R05",
+      "representation_excerpt": "weekday sleep onset delayed ~70 min to ~00:10",
+      "possible_mechanism": "Arithmetic approximation: the actual shift from 651.25 to 730.1 minutes from noon is approximately 79 minutes, not 70.",
+      "raw_fact_or_missing_context": "Baseline mean sleep start is 651.25 min from noon; weekday window mean is 730.1 min from noon.",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R07",
+      "representation_excerpt": "isolated weekend sleep extension to 11:00 wake time occurred twice during the 14-day period",
+      "possible_mechanism": "Miscounting: there are four weekend days with 11:00 wake times (2026-04-04, 2026-04-05, 2026-04-11, 2026-04-12), not two. The representation may have confused weekends (2 occurrences) with individual days (4 occurrences).",
+      "raw_fact_or_missing_context": "Four window daily observations show sleep_end_at 11:00: 2026-04-04, 2026-04-05, 2026-04-11, 2026-04-12.",
+      "confidence": "high"
+    },
+    {
+      "representation_ref": "R09",
+      "representation_excerpt": "Sleep timing variance increased substantially in the window",
+      "possible_mechanism": "Conflating sleep duration variance with sleep timing variance. While both increased, the statement is ambiguous about which metric's variance is referenced.",
+      "raw_fact_or_missing_context": "Sleep duration variance increased from 21.76 to 6608.78; sleep start variance increased from 21.76 to 745.92.",
+      "confidence": "medium"
+    }
+  ],
+  "audit_limitations": "This audit relies solely on the provided synthetic wearable JSON data and provisional knowledge labels. No representations are assumed superior. PROVISIONAL_LLM_GOLD relevance labels are fallible and not treated as ground truth. Arithmetic checks use only the supplied derived_statistics and raw observations. The audit cannot establish clinical significance, diagnose conditions, or verify whether the observed weekday/weekend pattern reflects intentional scheduling versus unintended disruption. Missing context includes actual work schedules, subjective sleep quality, and non-wearable health information. All findings are provisional LLM analysis."
+}

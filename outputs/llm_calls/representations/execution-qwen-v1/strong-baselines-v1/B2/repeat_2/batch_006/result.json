@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_9b3ff859d9bec486",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~468 min vs ~471 min, with a consistent 07:00 wake time and slightly later bedtimes (~3 min). Steps (~7,954 vs ~8,066) and active minutes (~55) were stable. Resting heart rate dipped slightly to ~55.8 bpm. HRV RMSSD was mostly steady (~43 ms), but one night dropped to 23 ms before returning; this isolated reading may reflect measurement variability. Day-to-day patterns remained consistent."
+    },
+    {
+      "case_ref": "sample_57f611dd4b2ab003",
+      "text": "In the recent 14 days, your resting heart rate rose notably from a baseline average of ~51.8 bpm to ~61.7 bpm, persisting throughout the window. Sleep duration (~472 min), steps (~7,923), active minutes (~56), low movement, and HRV RMSSD (~45 ms) all stayed near your 28-day baselines. Your sleep timing and 07:00 wake time were unchanged. The sustained RHR shift occurred without corresponding changes in other tracked metrics. Consider whether device fit or recording conditions changed."
+    },
+    {
+      "case_ref": "sample_6eec85b3c4f2fb93",
+      "text": "For the first six days of your 14-day window, your metrics matched your 28-day baseline: sleep ~480 min starting ~22:40, waking at 07:00, steps ~7,976, active minutes ~56, RHR ~56 bpm, and HRV RMSSD ~45 ms. From April 6 onward, sleep start shifted past midnight (around 00:30–00:43), reducing recorded sleep to ~357–368 min while wake time stayed at 07:00. Steps, activity, RHR, and HRV remained at baseline levels. This pattern suggests truncated nighttime recording rather than a change in daytime metrics."
+    },
+    {
+      "case_ref": "sample_61018e0de4ab948a",
+      "text": "During your 14-day window, sleep duration increased slightly to ~478 min from a baseline of ~470 min. Your sleep schedule shifted: instead of a consistent ~22:50 bedtime and 07:00 wake, you alternated between earlier schedules (~22:15–06:30) and later ones (~00:40–09:00). Steps rose modestly (~8,052 vs ~7,940). Active minutes decreased slightly (~53 vs ~54). Resting heart rate (~56 bpm) and HRV RMSSD (~45 ms) remained near baseline. The new alternating sleep timing is the most notable change."
+    }
+  ]
+}

@@ -1,0 +1,772 @@
+{
+  "facts": [
+    {
+      "fact_id": "F1",
+      "fact_statement": "Mean sleep duration decreased by approximately 59 minutes from the 28-day baseline (mean 480.86 min) to the 14-day window (mean 421.64 min).",
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K082"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Baseline mean sleep duration is 480.86 minutes across 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Window mean sleep duration is 421.64 minutes across 14 days, yielding a mean difference of -59.21 minutes."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "reducing sleep duration by 59 minutes on average",
+          "rationale": "Accurately states the 59-minute average reduction."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged about 481 minutes in the baseline and 422 minutes overall in the window",
+          "rationale": "Correctly reports both period means, implying the ~59 minute difference."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Reports first 6 days matching baseline but omits the overall window mean reduction."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "contradicted",
+          "representation_excerpt": "reducing sleep duration by approximately 120 minutes",
+          "rationale": "Claims 120-minute reduction for the shift period rather than the 59-minute overall window mean reduction."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "sleep duration decreases by 59 minutes from baseline mean 481 to 422 over 14 days",
+          "rationale": "Accurately states the 59-minute decrease and both means."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Reports baseline mean but does not state the overall window mean or the 59-minute difference."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Reports baseline mean and nightly window values but omits the overall 59-minute mean difference."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Reports baseline-level metrics for first six days but omits the overall window mean difference."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Reports baseline mean and single shifted-night value but omits the overall window mean difference."
+        }
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "fact_statement": "Nighttime wearable coverage dropped from approximately 494-508 minutes during the baseline to 377-388 minutes during window days 2026-04-06 through 2026-04-12.",
+      "knowledge_ids": [
+        "K090",
+        "K091",
+        "K095"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "nighttime_coverage_minutes"
+          ],
+          "explanation": "Baseline nighttime coverage ranges from 494 to 508 minutes."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-04-06",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "nighttime_coverage_minutes"
+          ],
+          "explanation": "Window nighttime coverage drops to 377-388 minutes starting April 6."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "nighttime wearable coverage dropped from approximately 500 minutes to 380 minutes",
+          "rationale": "Accurately approximates the coverage drop."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention nighttime coverage values."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Nighttime coverage dropped accordingly.",
+          "rationale": "Acknowledges the coverage drop qualitatively."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention nighttime coverage."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "nighttime wearable coverage drops from approximately 500 minutes to 380 minutes starting on April 6",
+          "rationale": "Accurately states the drop magnitude and start date."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention nighttime coverage."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "reduced nighttime coverage (~377-388 min vs ~500 baseline)",
+          "rationale": "Accurately cites the specific coverage ranges."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "suggests truncated nighttime recording",
+          "rationale": "Infers reduced recording consistent with the coverage drop."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention nighttime coverage."
+        }
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "fact_statement": "Sleep end time remained fixed at 07:00 local time throughout all 28 baseline days and 14 window days.",
+      "knowledge_ids": [
+        "K017"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at"
+          ],
+          "explanation": "All baseline sleep_end_at timestamps end at 07:00:00+08:00."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at"
+          ],
+          "explanation": "All window sleep_end_at timestamps end at 07:00:00+08:00."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "sleep end time remained fixed at 07:00 throughout 28-day baseline and 14-day window",
+          "rationale": "Exact match to raw data."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Wake time remained fixed at 07:00 throughout.",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "wake time stayed at 07:00",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wake time consistency."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "wake time remains fixed at 07:00",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "end 07:00",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "end fixed 07:00",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "waking at 07:00... wake time stayed at 07:00",
+          "rationale": "Accurate paraphrase."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "wake time remained 07:00",
+          "rationale": "Accurate paraphrase."
+        }
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "fact_statement": "Daily step counts remained stable between baseline (mean 7975.75) and window (mean 7978.86), with a negligible mean difference of 3.11 steps.",
+      "knowledge_ids": [
+        "K082"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.steps"
+          ],
+          "explanation": "Baseline mean steps are 7975.75."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.steps"
+          ],
+          "explanation": "Window mean steps are 7978.86, difference of 3.11."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "daily step count and activity duration remained stable",
+          "rationale": "Accurately describes stability."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7,980)... were stable across both periods",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "steps ~7,976... Steps... remained stable throughout",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "daily steps remaining stable near 8000",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "daily steps remain stable near 7975",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "steps 7976... Steps... remained unchanged",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "steps ~7976... Steps... remained stable",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "steps ~7,976... Steps... remained at baseline levels",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "steps ~7976... Steps... stayed stable throughout",
+          "rationale": "Accurately approximates and describes stability."
+        }
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "fact_statement": "HRV RMSSD showed a slight mean decrease of approximately 1.07 ms from baseline (mean 45.29 ms) to window (mean 44.21 ms).",
+      "knowledge_ids": [
+        "K081",
+        "K084",
+        "K085"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.hrv_rmssd_ms"
+          ],
+          "explanation": "Baseline mean HRV RMSSD is 45.29 ms."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.hrv_rmssd_ms"
+          ],
+          "explanation": "Window mean HRV RMSSD is 44.21 ms, difference of -1.07 ms."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "contradicted",
+          "representation_excerpt": "HRV RMSSD and resting heart rate showed no sustained change",
+          "rationale": "Raw data shows a 1.07 ms mean decrease; claiming no change contradicts this."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States HRV was stable but omits the specific 1 ms decrease."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States HRV remained stable but omits the specific 1 ms decrease."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "HRV RMSSD decreasing by approximately 1 ms on average",
+          "rationale": "Accurately captures the direction and magnitude."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "HRV RMSSD shows slight decrease of approximately 1 ms from baseline 45.3 to window 44.2",
+          "rationale": "Accurately captures the direction, magnitude, and means."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "contradicted",
+          "representation_excerpt": "RMSSD remained unchanged across both periods",
+          "rationale": "Raw data shows a 1.07 ms mean decrease."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States RMSSD remained stable but omits the specific 1 ms decrease."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States HRV remained at baseline levels but omits the specific 1 ms decrease."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States RMSSD stayed stable but omits the specific 1 ms decrease."
+        }
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "fact_statement": "Sleep start times shifted abruptly later starting on 2026-04-06, moving from a baseline range of 22:32-22:46 to after midnight (00:32-00:43) for the remainder of the window.",
+      "knowledge_ids": [
+        "K017",
+        "K094"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_start_at"
+          ],
+          "explanation": "All baseline sleep starts occur between 22:32 and 22:46."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-04-06",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_start_at"
+          ],
+          "explanation": "From April 6 onward, sleep starts shift to 00:32-00:43."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "abrupt sleep onset delay from approximately 22:40 to after midnight starting on day 7 of 14-day window",
+          "rationale": "Accurately identifies the timing shift and its abruptness starting day 7 (April 6)."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "contradicted",
+          "representation_excerpt": "from March 30 to April 5, sleep started after midnight... then from April 6 onward it returned to your typical ~22:35-22:46 start",
+          "rationale": "Reverses the actual timeline; raw data shows normal starts Mar 30-Apr 5 and delayed starts Apr 6-12."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "From April 6 onward, sleep start shifted ~2 hours later (to ~00:35)",
+          "rationale": "Accurately identifies the date and approximate new time."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "sleep onset shifting from 22:40 to after midnight for seven consecutive nights",
+          "rationale": "Accurately describes the shift and duration."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "sleep onset shifts from consistent 22:30-22:50 range to after midnight beginning April 6",
+          "rationale": "Accurately identifies the date and ranges."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "From Apr 6–12, sleep start shifted approximately one hour later (mean ~00:36)",
+          "rationale": "Accurately identifies the dates and approximate time."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "sleep start shifted abruptly later from Apr 6 onward (to ~00:30-00:43)",
+          "rationale": "Accurately identifies the date and exact range."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "From April 6 onward, sleep start shifted past midnight (around 00:30–00:43)",
+          "rationale": "Accurately identifies the date and range."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "From day 7 onward, sleep start delayed abruptly to ~00:35",
+          "rationale": "Accurately identifies the timing (day 7 = April 6) and approximate time."
+        }
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "fact_statement": "During the 7 nights of delayed sleep onset (2026-04-06 to 2026-04-12), recorded sleep duration fell to 357-368 minutes, compared to 474-485 minutes in the first 7 window days.",
+      "knowledge_ids": [
+        "K001",
+        "K094"
+      ],
+      "raw_data_support": [
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-05"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "First 7 window days show sleep durations of 474-485 minutes."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-04-06",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Last 7 window days show sleep durations of 357-368 minutes."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Mentions 59-min average reduction but omits the specific nightly ranges for the two phases."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "contradicted",
+          "representation_excerpt": "from March 30 to April 5, sleep started after midnight and lasted 357-368 minutes, then from April 6 onward it returned to your typical ~22:35-22:46 start and 474-485 minute duration",
+          "rationale": "Swaps the dates and corresponding durations relative to raw data."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "From April 6 onward... reducing sleep by ~120 min/night",
+          "rationale": "Approximate reduction aligns with the shift from ~480 to ~360 mins."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "reducing sleep duration by approximately 120 minutes",
+          "rationale": "Approximate reduction aligns with the phase shift."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Mentions overall means but omits the specific nightly ranges for the two phases."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "reducing sleep duration to 357–368 min per night",
+          "rationale": "Exact match to raw data for the delayed-onset phase."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "reducing recorded sleep to ~357-368 min for 7 consecutive nights",
+          "rationale": "Exact match to raw data."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "reducing recorded sleep to ~357–368 min",
+          "rationale": "Exact match to raw data."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "duration falling to ~364 min",
+          "rationale": "Approximates the mean of the delayed phase accurately."
+        }
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "fact_statement": "Resting heart rate remained essentially unchanged between baseline (mean 56.07 bpm) and window (mean 56.21 bpm), with a mean difference of 0.14 bpm.",
+      "knowledge_ids": [
+        "K083"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm"
+          ],
+          "explanation": "Baseline mean RHR is 56.07 bpm."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm"
+          ],
+          "explanation": "Window mean RHR is 56.21 bpm, difference of 0.14 bpm."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate showed no sustained change",
+          "rationale": "A 0.14 bpm difference qualifies as no sustained change."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate (~56 bpm)... were stable",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate (~56 bpm)... remained stable",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention resting heart rate."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate remaining near 56 bpm",
+          "rationale": "Accurately approximates stability."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "RHR 56 bpm... remained unchanged",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "RHR ~56 bpm... remained stable",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "RHR ~56 bpm... remained at baseline levels",
+          "rationale": "Accurately approximates and describes stability."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "RHR ~56 bpm... stayed stable",
+          "rationale": "Accurately approximates and describes stability."
+        }
+      ]
+    }
+  ],
+  "unsupported_interpretations": [
+    {
+      "representation_ref": "R02",
+      "claim_excerpt": "The brief late-sleep phase resolved within the window without changes in other metrics.",
+      "why_unsupported": "Raw data shows the late sleep onset began on April 6 and persisted through April 12, the final observation day. It did not resolve within the window.",
+      "raw_data_context": "Window sleep_start_at values from 2026-04-06 to 2026-04-12 are all after midnight (00:32-00:43)."
+    },
+    {
+      "representation_ref": "R04",
+      "claim_excerpt": "sleep duration recovering to 480 minute baseline after a week of delayed sleep onset near 00:30 to 00:40",
+      "why_unsupported": "The raw data ends on 2026-04-12 with continued short sleep (357-368 min). There is no evidence of recovery to baseline within the observed window.",
+      "raw_data_context": "Window observations end 2026-04-12 with sleep_duration_minutes of 361 and sleep_start_at of 00:39."
+    },
+    {
+      "representation_ref": "R07",
+      "claim_excerpt": "reducing recorded sleep to ~357-368 min for 7 consecutive nights before partial return",
+      "why_unsupported": "The observation window ends on 2026-04-12 after 7 nights of short sleep. No subsequent data exists to support a 'partial return'.",
+      "raw_data_context": "Last observation is 2026-04-12 with sleep_duration_minutes 361."
+    },
+    {
+      "representation_ref": "R08",
+      "claim_excerpt": "This pattern suggests truncated nighttime recording rather than a change in daytime metrics.",
+      "why_unsupported": "While nighttime coverage dropped, attributing the sleep reduction solely to truncated recording rather than actual delayed sleep onset is an unsupported causal interpretation. The sleep_start_at timestamps explicitly shifted past midnight.",
+      "raw_data_context": "metrics.sleep_start_at shifted from ~22:40 to ~00:35-00:43; nighttime_coverage_minutes dropped to 377-388."
+    }
+  ],
+  "potential_retrieval_noise": [
+    {
+      "representation_ref": "R02",
+      "representation_excerpt": "from March 30 to April 5, sleep started after midnight and lasted 357-368 minutes, then from April 6 onward it returned to your typical ~22:35-22:46 start and 474-485 minute duration",
+      "possible_mechanism": "Temporal inversion where the model swapped the chronological order of the two distinct sleep phases present in the window data.",
+      "raw_fact_or_missing_context": "Raw data shows normal sleep starts (22:39-22:46) and durations (474-485) from Mar 30-Apr 5, and delayed starts (00:32-00:43) and short durations (357-368) from Apr 6-12.",
+      "confidence": "high"
+    },
+    {
+      "representation_ref": "R04",
+      "representation_excerpt": "sleep duration recovering to 480 minute baseline after a week of delayed sleep onset",
+      "possible_mechanism": "Hallucination of unobserved future data points beyond the 14-day window to create a narrative resolution.",
+      "raw_fact_or_missing_context": "Observation window ends 2026-04-12 with no recovery data available.",
+      "confidence": "high"
+    },
+    {
+      "representation_ref": "R01",
+      "representation_excerpt": "HRV RMSSD and resting heart rate showed no sustained change during abrupt sleep schedule shift with reduced nighttime sensor coverage",
+      "possible_mechanism": "Overgeneralization of stability, ignoring the small but measurable 1.07 ms mean decrease in HRV RMSSD when summarizing multiple metrics together.",
+      "raw_fact_or_missing_context": "derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference is -1.071428571428.",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R06",
+      "representation_excerpt": "RMSSD remained unchanged across both periods",
+      "possible_mechanism": "Rounding error or threshold-based filtering where a ~1 ms change was treated as zero noise rather than a reported difference.",
+      "raw_fact_or_missing_context": "Baseline mean 45.29 ms vs window mean 44.21 ms.",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R07",
+      "representation_excerpt": "before partial return",
+      "possible_mechanism": "Narrative completion bias where the model inferred a resolution to the sleep disruption that is not present in the bounded dataset.",
+      "raw_fact_or_missing_context": "Data ends 2026-04-12 with sleep_duration_minutes 361 and sleep_start_at 00:39.",
+      "confidence": "high"
+    }
+  ],
+  "audit_limitations": "This audit relies exclusively on the provided synthetic wearable JSON and provisional knowledge snippets. PROVISIONAL_LLM_GOLD labels are fallible and not human ground truth. The arithmetic seeds are generic calculations applied uniformly. No clinical diagnoses, causal mechanisms, or symptom inferences can be established from these device-derived metrics alone. Representations were evaluated strictly against observable numerical fields and timestamps; qualitative interpretations of user experience or device malfunction remain uncertain without external context. The analysis itself is a provisional LLM output and cannot establish clinical truth or a final research conclusion."
+}

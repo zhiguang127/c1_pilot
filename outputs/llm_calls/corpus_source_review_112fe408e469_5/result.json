@@ -1,0 +1,131 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K081",
+      "assessment": "supported",
+      "rationale": "Source explicitly states HRV varies person to person and lists age, sex, sleep, hormones, circadian rhythm, caffeine/alcohol, exercise, and stress as influencing factors. The caution against treating one person's HRV as universal follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K080"
+      ]
+    },
+    {
+      "knowledge_id": "K082",
+      "assessment": "supported",
+      "rationale": "Source states personal range is based on the average of recent data using up to 30 days, helping monitor trends. The distinction between personal change and inter-person comparison is a reasonable paraphrase of that context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K083",
+      "assessment": "supported",
+      "rationale": "Source confirms users can view resting heart rate trends over a week, month, 3 months, or year, and see averages over periods of time. The advice about preserving trend context aligns with this functionality.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K077",
+        "K078"
+      ]
+    },
+    {
+      "knowledge_id": "K084",
+      "assessment": "supported",
+      "rationale": "Source states the feature provides information for well-being and is not intended to diagnose or treat any medical condition, and lists HRV among tracked vitals. The conclusion that an HRV change alone does not identify disease follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K088"
+      ]
+    },
+    {
+      "knowledge_id": "K085",
+      "assessment": "supported",
+      "rationale": "Source explicitly states Fitbit uses the RMSSD formula to determine HRV. The guidance to preserve metric definition in comparisons is a sound inference from specifying the formula.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K080"
+      ]
+    },
+    {
+      "knowledge_id": "K086",
+      "assessment": "supported",
+      "rationale": "Source states the latest HRV measurement is from the longest sleep period over the past 24 hours and only sleep periods greater than 3 hours are considered. All claims match exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K087",
+      "assessment": "supported",
+      "rationale": "Source advises keeping an eye on how things balance out over time rather than focusing too much on any one day, and offers comparison to a personal 30-day average for sleep stages. Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K088",
+      "assessment": "supported",
+      "rationale": "Source states 'For health concerns, consult a healthcare provider' and notes the feature provides well-being insights, not diagnoses. Content is fully grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K084"
+      ]
+    },
+    {
+      "knowledge_id": "K089",
+      "assessment": "supported",
+      "rationale": "Source states accuracy is affected by personal physiology, device placement, and activity, and instructs wearing the device snugly with skin contact. All claims are supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K090",
+      "assessment": "supported",
+      "rationale": "Source troubleshooting section advises wearing the device for at least one full day, during the day and to sleep at night, to resolve missing vitals. Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K091"
+      ]
+    },
+    {
+      "knowledge_id": "K091",
+      "assessment": "supported",
+      "rationale": "Source states most metrics require at least 3 hours of quality sleep and excessive movement or short sessions may result in no reading. The note that missing readings are not physiological zeros is a valid clarification of this troubleshooting context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K090"
+      ]
+    },
+    {
+      "knowledge_id": "K092",
+      "assessment": "supported",
+      "rationale": "Source advises checking if the device synced recently and whether it tracks the specific metric when troubleshooting missing vitals. Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K093",
+      "assessment": "supported",
+      "rationale": "Source explicitly notes variations between new and old Fitbit devices due to changes in the heart rate sensor or algorithm. Content matches perfectly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K094",
+      "assessment": "supported",
+      "rationale": "Source states time asleep is estimated as all time in the main sleep period identified as Light, Deep, or REM. This supports the claim that bedtime-to-wake duration need not equal estimated minutes asleep.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K095",
+      "assessment": "supported",
+      "rationale": "Source states wrist-based devices automatically detect sleep when worn to bed and recommends a snug wristband. The editorial note that unworn nights should be treated as missing observations rather than zero sleep is a correct interpretation of the detection requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K096",
+      "assessment": "supported",
+      "rationale": "Source states Fitbit uses a 3-axis accelerometer to count steps and that the arm must swing back and forth during walking or running for steps to be counted. All claims are directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3ebc9dd41fdddf5b",
+      "text": "Your sleep start shifted ~2 hours later in the recent 14 days (from ~22:55 to ~00:50), while wake time stayed at 07:00, reducing average sleep from ~465 to ~346 min. Steps (~8000), active minutes (~55), resting HR (~55-56 bpm) and RMSSD (~45 ms) remained near baseline. The shorter sleep reflects delayed onset rather than earlier waking."
+    },
+    {
+      "case_ref": "sample_e1879e777a2ec87c",
+      "text": "Sleep timing, duration (~470 min), steps (~8000), resting HR (~56 bpm) and RMSSD (~45 ms) stayed stable versus your 28-day baseline. However, recorded active minutes dropped sharply from ~54 to ~9 per day, with low-movement minutes rising from ~450 to ~602. This pattern may reflect a change in how movement was captured rather than a true activity decline."
+    },
+    {
+      "case_ref": "sample_4bd546c39d8dc9d3",
+      "text": "Most metrics stayed near your 28-day baseline over the past 14 days: sleep ~470 min, steps ~8000, active minutes ~55, and low movement ~450. However, on Apr 3-6 your resting heart rate rose to 65-67 bpm (baseline 55-57) while RMSSD fell to 23-26 ms (baseline 43-47). Both returned to baseline ranges by Apr 7. This was a brief, isolated shift."
+    },
+    {
+      "case_ref": "sample_7c5ba32ffe7d3c25",
+      "text": "Your patterns remained very consistent across the 14-day window compared to your 28-day baseline. Sleep averaged ~471 min (baseline ~470), steps ~8038 (baseline ~8026), active minutes ~55, resting heart rate ~56 bpm, and RMSSD ~46 ms. Low-movement minutes were steady at exactly 480 daily, slightly above your baseline average of ~449. No notable shifts were observed."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_163b1862742bf872",
+      "text": "Your sleep shifted markedly in the recent 14 days: duration rose from a 28-day baseline average of ~328 min to ~448 min, driven by earlier bedtimes (about 2 hours earlier) while your 07:00 wake time stayed fixed. Daytime steps (~8,044 vs ~7,963), active minutes (~55), low-movement minutes (~448–450), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) all remained stable. The weak baseline link between evening activity and next-night sleep (r≈0.32) essentially disappeared in the window (r≈0.07). Your consistent wear supports these comparisons."
+    },
+    {
+      "case_ref": "sample_66dd8b37958c142d",
+      "text": "Your patterns stayed largely steady over the recent 14 days versus your 28-day baseline. Sleep averaged ~478 min, up slightly from ~470 min, with similar timing. Steps (~8,052 vs ~7,940), active minutes (~53 vs ~54), low-movement minutes (~449 vs ~452), resting heart rate (~56 bpm), and HRV RMSSD (~45 vs ~44 ms) showed minimal change. One notable shift: your sleep schedule alternated between early (06:30) and late (09:00) wake times in the window, whereas baseline wake times were consistently 07:00. Correlations among metrics remained weak throughout."
+    },
+    {
+      "case_ref": "sample_9e90fbbaa606c039",
+      "text": "Most of your metrics held steady across the recent 14 days compared to your 28-day baseline: sleep (~470 min), steps (~7,996 vs ~8,043), active minutes (~55), and low-movement minutes (~447 vs ~451). However, two changes stand out. Resting heart rate rose from ~56 to ~59 bpm, with several days reaching 65–67 bpm (baseline max was 57). Simultaneously, HRV RMSSD dropped from ~45 to ~39 ms, driven by values of 23–26 ms on April 7–10 before returning to ~45 ms. These shifts occurred together but correlation does not establish causation. Wear was complete throughout."
+    },
+    {
+      "case_ref": "sample_c6e0c78041734a4e",
+      "text": "Your recent 14 days showed a striking alternating pattern in both sleep and activity. Sleep duration swung between ~475–485 min and ~385–392 min on successive nights, lowering your average to ~441 min from a stable baseline of ~471 min. Activity minutes mirrored this, alternating between 90 and 45 min (baseline was consistently 50–60 min). Steps (~8,088 vs ~7,947), resting heart rate (~56 bpm), and HRV RMSSD (~46 vs ~45 ms) remained near baseline. This every-other-day structure is new; previously your data varied only modestly day to day. Wear was complete throughout."
+    }
+  ]
+}

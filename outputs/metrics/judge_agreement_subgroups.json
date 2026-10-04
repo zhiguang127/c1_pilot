@@ -1,0 +1,411 @@
+{
+  "overall": {
+    "pairs": 2304,
+    "resolved_pairs": 2304,
+    "pending_judge_a": 0,
+    "pending_judge_b": 0,
+    "pending_either": 0,
+    "exact_agreement": 0.87890625,
+    "confusion_matrix_rows_a_columns_b": [
+      [
+        1592,
+        103,
+        0
+      ],
+      [
+        88,
+        365,
+        31
+      ],
+      [
+        2,
+        55,
+        68
+      ]
+    ],
+    "linear_weighted_cohen_kappa": 0.748081498100759,
+    "non_zero_disagreement_rate": 0.0837673611111111,
+    "nonzero_union_disagreement_rate": 0.2710674157303371,
+    "nonzero_union_pairs": 712,
+    "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+    "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+  },
+  "stratum": {
+    "A": {
+      "pairs": 768,
+      "resolved_pairs": 768,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8958333333333334,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          537,
+          38,
+          0
+        ],
+        [
+          17,
+          131,
+          5
+        ],
+        [
+          1,
+          19,
+          20
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7758351050412597,
+      "non_zero_disagreement_rate": 0.07291666666666667,
+      "nonzero_union_disagreement_rate": 0.24242424242424243,
+      "nonzero_union_pairs": 231,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "B": {
+      "pairs": 768,
+      "resolved_pairs": 768,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.875,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          529,
+          33,
+          0
+        ],
+        [
+          39,
+          117,
+          9
+        ],
+        [
+          1,
+          14,
+          26
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7381971534001055,
+      "non_zero_disagreement_rate": 0.09505208333333333,
+      "nonzero_union_disagreement_rate": 0.3054393305439331,
+      "nonzero_union_pairs": 239,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "C": {
+      "pairs": 768,
+      "resolved_pairs": 768,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8658854166666666,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          526,
+          32,
+          0
+        ],
+        [
+          32,
+          117,
+          17
+        ],
+        [
+          0,
+          22,
+          22
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.731552370092849,
+      "non_zero_disagreement_rate": 0.08333333333333333,
+      "nonzero_union_disagreement_rate": 0.2644628099173554,
+      "nonzero_union_pairs": 242,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    }
+  },
+  "case_type": {
+    "multivariable": {
+      "pairs": 576,
+      "resolved_pairs": 576,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8350694444444444,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          384,
+          17,
+          0
+        ],
+        [
+          46,
+          83,
+          3
+        ],
+        [
+          1,
+          28,
+          14
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.6682266541867665,
+      "non_zero_disagreement_rate": 0.1111111111111111,
+      "nonzero_union_disagreement_rate": 0.3333333333333333,
+      "nonzero_union_pairs": 192,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "personal_baseline": {
+      "pairs": 576,
+      "resolved_pairs": 576,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.90625,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          403,
+          24,
+          0
+        ],
+        [
+          15,
+          100,
+          0
+        ],
+        [
+          0,
+          15,
+          19
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.8043576712121975,
+      "non_zero_disagreement_rate": 0.06770833333333333,
+      "nonzero_union_disagreement_rate": 0.2254335260115607,
+      "nonzero_union_pairs": 173,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "single_variable": {
+      "pairs": 576,
+      "resolved_pairs": 576,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8784722222222222,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          400,
+          38,
+          0
+        ],
+        [
+          13,
+          86,
+          14
+        ],
+        [
+          1,
+          4,
+          20
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7449928915271993,
+      "non_zero_disagreement_rate": 0.09027777777777778,
+      "nonzero_union_disagreement_rate": 0.29545454545454547,
+      "nonzero_union_pairs": 176,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "temporal_pattern": {
+      "pairs": 576,
+      "resolved_pairs": 576,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8958333333333334,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          405,
+          24,
+          0
+        ],
+        [
+          14,
+          96,
+          14
+        ],
+        [
+          0,
+          8,
+          15
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7806605569800208,
+      "non_zero_disagreement_rate": 0.06597222222222222,
+      "nonzero_union_disagreement_rate": 0.2222222222222222,
+      "nonzero_union_pairs": 171,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    }
+  },
+  "matched_pairs": {
+    "C003/C005": {
+      "pairs": 192,
+      "resolved_pairs": 192,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8854166666666666,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          130,
+          17,
+          0
+        ],
+        [
+          3,
+          33,
+          2
+        ],
+        [
+          0,
+          0,
+          7
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7600545330606681,
+      "non_zero_disagreement_rate": 0.10416666666666667,
+      "nonzero_union_disagreement_rate": 0.3225806451612903,
+      "nonzero_union_pairs": 62,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "C009/C011": {
+      "pairs": 192,
+      "resolved_pairs": 192,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.9166666666666666,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          137,
+          7,
+          0
+        ],
+        [
+          2,
+          35,
+          0
+        ],
+        [
+          0,
+          7,
+          4
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.8203088441740758,
+      "non_zero_disagreement_rate": 0.046875,
+      "nonzero_union_disagreement_rate": 0.16363636363636364,
+      "nonzero_union_pairs": 55,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "C016/C018": {
+      "pairs": 192,
+      "resolved_pairs": 192,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.9010416666666666,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          138,
+          11,
+          0
+        ],
+        [
+          3,
+          29,
+          1
+        ],
+        [
+          0,
+          4,
+          6
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7826760395567736,
+      "non_zero_disagreement_rate": 0.07291666666666667,
+      "nonzero_union_disagreement_rate": 0.25925925925925924,
+      "nonzero_union_pairs": 54,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "C021/C023": {
+      "pairs": 192,
+      "resolved_pairs": 192,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.8697916666666666,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          123,
+          4,
+          0
+        ],
+        [
+          15,
+          39,
+          2
+        ],
+        [
+          0,
+          4,
+          5
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.7443272611057845,
+      "non_zero_disagreement_rate": 0.09895833333333333,
+      "nonzero_union_disagreement_rate": 0.2753623188405797,
+      "nonzero_union_pairs": 69,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    },
+    "C022/C024": {
+      "pairs": 192,
+      "resolved_pairs": 192,
+      "pending_judge_a": 0,
+      "pending_judge_b": 0,
+      "pending_either": 0,
+      "exact_agreement": 0.796875,
+      "confusion_matrix_rows_a_columns_b": [
+        [
+          133,
+          0,
+          0
+        ],
+        [
+          28,
+          16,
+          0
+        ],
+        [
+          1,
+          10,
+          4
+        ]
+      ],
+      "linear_weighted_cohen_kappa": 0.55024595924104,
+      "non_zero_disagreement_rate": 0.15104166666666666,
+      "nonzero_union_disagreement_rate": 0.4915254237288136,
+      "nonzero_union_pairs": 59,
+      "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+      "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+    }
+  }
+}

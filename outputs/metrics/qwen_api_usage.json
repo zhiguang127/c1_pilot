@@ -1,0 +1,2941 @@
+{
+  "execution_revision": "execution-qwen-v1",
+  "backend": "openai_compatible",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "totals": {
+    "successful_call_metadata_count": 191,
+    "prompt_tokens": 16446810,
+    "completion_tokens": 831385,
+    "total_tokens": 17278195
+  },
+  "by_stage": {
+    "adjudication": {
+      "successful_call_metadata_count": 24,
+      "prompt_tokens": 1528306,
+      "completion_tokens": 184134,
+      "total_tokens": 1712440
+    },
+    "calibration": {
+      "successful_call_metadata_count": 12,
+      "prompt_tokens": 151234,
+      "completion_tokens": 6963,
+      "total_tokens": 158197
+    },
+    "judges": {
+      "successful_call_metadata_count": 62,
+      "prompt_tokens": 3521258,
+      "completion_tokens": 445404,
+      "total_tokens": 3966662
+    },
+    "other": {
+      "successful_call_metadata_count": 14,
+      "prompt_tokens": 857802,
+      "completion_tokens": 13339,
+      "total_tokens": 871141
+    },
+    "representations": {
+      "successful_call_metadata_count": 55,
+      "prompt_tokens": 9123101,
+      "completion_tokens": 38532,
+      "total_tokens": 9161633
+    },
+    "semantic_audit": {
+      "successful_call_metadata_count": 24,
+      "prompt_tokens": 1265109,
+      "completion_tokens": 143013,
+      "total_tokens": 1408122
+    }
+  },
+  "by_scope": {
+    "current_stage_calls": {
+      "successful_call_metadata_count": 170,
+      "prompt_tokens": 15378337,
+      "completion_tokens": 723233,
+      "total_tokens": 16101570
+    },
+    "rejected_model_attempt": {
+      "successful_call_metadata_count": 1,
+      "prompt_tokens": 203381,
+      "completion_tokens": 401,
+      "total_tokens": 203782
+    },
+    "superseded_annotation": {
+      "successful_call_metadata_count": 20,
+      "prompt_tokens": 865092,
+      "completion_tokens": 107751,
+      "total_tokens": 972843
+    }
+  },
+  "included_calls": [
+    {
+      "task_id": "corpus_source_review_112fe408e469_0",
+      "metadata_path": "corpus_source_review_112fe408e469_0\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-45dda7c9-ce76-91fa-9316-45705ad8f5aa",
+      "http_request_id": "45dda7c9-ce76-91fa-9316-45705ad8f5aa",
+      "usage": {
+        "prompt_tokens": 21948,
+        "completion_tokens": 1163,
+        "total_tokens": 23111
+      }
+    },
+    {
+      "task_id": "corpus_source_review_112fe408e469_1",
+      "metadata_path": "corpus_source_review_112fe408e469_1\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1a67ae01-9870-952b-acff-b7ffa79b812e",
+      "http_request_id": "1a67ae01-9870-952b-acff-b7ffa79b812e",
+      "usage": {
+        "prompt_tokens": 21473,
+        "completion_tokens": 973,
+        "total_tokens": 22446
+      }
+    },
+    {
+      "task_id": "corpus_source_review_112fe408e469_2",
+      "metadata_path": "corpus_source_review_112fe408e469_2\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-334a2a2f-5560-9d75-bdb8-a6af9aa943af",
+      "http_request_id": "334a2a2f-5560-9d75-bdb8-a6af9aa943af",
+      "usage": {
+        "prompt_tokens": 23941,
+        "completion_tokens": 1136,
+        "total_tokens": 25077
+      }
+    },
+    {
+      "task_id": "corpus_source_review_112fe408e469_3",
+      "metadata_path": "corpus_source_review_112fe408e469_3\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-abcc543f-0570-960a-ad89-9adde9fa7a89",
+      "http_request_id": "abcc543f-0570-960a-ad89-9adde9fa7a89",
+      "usage": {
+        "prompt_tokens": 21976,
+        "completion_tokens": 972,
+        "total_tokens": 22948
+      }
+    },
+    {
+      "task_id": "corpus_source_review_112fe408e469_4",
+      "metadata_path": "corpus_source_review_112fe408e469_4\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-91200d4c-9fae-93e0-9e6f-e6cb1eafe86e",
+      "http_request_id": "91200d4c-9fae-93e0-9e6f-e6cb1eafe86e",
+      "usage": {
+        "prompt_tokens": 22989,
+        "completion_tokens": 1087,
+        "total_tokens": 24076
+      }
+    },
+    {
+      "task_id": "corpus_source_review_112fe408e469_5",
+      "metadata_path": "corpus_source_review_112fe408e469_5\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b5d2043f-ded7-9723-86a7-fdc92ec1aaff",
+      "http_request_id": "b5d2043f-ded7-9723-86a7-fdc92ec1aaff",
+      "usage": {
+        "prompt_tokens": 24392,
+        "completion_tokens": 1055,
+        "total_tokens": 25447
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_0",
+      "metadata_path": "corpus_source_review_39bea928acaa_0\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-29b8c594-9ba5-96db-a0d1-0bccdeff326c",
+      "http_request_id": "29b8c594-9ba5-96db-a0d1-0bccdeff326c",
+      "usage": {
+        "prompt_tokens": 18704,
+        "completion_tokens": 1093,
+        "total_tokens": 19797
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_1",
+      "metadata_path": "corpus_source_review_39bea928acaa_1\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a59f51a3-427b-9abb-988f-24a19522c968",
+      "http_request_id": "a59f51a3-427b-9abb-988f-24a19522c968",
+      "usage": {
+        "prompt_tokens": 17942,
+        "completion_tokens": 952,
+        "total_tokens": 18894
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_2",
+      "metadata_path": "corpus_source_review_39bea928acaa_2\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-6be85caf-1c86-9653-8adb-08727c9e7d48",
+      "http_request_id": "6be85caf-1c86-9653-8adb-08727c9e7d48",
+      "usage": {
+        "prompt_tokens": 20604,
+        "completion_tokens": 1171,
+        "total_tokens": 21775
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_3",
+      "metadata_path": "corpus_source_review_39bea928acaa_3\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a4120188-aff1-933f-8009-d40921a54253",
+      "http_request_id": "a4120188-aff1-933f-8009-d40921a54253",
+      "usage": {
+        "prompt_tokens": 18462,
+        "completion_tokens": 1085,
+        "total_tokens": 19547
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_4",
+      "metadata_path": "corpus_source_review_39bea928acaa_4\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-627b7051-ffc9-9b0b-8df9-71d84f12fb3d",
+      "http_request_id": "627b7051-ffc9-9b0b-8df9-71d84f12fb3d",
+      "usage": {
+        "prompt_tokens": 19509,
+        "completion_tokens": 926,
+        "total_tokens": 20435
+      }
+    },
+    {
+      "task_id": "corpus_source_review_39bea928acaa_5",
+      "metadata_path": "corpus_source_review_39bea928acaa_5\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-766906d3-4e8b-9723-bfbe-b615a768ca80",
+      "http_request_id": "766906d3-4e8b-9723-bfbe-b615a768ca80",
+      "usage": {
+        "prompt_tokens": 20727,
+        "completion_tokens": 989,
+        "total_tokens": 21716
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C001",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C001\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-cc2af7ea-67a1-990b-878c-94033710d6d0",
+      "http_request_id": "cc2af7ea-67a1-990b-878c-94033710d6d0",
+      "usage": {
+        "prompt_tokens": 61929,
+        "completion_tokens": 6953,
+        "total_tokens": 68882
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C002",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C002\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-57850551-6bbd-9680-9501-2b7432a46acd",
+      "http_request_id": "57850551-6bbd-9680-9501-2b7432a46acd",
+      "usage": {
+        "prompt_tokens": 62036,
+        "completion_tokens": 7670,
+        "total_tokens": 69706
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C003",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C003\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-35ec34f4-5bbf-957d-a877-eda0c80c0fc5",
+      "http_request_id": "35ec34f4-5bbf-957d-a877-eda0c80c0fc5",
+      "usage": {
+        "prompt_tokens": 62192,
+        "completion_tokens": 8651,
+        "total_tokens": 70843
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C004",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C004\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a948d206-1277-91aa-832f-30294e4a8df6",
+      "http_request_id": "a948d206-1277-91aa-832f-30294e4a8df6",
+      "usage": {
+        "prompt_tokens": 62471,
+        "completion_tokens": 9084,
+        "total_tokens": 71555
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C005",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C005\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7e6c662c-2b02-90d4-abf1-df9e044e0594",
+      "http_request_id": "7e6c662c-2b02-90d4-abf1-df9e044e0594",
+      "usage": {
+        "prompt_tokens": 62486,
+        "completion_tokens": 8385,
+        "total_tokens": 70871
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C006",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C006\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-690ff942-2bd8-961c-bb8e-956628412813",
+      "http_request_id": "690ff942-2bd8-961c-bb8e-956628412813",
+      "usage": {
+        "prompt_tokens": 62368,
+        "completion_tokens": 8151,
+        "total_tokens": 70519
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C007",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C007\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-27ba4457-4c42-95c5-90c9-dc6f728ad997",
+      "http_request_id": "27ba4457-4c42-95c5-90c9-dc6f728ad997",
+      "usage": {
+        "prompt_tokens": 61864,
+        "completion_tokens": 7783,
+        "total_tokens": 69647
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C008",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C008\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-bb551e23-3ed0-9e7c-a650-b2007e9938aa",
+      "http_request_id": "bb551e23-3ed0-9e7c-a650-b2007e9938aa",
+      "usage": {
+        "prompt_tokens": 61315,
+        "completion_tokens": 6746,
+        "total_tokens": 68061
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C009",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C009\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5bd1c97a-28b9-9b95-94c1-cef2c0810ad0",
+      "http_request_id": "5bd1c97a-28b9-9b95-94c1-cef2c0810ad0",
+      "usage": {
+        "prompt_tokens": 61876,
+        "completion_tokens": 7964,
+        "total_tokens": 69840
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C010",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C010\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-aedf94ce-d50c-9fc5-bf4c-58cbad285fd6",
+      "http_request_id": "aedf94ce-d50c-9fc5-bf4c-58cbad285fd6",
+      "usage": {
+        "prompt_tokens": 61993,
+        "completion_tokens": 8184,
+        "total_tokens": 70177
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C011",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C011\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-cb88b78f-ba60-916a-ac67-26c58d669f51",
+      "http_request_id": "cb88b78f-ba60-916a-ac67-26c58d669f51",
+      "usage": {
+        "prompt_tokens": 62239,
+        "completion_tokens": 7433,
+        "total_tokens": 69672
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C012",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C012\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7d7c429b-31ce-9003-a7ce-4ef779c3fb58",
+      "http_request_id": "7d7c429b-31ce-9003-a7ce-4ef779c3fb58",
+      "usage": {
+        "prompt_tokens": 61955,
+        "completion_tokens": 8081,
+        "total_tokens": 70036
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C013",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C013\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8ab49487-c340-9e04-a37d-84c0955b570b",
+      "http_request_id": "8ab49487-c340-9e04-a37d-84c0955b570b",
+      "usage": {
+        "prompt_tokens": 62015,
+        "completion_tokens": 7043,
+        "total_tokens": 69058
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C014",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C014\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-cfeda559-ba87-9e21-9916-ab7734284f83",
+      "http_request_id": "cfeda559-ba87-9e21-9916-ab7734284f83",
+      "usage": {
+        "prompt_tokens": 62182,
+        "completion_tokens": 7497,
+        "total_tokens": 69679
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C015",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C015\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-60f1ffc4-4ce7-9a90-80c1-e46b096d408c",
+      "http_request_id": "60f1ffc4-4ce7-9a90-80c1-e46b096d408c",
+      "usage": {
+        "prompt_tokens": 62377,
+        "completion_tokens": 7595,
+        "total_tokens": 69972
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C016",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C016\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5bd01c30-f7e0-914e-98c0-5205a2e74777",
+      "http_request_id": "5bd01c30-f7e0-914e-98c0-5205a2e74777",
+      "usage": {
+        "prompt_tokens": 55873,
+        "completion_tokens": 7211,
+        "total_tokens": 63084
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C017",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C017\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d88f1997-69b3-9cdb-adc3-8b43183671cf",
+      "http_request_id": "d88f1997-69b3-9cdb-adc3-8b43183671cf",
+      "usage": {
+        "prompt_tokens": 61761,
+        "completion_tokens": 6831,
+        "total_tokens": 68592
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C018",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C018\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-e410263c-bc8f-9199-9326-1a9d7ed95bcf",
+      "http_request_id": "e410263c-bc8f-9199-9326-1a9d7ed95bcf",
+      "usage": {
+        "prompt_tokens": 107184,
+        "completion_tokens": 8024,
+        "total_tokens": 115208
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C019",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C019\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0dfd44ac-5762-9e0a-9304-785648751bfe",
+      "http_request_id": "0dfd44ac-5762-9e0a-9304-785648751bfe",
+      "usage": {
+        "prompt_tokens": 62049,
+        "completion_tokens": 7180,
+        "total_tokens": 69229
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C020",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C020\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-20bedbfe-0b3d-9ff5-9aea-2f4a08de70ed",
+      "http_request_id": "20bedbfe-0b3d-9ff5-9aea-2f4a08de70ed",
+      "usage": {
+        "prompt_tokens": 61766,
+        "completion_tokens": 7107,
+        "total_tokens": 68873
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C021",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C021\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0f5fd018-feca-95f8-803d-56a083ca4c52",
+      "http_request_id": "0f5fd018-feca-95f8-803d-56a083ca4c52",
+      "usage": {
+        "prompt_tokens": 62338,
+        "completion_tokens": 8929,
+        "total_tokens": 71267
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C022",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C022\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b9bc8528-53b8-97de-9521-5e69861ddf5e",
+      "http_request_id": "b9bc8528-53b8-97de-9521-5e69861ddf5e",
+      "usage": {
+        "prompt_tokens": 62052,
+        "completion_tokens": 7283,
+        "total_tokens": 69335
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C023",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C023\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-fa31a7c5-a45c-9591-b495-80727ddb721b",
+      "http_request_id": "fa31a7c5-a45c-9591-b495-80727ddb721b",
+      "usage": {
+        "prompt_tokens": 62067,
+        "completion_tokens": 7342,
+        "total_tokens": 69409
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C024",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\adjudicator_C024\\metadata.json",
+      "stage": "adjudication",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-49792431-fe77-9dec-a4dd-aa8ff830ca7a",
+      "http_request_id": "49792431-fe77-9dec-a4dd-aa8ff830ca7a",
+      "usage": {
+        "prompt_tokens": 61918,
+        "completion_tokens": 7007,
+        "total_tokens": 68925
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C001",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C001\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-3afad6ba-6d56-9428-a25f-534ed38ff0d1",
+      "http_request_id": "3afad6ba-6d56-9428-a25f-534ed38ff0d1",
+      "usage": {
+        "prompt_tokens": 55323,
+        "completion_tokens": 7149,
+        "total_tokens": 62472
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C002",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C002\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a267046e-d7d1-94a2-bb45-0d17b098559b",
+      "http_request_id": "a267046e-d7d1-94a2-bb45-0d17b098559b",
+      "usage": {
+        "prompt_tokens": 55324,
+        "completion_tokens": 6490,
+        "total_tokens": 61814
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C003",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C003\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-28efb196-15f2-9356-8d19-ecd1e69043a0",
+      "http_request_id": "28efb196-15f2-9356-8d19-ecd1e69043a0",
+      "usage": {
+        "prompt_tokens": 55346,
+        "completion_tokens": 6829,
+        "total_tokens": 62175
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C004",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C004\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d5e81021-de28-917d-aecb-3e086cd261fa",
+      "http_request_id": "d5e81021-de28-917d-aecb-3e086cd261fa",
+      "usage": {
+        "prompt_tokens": 55285,
+        "completion_tokens": 7828,
+        "total_tokens": 63113
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C005",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C005\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-104023ff-c483-9126-bf46-0f4a5ea79085",
+      "http_request_id": "104023ff-c483-9126-bf46-0f4a5ea79085",
+      "usage": {
+        "prompt_tokens": 55322,
+        "completion_tokens": 7742,
+        "total_tokens": 63064
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C006",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C006\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d70fb851-5451-9dd2-8e7a-ccf7522b3ef2",
+      "http_request_id": "d70fb851-5451-9dd2-8e7a-ccf7522b3ef2",
+      "usage": {
+        "prompt_tokens": 55314,
+        "completion_tokens": 8760,
+        "total_tokens": 64074
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C007",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C007\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1ea0f7a9-62d9-9f6d-9ced-905e7087e026",
+      "http_request_id": "1ea0f7a9-62d9-9f6d-9ced-905e7087e026",
+      "usage": {
+        "prompt_tokens": 55284,
+        "completion_tokens": 6923,
+        "total_tokens": 62207
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C008",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C008\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-9c6ddf12-e72b-9477-b8d8-90b1ff64bc63",
+      "http_request_id": "9c6ddf12-e72b-9477-b8d8-90b1ff64bc63",
+      "usage": {
+        "prompt_tokens": 54758,
+        "completion_tokens": 6475,
+        "total_tokens": 61233
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C009",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C009\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8ed205fb-c388-9588-9202-2432b3f2559c",
+      "http_request_id": "8ed205fb-c388-9588-9202-2432b3f2559c",
+      "usage": {
+        "prompt_tokens": 55306,
+        "completion_tokens": 6638,
+        "total_tokens": 61944
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C010",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C010\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ccb99139-959e-998e-b05b-da22c64d1bb8",
+      "http_request_id": "ccb99139-959e-998e-b05b-da22c64d1bb8",
+      "usage": {
+        "prompt_tokens": 55301,
+        "completion_tokens": 6738,
+        "total_tokens": 62039
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C011",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C011\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1f2a5a52-a13e-9ddb-96da-407b3ab551de",
+      "http_request_id": "1f2a5a52-a13e-9ddb-96da-407b3ab551de",
+      "usage": {
+        "prompt_tokens": 55306,
+        "completion_tokens": 6802,
+        "total_tokens": 62108
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C012",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C012\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-29ad04aa-297f-9ea4-90b9-a1ce02ad2207",
+      "http_request_id": "29ad04aa-297f-9ea4-90b9-a1ce02ad2207",
+      "usage": {
+        "prompt_tokens": 55298,
+        "completion_tokens": 6427,
+        "total_tokens": 61725
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C013",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C013\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-dffdc12a-14ef-9e99-a6d4-6e5c18cfed4d",
+      "http_request_id": "dffdc12a-14ef-9e99-a6d4-6e5c18cfed4d",
+      "usage": {
+        "prompt_tokens": 55348,
+        "completion_tokens": 7144,
+        "total_tokens": 62492
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C014",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C014\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-e01b3ea1-ab2e-9b09-90ec-a68cdd46c8c0",
+      "http_request_id": "e01b3ea1-ab2e-9b09-90ec-a68cdd46c8c0",
+      "usage": {
+        "prompt_tokens": 55103,
+        "completion_tokens": 8015,
+        "total_tokens": 63118
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C015",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C015\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-fa1d1d16-88da-9be4-b755-8821aea5f69c",
+      "http_request_id": "fa1d1d16-88da-9be4-b755-8821aea5f69c",
+      "usage": {
+        "prompt_tokens": 55377,
+        "completion_tokens": 8601,
+        "total_tokens": 63978
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C016",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C016\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8389bc31-f715-994e-97f7-8c08efe7e8d5",
+      "http_request_id": "8389bc31-f715-994e-97f7-8c08efe7e8d5",
+      "usage": {
+        "prompt_tokens": 49495,
+        "completion_tokens": 6707,
+        "total_tokens": 56202
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C017",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C017\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-885c1688-2aec-9601-9ad8-0389971b3a97",
+      "http_request_id": "885c1688-2aec-9601-9ad8-0389971b3a97",
+      "usage": {
+        "prompt_tokens": 55170,
+        "completion_tokens": 6565,
+        "total_tokens": 61735
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C018",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C018\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-c54a4b41-111e-927c-8f8e-35506034edd7",
+      "http_request_id": "c54a4b41-111e-927c-8f8e-35506034edd7",
+      "usage": {
+        "prompt_tokens": 100385,
+        "completion_tokens": 7531,
+        "total_tokens": 107916
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C019",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C019\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-411d7452-3f3c-96aa-ae67-05be8d0bd846",
+      "http_request_id": "411d7452-3f3c-96aa-ae67-05be8d0bd846",
+      "usage": {
+        "prompt_tokens": 55312,
+        "completion_tokens": 7597,
+        "total_tokens": 62909
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C020",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C020\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-81838a56-d572-9687-a487-4b16c63882da",
+      "http_request_id": "81838a56-d572-9687-a487-4b16c63882da",
+      "usage": {
+        "prompt_tokens": 55232,
+        "completion_tokens": 6451,
+        "total_tokens": 61683
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C021",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C021\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8bed62ee-e81b-9778-9cc8-cf9cddfa65d1",
+      "http_request_id": "8bed62ee-e81b-9778-9cc8-cf9cddfa65d1",
+      "usage": {
+        "prompt_tokens": 55339,
+        "completion_tokens": 7432,
+        "total_tokens": 62771
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C022",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C022\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7529569d-78d6-9795-898a-0c36322d62b9",
+      "http_request_id": "7529569d-78d6-9795-898a-0c36322d62b9",
+      "usage": {
+        "prompt_tokens": 55345,
+        "completion_tokens": 7215,
+        "total_tokens": 62560
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C023",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C023\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a128f5a6-5446-90b6-b174-85f4a9fb5ec1",
+      "http_request_id": "a128f5a6-5446-90b6-b174-85f4a9fb5ec1",
+      "usage": {
+        "prompt_tokens": 55339,
+        "completion_tokens": 6577,
+        "total_tokens": 61916
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_C024",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_C024\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-798d92d4-6c27-9afb-876a-18fd4da52d4b",
+      "http_request_id": "798d92d4-6c27-9afb-876a-18fd4da52d4b",
+      "usage": {
+        "prompt_tokens": 55341,
+        "completion_tokens": 7133,
+        "total_tokens": 62474
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_P001",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_P001\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-66c9ba5d-6dcd-99d0-8373-b54bd0aa5121",
+      "http_request_id": "66c9ba5d-6dcd-99d0-8373-b54bd0aa5121",
+      "usage": {
+        "prompt_tokens": 12525,
+        "completion_tokens": 570,
+        "total_tokens": 13095
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_P002",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_P002\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5574c719-54f6-9120-88a0-5d83d6a52edd",
+      "http_request_id": "5574c719-54f6-9120-88a0-5d83d6a52edd",
+      "usage": {
+        "prompt_tokens": 12605,
+        "completion_tokens": 530,
+        "total_tokens": 13135
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_a_P003",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_a_P003\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-4084d421-1316-9fc7-953b-b409d2916a49",
+      "http_request_id": "4084d421-1316-9fc7-953b-b409d2916a49",
+      "usage": {
+        "prompt_tokens": 12563,
+        "completion_tokens": 563,
+        "total_tokens": 13126
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C001",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C001\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-9c12e317-bf17-930a-8c58-155fe9dbe0f9",
+      "http_request_id": "9c12e317-bf17-930a-8c58-155fe9dbe0f9",
+      "usage": {
+        "prompt_tokens": 55327,
+        "completion_tokens": 7135,
+        "total_tokens": 62462
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C002",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C002\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0bd00f6f-da77-9ba6-8a2d-bad53510d0cc",
+      "http_request_id": "0bd00f6f-da77-9ba6-8a2d-bad53510d0cc",
+      "usage": {
+        "prompt_tokens": 55328,
+        "completion_tokens": 7378,
+        "total_tokens": 62706
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C003",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C003\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5c43158e-058b-9792-9b2a-0fd48fcdf19c",
+      "http_request_id": "5c43158e-058b-9792-9b2a-0fd48fcdf19c",
+      "usage": {
+        "prompt_tokens": 55350,
+        "completion_tokens": 7758,
+        "total_tokens": 63108
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C004",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C004\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d57b1d4c-e352-9e72-868f-e240af4347d7",
+      "http_request_id": "d57b1d4c-e352-9e72-868f-e240af4347d7",
+      "usage": {
+        "prompt_tokens": 55289,
+        "completion_tokens": 8160,
+        "total_tokens": 63449
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C005",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C005\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-9bbbd468-fda6-97ba-b339-d207db4efbdb",
+      "http_request_id": "9bbbd468-fda6-97ba-b339-d207db4efbdb",
+      "usage": {
+        "prompt_tokens": 55326,
+        "completion_tokens": 7311,
+        "total_tokens": 62637
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C006",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C006\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a6661279-17c2-905e-9fd0-9c014b294a3e",
+      "http_request_id": "a6661279-17c2-905e-9fd0-9c014b294a3e",
+      "usage": {
+        "prompt_tokens": 55318,
+        "completion_tokens": 6901,
+        "total_tokens": 62219
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C007",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C007\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-303587f1-3d06-94e4-995e-0474eefe011f",
+      "http_request_id": "303587f1-3d06-94e4-995e-0474eefe011f",
+      "usage": {
+        "prompt_tokens": 55288,
+        "completion_tokens": 6729,
+        "total_tokens": 62017
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C008",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C008\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f5503540-a673-931c-bf18-b0e72d5c020d",
+      "http_request_id": "f5503540-a673-931c-bf18-b0e72d5c020d",
+      "usage": {
+        "prompt_tokens": 54762,
+        "completion_tokens": 6711,
+        "total_tokens": 61473
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C009",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C009\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-df812c9e-6d27-92df-a7d8-444e34430a07",
+      "http_request_id": "df812c9e-6d27-92df-a7d8-444e34430a07",
+      "usage": {
+        "prompt_tokens": 55310,
+        "completion_tokens": 6513,
+        "total_tokens": 61823
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C010",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C010\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7003e6fa-dff4-9b0b-ab68-f0399d5ef862",
+      "http_request_id": "7003e6fa-dff4-9b0b-ab68-f0399d5ef862",
+      "usage": {
+        "prompt_tokens": 55305,
+        "completion_tokens": 6973,
+        "total_tokens": 62278
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C011",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C011\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-c824c0eb-f42d-90ca-bc42-6403e610e346",
+      "http_request_id": "c824c0eb-f42d-90ca-bc42-6403e610e346",
+      "usage": {
+        "prompt_tokens": 55310,
+        "completion_tokens": 8383,
+        "total_tokens": 63693
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C012",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C012\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-07a9d411-59ca-9b7a-8f71-b3fad4a006c6",
+      "http_request_id": "07a9d411-59ca-9b7a-8f71-b3fad4a006c6",
+      "usage": {
+        "prompt_tokens": 55302,
+        "completion_tokens": 8162,
+        "total_tokens": 63464
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C013",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C013\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-c8a87181-5428-928f-80cb-39f19c17efd3",
+      "http_request_id": "c8a87181-5428-928f-80cb-39f19c17efd3",
+      "usage": {
+        "prompt_tokens": 55352,
+        "completion_tokens": 6571,
+        "total_tokens": 61923
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C014",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C014\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-52f7c2ca-65b2-96c5-92fe-ce300eef8bb0",
+      "http_request_id": "52f7c2ca-65b2-96c5-92fe-ce300eef8bb0",
+      "usage": {
+        "prompt_tokens": 55107,
+        "completion_tokens": 7120,
+        "total_tokens": 62227
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C015",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C015\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d6aae045-93db-9210-abed-097a5509f50b",
+      "http_request_id": "d6aae045-93db-9210-abed-097a5509f50b",
+      "usage": {
+        "prompt_tokens": 55381,
+        "completion_tokens": 6404,
+        "total_tokens": 61785
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C016",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C016\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-969c6dbb-1709-92d2-9c1d-ee51576afd43",
+      "http_request_id": "969c6dbb-1709-92d2-9c1d-ee51576afd43",
+      "usage": {
+        "prompt_tokens": 49499,
+        "completion_tokens": 6661,
+        "total_tokens": 56160
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C017",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C017\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d8db585e-bdf6-9a79-9db4-aba036a087fc",
+      "http_request_id": "d8db585e-bdf6-9a79-9db4-aba036a087fc",
+      "usage": {
+        "prompt_tokens": 55174,
+        "completion_tokens": 6681,
+        "total_tokens": 61855
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C018",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C018\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-54b1a859-55b5-91ae-84ca-f8d6d8503f83",
+      "http_request_id": "54b1a859-55b5-91ae-84ca-f8d6d8503f83",
+      "usage": {
+        "prompt_tokens": 100389,
+        "completion_tokens": 7016,
+        "total_tokens": 107405
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C019",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C019\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-4157e5c0-a1ef-9bc2-a5b2-4930e8f790ed",
+      "http_request_id": "4157e5c0-a1ef-9bc2-a5b2-4930e8f790ed",
+      "usage": {
+        "prompt_tokens": 55316,
+        "completion_tokens": 6911,
+        "total_tokens": 62227
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C020",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C020\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-438f8a98-3bea-90c8-b548-d14fce90d7b5",
+      "http_request_id": "438f8a98-3bea-90c8-b548-d14fce90d7b5",
+      "usage": {
+        "prompt_tokens": 55236,
+        "completion_tokens": 6649,
+        "total_tokens": 61885
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C021",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C021\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b661282f-29e7-90ea-98a0-b6f529879b35",
+      "http_request_id": "b661282f-29e7-90ea-98a0-b6f529879b35",
+      "usage": {
+        "prompt_tokens": 55343,
+        "completion_tokens": 7042,
+        "total_tokens": 62385
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C022",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C022\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f1fb91cf-7835-98f0-89d6-eb7a1993c03d",
+      "http_request_id": "f1fb91cf-7835-98f0-89d6-eb7a1993c03d",
+      "usage": {
+        "prompt_tokens": 55349,
+        "completion_tokens": 6452,
+        "total_tokens": 61801
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C023",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C023\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0681baed-be56-9461-9fdb-2bc2d088feef",
+      "http_request_id": "0681baed-be56-9461-9fdb-2bc2d088feef",
+      "usage": {
+        "prompt_tokens": 55343,
+        "completion_tokens": 7282,
+        "total_tokens": 62625
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_C024",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_C024\\metadata.json",
+      "stage": "judges",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a845b491-9198-9436-8429-4e883a25179e",
+      "http_request_id": "a845b491-9198-9436-8429-4e883a25179e",
+      "usage": {
+        "prompt_tokens": 55345,
+        "completion_tokens": 6534,
+        "total_tokens": 61879
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_P001",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_P001\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-572e10d3-07d2-9be5-813e-7ff565d3a167",
+      "http_request_id": "572e10d3-07d2-9be5-813e-7ff565d3a167",
+      "usage": {
+        "prompt_tokens": 12529,
+        "completion_tokens": 604,
+        "total_tokens": 13133
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_P002",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_P002\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f8c49174-8df1-921b-a36b-612feee4d349",
+      "http_request_id": "f8c49174-8df1-921b-a36b-612feee4d349",
+      "usage": {
+        "prompt_tokens": 12609,
+        "completion_tokens": 521,
+        "total_tokens": 13130
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/judge_b_P003",
+      "metadata_path": "execution-qwen-v1\\blinded-annotation-v2-shortrefs\\judge_b_P003\\metadata.json",
+      "stage": "calibration",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5ee18902-d3b6-922d-a87d-13994fa85dad",
+      "http_request_id": "5ee18902-d3b6-922d-a87d-13994fa85dad",
+      "usage": {
+        "prompt_tokens": 12567,
+        "completion_tokens": 622,
+        "total_tokens": 13189
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C001",
+      "metadata_path": "execution-qwen-v1\\judge_a_C001\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-358e6165-531a-9baf-9981-83fe6f5e3445",
+      "http_request_id": "358e6165-531a-9baf-9981-83fe6f5e3445",
+      "usage": {
+        "prompt_tokens": 56425,
+        "completion_tokens": 7403,
+        "total_tokens": 63828
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C002",
+      "metadata_path": "execution-qwen-v1\\judge_a_C002\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a7d8621d-500b-9173-ac54-304e7716d2d5",
+      "http_request_id": "a7d8621d-500b-9173-ac54-304e7716d2d5",
+      "usage": {
+        "prompt_tokens": 56446,
+        "completion_tokens": 8046,
+        "total_tokens": 64492
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C003",
+      "metadata_path": "execution-qwen-v1\\judge_a_C003\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ea7ee381-9188-93cb-a464-1340b1cdd747",
+      "http_request_id": "ea7ee381-9188-93cb-a464-1340b1cdd747",
+      "usage": {
+        "prompt_tokens": 56430,
+        "completion_tokens": 7585,
+        "total_tokens": 64015
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C004",
+      "metadata_path": "execution-qwen-v1\\judge_a_C004\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d703a477-6168-9b69-8de2-bf46bae1a833",
+      "http_request_id": "d703a477-6168-9b69-8de2-bf46bae1a833",
+      "usage": {
+        "prompt_tokens": 56385,
+        "completion_tokens": 7019,
+        "total_tokens": 63404
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C006",
+      "metadata_path": "execution-qwen-v1\\judge_a_C006\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-bd0591ad-3ba4-9a83-9a2e-f6b7c3112e10",
+      "http_request_id": "bd0591ad-3ba4-9a83-9a2e-f6b7c3112e10",
+      "usage": {
+        "prompt_tokens": 56426,
+        "completion_tokens": 7648,
+        "total_tokens": 64074
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C007",
+      "metadata_path": "execution-qwen-v1\\judge_a_C007\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-2f00799e-8ab0-9fc8-b81c-bf59f821c591",
+      "http_request_id": "2f00799e-8ab0-9fc8-b81c-bf59f821c591",
+      "usage": {
+        "prompt_tokens": 56424,
+        "completion_tokens": 7562,
+        "total_tokens": 63986
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_C009",
+      "metadata_path": "execution-qwen-v1\\judge_a_C009\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-aa832344-ccb8-9538-94c9-99913f061c53",
+      "http_request_id": "aa832344-ccb8-9538-94c9-99913f061c53",
+      "usage": {
+        "prompt_tokens": 56398,
+        "completion_tokens": 7674,
+        "total_tokens": 64072
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_P001",
+      "metadata_path": "execution-qwen-v1\\judge_a_P001\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d57f9a8f-c7c8-9317-b3dc-793450bb6587",
+      "http_request_id": "d57f9a8f-c7c8-9317-b3dc-793450bb6587",
+      "usage": {
+        "prompt_tokens": 12597,
+        "completion_tokens": 615,
+        "total_tokens": 13212
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_P002",
+      "metadata_path": "execution-qwen-v1\\judge_a_P002\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-55db9a75-8604-9f90-9bee-da9376cd629e",
+      "http_request_id": "55db9a75-8604-9f90-9bee-da9376cd629e",
+      "usage": {
+        "prompt_tokens": 12683,
+        "completion_tokens": 561,
+        "total_tokens": 13244
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_a_P003",
+      "metadata_path": "execution-qwen-v1\\judge_a_P003\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-85119b98-a98b-9d39-9b62-b33895d75a24",
+      "http_request_id": "85119b98-a98b-9d39-9b62-b33895d75a24",
+      "usage": {
+        "prompt_tokens": 12635,
+        "completion_tokens": 599,
+        "total_tokens": 13234
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C001",
+      "metadata_path": "execution-qwen-v1\\judge_b_C001\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-6b11c7bd-39a0-9161-b1c2-7b1d14324d9b",
+      "http_request_id": "6b11c7bd-39a0-9161-b1c2-7b1d14324d9b",
+      "usage": {
+        "prompt_tokens": 56423,
+        "completion_tokens": 7286,
+        "total_tokens": 63709
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C002",
+      "metadata_path": "execution-qwen-v1\\judge_b_C002\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-4956adf7-691c-9b43-8a56-1d693286aef9",
+      "http_request_id": "4956adf7-691c-9b43-8a56-1d693286aef9",
+      "usage": {
+        "prompt_tokens": 56442,
+        "completion_tokens": 7371,
+        "total_tokens": 63813
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C004",
+      "metadata_path": "execution-qwen-v1\\judge_b_C004\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b11ecd91-d03d-906e-860b-6b6ba98d7264",
+      "http_request_id": "b11ecd91-d03d-906e-860b-6b6ba98d7264",
+      "usage": {
+        "prompt_tokens": 56365,
+        "completion_tokens": 8121,
+        "total_tokens": 64486
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C005",
+      "metadata_path": "execution-qwen-v1\\judge_b_C005\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-580c0675-8bcc-9b7a-9764-9d2d717247c6",
+      "http_request_id": "580c0675-8bcc-9b7a-9764-9d2d717247c6",
+      "usage": {
+        "prompt_tokens": 56428,
+        "completion_tokens": 7237,
+        "total_tokens": 63665
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C006",
+      "metadata_path": "execution-qwen-v1\\judge_b_C006\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8428a921-6f17-9975-96a0-42a08be51557",
+      "http_request_id": "8428a921-6f17-9975-96a0-42a08be51557",
+      "usage": {
+        "prompt_tokens": 56396,
+        "completion_tokens": 7612,
+        "total_tokens": 64008
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C007",
+      "metadata_path": "execution-qwen-v1\\judge_b_C007\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-071a017b-0b95-9876-8b79-620c38d58304",
+      "http_request_id": "071a017b-0b95-9876-8b79-620c38d58304",
+      "usage": {
+        "prompt_tokens": 56420,
+        "completion_tokens": 7066,
+        "total_tokens": 63486
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_C008",
+      "metadata_path": "execution-qwen-v1\\judge_b_C008\\metadata.json",
+      "stage": "judges",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-626dcf60-5a94-98db-a3ef-b39d66e75e87",
+      "http_request_id": "626dcf60-5a94-98db-a3ef-b39d66e75e87",
+      "usage": {
+        "prompt_tokens": 55848,
+        "completion_tokens": 6568,
+        "total_tokens": 62416
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_P001",
+      "metadata_path": "execution-qwen-v1\\judge_b_P001\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0ffcfbfb-7aa5-9803-aeab-829f8f5fa755",
+      "http_request_id": "0ffcfbfb-7aa5-9803-aeab-829f8f5fa755",
+      "usage": {
+        "prompt_tokens": 12595,
+        "completion_tokens": 628,
+        "total_tokens": 13223
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_P002",
+      "metadata_path": "execution-qwen-v1\\judge_b_P002\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1779d388-8b43-9d2f-a964-c966a9cb4984",
+      "http_request_id": "1779d388-8b43-9d2f-a964-c966a9cb4984",
+      "usage": {
+        "prompt_tokens": 12683,
+        "completion_tokens": 546,
+        "total_tokens": 13229
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/judge_b_P003",
+      "metadata_path": "execution-qwen-v1\\judge_b_P003\\metadata.json",
+      "stage": "calibration",
+      "scope": "superseded_annotation",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ae96e4f7-7ca8-976f-8bd3-1901fd32cbf9",
+      "http_request_id": "ae96e4f7-7ca8-976f-8bd3-1901fd32cbf9",
+      "usage": {
+        "prompt_tokens": 12643,
+        "completion_tokens": 604,
+        "total_tokens": 13247
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/research_synthesis_v1",
+      "metadata_path": "execution-qwen-v1\\research_synthesis_v1\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5feb41a8-bebd-95ed-b582-d175000a797e",
+      "http_request_id": "5feb41a8-bebd-95ed-b582-d175000a797e",
+      "usage": {
+        "prompt_tokens": 605016,
+        "completion_tokens": 732,
+        "total_tokens": 605748
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C001",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C001\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-96f80dde-f555-9824-807b-e455d70e4602",
+      "http_request_id": "96f80dde-f555-9824-807b-e455d70e4602",
+      "usage": {
+        "prompt_tokens": 51055,
+        "completion_tokens": 5922,
+        "total_tokens": 56977
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C002",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C002\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b7b8c8ea-3bea-93ef-bc72-a6dcc2ce6791",
+      "http_request_id": "b7b8c8ea-3bea-93ef-bc72-a6dcc2ce6791",
+      "usage": {
+        "prompt_tokens": 50920,
+        "completion_tokens": 5353,
+        "total_tokens": 56273
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C003",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C003\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-38e7c795-3e59-99b9-b39e-adc2243524d5",
+      "http_request_id": "38e7c795-3e59-99b9-b39e-adc2243524d5",
+      "usage": {
+        "prompt_tokens": 50429,
+        "completion_tokens": 5819,
+        "total_tokens": 56248
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C004",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C004\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-2d957c77-1294-9afd-956b-1714fb0f927a",
+      "http_request_id": "2d957c77-1294-9afd-956b-1714fb0f927a",
+      "usage": {
+        "prompt_tokens": 50450,
+        "completion_tokens": 6344,
+        "total_tokens": 56794
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C005",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C005\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-22e84942-7c2f-9946-be58-2804625d7922",
+      "http_request_id": "22e84942-7c2f-9946-be58-2804625d7922",
+      "usage": {
+        "prompt_tokens": 51151,
+        "completion_tokens": 6374,
+        "total_tokens": 57525
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C006",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C006\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-2ef5ffe8-28e4-98a1-8d21-bb5e00758208",
+      "http_request_id": "2ef5ffe8-28e4-98a1-8d21-bb5e00758208",
+      "usage": {
+        "prompt_tokens": 51162,
+        "completion_tokens": 6082,
+        "total_tokens": 57244
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C007",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C007\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-55d2f8f1-417f-9185-a1eb-3e7fceb6bf83",
+      "http_request_id": "55d2f8f1-417f-9185-a1eb-3e7fceb6bf83",
+      "usage": {
+        "prompt_tokens": 49888,
+        "completion_tokens": 5843,
+        "total_tokens": 55731
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C008",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C008\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b8913627-8cf1-917b-88dc-ed213e6f719b",
+      "http_request_id": "b8913627-8cf1-917b-88dc-ed213e6f719b",
+      "usage": {
+        "prompt_tokens": 50488,
+        "completion_tokens": 6322,
+        "total_tokens": 56810
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C009",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C009\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-977ddec5-aa08-9628-8bc6-e11989220b25",
+      "http_request_id": "977ddec5-aa08-9628-8bc6-e11989220b25",
+      "usage": {
+        "prompt_tokens": 51225,
+        "completion_tokens": 5766,
+        "total_tokens": 56991
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C010",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C010\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-73993503-d343-9c83-8f76-18c7de42ee49",
+      "http_request_id": "73993503-d343-9c83-8f76-18c7de42ee49",
+      "usage": {
+        "prompt_tokens": 50662,
+        "completion_tokens": 5564,
+        "total_tokens": 56226
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C011",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C011\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8d4eddd0-aaf1-99b5-a63e-22a4174ac247",
+      "http_request_id": "8d4eddd0-aaf1-99b5-a63e-22a4174ac247",
+      "usage": {
+        "prompt_tokens": 50758,
+        "completion_tokens": 5715,
+        "total_tokens": 56473
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C012",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C012\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-44e26585-a24a-9895-8f27-790214fb6806",
+      "http_request_id": "44e26585-a24a-9895-8f27-790214fb6806",
+      "usage": {
+        "prompt_tokens": 51805,
+        "completion_tokens": 5801,
+        "total_tokens": 57606
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C013",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C013\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1d694520-547f-9184-9a4b-0270a80b2cab",
+      "http_request_id": "1d694520-547f-9184-9a4b-0270a80b2cab",
+      "usage": {
+        "prompt_tokens": 50717,
+        "completion_tokens": 5566,
+        "total_tokens": 56283
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C014",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C014\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1c515b38-680e-96d5-91c0-d95eeb71779e",
+      "http_request_id": "1c515b38-680e-96d5-91c0-d95eeb71779e",
+      "usage": {
+        "prompt_tokens": 51079,
+        "completion_tokens": 5622,
+        "total_tokens": 56701
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C015",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C015\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1d5c60ef-eb93-93bd-8b5b-6abd4bbd7e66",
+      "http_request_id": "1d5c60ef-eb93-93bd-8b5b-6abd4bbd7e66",
+      "usage": {
+        "prompt_tokens": 52775,
+        "completion_tokens": 6289,
+        "total_tokens": 59064
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C016",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C016\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d8b07ea9-1585-90a0-bfc0-b07b711f02cd",
+      "http_request_id": "d8b07ea9-1585-90a0-bfc0-b07b711f02cd",
+      "usage": {
+        "prompt_tokens": 45202,
+        "completion_tokens": 6109,
+        "total_tokens": 51311
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C017",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C017\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-c28fd35e-1ed0-9d88-9cc5-4d0fa06c0114",
+      "http_request_id": "c28fd35e-1ed0-9d88-9cc5-4d0fa06c0114",
+      "usage": {
+        "prompt_tokens": 50614,
+        "completion_tokens": 5988,
+        "total_tokens": 56602
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C018",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C018\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-73a4379d-aab7-9956-8a28-d025ca4f2d33",
+      "http_request_id": "73a4379d-aab7-9956-8a28-d025ca4f2d33",
+      "usage": {
+        "prompt_tokens": 95600,
+        "completion_tokens": 6113,
+        "total_tokens": 101713
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C019",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C019\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b9943824-5146-9e4d-8956-4ce175d79da5",
+      "http_request_id": "b9943824-5146-9e4d-8956-4ce175d79da5",
+      "usage": {
+        "prompt_tokens": 51092,
+        "completion_tokens": 6310,
+        "total_tokens": 57402
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C020",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C020\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-308fa020-9dc0-9ab8-b966-d95a1b0bf5d7",
+      "http_request_id": "308fa020-9dc0-9ab8-b966-d95a1b0bf5d7",
+      "usage": {
+        "prompt_tokens": 51267,
+        "completion_tokens": 5838,
+        "total_tokens": 57105
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C021",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C021\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-00a9a837-10cd-957a-8016-54ee2941648d",
+      "http_request_id": "00a9a837-10cd-957a-8016-54ee2941648d",
+      "usage": {
+        "prompt_tokens": 50547,
+        "completion_tokens": 5945,
+        "total_tokens": 56492
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C022",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C022\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-933252ea-050a-9f7a-8f5a-93a99ed259f1",
+      "http_request_id": "933252ea-050a-9f7a-8f5a-93a99ed259f1",
+      "usage": {
+        "prompt_tokens": 52237,
+        "completion_tokens": 6713,
+        "total_tokens": 58950
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C023",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C023\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-bf54bb2c-3393-90c1-ab27-a4425bfce30e",
+      "http_request_id": "bf54bb2c-3393-90c1-ab27-a4425bfce30e",
+      "usage": {
+        "prompt_tokens": 51923,
+        "completion_tokens": 5611,
+        "total_tokens": 57534
+      }
+    },
+    {
+      "task_id": "execution-qwen-v1/semantic-audit-v1/C024",
+      "metadata_path": "execution-qwen-v1\\semantic-audit-v1\\C024\\metadata.json",
+      "stage": "semantic_audit",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0d5e6c25-09aa-9146-be5e-20add211d366",
+      "http_request_id": "0d5e6c25-09aa-9146-be5e-20add211d366",
+      "usage": {
+        "prompt_tokens": 52063,
+        "completion_tokens": 6004,
+        "total_tokens": 58067
+      }
+    },
+    {
+      "task_id": "probe_qwen3.8-max",
+      "metadata_path": "probe_qwen3.8-max\\metadata.json",
+      "stage": "other",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f0f5f69f-506e-947f-868d-a997edd8d807",
+      "http_request_id": "f0f5f69f-506e-947f-868d-a997edd8d807",
+      "usage": {
+        "prompt_tokens": 119,
+        "completion_tokens": 5,
+        "total_tokens": 124
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-3f4ff623-b20d-942a-9088-abedb30cb33b",
+      "http_request_id": "3f4ff623-b20d-942a-9088-abedb30cb33b",
+      "usage": {
+        "prompt_tokens": 158831,
+        "completion_tokens": 751,
+        "total_tokens": 159582
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ecc9fa77-5ec2-93c4-93fe-c6fcd7ebdf56",
+      "http_request_id": "ecc9fa77-5ec2-93c4-93fe-c6fcd7ebdf56",
+      "usage": {
+        "prompt_tokens": 158514,
+        "completion_tokens": 801,
+        "total_tokens": 159315
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-68fb5b9a-035f-96b5-ace3-13c44496d9aa",
+      "http_request_id": "68fb5b9a-035f-96b5-ace3-13c44496d9aa",
+      "usage": {
+        "prompt_tokens": 158751,
+        "completion_tokens": 736,
+        "total_tokens": 159487
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5573bf09-be0d-983d-9f62-403c100fc413",
+      "http_request_id": "5573bf09-be0d-983d-9f62-403c100fc413",
+      "usage": {
+        "prompt_tokens": 158780,
+        "completion_tokens": 818,
+        "total_tokens": 159598
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-6542356c-174a-9d28-a58d-dd4d274b792f",
+      "http_request_id": "6542356c-174a-9d28-a58d-dd4d274b792f",
+      "usage": {
+        "prompt_tokens": 152704,
+        "completion_tokens": 745,
+        "total_tokens": 153449
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_1/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_1\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-bf50c315-4f84-90a2-abe8-4e053a210bba",
+      "http_request_id": "bf50c315-4f84-90a2-abe8-4e053a210bba",
+      "usage": {
+        "prompt_tokens": 203290,
+        "completion_tokens": 562,
+        "total_tokens": 203852
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-6642e51b-46e2-94a1-94c3-8c349f5dbc94",
+      "http_request_id": "6642e51b-46e2-94a1-94c3-8c349f5dbc94",
+      "usage": {
+        "prompt_tokens": 158449,
+        "completion_tokens": 801,
+        "total_tokens": 159250
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ef9f646e-1296-9dab-8d4a-8d11bf399a2e",
+      "http_request_id": "ef9f646e-1296-9dab-8d4a-8d11bf399a2e",
+      "usage": {
+        "prompt_tokens": 197918,
+        "completion_tokens": 864,
+        "total_tokens": 198782
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-df93feea-32f4-9942-ac7e-7ca757e4ebef",
+      "http_request_id": "df93feea-32f4-9942-ac7e-7ca757e4ebef",
+      "usage": {
+        "prompt_tokens": 158197,
+        "completion_tokens": 823,
+        "total_tokens": 159020
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-695d0413-2575-9da2-b765-cb8c7bb63d28",
+      "http_request_id": "695d0413-2575-9da2-b765-cb8c7bb63d28",
+      "usage": {
+        "prompt_tokens": 158741,
+        "completion_tokens": 769,
+        "total_tokens": 159510
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-4bb29657-f393-9e46-8417-923e45195d03",
+      "http_request_id": "4bb29657-f393-9e46-8417-923e45195d03",
+      "usage": {
+        "prompt_tokens": 158763,
+        "completion_tokens": 556,
+        "total_tokens": 159319
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_2/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_2\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f8c04e65-9aaa-9d61-966c-6d7e1adb56ac",
+      "http_request_id": "f8c04e65-9aaa-9d61-966c-6d7e1adb56ac",
+      "usage": {
+        "prompt_tokens": 158799,
+        "completion_tokens": 701,
+        "total_tokens": 159500
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1242c5fa-2eb0-9895-bede-9e558ef9956c",
+      "http_request_id": "1242c5fa-2eb0-9895-bede-9e558ef9956c",
+      "usage": {
+        "prompt_tokens": 158586,
+        "completion_tokens": 789,
+        "total_tokens": 159375
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d463b85e-e7c2-9971-86ec-ec5227b349f3",
+      "http_request_id": "d463b85e-e7c2-9971-86ec-ec5227b349f3",
+      "usage": {
+        "prompt_tokens": 158223,
+        "completion_tokens": 726,
+        "total_tokens": 158949
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-b7e74040-009c-9297-81bf-9b1913fd80b6",
+      "http_request_id": "b7e74040-009c-9297-81bf-9b1913fd80b6",
+      "usage": {
+        "prompt_tokens": 152879,
+        "completion_tokens": 953,
+        "total_tokens": 153832
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-2d7abd5a-e7bb-9d60-97d9-f896b3560d7a",
+      "http_request_id": "2d7abd5a-e7bb-9d60-97d9-f896b3560d7a",
+      "usage": {
+        "prompt_tokens": 158726,
+        "completion_tokens": 721,
+        "total_tokens": 159447
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-f7a2b26d-bbf4-96f6-a823-21e2c2c3ab86",
+      "http_request_id": "f7a2b26d-bbf4-96f6-a823-21e2c2c3ab86",
+      "usage": {
+        "prompt_tokens": 158802,
+        "completion_tokens": 703,
+        "total_tokens": 159505
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B1/repeat_3/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B1\\repeat_3\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-38ca8f00-247a-9640-9336-e58b0b476ac7",
+      "http_request_id": "38ca8f00-247a-9640-9336-e58b0b476ac7",
+      "usage": {
+        "prompt_tokens": 203663,
+        "completion_tokens": 878,
+        "total_tokens": 204541
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-39c11ad4-8352-94f6-985f-bea2dec9503f",
+      "http_request_id": "39c11ad4-8352-94f6-985f-bea2dec9503f",
+      "usage": {
+        "prompt_tokens": 158844,
+        "completion_tokens": 799,
+        "total_tokens": 159643
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-6d42ba33-a5bc-91f9-9369-d270350f5a6d",
+      "http_request_id": "6d42ba33-a5bc-91f9-9369-d270350f5a6d",
+      "usage": {
+        "prompt_tokens": 158527,
+        "completion_tokens": 678,
+        "total_tokens": 159205
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-d3de1f74-61d0-9690-9166-282641ec7a08",
+      "http_request_id": "d3de1f74-61d0-9690-9166-282641ec7a08",
+      "usage": {
+        "prompt_tokens": 158764,
+        "completion_tokens": 612,
+        "total_tokens": 159376
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-c2613b68-58c3-9645-9c88-03be8bd0015b",
+      "http_request_id": "c2613b68-58c3-9645-9c88-03be8bd0015b",
+      "usage": {
+        "prompt_tokens": 158793,
+        "completion_tokens": 822,
+        "total_tokens": 159615
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-eafa9aab-e789-97be-989e-a00743852ff2",
+      "http_request_id": "eafa9aab-e789-97be-989e-a00743852ff2",
+      "usage": {
+        "prompt_tokens": 152717,
+        "completion_tokens": 791,
+        "total_tokens": 153508
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_1/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_1\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-8411b3f4-6877-937f-a253-b834692b31be",
+      "http_request_id": "8411b3f4-6877-937f-a253-b834692b31be",
+      "usage": {
+        "prompt_tokens": 203303,
+        "completion_tokens": 609,
+        "total_tokens": 203912
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-98cad7ad-2774-9a18-b65b-abea34b7d8a0",
+      "http_request_id": "98cad7ad-2774-9a18-b65b-abea34b7d8a0",
+      "usage": {
+        "prompt_tokens": 158462,
+        "completion_tokens": 669,
+        "total_tokens": 159131
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-9892617c-ccb6-9692-85b4-28d3b378dd9f",
+      "http_request_id": "9892617c-ccb6-9692-85b4-28d3b378dd9f",
+      "usage": {
+        "prompt_tokens": 197931,
+        "completion_tokens": 588,
+        "total_tokens": 198519
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-489e9947-a9e4-9a3b-b738-0d882b35e474",
+      "http_request_id": "489e9947-a9e4-9a3b-b738-0d882b35e474",
+      "usage": {
+        "prompt_tokens": 158210,
+        "completion_tokens": 775,
+        "total_tokens": 158985
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-ac01ab63-8824-9c4a-a897-290144e5d8f9",
+      "http_request_id": "ac01ab63-8824-9c4a-a897-290144e5d8f9",
+      "usage": {
+        "prompt_tokens": 158754,
+        "completion_tokens": 648,
+        "total_tokens": 159402
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-55acea17-ab47-9777-9c7a-b6f14f4c82c0",
+      "http_request_id": "55acea17-ab47-9777-9c7a-b6f14f4c82c0",
+      "usage": {
+        "prompt_tokens": 158776,
+        "completion_tokens": 541,
+        "total_tokens": 159317
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_2\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-963447f8-1261-9e0b-b63f-80fca405a85d",
+      "http_request_id": "963447f8-1261-9e0b-b63f-80fca405a85d",
+      "usage": {
+        "prompt_tokens": 158812,
+        "completion_tokens": 658,
+        "total_tokens": 159470
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-3b4114b5-e6de-93a5-84c8-e94917aaff57",
+      "http_request_id": "3b4114b5-e6de-93a5-84c8-e94917aaff57",
+      "usage": {
+        "prompt_tokens": 158599,
+        "completion_tokens": 778,
+        "total_tokens": 159377
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-69908f09-9275-9d4f-b3d9-ea81a1dde154",
+      "http_request_id": "69908f09-9275-9d4f-b3d9-ea81a1dde154",
+      "usage": {
+        "prompt_tokens": 158236,
+        "completion_tokens": 815,
+        "total_tokens": 159051
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-418126f3-ff1d-9836-b807-633a514479e5",
+      "http_request_id": "418126f3-ff1d-9836-b807-633a514479e5",
+      "usage": {
+        "prompt_tokens": 152892,
+        "completion_tokens": 513,
+        "total_tokens": 153405
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a58864e0-3e10-946b-b0e1-559556cbdbda",
+      "http_request_id": "a58864e0-3e10-946b-b0e1-559556cbdbda",
+      "usage": {
+        "prompt_tokens": 158739,
+        "completion_tokens": 599,
+        "total_tokens": 159338
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7d02a8a9-2ab6-9527-8549-3b9ea5c7d6d8",
+      "http_request_id": "7d02a8a9-2ab6-9527-8549-3b9ea5c7d6d8",
+      "usage": {
+        "prompt_tokens": 158815,
+        "completion_tokens": 745,
+        "total_tokens": 159560
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_3/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B2\\repeat_3\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1acf38df-1edf-95bb-9db9-a57bc65a6d57",
+      "http_request_id": "1acf38df-1edf-95bb-9db9-a57bc65a6d57",
+      "usage": {
+        "prompt_tokens": 203676,
+        "completion_tokens": 752,
+        "total_tokens": 204428
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-03a241c9-e258-9de8-937c-71f17cd2fc5a",
+      "http_request_id": "03a241c9-e258-9de8-937c-71f17cd2fc5a",
+      "usage": {
+        "prompt_tokens": 158922,
+        "completion_tokens": 752,
+        "total_tokens": 159674
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-46eb650b-b9d6-9c21-992c-e2dcb13585d6",
+      "http_request_id": "46eb650b-b9d6-9c21-992c-e2dcb13585d6",
+      "usage": {
+        "prompt_tokens": 158605,
+        "completion_tokens": 590,
+        "total_tokens": 159195
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5d47374a-7eec-9aa1-8f54-4746fcf20bd4",
+      "http_request_id": "5d47374a-7eec-9aa1-8f54-4746fcf20bd4",
+      "usage": {
+        "prompt_tokens": 158842,
+        "completion_tokens": 763,
+        "total_tokens": 159605
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-5fc85a1f-828f-9d39-a236-558818491f4b",
+      "http_request_id": "5fc85a1f-828f-9d39-a236-558818491f4b",
+      "usage": {
+        "prompt_tokens": 158871,
+        "completion_tokens": 810,
+        "total_tokens": 159681
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-31ff427d-16bf-955c-9cfa-4d490c2e96a0",
+      "http_request_id": "31ff427d-16bf-955c-9cfa-4d490c2e96a0",
+      "usage": {
+        "prompt_tokens": 152795,
+        "completion_tokens": 685,
+        "total_tokens": 153480
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-1c4a27d9-a676-9b54-9427-d0402f09ea46",
+      "http_request_id": "1c4a27d9-a676-9b54-9427-d0402f09ea46",
+      "usage": {
+        "prompt_tokens": 203381,
+        "completion_tokens": 714,
+        "total_tokens": 204095
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_1/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_1\\batch_006\\rejected_cached_response_001\\metadata.json",
+      "stage": "representations",
+      "scope": "rejected_model_attempt",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-22ad4e3c-e1c3-971c-8ef4-6a546559dcf7",
+      "http_request_id": "22ad4e3c-e1c3-971c-8ef4-6a546559dcf7",
+      "usage": {
+        "prompt_tokens": 203381,
+        "completion_tokens": 401,
+        "total_tokens": 203782
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-2d0f9d41-e90c-9425-9696-3059ab0348ec",
+      "http_request_id": "2d0f9d41-e90c-9425-9696-3059ab0348ec",
+      "usage": {
+        "prompt_tokens": 158540,
+        "completion_tokens": 644,
+        "total_tokens": 159184
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-67605318-672d-9d11-8e9c-f993a7a7401b",
+      "http_request_id": "67605318-672d-9d11-8e9c-f993a7a7401b",
+      "usage": {
+        "prompt_tokens": 198009,
+        "completion_tokens": 650,
+        "total_tokens": 198659
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-58edbbbb-e973-9b9c-a7e8-8b5d58608786",
+      "http_request_id": "58edbbbb-e973-9b9c-a7e8-8b5d58608786",
+      "usage": {
+        "prompt_tokens": 158288,
+        "completion_tokens": 825,
+        "total_tokens": 159113
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-68bdbaa2-380b-9f39-8dbf-874bcf3f4f3a",
+      "http_request_id": "68bdbaa2-380b-9f39-8dbf-874bcf3f4f3a",
+      "usage": {
+        "prompt_tokens": 158832,
+        "completion_tokens": 560,
+        "total_tokens": 159392
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-e9b3f4bc-1d5b-9a4b-8ddd-c6849280631d",
+      "http_request_id": "e9b3f4bc-1d5b-9a4b-8ddd-c6849280631d",
+      "usage": {
+        "prompt_tokens": 158854,
+        "completion_tokens": 597,
+        "total_tokens": 159451
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_2/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_2\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-934c2104-7336-9be7-994a-905b08edc966",
+      "http_request_id": "934c2104-7336-9be7-994a-905b08edc966",
+      "usage": {
+        "prompt_tokens": 158890,
+        "completion_tokens": 718,
+        "total_tokens": 159608
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_001",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_001\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-0987d871-d220-9595-b895-df23def8c522",
+      "http_request_id": "0987d871-d220-9595-b895-df23def8c522",
+      "usage": {
+        "prompt_tokens": 158677,
+        "completion_tokens": 680,
+        "total_tokens": 159357
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_002",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_002\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-4729e5b5-229d-9cbc-a1c9-8d670810316a",
+      "http_request_id": "4729e5b5-229d-9cbc-a1c9-8d670810316a",
+      "usage": {
+        "prompt_tokens": 158314,
+        "completion_tokens": 593,
+        "total_tokens": 158907
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_003",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_003\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-78a36559-a4d3-95d8-a3c5-f68f2e7d77f6",
+      "http_request_id": "78a36559-a4d3-95d8-a3c5-f68f2e7d77f6",
+      "usage": {
+        "prompt_tokens": 152970,
+        "completion_tokens": 604,
+        "total_tokens": 153574
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_004",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_004\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-e445526c-b8dc-9160-8322-4053ab3df169",
+      "http_request_id": "e445526c-b8dc-9160-8322-4053ab3df169",
+      "usage": {
+        "prompt_tokens": 158817,
+        "completion_tokens": 654,
+        "total_tokens": 159471
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_005",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_005\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-a0a88e47-a2d2-9dc8-8a1e-96b6219ba8ab",
+      "http_request_id": "a0a88e47-a2d2-9dc8-8a1e-96b6219ba8ab",
+      "usage": {
+        "prompt_tokens": 158893,
+        "completion_tokens": 598,
+        "total_tokens": 159491
+      }
+    },
+    {
+      "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B3/repeat_3/batch_006",
+      "metadata_path": "representations\\execution-qwen-v1\\strong-baselines-v1\\B3\\repeat_3\\batch_006\\metadata.json",
+      "stage": "representations",
+      "scope": "current_stage_calls",
+      "requested_model": "qwen3.8-max",
+      "returned_model": "qwen3.8-max",
+      "provider_request_id": "chatcmpl-7dd08a0f-d2c8-9b57-8c21-330d2153209a",
+      "http_request_id": "7dd08a0f-d2c8-9b57-8c21-330d2153209a",
+      "usage": {
+        "prompt_tokens": 203754,
+        "completion_tokens": 605,
+        "total_tokens": 204359
+      }
+    }
+  ],
+  "unknown_usage_call_ids": [],
+  "skipped_archive_metadata": 0,
+  "skipped_non_qwen_metadata": 0,
+  "coverage": "Cumulative recorded Qwen response budget, including superseded annotation and rejected cached-response attempts; archived runs and non-Qwen providers are excluded. Current-stage totals are separated and missing usage or billing cost is not inferred",
+  "retry_caveat": "If the API adapter's usage only covers the successful attempt, earlier billed failed/repair attempts are not included"
+}

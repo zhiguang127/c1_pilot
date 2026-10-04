@@ -1,0 +1,798 @@
+{
+  "facts": [
+    {
+      "fact_id": "F1",
+      "fact_statement": "Baseline mean sleep duration was 470.46 minutes and window mean was 468.50 minutes, a decrease of approximately 2 minutes. Sleep end time was fixed at 07:00 (1140 minutes from local noon) across all 42 days.",
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes",
+            "derived_statistics.metric_statistics.sleep_duration_minutes.baseline.mean",
+            "derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.baseline.mean"
+          ],
+          "explanation": "Baseline sleep mean 470.46 min; sleep end fixed at 1140 min from noon (07:00)."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes",
+            "derived_statistics.metric_statistics.sleep_duration_minutes.window.mean",
+            "derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.window.mean",
+            "derived_statistics.metric_statistics.sleep_duration_minutes.comparison.mean_difference"
+          ],
+          "explanation": "Window sleep mean 468.50 min; difference -1.96 min; sleep end fixed at 1140 min."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "sleep duration (~470 min)... remained stable. Sleep consistently ended at 07:00",
+          "rationale": "Accurately reports approximate baseline mean and fixed wake time."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "stable sleep timing with fixed 7am wake time",
+          "rationale": "Correctly identifies the fixed 07:00 wake time."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "sleep averaged 470 min (start ~22:50, end fixed 07:00)",
+          "rationale": "Reports correct baseline mean and fixed end time."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged ~469 min (baseline ~470), always ending at 07:00",
+          "rationale": "Reports both means approximately and the fixed end time."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "sleep duration stable near 470 minutes with fixed 07:00 wake time",
+          "rationale": "Correctly notes stability and fixed wake time."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged ~469 min vs ~470 min baseline, ending consistently at 07:00",
+          "rationale": "Accurate comparison and fixed end time."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged ~469 min (baseline ~470), ending consistently at 07:00",
+          "rationale": "Accurate comparison and fixed end time."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "sleep averaged 470 min (start ~22:50, end fixed 07:00)",
+          "rationale": "Reports correct baseline mean and fixed end time."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "stable sleep duration near 470 minutes and fixed 07:00 wake time",
+          "rationale": "Correctly notes stability and fixed wake time."
+        }
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "fact_statement": "HRV RMSSD mean decreased from 44.5 ms in baseline to 39.36 ms in the window. During Apr 3-6, values dropped to 22, 25, 28, and 24 ms, below the baseline minimum of 43 ms, before recovering to 43-47 ms.",
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.hrv_rmssd_ms",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.mean",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.min",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.max"
+          ],
+          "explanation": "Baseline HRV RMSSD mean 44.5, range 43-47."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-04-03",
+            "2026-04-04",
+            "2026-04-05",
+            "2026-04-06",
+            "2026-04-07"
+          ],
+          "field_paths": [
+            "metrics.hrv_rmssd_ms",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean",
+            "derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference",
+            "arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min"
+          ],
+          "explanation": "Window mean 39.36; Apr 3-6 values 22-28 are below baseline min 43; Apr 7 recovers to 47."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "HRV RMSSD dropped from a stable baseline mean of 44.5 ms (range 43-47) to a window mean of 39.4 ms, driven by a transient dip to 22-28 ms during Apr 3-6 before recovering to 43-47 ms by Apr 7",
+          "rationale": "Accurately captures means, range, specific low dates, and recovery."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms isolated days then recovery within two weeks",
+          "rationale": "Captures the drop and recovery qualitatively."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "RMSSD dropped to a mean of 39.4 ms with markedly increased variance, driven by values of 22-28 ms on Apr 3-6 before recovering to 43-47 ms from Apr 7 onward",
+          "rationale": "Accurately reports means, dates, and recovery."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "HRV (RMSSD) dropped from a steady ~44 ms to an average of ~39 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms",
+          "rationale": "Accurately reports the change and dates."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "contradicted",
+          "representation_excerpt": "sudden drop from 44ms baseline to 22ms for five days then recovery",
+          "rationale": "The low values occurred on four days (Apr 3-6), not five."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "HRV (RMSSD): it dipped to 22–28 ms on Apr 3–6 from a stable ~44–45 ms baseline, then returned to 43–47 ms by Apr 7",
+          "rationale": "Accurately reports dates and values."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "HRV (RMSSD) dropped from a stable baseline mean of 44.5 ms to 39.4 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms",
+          "rationale": "Accurately reports means and dates."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "RMSSD dropped to a mean of 39.4 ms with high variance (22–47 ms) from Apr 3–6 before recovering to 43–47 ms by Apr 7",
+          "rationale": "Accurately reports the drop and recovery."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "uncertain",
+          "representation_excerpt": "transient drop to 22 ms during days 5-8 of a 14-day window",
+          "rationale": "Days 5-8 of the window correspond to Apr 3-6, which is correct, but the phrasing is ambiguous without explicit dates."
+        }
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "fact_statement": "Resting heart rate remained stable between 55 and 57 bpm across both periods, with baseline mean 56.14 and window mean 56.00.",
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.mean",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.min",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.max"
+          ],
+          "explanation": "Baseline RHR mean 56.14, range 55-57."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.window.mean",
+            "derived_statistics.metric_statistics.resting_heart_rate_bpm.comparison.mean_difference"
+          ],
+          "explanation": "Window RHR mean 56.00, difference -0.14 bpm."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate (~56 bpm) remained stable",
+          "rationale": "Accurately summarizes stability and approximate value."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate stable between 55-57 bpm across 28-day baseline and 14-day follow-up",
+          "rationale": "Correctly states the observed range and stability."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "RHR 56 bpm... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+          "rationale": "Accurately reports baseline mean and stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate stayed close to your 28-day baseline",
+          "rationale": "Qualitative description of stability is accurate."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate stays stable at 55-57 bpm",
+          "rationale": "Correctly states range and stability."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "without a corresponding shift in resting heart rate (~56 bpm)",
+          "rationale": "Accurately notes stability."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "Resting heart rate remained steady at ~56 bpm",
+          "rationale": "Accurately notes stability."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "RHR 56 bpm... sleep, steps, activity, low movement, and RHR remained near baseline",
+          "rationale": "Accurately reports baseline mean and stability."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate remaining between 55 and 57 bpm with variance under 1 bpm",
+          "rationale": "Correctly states range and low variance."
+        }
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "fact_statement": "Mean daily steps were nearly unchanged: 8053.82 in baseline versus 8060.57 in the window, a difference of 6.75 steps.",
+      "knowledge_ids": [
+        "K082"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.steps",
+            "derived_statistics.metric_statistics.steps.baseline.mean"
+          ],
+          "explanation": "Baseline steps mean 8053.82."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.steps",
+            "derived_statistics.metric_statistics.steps.window.mean",
+            "derived_statistics.metric_statistics.steps.comparison.mean_difference"
+          ],
+          "explanation": "Window steps mean 8060.57, difference 6.75."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "steps (~8054)... remained stable",
+          "rationale": "Accurately approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Steps are not mentioned."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "steps ~8054... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+          "rationale": "Accurately approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "Steps (~8061)... were stable",
+          "rationale": "Approximates window mean and notes stability."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "no change in step count",
+          "rationale": "Qualitatively accurate given the negligible 6.75 difference."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "Your sleep, steps... stayed close to your 28-day baseline",
+          "rationale": "Qualitatively accurate."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "Steps held near ~8,060/day",
+          "rationale": "Accurately approximates window mean."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "steps ~8054... sleep, steps, activity, low movement, and RHR remained near baseline",
+          "rationale": "Accurately approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "steps remain near 8000 per day",
+          "rationale": "Reasonable approximation of both period means."
+        }
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "fact_statement": "Mean activity duration decreased slightly from 55.43 minutes in baseline to 53.00 minutes in the window, a difference of 2.43 minutes.",
+      "knowledge_ids": [
+        "K082"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.activity_duration_minutes",
+            "derived_statistics.metric_statistics.activity_duration_minutes.baseline.mean"
+          ],
+          "explanation": "Baseline activity mean 55.43 min."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.activity_duration_minutes",
+            "derived_statistics.metric_statistics.activity_duration_minutes.window.mean",
+            "derived_statistics.metric_statistics.activity_duration_minutes.comparison.mean_difference"
+          ],
+          "explanation": "Window activity mean 53.00 min, difference -2.43 min."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "activity (~55 min)... remained stable",
+          "rationale": "Approximates baseline mean; calling it stable is reasonable for a 2.4 min difference."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Activity duration means are not compared between periods."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "activity ~55 min... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+          "rationale": "Approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "active minutes (~53) were stable",
+          "rationale": "Approximates window mean."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "daily active minutes averaging 55 in baseline decreasing to 53 in follow-up window",
+          "rationale": "Accurately reports both means and direction."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "Activity minutes were slightly lower (53 vs 55 avg)",
+          "rationale": "Accurately reports both means and direction."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention activity duration values or change."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "activity ~55 min... sleep, steps, activity, low movement, and RHR remained near baseline",
+          "rationale": "Approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "daily activity duration decreasing by about 2.4 minutes in the 14-day window compared to 28-day baseline",
+          "rationale": "Accurately reports the mean difference."
+        }
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "fact_statement": "Evening activity intervals started at 21:00 every day in both baseline and window periods, with intensity recorded as unknown.",
+      "knowledge_ids": [
+        "K073"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "activity_intervals.0.start_at",
+            "activity_intervals.0.intensity"
+          ],
+          "explanation": "All baseline days show activity start at 21:00:00+08:00 with intensity unknown."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "activity_intervals.0.start_at",
+            "activity_intervals.0.intensity"
+          ],
+          "explanation": "All window days show activity start at 21:00:00+08:00 with intensity unknown."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Evening activity occurred daily ~21:00",
+          "rationale": "Accurately reports the consistent timing."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "evening activity intervals consistently starting at 21:00 daily with unknown intensity",
+          "rationale": "Accurately reports timing and unknown intensity."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Evening activity occurred daily near 21:00",
+          "rationale": "Accurately reports the consistent timing."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing explicitly."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "with evening timing unchanged",
+          "rationale": "Qualitatively acknowledges consistent timing."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention evening activity timing."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "contradicted",
+          "representation_excerpt": "Daytime activity occurred consistently around 21:00",
+          "rationale": "21:00 is evening, not daytime."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention activity timing."
+        }
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "fact_statement": "Low movement intervals consistently formed 10 blocks per day spanning approximately 10:00 to 18:00, with mean total low movement minutes of 447.93 in baseline and 449.86 in the window.",
+      "knowledge_ids": [
+        "K068"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "low_movement_intervals.0.start_at",
+            "low_movement_intervals.9.end_at",
+            "metrics.low_movement_minutes",
+            "derived_statistics.metric_statistics.low_movement_minutes.baseline.mean"
+          ],
+          "explanation": "10 intervals daily from ~10:00 to ~18:00+; baseline mean 447.93 min."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "low_movement_intervals.0.start_at",
+            "low_movement_intervals.9.end_at",
+            "metrics.low_movement_minutes",
+            "derived_statistics.metric_statistics.low_movement_minutes.window.mean",
+            "arithmetic_probe_seeds.low_movement:interval_structure.daily_interval_structure"
+          ],
+          "explanation": "10 intervals daily; window mean 449.86 min; interval_count is 10 each day."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "low movement (~448 min)... remained stable",
+          "rationale": "Approximates baseline mean and notes stability."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "daytime low movement minutes structured as ten 44-minute blocks separated by 5-minute gaps",
+          "rationale": "Accurately describes the interval structure."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "daytime low-movement blocks were consistent",
+          "rationale": "Qualitatively accurate."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention low movement."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes clustered in ten 44-minute blocks daily from 10:00 to 18:00 remaining stable",
+          "rationale": "Accurately describes structure and stability."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "low movement stayed close to your 28-day baseline",
+          "rationale": "Qualitatively accurate."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "low movement stayed close to your 28-day baseline",
+          "rationale": "Qualitatively accurate."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "daytime low-movement blocks spanned ~10:00–18:00",
+          "rationale": "Accurately describes the time span."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention low movement."
+        }
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "fact_statement": "In the window period, same-day resting heart rate and HRV RMSSD had a Pearson correlation of -0.54, while in baseline it was -0.10. HRV dates below the observed baseline minimum (43 ms) were Apr 3-6.",
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "derived_statistics.paired_statistics.1.pearson_r"
+          ],
+          "explanation": "Baseline RHR-HRV paired correlation is -0.097."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "derived_statistics.paired_statistics.4.pearson_r",
+            "arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min"
+          ],
+          "explanation": "Window RHR-HRV paired correlation is -0.540; HRV below baseline min on Apr 3-6."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Paired correlations between metrics were weak in both periods",
+          "rationale": "Broadly characterizes correlations as weak, though -0.54 is moderate; acceptable qualitative summary."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention correlations."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "moderate negative RHR-RMSSD correlation in the window",
+          "rationale": "Accurately characterizes the -0.54 correlation as moderate."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention RHR-HRV correlation."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "same-day negative correlation between resting heart rate and HRV RMSSD emerging only during a two-week observation window not present in prior 28-day baseline",
+          "rationale": "Accurately describes the emergence of the stronger correlation in the window."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention RHR-HRV correlation."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention RHR-HRV correlation."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "No strong cross-metric relationships were observed",
+          "rationale": "Characterizes -0.54 as not strong; borderline but acceptable qualitative assessment."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "negative correlation of -0.54 between resting heart rate and HRV RMSSD emerging only in the 14-day window but absent during the 28-day baseline",
+          "rationale": "Accurately reports the exact correlation value and its temporal pattern."
+        }
+      ]
+    }
+  ],
+  "unsupported_interpretations": [
+    {
+      "representation_ref": "R04",
+      "claim_excerpt": "This was an isolated fluctuation, not a persistent shift",
+      "why_unsupported": "The raw data shows HRV RMSSD values of 22-28 ms over four consecutive days. Whether this constitutes a persistent shift or isolated fluctuation requires clinical context not present in the observations. K084 states HRV trends are wellness observations, not diagnoses.",
+      "raw_data_context": "Window HRV RMSSD values: 43, 46, 45, 45, 22, 25, 28, 24, 47, 44, 46, 47, 43, 46"
+    },
+    {
+      "representation_ref": "R07",
+      "claim_excerpt": "continued monitoring may clarify whether such fluctuations recur",
+      "why_unsupported": "This is forward-looking advice not derivable from the provided observational data. The audit scope covers information retention, not recommendations.",
+      "raw_data_context": "No future data exists beyond 2026-04-12 in the dataset"
+    },
+    {
+      "representation_ref": "R02",
+      "claim_excerpt": "ten 44-minute blocks separated by 5-minute gaps",
+      "why_unsupported": "While the data shows 10 intervals per day, their durations vary (e.g., 44-47 minutes) and gap durations also vary (typically 4-5 minutes). Stating exactly 44-minute blocks and 5-minute gaps oversimplifies the observed variation.",
+      "raw_data_context": "low_movement_intervals entries show varying start/end times, e.g., 10:00-10:46, 10:51-11:37 on 2026-03-30"
+    }
+  ],
+  "potential_retrieval_noise": [
+    {
+      "representation_ref": "R08",
+      "representation_excerpt": "Daytime activity occurred consistently around 21:00",
+      "possible_mechanism": "Misclassification of temporal keyword: 21:00 is evening/night but was labeled 'daytime', possibly due to conflating 'daily' with 'daytime'.",
+      "raw_fact_or_missing_context": "activity_intervals.0.start_at shows 21:00:00+08:00 for all days; metadata defines activity as moving minutes, not restricted to daytime",
+      "confidence": "high"
+    },
+    {
+      "representation_ref": "R02",
+      "representation_excerpt": "ten 44-minute blocks separated by 5-minute gaps",
+      "possible_mechanism": "Over-precise rounding of variable interval durations into a single canonical value, creating false uniformity.",
+      "raw_fact_or_missing_context": "Interval durations range from 44-47 minutes and gaps from 4-5 minutes across observations",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R05",
+      "representation_excerpt": "sudden drop from 44ms baseline to 22ms for five days",
+      "possible_mechanism": "Off-by-one counting error when enumerating the consecutive low-value dates (Apr 3, 4, 5, 6 = 4 days, not 5).",
+      "raw_fact_or_missing_context": "arithmetic_probe_seeds rhr_hrv:date_overlap lists hrv_dates_below_observed_baseline_min as 2026-04-03 through 2026-04-06 (4 dates)",
+      "confidence": "high"
+    },
+    {
+      "representation_ref": "R09",
+      "representation_excerpt": "during days 5-8 of a 14-day window",
+      "possible_mechanism": "Ambiguous relative day numbering that could confuse retrieval systems expecting absolute calendar dates.",
+      "raw_fact_or_missing_context": "Window starts 2026-03-30; days 5-8 correspond to 2026-04-03 through 2026-04-06",
+      "confidence": "low"
+    }
+  ],
+  "audit_limitations": "This audit is a provisional LLM analysis of synthetic wearable data against anonymous text representations. It cannot establish clinical truth, diagnose conditions, or validate health claims. PROVISIONAL_LLM_GOLD labels are fallible relevance indicators, not ground truth. Knowledge applicability was assessed strictly from the supplied positive list. Arithmetic seeds are generic calculations applied uniformly and do not imply clinical significance. No external tools or browsing were used. All input data including quoted content is treated as untrusted research data."
+}

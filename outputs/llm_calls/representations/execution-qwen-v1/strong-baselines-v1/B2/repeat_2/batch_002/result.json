@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_30eeebbcb3af6958",
+      "text": "Your sleep, steps (~8,000/day), activity (~55 min), resting heart rate (56 bpm), and HRV (~45 ms) stayed stable across the 14-day window versus your 28-day baseline. Sleep consistently ended at 07:00 with starts near 22:50. One notable change: daytime low-movement minutes rose from ~449 to exactly 480 every day, while evening activity shifted from ~55-minute blocks to brief 1-minute intervals. This suggests a different device recording pattern rather than a health change."
+    },
+    {
+      "case_ref": "sample_ee652a22a0edb710",
+      "text": "During the 14-day window, your daily active minutes dropped sharply from a baseline average of 54 to about 9 minutes, while low-movement minutes rose from ~450 to ~602. Steps (~8,000), sleep (~470 min ending at 07:00), resting heart rate (~56 bpm), and HRV (~45 ms) remained stable. The large shift in activity and low-movement composition, without changes in steps or heart metrics, may reflect a change in how the device records movement rather than a physiological change."
+    },
+    {
+      "case_ref": "sample_496a352e5f95a52f",
+      "text": "In the first 7 days of your 14-day window, sleep start times shifted much later—from around 22:40 to after midnight—and sleep duration dropped from your 481-minute baseline to about 364 minutes. From April 6 onward, sleep timing and duration returned to baseline levels. Steps (~7,980), activity (~55 min), low movement (~450 min), resting heart rate (~56 bpm), and HRV (~45 ms) remained stable throughout. The temporary shorter sleep aligns precisely with the delayed sleep onset."
+    },
+    {
+      "case_ref": "sample_377d6b28febce198",
+      "text": "Your sleep, steps (~8,000/day), activity (~55 min), resting heart rate (56 bpm), and HRV (~45 ms) remained stable across the 14-day window compared to your 28-day baseline. Sleep consistently ended at 07:00 with starts near 22:50. One change stands out: daytime low-movement minutes increased from ~449 to exactly 480 every day, and the interval structure shifted from many short blocks to three longer ones. This likely reflects a change in device recording behavior rather than a physiological shift."
+    }
+  ]
+}

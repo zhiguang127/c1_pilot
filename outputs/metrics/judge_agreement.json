@@ -1,0 +1,31 @@
+{
+  "pairs": 2304,
+  "resolved_pairs": 2304,
+  "pending_judge_a": 0,
+  "pending_judge_b": 0,
+  "pending_either": 0,
+  "exact_agreement": 0.87890625,
+  "confusion_matrix_rows_a_columns_b": [
+    [
+      1592,
+      103,
+      0
+    ],
+    [
+      88,
+      365,
+      31
+    ],
+    [
+      2,
+      55,
+      68
+    ]
+  ],
+  "linear_weighted_cohen_kappa": 0.748081498100759,
+  "non_zero_disagreement_rate": 0.0837673611111111,
+  "nonzero_union_disagreement_rate": 0.2710674157303371,
+  "nonzero_union_pairs": 712,
+  "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+  "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+}

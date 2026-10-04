@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "0324636c6742",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps constant at 7200 across baseline and window with zero variance.",
+      "item_condition_evidence": "Item applies when step readings change with possible measurement limitations.",
+      "rationale": "No step variation observed; item about accelerometer limitations is generic background without concrete connection."
+    },
+    {
+      "item_ref": "9eec3365321d",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60, not 61-64.",
+      "item_condition_evidence": "Item requires age 61 to 64 to be established; non-applicable for other age groups.",
+      "rationale": "Required age condition contradicted by data metadata; item explicitly not applicable to this user."
+    },
+    {
+      "item_ref": "597bf1f39ecf",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR constant at 61 bpm across all 42 days with zero variance.",
+      "item_condition_evidence": "Item applies to repeated RHR readings or a recent change in RHR.",
+      "rationale": "No RHR change or trend exists; item is generic advice about viewing trends with no concrete connection."
+    },
+    {
+      "item_ref": "edf44b9f0d32",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep start shifted from 23:00 (baseline) to 01:30 (window); sleep end stable at 07:00.",
+      "item_condition_evidence": "Item applies to repeated variability in bedtime or wake time.",
+      "rationale": "A clear sustained 2.5-hour bedtime delay occurred in the window, matching the item's condition about changing sleep times."
+    },
+    {
+      "item_ref": "ff2c1b099d46",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Window sleep duration 330 min equals nighttime coverage 330 min; sleep start 01:30, end 07:00.",
+      "item_condition_evidence": "Item states recorded bedtime-to-wake duration need not equal estimated minutes asleep.",
+      "rationale": "Contextually relevant because device-reported sleep duration matches coverage exactly, illustrating the distinction the item describes."
+    },
+    {
+      "item_ref": "c496405932e9",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Window sleep duration mean 330 min (5.5 hours), below 7 hours; age_band 18-60.",
+      "item_condition_evidence": "Item recommends at least 7 hours sleep for adults aged 18-60; applies when sleep duration is below recommendation.",
+      "rationale": "Core pattern is persistent short sleep (330 min) in the window; item directly provides the age-matched threshold explaining why this is notable."
+    }
+  ]
+}

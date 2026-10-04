@@ -1,0 +1,697 @@
+{
+  "audit_kind": "PROVISIONAL_LLM_AUDIT",
+  "label_kind": "PROVISIONAL_LLM_GOLD",
+  "audit_revision": "semantic-audit-v1",
+  "case_count": 24,
+  "methods": [
+    {
+      "baseline_id": "B1",
+      "status_counts": {
+        "retained": 243,
+        "uncertain": 255,
+        "omitted": 73,
+        "contradicted": 5
+      },
+      "fact_representation_opportunities": 576,
+      "opportunity_weighted_fractions": {
+        "retained": 0.421875,
+        "omitted": 0.1267361111111111,
+        "contradicted": 0.008680555555555556,
+        "uncertain": 0.4427083333333333
+      },
+      "case_weighted_fractions": {
+        "retained": 0.421875,
+        "omitted": 0.1267361111111111,
+        "contradicted": 0.008680555555555556,
+        "uncertain": 0.4427083333333333
+      },
+      "cases_with_fact_opportunities": 24,
+      "per_case": [
+        {
+          "case_id": "C001",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.5416666666666666
+        },
+        {
+          "case_id": "C002",
+          "fact_representation_opportunities": 24,
+          "retained": 0.20833333333333334,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.625
+        },
+        {
+          "case_id": "C003",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C004",
+          "fact_representation_opportunities": 24,
+          "retained": 0.08333333333333333,
+          "omitted": 0.0,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.875
+        },
+        {
+          "case_id": "C005",
+          "fact_representation_opportunities": 24,
+          "retained": 0.08333333333333333,
+          "omitted": 0.125,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.75
+        },
+        {
+          "case_id": "C006",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5416666666666666,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C007",
+          "fact_representation_opportunities": 24,
+          "retained": 0.16666666666666666,
+          "omitted": 0.375,
+          "contradicted": 0.0,
+          "uncertain": 0.4583333333333333
+        },
+        {
+          "case_id": "C008",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.4583333333333333
+        },
+        {
+          "case_id": "C009",
+          "fact_representation_opportunities": 24,
+          "retained": 0.25,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.6666666666666666
+        },
+        {
+          "case_id": "C010",
+          "fact_representation_opportunities": 24,
+          "retained": 0.125,
+          "omitted": 0.041666666666666664,
+          "contradicted": 0.0,
+          "uncertain": 0.8333333333333334
+        },
+        {
+          "case_id": "C011",
+          "fact_representation_opportunities": 24,
+          "retained": 0.7083333333333334,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.20833333333333334
+        },
+        {
+          "case_id": "C012",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.16666666666666666
+        },
+        {
+          "case_id": "C013",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5416666666666666,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C014",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5833333333333334,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C015",
+          "fact_representation_opportunities": 24,
+          "retained": 0.0,
+          "omitted": 0.0,
+          "contradicted": 0.0,
+          "uncertain": 1.0
+        },
+        {
+          "case_id": "C016",
+          "fact_representation_opportunities": 24,
+          "retained": 0.875,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.041666666666666664
+        },
+        {
+          "case_id": "C017",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.2916666666666667
+        },
+        {
+          "case_id": "C018",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.0,
+          "contradicted": 0.0,
+          "uncertain": 0.5833333333333334
+        },
+        {
+          "case_id": "C019",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C020",
+          "fact_representation_opportunities": 24,
+          "retained": 0.6666666666666666,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C021",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.4583333333333333
+        },
+        {
+          "case_id": "C022",
+          "fact_representation_opportunities": 24,
+          "retained": 0.2916666666666667,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.5833333333333334
+        },
+        {
+          "case_id": "C023",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5833333333333334,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C024",
+          "fact_representation_opportunities": 24,
+          "retained": 0.75,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.08333333333333333
+        }
+      ],
+      "verifiable_unsupported_excerpt_count": 7,
+      "verifiable_potential_noise_excerpt_count": 25
+    },
+    {
+      "baseline_id": "B2",
+      "status_counts": {
+        "retained": 272,
+        "uncertain": 196,
+        "omitted": 105,
+        "contradicted": 3
+      },
+      "fact_representation_opportunities": 576,
+      "opportunity_weighted_fractions": {
+        "retained": 0.4722222222222222,
+        "omitted": 0.18229166666666666,
+        "contradicted": 0.005208333333333333,
+        "uncertain": 0.3402777777777778
+      },
+      "case_weighted_fractions": {
+        "retained": 0.4722222222222222,
+        "omitted": 0.18229166666666666,
+        "contradicted": 0.005208333333333333,
+        "uncertain": 0.3402777777777778
+      },
+      "cases_with_fact_opportunities": 24,
+      "per_case": [
+        {
+          "case_id": "C001",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.5
+        },
+        {
+          "case_id": "C002",
+          "fact_representation_opportunities": 24,
+          "retained": 0.125,
+          "omitted": 0.20833333333333334,
+          "contradicted": 0.0,
+          "uncertain": 0.6666666666666666
+        },
+        {
+          "case_id": "C003",
+          "fact_representation_opportunities": 24,
+          "retained": 0.3333333333333333,
+          "omitted": 0.25,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.375
+        },
+        {
+          "case_id": "C004",
+          "fact_representation_opportunities": 24,
+          "retained": 0.041666666666666664,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.875
+        },
+        {
+          "case_id": "C005",
+          "fact_representation_opportunities": 24,
+          "retained": 0.20833333333333334,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.625
+        },
+        {
+          "case_id": "C006",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C007",
+          "fact_representation_opportunities": 24,
+          "retained": 0.25,
+          "omitted": 0.375,
+          "contradicted": 0.0,
+          "uncertain": 0.375
+        },
+        {
+          "case_id": "C008",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.375
+        },
+        {
+          "case_id": "C009",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.4166666666666667
+        },
+        {
+          "case_id": "C010",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.0,
+          "contradicted": 0.0,
+          "uncertain": 0.625
+        },
+        {
+          "case_id": "C011",
+          "fact_representation_opportunities": 24,
+          "retained": 0.8333333333333334,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C012",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5833333333333334,
+          "omitted": 0.375,
+          "contradicted": 0.0,
+          "uncertain": 0.041666666666666664
+        },
+        {
+          "case_id": "C013",
+          "fact_representation_opportunities": 24,
+          "retained": 0.75,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.08333333333333333
+        },
+        {
+          "case_id": "C014",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C015",
+          "fact_representation_opportunities": 24,
+          "retained": 0.0,
+          "omitted": 0.0,
+          "contradicted": 0.0,
+          "uncertain": 1.0
+        },
+        {
+          "case_id": "C016",
+          "fact_representation_opportunities": 24,
+          "retained": 0.8333333333333334,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C017",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.2916666666666667
+        },
+        {
+          "case_id": "C018",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C019",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.4583333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.08333333333333333
+        },
+        {
+          "case_id": "C020",
+          "fact_representation_opportunities": 24,
+          "retained": 0.6666666666666666,
+          "omitted": 0.20833333333333334,
+          "contradicted": 0.0,
+          "uncertain": 0.125
+        },
+        {
+          "case_id": "C021",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C022",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.20833333333333334,
+          "contradicted": 0.0,
+          "uncertain": 0.4166666666666667
+        },
+        {
+          "case_id": "C023",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5416666666666666,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.20833333333333334
+        },
+        {
+          "case_id": "C024",
+          "fact_representation_opportunities": 24,
+          "retained": 0.9166666666666666,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        }
+      ],
+      "verifiable_unsupported_excerpt_count": 35,
+      "verifiable_potential_noise_excerpt_count": 29
+    },
+    {
+      "baseline_id": "B3",
+      "status_counts": {
+        "retained": 314,
+        "uncertain": 131,
+        "omitted": 121,
+        "contradicted": 10
+      },
+      "fact_representation_opportunities": 576,
+      "opportunity_weighted_fractions": {
+        "retained": 0.5451388888888888,
+        "omitted": 0.21006944444444445,
+        "contradicted": 0.017361111111111112,
+        "uncertain": 0.22743055555555555
+      },
+      "case_weighted_fractions": {
+        "retained": 0.5451388888888888,
+        "omitted": 0.21006944444444445,
+        "contradicted": 0.017361111111111112,
+        "uncertain": 0.22743055555555555
+      },
+      "cases_with_fact_opportunities": 24,
+      "per_case": [
+        {
+          "case_id": "C001",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.20833333333333334
+        },
+        {
+          "case_id": "C002",
+          "fact_representation_opportunities": 24,
+          "retained": 0.375,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.0,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C003",
+          "fact_representation_opportunities": 24,
+          "retained": 0.7083333333333334,
+          "omitted": 0.20833333333333334,
+          "contradicted": 0.08333333333333333,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C004",
+          "fact_representation_opportunities": 24,
+          "retained": 0.041666666666666664,
+          "omitted": 0.08333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.875
+        },
+        {
+          "case_id": "C005",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.08333333333333333,
+          "uncertain": 0.20833333333333334
+        },
+        {
+          "case_id": "C006",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C007",
+          "fact_representation_opportunities": 24,
+          "retained": 0.6666666666666666,
+          "omitted": 0.20833333333333334,
+          "contradicted": 0.0,
+          "uncertain": 0.125
+        },
+        {
+          "case_id": "C008",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.125
+        },
+        {
+          "case_id": "C009",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C010",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4166666666666667,
+          "omitted": 0.041666666666666664,
+          "contradicted": 0.0,
+          "uncertain": 0.5416666666666666
+        },
+        {
+          "case_id": "C011",
+          "fact_representation_opportunities": 24,
+          "retained": 0.75,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C012",
+          "fact_representation_opportunities": 24,
+          "retained": 0.6666666666666666,
+          "omitted": 0.3333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C013",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5833333333333334,
+          "omitted": 0.375,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C014",
+          "fact_representation_opportunities": 24,
+          "retained": 0.625,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C015",
+          "fact_representation_opportunities": 24,
+          "retained": 0.0,
+          "omitted": 0.0,
+          "contradicted": 0.0,
+          "uncertain": 1.0
+        },
+        {
+          "case_id": "C016",
+          "fact_representation_opportunities": 24,
+          "retained": 0.8333333333333334,
+          "omitted": 0.125,
+          "contradicted": 0.041666666666666664,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C017",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.0,
+          "uncertain": 0.25
+        },
+        {
+          "case_id": "C018",
+          "fact_representation_opportunities": 24,
+          "retained": 0.7083333333333334,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.16666666666666666
+        },
+        {
+          "case_id": "C019",
+          "fact_representation_opportunities": 24,
+          "retained": 0.75,
+          "omitted": 0.25,
+          "contradicted": 0.0,
+          "uncertain": 0.0
+        },
+        {
+          "case_id": "C020",
+          "fact_representation_opportunities": 24,
+          "retained": 0.6666666666666666,
+          "omitted": 0.16666666666666666,
+          "contradicted": 0.0,
+          "uncertain": 0.16666666666666666
+        },
+        {
+          "case_id": "C021",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5833333333333334,
+          "omitted": 0.2916666666666667,
+          "contradicted": 0.0,
+          "uncertain": 0.125
+        },
+        {
+          "case_id": "C022",
+          "fact_representation_opportunities": 24,
+          "retained": 0.5416666666666666,
+          "omitted": 0.125,
+          "contradicted": 0.0,
+          "uncertain": 0.3333333333333333
+        },
+        {
+          "case_id": "C023",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.3333333333333333,
+          "contradicted": 0.0,
+          "uncertain": 0.20833333333333334
+        },
+        {
+          "case_id": "C024",
+          "fact_representation_opportunities": 24,
+          "retained": 0.4583333333333333,
+          "omitted": 0.3333333333333333,
+          "contradicted": 0.16666666666666666,
+          "uncertain": 0.041666666666666664
+        }
+      ],
+      "verifiable_unsupported_excerpt_count": 35,
+      "verifiable_potential_noise_excerpt_count": 49
+    }
+  ],
+  "querygen_fact_recovery": [
+    {
+      "compared_baseline": "B1",
+      "comparisons": 576,
+      "prior_missing_or_contradicted": 78,
+      "querygen_recovered": 26,
+      "querygen_lost_retained": 49,
+      "recovery_fraction_of_missing_or_contradicted": 0.3333333333333333
+    },
+    {
+      "compared_baseline": "B2",
+      "comparisons": 576,
+      "prior_missing_or_contradicted": 108,
+      "querygen_recovered": 44,
+      "querygen_lost_retained": 50,
+      "recovery_fraction_of_missing_or_contradicted": 0.4074074074074074
+    }
+  ],
+  "cases_without_relevant_fact_probes": [],
+  "evidence_or_excerpt_validation_note_count": 755,
+  "unit_warning": "Fact/representation opportunities are correlated; percentages are descriptive, not independent sample counts",
+  "limitations": [
+    "Single LLM semantic auditor, not human adjudication or independent clinical truth",
+    "Anonymous texts can reveal their format; method identity blinding is incomplete",
+    "Uses fallible PROVISIONAL_LLM_GOLD only to select relevant knowledge",
+    "Plausible noise mechanisms require checking actual retrieval outputs; no causal inference",
+    "Date/path/excerpt validation does not prove the auditor's interpretation correct"
+  ],
+  "audit_model": "qwen3.8-max",
+  "requested_case_count": 24,
+  "failures": [],
+  "all_cases_completed": true
+}

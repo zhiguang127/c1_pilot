@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_f00826ce58f54514",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~472 min (baseline ~471), consistently ending at 07:00, with starts around 22:48–22:53. Steps (~7,923 vs ~7,938) and activity minutes (~56 vs ~55) were stable. Resting heart rate (~62 bpm) and RMSSD (~45 ms) showed no meaningful shift. Low-movement time slightly decreased (~447 vs ~450 min). Day-to-day variability remained similar. No clear multi-variable relationships emerged. Overall, your patterns are highly consistent."
+    },
+    {
+      "case_ref": "sample_d0a5b6f2398d4ebc",
+      "text": "In your recent 14 days, sleep averaged ~468 min, about 3 min below your 28-day baseline (~471), still ending consistently at 07:00 with starts shifting ~3 min later. Steps dipped slightly (~7,954 vs ~8,066); activity minutes held near ~55. Resting heart rate was marginally lower (~55.8 vs ~56.3 bpm). Notably, HRV RMSSD dropped to ~43 ms from ~45 ms, driven by a single isolated reading of 23 ms on Apr 5; excluding it, the average returns near baseline. Variability otherwise remained typical."
+    },
+    {
+      "case_ref": "sample_e97142a55baea655",
+      "text": "Your recent 14 days show a striking change in daytime movement. Steps fell from a baseline average of ~7,998 to ~2,321 per day, and recorded active minutes dropped from ~55 to ~5 daily, with several days at zero. Despite this, sleep duration remained stable (~469 vs ~471 min), always ending at 07:00. Resting heart rate (~56 bpm) and RMSSD (~45 ms) were unchanged. Low-movement minutes stayed near ~448–451. This suggests either a major routine shift or a device-recording difference affecting step and activity detection while sleep and heart metrics continued normally."
+    },
+    {
+      "case_ref": "sample_9e2cc57b2faef23c",
+      "text": "During your recent 14-day window, most patterns matched your 28-day baseline: sleep averaged ~472 min (baseline ~471) ending consistently at 07:00, steps ~7,923 vs ~7,938, activity ~56 vs ~55 min, and RMSSD ~45 ms throughout. One notable change is resting heart rate, which rose from a very steady ~52 bpm baseline to ~62 bpm across all 14 window days—a persistent ~10 bpm increase without corresponding changes in sleep, activity, or HRV. This sustained shift may warrant checking whether the device fit or measurement conditions changed."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b3b5f1a8a69d8cdc",
+      "text": "Over 28 baseline days and 14 window days, all metrics remained stable. Sleep duration averaged ~470 min with wake fixed at 07:00 and start varying ~22:43-22:58. Steps (~8000), activity (~55 min), low movement (~450 min), resting HR (55-57 bpm), and RMSSD (26-54 ms) showed no sustained shifts. A single evening activity interval occurred daily. Weekday RMSSD variance exceeded weekends. No meaningful cross-metric relationships emerged."
+    },
+    {
+      "case_ref": "sample_60ee25e54744726b",
+      "text": "During the 14-day window, a strict alternating pattern emerged versus the stable 28-day baseline. On odd window dates, sleep started ~22:35-22:46 with ~474-485 min duration and 90-min evening activity; on even dates, sleep was delayed to ~00:08-00:15, shortened to ~385-392 min, with 45-min afternoon activity. Wake remained 07:00 throughout. Mean sleep dropped ~30 min overall due to this alternation. Steps, RHR (55-57), and RMSSD (43-47) stayed near baseline. Activity and next-day sleep correlated strongly in the window."
+    },
+    {
+      "case_ref": "sample_638fa86161cb0355",
+      "text": "Across 28 baseline days, sleep (~470 min, starting ~22:42-22:58, ending 07:00), steps (~8043), activity (~55 min), RHR (55-57 bpm), and RMSSD (43-47 ms) were stable. In the 14-day window, sleep timing and duration persisted unchanged. However, RHR rose on Apr 3-6 (65-67 bpm vs baseline 55-57) before returning to 55-57 from Apr 7. Concurrently, RMSSD fell to 23-26 ms during Apr 7-10 (baseline 43-47), recovering to 45 by Apr 11-12. Steps and activity remained near baseline throughout."
+    },
+    {
+      "case_ref": "sample_2a7014f62869c2b9",
+      "text": "During the 28-day baseline, sleep was consistently short (~328 min, range 322-338), starting ~01:02-01:18 and ending exactly 07:00 daily. Steps averaged ~8044, activity ~55 min, RHR 55-57 bpm, and RMSSD 43-47 ms. At the window start, sleep onset shifted ~2 hours earlier to ~23:03-23:18, increasing duration by ~120 min to ~448 min (range 442-457). This shift persisted across all 14 window days. Steps, activity, RHR, and RMSSD remained near baseline levels throughout."
+    }
+  ]
+}

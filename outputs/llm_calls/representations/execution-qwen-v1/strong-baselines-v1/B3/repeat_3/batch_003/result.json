@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3ebc9dd41fdddf5b",
+      "queries": [
+        "wearable sleep duration decrease 118 minutes from 28-day baseline to 14-day window with delayed sleep onset after midnight and unchanged wake time",
+        "resting heart rate slight decrease 0.75 bpm and stable HRV RMSSD around 45 ms during period of substantially reduced sleep duration",
+        "daily step count and active minutes remain stable near 8000 steps and 55 minutes despite large sleep reduction over 14 days",
+        "low movement minutes stable around 450 per day across baseline and window while nighttime wearable coverage drops by over 100 minutes",
+        "evening activity intervals consistently start at 21:00 each day in both baseline and follow-up periods with unknown intensity"
+      ]
+    },
+    {
+      "case_ref": "sample_e1879e777a2ec87c",
+      "queries": [
+        "wearable active minutes drop from 54 per day to 9 per day over 14 days while daily steps remain near 8000",
+        "low movement minutes increase 152 per day from baseline to follow-up window inversely matching decreased active minutes",
+        "sleep duration sleep timing resting heart rate and HRV remain stable despite large reduction in recorded active minutes",
+        "active minutes variance decreases sharply from baseline to window suggesting uniform low activity pattern across all 14 days",
+        "steps and activity duration correlation changes from weak negative in baseline to weak positive in follow-up window"
+      ]
+    },
+    {
+      "case_ref": "sample_4bd546c39d8dc9d3",
+      "queries": [
+        "transient resting heart rate elevation to 65-67 bpm for four consecutive days returning to 55-57 bpm baseline afterward",
+        "HRV RMSSD drops from 45 ms baseline to 23-26 ms during same four-day window then recovers to baseline levels",
+        "strong negative correlation between resting heart rate and HRV RMSSD during 14-day window but not in 28-day baseline",
+        "sleep duration steps and active minutes remain stable throughout period containing transient heart rate and HRV changes",
+        "isolated multi-day deviation in autonomic wearable metrics with spontaneous return to personal baseline values"
+      ]
+    },
+    {
+      "case_ref": "sample_7c5ba32ffe7d3c25",
+      "queries": [
+        "low movement minutes increase from variable 438-462 range in baseline to constant 480 every day across entire 14-day window",
+        "zero variance in daily low movement minutes during follow-up period compared to 64.8 variance in 28-day baseline",
+        "sleep duration steps active minutes resting heart rate and HRV remain stable when low movement minutes become fixed",
+        "low movement interval structure changes from ten 45-minute blocks in baseline to three longer blocks in follow-up",
+        "wearable metric showing sudden loss of day-to-day variability while all other physiological measures are unchanged"
+      ]
+    }
+  ]
+}

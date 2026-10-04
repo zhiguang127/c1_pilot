@@ -1,0 +1,24 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b1e770e3027181a0",
+      "queries": [
+        "persistent 138-minute sleep duration decrease from 469 to 331 minutes over 14 days with sleep onset delayed from 22:50 to 01:05 while wake time fixed at 07:00",
+        "daily steps dropped by 67 percent from baseline mean 7985 to window mean 2643 persisting across all 14 observation days",
+        "activity duration minutes remained stable near 55 per day despite large step count reduction and shorter sleep in the follow-up window",
+        "resting heart rate and RMSSD showed no meaningful change between 28-day baseline and 14-day window with means of 56 bpm and 45 ms respectively",
+        "low movement minutes stayed near 449 baseline mean during the window when steps fell sharply suggesting activity intensity or device detection changes"
+      ]
+    },
+    {
+      "case_ref": "sample_790b0b4bc30b5c3e",
+      "queries": [
+        "low movement minutes increased from variable baseline mean 449 to a constant 480 every day across the entire 14-day window with zero variance",
+        "daytime activity intervals changed from 45-50 minute blocks in baseline to 15-minute low movement blocks separated by 1-minute activity bursts throughout the window",
+        "sleep duration and timing remained stable across 28-day baseline and 14-day window with mean near 470 minutes and consistent 22:50 onset and 07:00 offset",
+        "daily step counts stayed near 8000 and active minutes near 55 across both periods showing no longitudinal change in overall movement volume",
+        "resting heart rate and HRV RMSSD remained unchanged between baseline and window periods with Pearson correlation near 0.24 in both phases"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "facts": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "fact_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fact_statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "knowledge_ids": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "enum": [
+                "K001",
+                "K005",
+                "K007",
+                "K011",
+                "K015",
+                "K017",
+                "K033",
+                "K034",
+                "K050",
+                "K057",
+                "K058",
+                "K059",
+                "K065",
+                "K068",
+                "K071",
+                "K073",
+                "K077",
+                "K078",
+                "K079",
+                "K080",
+                "K081",
+                "K082",
+                "K083",
+                "K084",
+                "K085",
+                "K086",
+                "K090",
+                "K094",
+                "K095",
+                "K096"
+              ]
+            }
+          },
+          "raw_data_support": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "period": {
+                  "type": "string",
+                  "enum": [
+                    "baseline",
+                    "window"
+                  ]
+                },
+                "dates": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "field_paths": {
+                  "type": "array",
+                  "minItems": 1,
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "explanation": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "period",
+                "dates",
+                "field_paths",
+                "explanation"
+              ]
+            }
+          },
+          "representation_checks": {
+            "type": "array",
+            "minItems": 9,
+            "maxItems": 9,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "representation_ref": {
+                  "type": "string",
+                  "enum": [
+                    "R01",
+                    "R02",
+                    "R03",
+                    "R04",
+                    "R05",
+                    "R06",
+                    "R07",
+                    "R08",
+                    "R09"
+                  ]
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "retained",
+                    "omitted",
+                    "contradicted",
+                    "uncertain"
+                  ]
+                },
+                "representation_excerpt": {
+                  "type": "string",
+                  "minLength": 0
+                },
+                "rationale": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "representation_ref",
+                "status",
+                "representation_excerpt",
+                "rationale"
+              ]
+            }
+          }
+        },
+        "required": [
+          "fact_id",
+          "fact_statement",
+          "knowledge_ids",
+          "raw_data_support",
+          "representation_checks"
+        ]
+      }
+    },
+    "unsupported_interpretations": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "representation_ref": {
+            "type": "string",
+            "enum": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05",
+              "R06",
+              "R07",
+              "R08",
+              "R09"
+            ]
+          },
+          "claim_excerpt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "why_unsupported": {
+            "type": "string",
+            "minLength": 1
+          },
+          "raw_data_context": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "representation_ref",
+          "claim_excerpt",
+          "why_unsupported",
+          "raw_data_context"
+        ]
+      }
+    },
+    "potential_retrieval_noise": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "representation_ref": {
+            "type": "string",
+            "enum": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05",
+              "R06",
+              "R07",
+              "R08",
+              "R09"
+            ]
+          },
+          "representation_excerpt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "possible_mechanism": {
+            "type": "string",
+            "minLength": 1
+          },
+          "raw_fact_or_missing_context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        },
+        "required": [
+          "representation_ref",
+          "representation_excerpt",
+          "possible_mechanism",
+          "raw_fact_or_missing_context",
+          "confidence"
+        ]
+      }
+    },
+    "audit_limitations": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "facts",
+    "unsupported_interpretations",
+    "potential_retrieval_noise",
+    "audit_limitations"
+  ]
+}

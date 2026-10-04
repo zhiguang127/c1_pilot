@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b1e770e3027181a0",
+      "text": "Over the 14-day window, sleep start shifted abruptly from ~22:50 to ~01:10 while wake time remained fixed at 07:00, reducing mean sleep duration by 138 minutes (469 to 331). Steps fell 67% (7985 to 2643). Activity duration (~55 min), low movement (~450 min), resting heart rate (~56 bpm), and RMSSD (~45 ms) stayed near baseline. Evening activity intervals persisted daily. No recovery was observed."
+    },
+    {
+      "case_ref": "sample_790b0b4bc30b5c3e",
+      "text": "Sleep timing, duration (~470 min), steps (~8025), activity (~55 min), resting heart rate (~56 bpm), and RMSSD (~45 ms) remained stable across the 14-day window versus the 28-day baseline. Low movement minutes increased uniformly from a variable baseline (mean 449) to exactly 480 every window day. Daytime activity intervals changed from single evening blocks to brief 1-minute bouts every 20 minutes (10:00-20:35) plus an evening block."
+    },
+    {
+      "case_ref": "sample_f1d8756309b00ea5",
+      "text": "Steps declined 33% in the 14-day window (mean 9552 to 6433; one day missing due to insufficient daytime coverage). Sleep timing, duration (~470 min), activity (~54 min), low movement (~449 min), resting heart rate (~56 bpm), and RMSSD (~45 ms) remained stable. No weekday/weekend differences emerged. Paired correlations were weak in both periods."
+    },
+    {
+      "case_ref": "sample_e787e4e0c89a7cd1",
+      "text": "For the first six window days, all metrics matched the 28-day baseline (sleep ~481 min starting ~22:40, steps ~7976, activity ~55 min, RHR ~56 bpm, RMSSD ~45 ms). From day 7 onward, sleep start delayed abruptly to ~00:35 with duration falling to ~364 min, while wake time remained 07:00. Steps, activity, RHR, and RMSSD stayed stable throughout. This late-window sleep shift persisted without recovery."
+    }
+  ]
+}

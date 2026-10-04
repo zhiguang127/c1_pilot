@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3159a77476d400f2",
+      "queries": [
+        "sustained 71 percent drop in daily steps from 8000 to 2300 over 14 days while sleep duration and timing remain stable",
+        "evening activity minutes falling from 55 per day to under 10 with persistent low movement intervals unchanged",
+        "stable resting heart rate near 56 bpm and RMSSD near 45 ms despite large reduction in daily step count",
+        "negative correlation between resting heart rate and HRV RMSSD emerging only after activity decline in follow-up window",
+        "consistent sleep onset near 22:50 and wake at 07:00 maintained across baseline and follow-up despite reduced daytime movement"
+      ]
+    },
+    {
+      "case_ref": "sample_7de66e1de896dc00",
+      "queries": [
+        "sleep onset delayed from 22:50 to after 01:00 reducing sleep duration by 137 minutes while wake time stays fixed at 07:00",
+        "daily steps dropping 67 percent from 8000 to 2600 alongside shortened sleep but preserved evening activity near 55 minutes",
+        "reduced nighttime wearable coverage from 490 to 350 minutes coinciding with later sleep start times",
+        "stable HRV RMSSD near 45 ms and resting heart rate near 56 bpm despite major sleep timing shift and step reduction",
+        "no weekday weekend difference in sleep duration change during the period of delayed sleep onset"
+      ]
+    },
+    {
+      "case_ref": "sample_ac1d07ee01bc3c76",
+      "queries": [
+        "weekend sleep duration increasing to 570 minutes with wake time shifting from 07:00 to 11:00 while weekday sleep shortens to 390 minutes",
+        "sleep onset moving from 22:50 to after midnight on weekdays and after 01:00 on weekends during follow-up window",
+        "daily steps remaining stable near 8000 and activity minutes near 55 despite large weekday versus weekend sleep differences",
+        "increased variance in sleep duration during follow-up driven entirely by weekend wake time extension to 11:00",
+        "low movement minutes and resting heart rate staying within baseline range across both weekday and weekend patterns"
+      ]
+    },
+    {
+      "case_ref": "sample_0ce72b16d8a094a5",
+      "queries": [
+        "all wearable metrics including sleep steps activity heart rate and HRV remaining stable across 28-day baseline and 14-day follow-up",
+        "consistent sleep schedule from 01:00 to 09:00 every night with less than 10 minutes variation over 42 days",
+        "daily steps averaging 7960 with no sustained change between baseline and follow-up periods",
+        "activity duration near 54 minutes per day and low movement near 450 minutes showing no trend over six weeks",
+        "resting heart rate 56 bpm and RMSSD 45 ms with minimal day-to-day fluctuation throughout observation period"
+      ]
+    }
+  ]
+}

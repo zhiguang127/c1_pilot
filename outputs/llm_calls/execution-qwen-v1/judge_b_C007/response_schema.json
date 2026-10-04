@@ -1,0 +1,160 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "labels": {
+      "type": "array",
+      "minItems": 96,
+      "maxItems": 96,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "item_ref": {
+            "type": "string",
+            "enum": [
+              "5101f6b67007",
+              "ed205d830280",
+              "639ef95df513",
+              "08ead50c9cd7",
+              "2ba905adfd15",
+              "e84a7703788d",
+              "35a50a875c50",
+              "f34be9a416c2",
+              "b97397abfcf0",
+              "bc6c9df5c30b",
+              "956a1e9d558a",
+              "e228f7de3940",
+              "b78997ecea90",
+              "0b2a1da5b290",
+              "6a2a75961167",
+              "71081b5e6c61",
+              "683974f7b801",
+              "47a6b199a2a8",
+              "69a945ada22a",
+              "0c54f12d614d",
+              "ba9c7e6cd229",
+              "853368995c45",
+              "c87a79c4dfed",
+              "b853ab76315f",
+              "ad3e316f9266",
+              "d32a5c1dff6f",
+              "4d963c82078d",
+              "4808173e1e1b",
+              "20218b92b6c5",
+              "626df3398fac",
+              "e94d1f54e5bd",
+              "38c77c40e5ea",
+              "6ce6f0caad9f",
+              "4147082afb47",
+              "542064d12e4d",
+              "1ee352883549",
+              "75244f0cc158",
+              "14577a29aeb1",
+              "cf37d5019bdb",
+              "5bd899b2b364",
+              "8605e8b1a97c",
+              "b0ebc686eddd",
+              "9a44d3ffaa50",
+              "16d234ab5f07",
+              "40d92940f024",
+              "e478e6d4d835",
+              "2d95c5347516",
+              "3bb3a94569a8",
+              "dc371ffc0ad1",
+              "714e856f3d82",
+              "572487a06c4e",
+              "a7fa455bb35f",
+              "60ce04e6c5e6",
+              "1517ba66a345",
+              "679ecebfa4fb",
+              "f790209cd4eb",
+              "b756395364eb",
+              "7a56259d1a24",
+              "09de84585559",
+              "b656c5000676",
+              "223298f81ef0",
+              "892b069b1516",
+              "6041150f67a6",
+              "7794ddb5c751",
+              "99d1fc861a7e",
+              "413c7d32a502",
+              "9346148f2f1e",
+              "c49a6fb91349",
+              "387e420c5d14",
+              "ffa080e63b2c",
+              "f87608dfdaad",
+              "e0fcfb25be73",
+              "d88937db6b7c",
+              "07594091f8fd",
+              "388fa6294ed4",
+              "1ecfa22d2202",
+              "329ebf16e682",
+              "4f4e2410a632",
+              "e70b70958d08",
+              "8117ad30a1a5",
+              "3ba1f2a868d5",
+              "992c5dd2df63",
+              "1ef5320d88ce",
+              "442375196915",
+              "41beeec63342",
+              "e8830a55a89a",
+              "58240b9b20ff",
+              "e4d89e647ad7",
+              "d4f37b82ee5d",
+              "f0f25e2d7225",
+              "27035acc075f",
+              "cddf1b601a33",
+              "030fe5992661",
+              "a4bd990e1761",
+              "f53f4d219e3c",
+              "2729278a58d1"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "labeled",
+              "needs_review"
+            ]
+          },
+          "relevance": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "enum": [
+              0,
+              1,
+              2,
+              null
+            ]
+          },
+          "raw_data_evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "item_condition_evidence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "item_ref",
+          "status",
+          "relevance",
+          "raw_data_evidence",
+          "item_condition_evidence",
+          "rationale"
+        ]
+      }
+    }
+  },
+  "required": [
+    "labels"
+  ]
+}

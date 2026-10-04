@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_de8e7cd3707bcdf4",
+      "text": "Over 28 baseline days, sleep averaged 328 min starting ~01:15 and ending exactly 07:00 daily. In the 14-day window, sleep onset shifted ~2 h earlier (~23:10), increasing duration by ~120 min to ~448 min while wake time stayed fixed at 07:00. Steps (~8044 vs ~7963), activity (~55 min), low movement (~449 min), resting HR (~56 bpm), and RMSSD (~45 ms) remained stable. Weekday/weekend patterns were similar. The prior weak positive activity-to-next-day-sleep correlation (r=0.32) disappeared in the window (r=0.07). No data gaps."
+    },
+    {
+      "case_ref": "sample_038472ef90433a46",
+      "text": "During the 28-day baseline, sleep averaged 465 min with onset ~22:55 and offset fixed at 07:00. In the 14-day window, sleep onset delayed ~2 h to ~00:52, reducing duration by ~118 min to ~346 min; wake time remained 07:00. Steps (~7983 vs ~8037), activity (~56 vs ~55 min), low movement (~450 vs ~452 min), resting HR (~56.1 vs ~55.4 bpm), and RMSSD (~44.8 vs ~44.9 ms) were stable. Paired correlations were weak throughout. No missing data."
+    },
+    {
+      "case_ref": "sample_c351cdfa90b005b7",
+      "text": "Across 28 baseline and 14 window days, all metrics remained stable. Sleep averaged ~471 min (onset ~22:50, offset fixed at 07:00). Steps (~7938 vs ~7923), activity (~55 vs ~56 min), low movement (~450 vs ~447 min), resting HR (~61.8 vs ~61.7 bpm), and RMSSD (~44.8 vs ~45.1 ms) showed no meaningful change. Weekday/weekend patterns were consistent. Paired correlations between activity, sleep, steps, HR, and RMSSD were weak or absent in both periods. Complete wear coverage."
+    },
+    {
+      "case_ref": "sample_f4da56c02d218ed2",
+      "text": "Sleep duration (~470 min), timing (onset ~22:50, offset 07:00), steps (~8043 vs ~7996), activity (~55 min), and low movement (~451 vs ~447 min) remained stable across the 28-day baseline and 14-day window. However, on window days 4–7 (Apr 3–6), resting HR rose from a baseline of 55–57 bpm to 65–67 bpm while RMSSD dropped from 43–47 ms to 23–26 ms; both returned to baseline ranges by Apr 7. This transient deviation drove window variance increases. During the window, same-day resting HR and RMSSD correlated strongly negatively (r=−0.97), unlike baseline (r=0.13)."
+    }
+  ]
+}

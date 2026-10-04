@@ -1,0 +1,162 @@
+{
+  "valid": true,
+  "schema_validation": "checked",
+  "case_count": 24,
+  "daily_row_count": 1008,
+  "global_errors": [],
+  "cases": [
+    {
+      "case_id": "C001",
+      "errors": []
+    },
+    {
+      "case_id": "C002",
+      "errors": []
+    },
+    {
+      "case_id": "C003",
+      "errors": []
+    },
+    {
+      "case_id": "C004",
+      "errors": []
+    },
+    {
+      "case_id": "C005",
+      "errors": []
+    },
+    {
+      "case_id": "C006",
+      "errors": []
+    },
+    {
+      "case_id": "C007",
+      "errors": []
+    },
+    {
+      "case_id": "C008",
+      "errors": []
+    },
+    {
+      "case_id": "C009",
+      "errors": []
+    },
+    {
+      "case_id": "C010",
+      "errors": []
+    },
+    {
+      "case_id": "C011",
+      "errors": []
+    },
+    {
+      "case_id": "C012",
+      "errors": []
+    },
+    {
+      "case_id": "C013",
+      "errors": []
+    },
+    {
+      "case_id": "C014",
+      "errors": []
+    },
+    {
+      "case_id": "C015",
+      "errors": []
+    },
+    {
+      "case_id": "C016",
+      "errors": []
+    },
+    {
+      "case_id": "C017",
+      "errors": []
+    },
+    {
+      "case_id": "C018",
+      "errors": []
+    },
+    {
+      "case_id": "C019",
+      "errors": []
+    },
+    {
+      "case_id": "C020",
+      "errors": []
+    },
+    {
+      "case_id": "C021",
+      "errors": []
+    },
+    {
+      "case_id": "C022",
+      "errors": []
+    },
+    {
+      "case_id": "C023",
+      "errors": []
+    },
+    {
+      "case_id": "C024",
+      "errors": []
+    }
+  ],
+  "matched_pairs": [
+    {
+      "pair": [
+        "C003",
+        "C005"
+      ],
+      "valid": true,
+      "errors": []
+    },
+    {
+      "pair": [
+        "C009",
+        "C011"
+      ],
+      "valid": true,
+      "errors": []
+    },
+    {
+      "pair": [
+        "C016",
+        "C018"
+      ],
+      "valid": true,
+      "errors": []
+    },
+    {
+      "pair": [
+        "C021",
+        "C023"
+      ],
+      "valid": true,
+      "errors": []
+    },
+    {
+      "pair": [
+        "C022",
+        "C024"
+      ],
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "checks": [
+    "JSON schema and date/time formats",
+    "finite values",
+    "contiguous 28/14-day calendars",
+    "uniform raw metric keys and null reasons",
+    "metric-specific coverage policy",
+    "sleep wake-date assignment and duration bounds",
+    "sorted disjoint actual intervals and sums",
+    "natural-day nighttime/daytime coverage budget",
+    "sleep/daytime interval separation",
+    "all eight arithmetic metric statistics recomputed",
+    "weekday/weekend arithmetic statistics",
+    "calendar-aligned lagged Pearson arithmetic",
+    "five frozen matched-pair constraints"
+  ]
+}

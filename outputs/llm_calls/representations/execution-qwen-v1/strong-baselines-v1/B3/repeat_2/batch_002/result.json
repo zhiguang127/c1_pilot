@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_30eeebbcb3af6958",
+      "queries": [
+        "wearable low movement minutes increase from 449 baseline to constant 480 in follow-up window with zero variance",
+        "activity intervals change from 45-minute blocks to 1-minute bursts every 20 minutes while total activity duration stays near 55 minutes",
+        "evening activity block shifts from 21:00-22:00 baseline to 21:00-21:27 in follow-up period wearable data",
+        "sleep duration stable near 470 minutes and sleep end fixed at 07:00 across 28-day baseline and 14-day window",
+        "resting heart rate 55-57 bpm and RMSSD 43-47 ms remain unchanged between baseline and follow-up periods"
+      ]
+    },
+    {
+      "case_ref": "sample_ee652a22a0edb710",
+      "queries": [
+        "wearable active minutes drop from 54 per day baseline to 9 per day in 14-day follow-up window",
+        "low movement minutes increase from 450 baseline mean to 602 in follow-up with near-zero day-to-day variation",
+        "daily step count remains near 8000 despite activity duration decreasing by 45 minutes per day",
+        "evening activity block shortens from approximately 55 minutes to under 12 minutes in follow-up period",
+        "RMSSD and resting heart rate stable within 43-47 ms and 55-57 bpm despite large activity pattern change"
+      ]
+    },
+    {
+      "case_ref": "sample_496a352e5f95a52f",
+      "queries": [
+        "sleep start time shifts from 22:40 baseline to after midnight in first seven days of 14-day follow-up window",
+        "sleep duration decreases from 481 minutes baseline mean to 364 minutes during first week then returns to 480 minutes",
+        "nighttime wearable coverage drops from 500 minutes to 380 minutes during shortened sleep episodes then recovers",
+        "daily steps and activity duration remain stable near 8000 steps and 55 minutes despite sleep timing disruption",
+        "sleep start returns to 22:40 and duration normalizes after seven days of delayed sleep onset"
+      ]
+    },
+    {
+      "case_ref": "sample_377d6b28febce198",
+      "queries": [
+        "low movement minutes increase from 449 baseline mean to constant 480 across all 14 follow-up days with zero variance",
+        "daytime low movement intervals consolidate from ten 45-minute blocks to three 150-minute blocks in follow-up",
+        "evening activity block changes from variable 50-60 minute duration to consistent 55-58 minutes starting at 21:00",
+        "sleep duration stable near 470 minutes and wake time fixed at 07:00 across entire 42-day observation period",
+        "resting heart rate and RMSSD show no meaningful change between 28-day baseline and 14-day follow-up"
+      ]
+    }
+  ]
+}

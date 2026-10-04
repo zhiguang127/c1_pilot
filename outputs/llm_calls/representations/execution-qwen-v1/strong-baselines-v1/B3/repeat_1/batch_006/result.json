@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b1e770e3027181a0",
+      "queries": [
+        "sustained sleep onset delay from 22:50 to after 01:00 with fixed 07:00 wake time reducing sleep duration by 138 minutes over 14 days",
+        "persistent 67 percent drop in daily steps from 7985 to 2643 while activity duration minutes remain stable near 55 per day",
+        "stable resting heart rate near 56 bpm and RMSSD near 45 ms despite large reductions in sleep duration and step count",
+        "low movement minutes unchanged near 450 per day while steps decrease by over 5000 indicating reduced ambulation without increased sedentary time",
+        "evening activity intervals consistently occurring between 21:00 and 22:00 across both baseline and follow-up periods"
+      ]
+    },
+    {
+      "case_ref": "sample_790b0b4bc30b5c3e",
+      "queries": [
+        "low movement minutes increase from variable 438-462 range to constant 480 every day for 14 consecutive days",
+        "daytime activity pattern shifts from continuous 45-minute low movement blocks to alternating 15-minute low movement and 1-minute activity intervals",
+        "sleep duration steps resting heart rate and HRV remain stable across 28-day baseline and 14-day window with no meaningful change",
+        "evening activity intervals shorten from approximately 55 minutes to 25 minutes while total daily activity duration remains near 55 minutes",
+        "constant low movement minutes of exactly 480 per day with zero variance across all 14 observation days"
+      ]
+    },
+    {
+      "case_ref": "sample_f1d8756309b00ea5",
+      "queries": [
+        "daily steps decrease from mean 9552 to 6433 over 14 days while sleep duration remains stable near 470 minutes",
+        "single day missing steps activity and low movement data due to insufficient daytime coverage of only 360 minutes on April 7",
+        "resting heart rate and HRV remain stable near 56 bpm and 45 ms respectively despite 33 percent reduction in daily steps",
+        "activity duration minutes show slight decrease from 55 to 53 minutes per day alongside large step count reduction",
+        "sleep timing remains consistent with sleep start near 22:50 and wake at 07:00 across both baseline and follow-up periods"
+      ]
+    },
+    {
+      "case_ref": "sample_e787e4e0c89a7cd1",
+      "queries": [
+        "sleep duration decreases by 59 minutes from baseline mean 481 to 422 over 14 days with increasing night-to-night variability",
+        "nighttime wearable coverage drops from approximately 500 minutes to 380 minutes starting on April 6 coinciding with shorter recorded sleep",
+        "sleep onset shifts from consistent 22:30-22:50 range to after midnight beginning April 6 while wake time remains fixed at 07:00",
+        "daily steps remain stable near 7975 across both 28-day baseline and 14-day window despite changes in sleep patterns",
+        "HRV RMSSD shows slight decrease of approximately 1 ms from baseline 45.3 to window 44.2 with resting heart rate remaining near 56 bpm"
+      ]
+    }
+  ]
+}

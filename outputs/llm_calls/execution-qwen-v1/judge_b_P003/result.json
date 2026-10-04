@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "667936086565",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR constant 61 bpm across all 42 days; zero variance, no change or trend observed.",
+      "item_condition_evidence": "Requires repeated RHR readings or a recent change to be informative beyond generic advice.",
+      "rationale": "No RHR variation exists in the data; item provides only generic background with no concrete connection."
+    },
+    {
+      "item_ref": "46351c358ea5",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes (8 hours) every night; age band is 18-60.",
+      "item_condition_evidence": "Requires sleep duration below the age-specific recommendation of at least seven hours.",
+      "rationale": "Observed 8-hour sleep meets and exceeds the 7-hour CDC recommendation; required condition contradicted by data."
+    },
+    {
+      "item_ref": "0e2798918a2f",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start 23:00 and end 07:00 are identical every day; variance is 0.0 throughout.",
+      "item_condition_evidence": "Requires repeated variability in bedtime or wake time to be applicable.",
+      "rationale": "Schedule is perfectly consistent with zero variability; required observable condition is directly contradicted."
+    },
+    {
+      "item_ref": "ea39e49ae883",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60; sleep duration is 480 minutes nightly.",
+      "item_condition_evidence": "Requires established age 61 to 64; non-applicable for other age groups.",
+      "rationale": "User age band 18-60 explicitly excludes the 61-64 target population; non-applicable condition met."
+    },
+    {
+      "item_ref": "079978a20bb4",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration 480 min equals nighttime coverage 480 min; sleep boundaries recorded daily.",
+      "item_condition_evidence": "Applies when device-estimated sleep duration and sleep boundaries are available.",
+      "rationale": "Item explains that estimated asleep time differs from sleep period; contextual but no discrepancy observed here."
+    },
+    {
+      "item_ref": "172414c7289e",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Steps null on Feb 5,8,11,14 due to insufficient daytime wear (360 min vs 720 required).",
+      "item_condition_evidence": "Applies when step readings change with possible measurement limitations affecting recorded steps.",
+      "rationale": "Missing steps result from insufficient wear coverage, not reduced walking; item contextually relevant to measurement limits."
+    }
+  ]
+}

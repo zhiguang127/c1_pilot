@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_634a74781104fc89",
+      "text": "Your 28-day baseline showed consistent sleep (~469 min, starting ~22:50, ending 07:00), steps (~7,985/day), and activity (~54 min/day). In the recent 14 days, your sleep start shifted to ~01:07 while wake time stayed at 07:00, reducing sleep by ~138 min/night. Steps dropped to ~2,643/day, but recorded active minutes remained stable (~55 min). Resting heart rate and HRV were unchanged. The shorter sleep reflects a later bedtime rather than earlier waking. Since activity minutes persisted despite fewer steps, movement patterns may have changed. Consider whether this schedule shift is intentional."
+    },
+    {
+      "case_ref": "sample_12837a30b91b9fbe",
+      "text": "Over your 28-day baseline you averaged ~471 min of sleep (starting ~22:50, ending 07:00), ~7,998 steps/day, and ~55 active minutes/day. During the recent 14 days, your sleep timing and duration remained stable (~469 min), as did resting heart rate (~56 bpm) and HRV (~45 ms). However, daily steps fell to ~2,321 and recorded active minutes dropped sharply from ~55 to ~5 min/day, with several days showing zero or near-zero activity. Low-movement minutes were essentially unchanged. Your cardiovascular metrics at rest appear steady, but the near-absence of detected active minutes represents a substantial change in recorded daytime movement worth reviewing."
+    },
+    {
+      "case_ref": "sample_428714e84f129728",
+      "text": "During your 28-day baseline, your sleep was consistent (~471 min, ~22:50–07:00), steps averaged ~7,938/day, active minutes ~55/day, and resting heart rate ~52 bpm. Over the recent 14 days, sleep timing, duration, steps (~7,923), active minutes (~56), low-movement minutes, and HRV (~45 ms) all remained close to baseline. The notable change is your resting heart rate, which rose to ~62 bpm—about 10 bpm above your baseline range of 51–53. This elevation was persistent across all 14 window days. While device estimates can vary, a sustained shift of this size relative to your own baseline is worth noting for continued monitoring."
+    },
+    {
+      "case_ref": "sample_6afee74fd2861af0",
+      "text": "Your 28-day baseline showed stable sleep (~469 min, ~22:51–07:00), ~8,019 steps/day, ~55 active minutes/day, resting heart rate ~57 bpm, and HRV ~45 ms. In the recent 14 days, steps, active minutes, low-movement minutes, resting heart rate, and HRV all remained near baseline levels. Sleep timing shifted: on 10 weekdays your sleep started around 00:10 and ended at 07:00, shortening to ~390 min. On 4 weekend days, sleep extended to ~11:00, lengthening to ~570 min. This weekday/weekend contrast introduces variability not present in your baseline, where sleep was uniform across all days. Your overall pattern remains stable aside from this new weekly structure."
+    }
+  ]
+}

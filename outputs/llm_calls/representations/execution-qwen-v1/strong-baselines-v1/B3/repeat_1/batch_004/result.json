@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_5f92088738b354c4",
+      "queries": [
+        "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms for five days then recovery while resting heart rate stays stable at 55-57 bpm",
+        "sleep duration stable near 470 minutes with fixed 07:00 wake time and consistent 22:40-23:00 bedtime across 42 days of wearable tracking",
+        "daily active minutes averaging 55 in baseline decreasing to 53 in follow-up window with unknown intensity and no change in step count",
+        "same-day negative correlation between resting heart rate and HRV RMSSD emerging only during a two-week observation window not present in prior 28-day baseline",
+        "low movement minutes clustered in ten 44-minute blocks daily from 10:00 to 18:00 remaining stable across baseline and follow-up periods"
+      ]
+    },
+    {
+      "case_ref": "sample_2628ad1bc996ceaf",
+      "queries": [
+        "sleep timing shift from consistent 22:45-07:00 schedule to alternating early 22:15-06:30 and late 00:40-09:00 patterns increasing sleep duration by 8.5 minutes",
+        "alternating sleep onset times every other day producing bimodal distribution of sleep start minutes from local noon during a 14-day period",
+        "daily steps increasing by 111 on average with steeper upward slope per day during a two-week window compared to a 28-day baseline",
+        "resting heart rate rising 0.6 bpm from baseline mean 55.75 to window mean 56.36 while HRV RMSSD remains stable near 44-45 ms",
+        "wearable sleep duration variance decreasing from 17.9 to 11.3 minutes squared after a major shift in sleep timing regularity"
+      ]
+    },
+    {
+      "case_ref": "sample_291467c938997fee",
+      "queries": [
+        "activity duration alternating between 45 and 90 minutes every other day during a 14-day window compared to stable 50-60 minute baseline",
+        "sleep duration dropping from 470-485 minutes to 385-392 minutes for six consecutive days coinciding with reduced nighttime wearable coverage below 412 minutes",
+        "nighttime wearable coverage decreasing from 490-505 minutes to 405-412 minutes and its effect on recorded sleep duration accuracy",
+        "daily step count remaining stable near 8000-8100 despite large alternating changes in active minutes during a two-week observation window",
+        "HRV RMSSD staying within 43-47 ms range across both baseline and follow-up periods despite major changes in activity pattern and sleep duration"
+      ]
+    },
+    {
+      "case_ref": "sample_bb758b54bff66927",
+      "queries": [
+        "sleep duration decreasing by 118 minutes from 464-minute baseline to 346-minute mean over 14 days with sleep onset shifting from 22:50 to after midnight",
+        "bedtime delay of approximately two hours from 22:45-23:05 baseline to 00:45-01:05 follow-up while wake time remains fixed at 07:00",
+        "nighttime wearable coverage dropping from 480-495 minutes to 355-373 minutes and implications for sleep measurement validity",
+        "daily step count remaining stable near 8000 steps despite a 25 percent reduction in recorded sleep duration over two weeks",
+        "resting heart rate and HRV RMSSD showing no meaningful change across a period with major sleep timing and duration shifts"
+      ]
+    }
+  ]
+}

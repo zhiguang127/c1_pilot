@@ -1,0 +1,21 @@
+{
+  "task_id": "execution-qwen-v1/judge_b_P003",
+  "input_sha256": "8a56d975974f344882fe3f8a69870a535fd1b6274331d298a94debcd2d2dd3e7",
+  "model": "qwen3.8-max",
+  "runtime": {
+    "backend": "openai_compatible_chat_completions",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "max_tokens": 16384,
+    "temperature": 0,
+    "timeout_seconds": 900,
+    "max_attempts": 2,
+    "max_workers": 3,
+    "sampling_seed": null,
+    "response_format": "json_object",
+    "configuration_revision": null,
+    "enable_thinking": false
+  },
+  "message_count": 2,
+  "fresh_context": true,
+  "tools_sent": false
+}

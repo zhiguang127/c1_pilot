@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_8ca46d97901f44a3",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~471 min, ending exactly at 07:00 daily, with start times varying ~15 min around 22:50. Steps (~8,008 vs ~8,039) and active minutes (~58 vs ~55) were stable. Resting HR (55-57 bpm) and RMSSD (mean 40 ms, range 28-52) showed no sustained shift. Day-to-day variability slightly decreased. No clear activity-sleep relationship was observed."
+    },
+    {
+      "case_ref": "sample_801e31ab16d9a295",
+      "text": "Your recent 14 days were largely consistent with your 28-day baseline. Sleep averaged ~468 min (down ~3 min), still ending at 07:00 daily, with starts shifting ~3 min later on average. Steps (~7,954 vs ~8,066) and active minutes (~55) changed minimally. Resting HR dipped slightly to ~55.8 bpm. Notably, RMSSD dropped from a very tight 43-47 ms baseline to 23-47 ms, driven by one weekend reading of 23 ms; otherwise it stayed near 45 ms."
+    },
+    {
+      "case_ref": "sample_323873fa0be416ec",
+      "text": "Sleep, active minutes (~55), resting HR (~56 bpm), and RMSSD (~45 ms) in your 14-day window remained very close to your 28-day baseline, with sleep consistently ending at 07:00. However, recorded steps dropped sharply from ~8,009 to ~2,335 per day. Because device wear time and all other metrics were unchanged, this likely reflects a change in step detection or how the device was worn rather than an actual activity change. Consider checking device placement."
+    },
+    {
+      "case_ref": "sample_89b435aaf692161e",
+      "text": "A major change appeared in your 14-day window: recorded steps rose from a baseline of ~2,818 to ~7,927 per day. Sleep (~469 min), active minutes (~55), low-movement minutes (~447), resting HR (~56 bpm), and RMSSD (~45 ms) all remained stable, and device wear was complete throughout. This suggests the step increase may reflect a device or recording change rather than altered activity patterns. Your sleep timing stayed consistent, always ending at 07:00."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_de8e7cd3707bcdf4",
+      "queries": [
+        "sustained 120-minute increase in sleep duration with two-hour earlier sleep onset and unchanged wake time over 14 days wearable data",
+        "stable daily steps activity minutes low movement resting heart rate and RMSSD despite large sleep timing shift",
+        "same-day positive correlation between resting heart rate and HRV RMSSD emerging only in follow-up window not baseline",
+        "consistent evening activity interval around 21:00 and daytime low movement blocks every 45 minutes across 42 days",
+        "weekday versus weekend sleep duration and step count patterns remaining stable before and after sleep schedule change"
+      ]
+    },
+    {
+      "case_ref": "sample_038472ef90433a46",
+      "queries": [
+        "sustained 118-minute decrease in sleep duration with two-hour later sleep onset and fixed 07:00 wake time over 14 days",
+        "sleep start shifting from before midnight to after midnight while sleep end remains constant at 07:00 local time",
+        "resting heart rate decreasing by 0.75 bpm with reduced variance alongside shorter sleep duration in follow-up window",
+        "daily steps activity duration and low movement minutes remaining stable across 28-day baseline and 14-day window",
+        "no correlation between resting heart rate and HRV RMSSD in either baseline or follow-up periods wearable data"
+      ]
+    },
+    {
+      "case_ref": "sample_c351cdfa90b005b7",
+      "queries": [
+        "stable sleep duration near 470 minutes with consistent sleep onset and offset times across 28-day baseline and 14-day window",
+        "resting heart rate and HRV RMSSD showing no meaningful change between baseline and follow-up periods",
+        "daily steps averaging around 7900 with slight negative slope in follow-up but no significant baseline difference",
+        "activity duration and low movement minutes remaining within narrow personal ranges across all 42 days",
+        "weak or absent correlations between activity steps and sleep duration in both baseline and follow-up windows"
+      ]
+    },
+    {
+      "case_ref": "sample_f4da56c02d218ed2",
+      "queries": [
+        "isolated four-day episode of elevated resting heart rate 65-67 bpm and reduced HRV RMSSD 23-26 ms returning to baseline",
+        "strong negative correlation between resting heart rate and HRV RMSSD during transient elevation period in follow-up window",
+        "sleep duration steps and activity minutes remaining stable across 42 days despite transient autonomic changes",
+        "transient concurrent rise in resting heart rate and drop in RMSSD lasting four days then spontaneously resolving",
+        "low movement minutes and daily activity duration showing no change during period of altered heart rate variability"
+      ]
+    }
+  ]
+}

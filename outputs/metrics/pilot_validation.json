@@ -1,0 +1,165 @@
+{
+  "validation_revision": "pilot-completion-v1",
+  "validated_at_utc": "2026-10-03T11:54:14.906976+00:00",
+  "valid": true,
+  "status": "COMPLETE",
+  "label_kind": "PROVISIONAL_LLM_GOLD",
+  "offline_only": true,
+  "stages": {
+    "configuration": {
+      "valid": true,
+      "details": {
+        "execution_revision": "execution-qwen-v1",
+        "design_revision": "design-v1"
+      }
+    },
+    "cases": {
+      "valid": true,
+      "details": {
+        "count": 24,
+        "daily_rows": 1008,
+        "matched_pairs": [
+          {
+            "pair": [
+              "C003",
+              "C005"
+            ],
+            "valid": true,
+            "errors": []
+          },
+          {
+            "pair": [
+              "C009",
+              "C011"
+            ],
+            "valid": true,
+            "errors": []
+          },
+          {
+            "pair": [
+              "C016",
+              "C018"
+            ],
+            "valid": true,
+            "errors": []
+          },
+          {
+            "pair": [
+              "C021",
+              "C023"
+            ],
+            "valid": true,
+            "errors": []
+          },
+          {
+            "pair": [
+              "C022",
+              "C024"
+            ],
+            "valid": true,
+            "errors": []
+          }
+        ],
+        "schema_and_statistics_valid": true
+      }
+    },
+    "corpus": {
+      "valid": true,
+      "details": {
+        "count": 96,
+        "domain_counts": {
+          "sleep_duration": 16,
+          "sleep_timing": 16,
+          "temporary_variation": 8,
+          "daily_activity": 16,
+          "low_movement": 12,
+          "activity_sleep_context": 8,
+          "personal_monitoring": 12,
+          "measurement_quality": 8
+        },
+        "source_count": 26,
+        "used_source_count": 22,
+        "corpus_sha256": "47f956a2483234d17812f566497f3f306356f6a250750c0d091557b10185f8cb",
+        "verification_kind": "machine/source review, not human clinical review"
+      }
+    },
+    "annotations": {
+      "valid": true,
+      "details": {
+        "gold_pairs": 2304,
+        "judge_a_pairs": 2304,
+        "judge_b_pairs": 2304,
+        "adjudicated_pairs": 2304,
+        "pending_judge_a": 0,
+        "pending_judge_b": 0,
+        "label_kind": "PROVISIONAL_LLM_GOLD",
+        "annotation_revision": "blinded-annotation-v2-shortrefs"
+      }
+    },
+    "representations": {
+      "valid": true,
+      "details": {
+        "count": 288,
+        "cases": 24,
+        "baselines": 4,
+        "repeats": 3,
+        "shared_input_hashes_valid": true
+      }
+    },
+    "retrieval": {
+      "valid": true,
+      "details": {
+        "count": 576,
+        "retrievers": [
+          "bm25",
+          "dense"
+        ],
+        "top_k": 20,
+        "config_sha256": "f6d14ac48372a4f9799c190c63562656ad943b5b03782923122ba02809c02413",
+        "corpus_sha256": "47f956a2483234d17812f566497f3f306356f6a250750c0d091557b10185f8cb",
+        "fixed_tie_breaking_verified": true
+      }
+    },
+    "metrics": {
+      "valid": true,
+      "details": {
+        "overall_rows": 8,
+        "summary_rows": 64,
+        "per_case_rows": 192,
+        "per_run_rows": 576,
+        "matched_pairs": 5,
+        "six_metrics_recomputed": true
+      }
+    },
+    "analysis": {
+      "valid": true,
+      "details": {
+        "semantic_audit_cases": 24,
+        "failure_analysis_cases": 24,
+        "audit_kind": "PROVISIONAL_LLM_AUDIT"
+      }
+    },
+    "reports": {
+      "valid": true,
+      "details": {
+        "reports": 3,
+        "category": "E",
+        "hypothesis_status": "inconclusive",
+        "note": "Integrity validation is not independent scientific or clinical endorsement."
+      }
+    },
+    "freeze": {
+      "valid": true,
+      "details": {
+        "present": true,
+        "files_checked": 77,
+        "integrity_valid": true
+      }
+    }
+  },
+  "limitations": [
+    "Structural/hash agreement does not prove factual correctness or clinical validity.",
+    "Judge uncertainty remains explicit; only adjudication and provisional gold must be fully resolved.",
+    "When no input freeze is present, this check cannot certify pre-result freezing."
+  ]
+}

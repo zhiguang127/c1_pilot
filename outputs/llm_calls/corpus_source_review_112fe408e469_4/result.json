@@ -1,0 +1,137 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K065",
+      "assessment": "supported",
+      "rationale": "Source defines physical activity as 'any body movement that works your muscles and requires more energy than resting,' supporting the distinction from planned exercise.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K066",
+      "assessment": "supported",
+      "rationale": "Source explicitly suggests adding physical activity to the workday by 'walking during your lunch break.' The caveat about low-movement records not establishing opportunity is a conservative editorial limit, not a fabricated claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K075"
+      ]
+    },
+    {
+      "knowledge_id": "K067",
+      "assessment": "supported",
+      "rationale": "Source includes 'taking the stairs when possible' as a way to add activity. The note that this depends on safe access rather than a prescribed threshold is consistent with the source's conditional phrasing.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K068",
+      "assessment": "supported",
+      "rationale": "NHS source describes sedentary behaviour as 'sitting or lying down for long periods' and lists examples like watching TV and car travel. The caution against relabelling low movement as confirmed sitting without posture data is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K057",
+        "K058",
+        "K059"
+      ]
+    },
+    {
+      "knowledge_id": "K069",
+      "assessment": "supported",
+      "rationale": "CDC source states physical activity helps you 'sleep better' and lists it under immediate benefits. The caveat that this does not establish individual causation is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K070",
+      "assessment": "supported",
+      "rationale": "NHLBI source advises to 'Spend time outside every day (when possible) and be physically active' under healthy sleep habits. Characterizing this as general routine advice is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K071",
+      "assessment": "supported",
+      "rationale": "NHLBI source states 'Use the hour before bed for quiet time. Avoid intense exercise...' The content accurately reflects the one-hour window and intensity qualifier, and correctly notes that recorded late movement alone does not confirm intensity.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K020"
+      ]
+    },
+    {
+      "knowledge_id": "K072",
+      "assessment": "supported",
+      "rationale": "NHS insomnia page explicitly says 'do not exercise at least 4 hours before bed' under the Don't list. The item correctly limits applicability to those with reported insomnia symptoms.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K071"
+      ]
+    },
+    {
+      "knowledge_id": "K073",
+      "assessment": "supported",
+      "rationale": "CDC source lists 'Exercise' among items to record in a sleep diary alongside bedtimes and wake times. The rationale about preserving temporal context follows logically.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K033",
+        "K076"
+      ]
+    },
+    {
+      "knowledge_id": "K074",
+      "assessment": "supported",
+      "rationale": "NIOSH source explicitly states 'While deployed... Do not cut into your sleep time to exercise.' The item correctly scopes this to emergency responders during deployment and clarifies it is about competing time demands.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K075",
+      "assessment": "supported",
+      "rationale": "CDC source advises under 'I'm too tired': 'Schedule physical activity for times in the day or week when you feel energetic.' The caveat about wearable data not establishing preferred energy times is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K066"
+      ]
+    },
+    {
+      "knowledge_id": "K076",
+      "assessment": "supported",
+      "rationale": "CDC source lists 'Drink alcohol or caffeinated drinks' and 'Take medications' as sleep diary entries alongside exercise and sleep times. The rationale about avoiding misattribution is sound.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K073"
+      ]
+    },
+    {
+      "knowledge_id": "K077",
+      "assessment": "supported",
+      "rationale": "Google source defines resting heart rate as beats per minute 'when you're still and well-rested.' The distinction from instantaneous exercise heart rate is supported by the source's explanation of daily estimation versus continuous detection.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K078"
+      ]
+    },
+    {
+      "knowledge_id": "K078",
+      "assessment": "supported",
+      "rationale": "Google source states sleeping heart rate 'is detected continuously throughout the night, and is often lower than your resting heart rate, which is estimated each day.' The advice to compare the same measure is a direct implication.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K077"
+      ]
+    },
+    {
+      "knowledge_id": "K079",
+      "assessment": "supported",
+      "rationale": "Google source lists stress, alcohol, caffeine, fever, regular exercise, meditation, air temperature, and medications as factors affecting resting heart rate. The statement that a rise has multiple possible explanations is directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K080",
+      "assessment": "supported",
+      "rationale": "Google source defines HRV as 'the variation in time between heartbeats.' The clarification that HRV differs from average heart rate is a correct definitional distinction supported by the source treating them as separate vitals.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

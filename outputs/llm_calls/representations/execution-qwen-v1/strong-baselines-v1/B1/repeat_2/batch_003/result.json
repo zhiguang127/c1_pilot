@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_93f8d63109301e24",
+      "text": "Over 28 days baseline then 14 days window, sleep duration (~470 min), steps (~8054), activity (~55 min), low movement (~448 min), and resting heart rate (~56 bpm) remained stable. Sleep consistently ended at 07:00 with starts ~22:43-22:58. Evening activity occurred daily ~21:00. HRV RMSSD dropped from a stable baseline mean of 44.5 ms (range 43-47) to a window mean of 39.4 ms, driven by a transient dip to 22-28 ms during Apr 3-6 before recovering to 43-47 ms by Apr 7. No consistent weekday/weekend differences were observed. Paired correlations between metrics were weak in both periods."
+    },
+    {
+      "case_ref": "sample_2b04e2e8dd5691b1",
+      "text": "Across 28 days baseline and 14 days window, sleep (~470 min, ending exactly 07:00 daily), activity (~55 min), low movement (~451 min), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) remained stable. Steps dropped abruptly from a baseline mean of 8009 to a window mean of 2335, persisting throughout all 14 window days without recovery. Despite this ~71% reduction in steps, activity duration was unchanged, indicating the step decrease did not correspond to reduced active minutes. Evening activity intervals continued daily ~21:00. No meaningful weekday/weekend patterns or cross-metric correlations emerged."
+    },
+    {
+      "case_ref": "sample_554cb87f02ca49a4",
+      "text": "Over 28 days baseline and 14 days window, sleep (~470 min, ending exactly 07:00), steps (~8020), activity (~55 min), and low movement (~449 min) remained stable. Resting heart rate increased from a tight baseline range of 55-57 bpm (mean 56.0) to 55-67 bpm in the window (mean 58.7), with elevations to 65-67 bpm on Apr 3-6 returning to 55-57 bpm thereafter. HRV RMSSD decreased from a stable baseline mean of 45.0 ms to 38.9 ms in the window, driven by a dip to 23-26 ms during Apr 7-10 before recovering to 45 ms. The RHR-HRV correlation shifted from near zero at baseline to r=0.40 in the window. Evening activity persisted daily ~21:00."
+    },
+    {
+      "case_ref": "sample_fcbb50a5c89187d7",
+      "text": "Across 28 days baseline and 14 days window, sleep (~470 min, ending exactly 07:00 daily), activity (~55 min), low movement (~448 min), resting heart rate (~56 bpm), and HRV RMSSD (~45 ms) remained stable. Steps declined from a baseline mean of 9552 to a window mean of 6433, a sustained ~33% reduction across all 14 window days without recovery. Daytime wear was incomplete on Apr 7 (360 vs required 720 min), causing missing steps, activity, and low movement for that date; nighttime metrics remained valid. Evening activity intervals continued daily ~21:00 when recorded. No strong cross-metric relationships were observed."
+    }
+  ]
+}

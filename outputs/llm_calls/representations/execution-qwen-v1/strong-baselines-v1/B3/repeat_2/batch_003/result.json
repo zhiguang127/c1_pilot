@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_93f8d63109301e24",
+      "queries": [
+        "HRV RMSSD transient drop to 22 ms during days 5-8 of a 14-day window after stable 43-47 ms baseline then recovery to 44-47 ms",
+        "stable sleep duration near 470 minutes and fixed 07:00 wake time across 28-day baseline and 14-day follow-up with no weekday weekend difference",
+        "resting heart rate remaining between 55 and 57 bpm with variance under 1 bpm across both 28-day baseline and 14-day observation window",
+        "daily activity duration decreasing by about 2.4 minutes in the 14-day window compared to 28-day baseline while steps remain near 8000 per day",
+        "negative correlation of -0.54 between resting heart rate and HRV RMSSD emerging only in the 14-day window but absent during the 28-day baseline"
+      ]
+    },
+    {
+      "case_ref": "sample_2b04e2e8dd5691b1",
+      "queries": [
+        "sustained step count reduction from approximately 8000 per day during 28-day baseline to 2300 per day across entire 14-day window without recovery",
+        "activity duration minutes remaining stable near 55 minutes despite daily steps dropping by over 70 percent in the 14-day observation period",
+        "sleep duration and sleep timing unchanged with mean 469 minutes and consistent 07:00 wake time across baseline and window despite large step decrease",
+        "resting heart rate and HRV RMSSD stable at 56 bpm and 45 ms respectively during 14-day window when daily steps fell below 2700",
+        "low movement minutes averaging 452 per day persisting unchanged across 28-day baseline and 14-day window alongside major step count decline"
+      ]
+    },
+    {
+      "case_ref": "sample_554cb87f02ca49a4",
+      "queries": [
+        "resting heart rate rising from 55-57 bpm baseline to 65-67 bpm on four consecutive days in the middle of a 14-day window before returning to 55-57 bpm",
+        "HRV RMSSD dropping from stable 43-47 ms baseline to 23-26 ms for five consecutive days in the second half of the 14-day window then recovering to 45 ms",
+        "positive correlation of 0.40 between resting heart rate and HRV RMSSD appearing only during the 14-day window when both metrics showed elevated variability",
+        "daily step counts remaining near 8000 and activity duration near 55 minutes throughout 14-day window despite transient heart rate elevation",
+        "sleep duration stable near 470 minutes with zero variance in wake time at 07:00 across 28-day baseline and 14-day window including days with elevated heart rate"
+      ]
+    },
+    {
+      "case_ref": "sample_fcbb50a5c89187d7",
+      "queries": [
+        "daily step count decreasing from mean 9552 during 28-day baseline to 6433 across 14-day window representing a sustained 33 percent reduction",
+        "one day of missing daytime activity data due to insufficient wearable coverage within an otherwise complete 14-day observation window",
+        "sleep duration remaining stable near 470 minutes and wake time fixed at 07:00 across baseline and window despite large step count decrease",
+        "HRV RMSSD and resting heart rate showing no meaningful change between 28-day baseline and 14-day window when steps declined by over 3000 per day",
+        "activity duration minutes slightly lower at 53 versus 55 minutes in the 14-day window compared to baseline while low movement minutes increased by about 3 minutes"
+      ]
+    }
+  ]
+}

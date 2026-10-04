@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b81ddc462cc2764d",
+      "queries": [
+        "wearable sleep duration stable 470 minutes per night with zero variance in wake time at 07:00 over 42 days",
+        "daily active minutes increased by 2.6 minutes in follow-up window versus 28-day baseline while steps remained unchanged",
+        "HRV RMSSD alternating between 26 and 54 ms day to day with no change in mean across baseline and follow-up periods",
+        "resting heart rate stable near 56 bpm with less than 1 bpm difference between 28-day baseline and 14-day follow-up",
+        "weak negative correlation between daily steps and active minutes during baseline that disappeared in follow-up window"
+      ]
+    },
+    {
+      "case_ref": "sample_bb8fb30970c60404",
+      "queries": [
+        "sleep onset delayed from 22:50 to after midnight with sleep duration dropping below 400 minutes on alternating nights",
+        "active minutes alternating between 45 and 90 minutes every other day during a 14-day follow-up period",
+        "bimodal sleep pattern with normal 475-minute nights alternating with short 385-minute nights over two weeks",
+        "steps maintained near 8000 per day despite large alternating changes in activity duration and sleep timing",
+        "strong negative correlation between daily active minutes and next-day sleep duration appearing only during follow-up"
+      ]
+    },
+    {
+      "case_ref": "sample_51960540cc887954",
+      "queries": [
+        "alternating sleep duration between 475 and 385 minutes linked to sleep start times shifting from 22:45 to after midnight",
+        "active minutes switching between 45 and 90 minutes on consecutive days during a 14-day observation window",
+        "nighttime wearable coverage dropping below 415 minutes on nights with shorter recorded sleep duration",
+        "steps remaining stable near 8000 per day despite alternating long and short sleep episodes",
+        "near-perfect negative correlation between active minutes and subsequent sleep duration over 14 days"
+      ]
+    },
+    {
+      "case_ref": "sample_62721a92dbc25f07",
+      "queries": [
+        "daily steps increasing from 2800 baseline to 7900 during follow-up while sleep duration and active minutes remain stable",
+        "low step count near 2800 per day persisting over 28-day baseline with consistent 56 minutes of daily activity",
+        "sleep duration stable near 470 minutes and wake time fixed at 07:00 despite five-fold increase in daily steps",
+        "HRV RMSSD remaining tightly between 43 and 47 ms across both low-step baseline and high-step follow-up periods",
+        "no correlation between resting heart rate and HRV RMSSD during 14-day follow-up despite large step count change"
+      ]
+    }
+  ]
+}

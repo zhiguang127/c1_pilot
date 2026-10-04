@@ -1,0 +1,49 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "hypothesis_status": {
+      "type": "string",
+      "enum": [
+        "supported",
+        "partially supported",
+        "unsupported",
+        "inconclusive"
+      ]
+    },
+    "reasoning": {
+      "type": "string",
+      "minLength": 1
+    },
+    "strongest": {
+      "type": "string",
+      "minLength": 1
+    },
+    "next_step": {
+      "type": "string",
+      "minLength": 1
+    },
+    "failure_interpretation": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "category",
+    "hypothesis_status",
+    "reasoning",
+    "strongest",
+    "next_step",
+    "failure_interpretation"
+  ]
+}

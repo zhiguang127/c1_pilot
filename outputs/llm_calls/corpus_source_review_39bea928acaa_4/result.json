@@ -1,0 +1,132 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K065",
+      "assessment": "supported",
+      "rationale": "Source defines physical activity as 'any body movement that works your muscles and requires more energy than resting,' supporting the distinction from planned exercise.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K066",
+      "assessment": "requires_correction",
+      "rationale": "The source lists lunch-break walking under the obstacle 'I'm too tired' but frames it as a way to 'Add physical activity to your workday,' not specifically as a remedy for tiredness. The scheduling-for-energy advice is the direct response to tiredness. The content conflates two separate suggestions in the same table cell.",
+      "unsupported_claims": [
+        "CDC suggests adding a lunch-break walk to the workday when tiredness is a barrier to activity"
+      ],
+      "near_duplicate_ids": [
+        "K075"
+      ]
+    },
+    {
+      "knowledge_id": "K067",
+      "assessment": "supported",
+      "rationale": "Source explicitly says 'taking the stairs when possible' to add activity to the workday, with no step threshold prescribed.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K068",
+      "assessment": "supported",
+      "rationale": "NHS source describes sedentary behaviour as 'sitting or lying down for long periods' and lists examples like screen use and car travel, supporting the posture/context requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K069",
+      "assessment": "supported",
+      "rationale": "CDC source states physical activity helps you 'sleep better' and lists sleep among immediate benefits, while the item correctly notes this does not establish individual causation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K070",
+      "assessment": "supported",
+      "rationale": "NHLBI source advises to 'Spend time outside every day (when possible) and be physically active' as part of healthy sleep habits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K071",
+      "assessment": "supported",
+      "rationale": "NHLBI source says 'Use the hour before bed for quiet time. Avoid intense exercise...' supporting the timing and intensity caveats.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K072",
+      "assessment": "supported",
+      "rationale": "NHS insomnia page lists 'do not exercise at least 4 hours before bed' under self-treatment for insomnia, correctly scoped to reported sleeping difficulties.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K071"
+      ]
+    },
+    {
+      "knowledge_id": "K073",
+      "assessment": "supported",
+      "rationale": "CDC source lists 'Exercise' among items to record in a sleep diary alongside bed/wake times.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K076"
+      ]
+    },
+    {
+      "knowledge_id": "K074",
+      "assessment": "supported",
+      "rationale": "NIOSH training for emergency responders states 'While deployed... Do not cut into your sleep time to exercise,' matching the deployment-specific context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K075",
+      "assessment": "supported",
+      "rationale": "CDC source under 'I'm too tired' advises 'Schedule physical activity for times in the day or week when you feel energetic.'",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K066"
+      ]
+    },
+    {
+      "knowledge_id": "K076",
+      "assessment": "supported",
+      "rationale": "CDC source lists alcohol, caffeinated drinks, and medications alongside sleep and exercise entries in the sleep diary.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K073"
+      ]
+    },
+    {
+      "knowledge_id": "K077",
+      "assessment": "supported",
+      "rationale": "Google source defines resting heart rate as beats per minute 'when you're still and well-rested,' distinguishing it from exercise readings.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K078"
+      ]
+    },
+    {
+      "knowledge_id": "K078",
+      "assessment": "supported",
+      "rationale": "Google source explains sleeping heart rate is detected continuously overnight and is often lower than the daily resting estimate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K077"
+      ]
+    },
+    {
+      "knowledge_id": "K079",
+      "assessment": "supported",
+      "rationale": "Google source lists stress, alcohol, caffeine, fever, air temperature, medications, and regular exercise as factors affecting resting heart rate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K080",
+      "assessment": "supported",
+      "rationale": "Google source defines HRV as 'the variation in time between heartbeats,' distinct from average heart rate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

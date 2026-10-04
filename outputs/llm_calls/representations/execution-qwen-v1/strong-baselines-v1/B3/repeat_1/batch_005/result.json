@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b977d7c729a9dca4",
+      "queries": [
+        "wearable activity minutes drop from 54 to 9 per day with low movement rising 152 minutes while resting heart rate and HRV remain stable over 14 days",
+        "evening activity intervals shortened from 50-60 minutes to 8-12 minutes starting at 21:00 persistently across a two-week window",
+        "low movement intervals lengthened from 45-minute blocks to 60-minute blocks during daytime hours 10:00-21:00 without change in step count",
+        "sleep duration and sleep timing unchanged despite large reduction in active minutes and increase in low movement minutes over 14 days",
+        "weak correlation between daily resting heart rate and RMSSD in baseline becomes near zero in follow-up window on same device"
+      ]
+    },
+    {
+      "case_ref": "sample_ef09d03733a860b3",
+      "queries": [
+        "sleep onset delayed from 22:40 to after midnight reducing sleep duration by 59 minutes for six consecutive nights then returning to baseline timing",
+        "nighttime wearable coverage dropped below 400 minutes during six nights of delayed sleep onset before recovering to 495-505 minutes",
+        "daily steps and activity duration remained stable around 8000 steps and 55 minutes despite abrupt sleep timing shift and reduced sleep duration",
+        "resting heart rate and HRV showed no sustained change during a 14-day window containing a transient six-night sleep delay episode",
+        "weekday versus weekend sleep duration differences disappeared when sleep onset shifted past midnight for several days"
+      ]
+    },
+    {
+      "case_ref": "sample_20d9f060bef33f98",
+      "queries": [
+        "consistent sleep schedule from 01:00 to 09:00 with 475 minutes duration maintained across 28-day baseline and 14-day follow-up without deviation",
+        "daily steps variance decreased and adjacent day-to-day step changes reduced from 280 to 179 in follow-up compared to baseline",
+        "HRV RMSSD increased slightly by 0.8 ms relative to personal baseline while resting heart rate decreased 0.3 bpm over 14 days",
+        "activity duration and low movement minutes remained within baseline range with no trend change across the observation window",
+        "zero variance in sleep start and end times across all 42 days indicates fixed wake and bed schedule on wearable record"
+      ]
+    },
+    {
+      "case_ref": "sample_fc6bc727701ebc5c",
+      "queries": [
+        "low movement minutes increased abruptly from variable 438-462 range to exactly 480 every day for 14 consecutive days with zero variance",
+        "daytime low movement intervals consolidated from ten 45-minute blocks into three 150-minute blocks starting at 10:00 while total wear time stayed 720 minutes",
+        "sleep duration steps activity minutes resting heart rate and HRV remained stable across the period when low movement pattern changed structurally",
+        "evening activity intervals persisted at 50-60 minutes starting at 21:00 despite daytime consolidation of low movement into longer blocks",
+        "no correlation between daily steps and activity duration in baseline remained weak in follow-up when low movement became constant"
+      ]
+    }
+  ]
+}

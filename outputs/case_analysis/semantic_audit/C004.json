@@ -1,0 +1,1837 @@
+{
+  "case_id": "C004",
+  "audit_kind": "PROVISIONAL_LLM_AUDIT",
+  "label_kind": "PROVISIONAL_LLM_GOLD",
+  "audit_revision": "semantic-audit-v1",
+  "case_input_sha256": "f46cf06c4854ffa5a8d82b7607976298505bbe58cde9f9270988e3339df32397",
+  "positive_label_input_sha256": "e5b1778739a9d969c27f98d8d6fac03c38d24b36b20a19bfb768d5c5a2978235",
+  "anonymous_reference_mapping": {
+    "R01": {
+      "baseline_id": "B1",
+      "repeat_id": 2,
+      "status": "ok",
+      "text": "Over 28 days baseline then 14 days window, sleep duration (~470 min), steps (~8054), activity (~55 min), low movement (~448 min), and resting heart rate (~56 bpm) remained stable. Sleep consistently ended at 07:00 with starts ~22:43-22:58. Evening activity occurred daily ~21:00. HRV RMSSD dropped from a stable baseline mean of 44.5 ms (range 43-47) to a window mean of 39.4 ms, driven by a transient dip to 22-28 ms during Apr 3-6 before recovering to 43-47 ms by Apr 7. No consistent weekday/weekend differences were observed. Paired correlations between metrics were weak in both periods."
+    },
+    "R02": {
+      "baseline_id": "B3",
+      "repeat_id": 3,
+      "status": "ok",
+      "text": "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms isolated days then recovery within two weeks\nstable sleep timing with fixed 7am wake time and consistent 10:43-10:58pm bedtime over 42 days of wearable data\nevening activity intervals consistently starting at 21:00 daily with unknown intensity in longitudinal wearable records\nresting heart rate stable between 55-57 bpm across 28-day baseline and 14-day follow-up with no trend change\ndaytime low movement minutes structured as ten 44-minute blocks separated by 5-minute gaps throughout observation period"
+    },
+    "R03": {
+      "baseline_id": "B1",
+      "repeat_id": 3,
+      "status": "ok",
+      "text": "Over 28 baseline days, sleep averaged 470 min (start ~22:50, end fixed 07:00), steps ~8054, activity ~55 min, RHR 56 bpm, RMSSD 44.5 ms. In the 14-day window, most metrics remained stable. However, RMSSD dropped to a mean of 39.4 ms with markedly increased variance, driven by values of 22-28 ms on Apr 3-6 before recovering to 43-47 ms from Apr 7 onward. Sleep, steps, activity, low movement, and RHR showed no meaningful change. Evening activity occurred daily near 21:00; daytime low-movement blocks were consistent. No strong cross-metric relationships emerged beyond a moderate negative RHR-RMSSD correlation in the window."
+    },
+    "R04": {
+      "baseline_id": "B2",
+      "repeat_id": 1,
+      "status": "ok",
+      "text": "Your sleep, steps, activity, and resting heart rate stayed close to your 28-day baseline over the past 14 days. Sleep averaged ~469 min (baseline ~470), always ending at 07:00, with starts around 22:50. Steps (~8061) and active minutes (~53) were stable. One notable change: HRV (RMSSD) dropped from a steady ~44 ms to an average of ~39 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms. This was an isolated fluctuation, not a persistent shift. Day-to-day HRV variability increased compared to baseline. No clear relationship between daily activity and next-day sleep was observed."
+    },
+    "R05": {
+      "baseline_id": "B3",
+      "repeat_id": 1,
+      "status": "ok",
+      "text": "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms for five days then recovery while resting heart rate stays stable at 55-57 bpm\nsleep duration stable near 470 minutes with fixed 07:00 wake time and consistent 22:40-23:00 bedtime across 42 days of wearable tracking\ndaily active minutes averaging 55 in baseline decreasing to 53 in follow-up window with unknown intensity and no change in step count\nsame-day negative correlation between resting heart rate and HRV RMSSD emerging only during a two-week observation window not present in prior 28-day baseline\nlow movement minutes clustered in ten 44-minute blocks daily from 10:00 to 18:00 remaining stable across baseline and follow-up periods"
+    },
+    "R06": {
+      "baseline_id": "B2",
+      "repeat_id": 3,
+      "status": "ok",
+      "text": "Your sleep, steps, activity, resting heart rate, and low movement stayed close to your 28-day baseline over the past 14 days. Sleep averaged ~469 min vs ~470 min baseline, ending consistently at 07:00. A notable change is HRV (RMSSD): it dipped to 22–28 ms on Apr 3–6 from a stable ~44–45 ms baseline, then returned to 43–47 ms by Apr 7. This isolated drop increased overall HRV variability without a corresponding shift in resting heart rate (~56 bpm). Activity minutes were slightly lower (53 vs 55 avg), with evening timing unchanged. No clear relationship between daily activity and next-night sleep was observed."
+    },
+    "R07": {
+      "baseline_id": "B2",
+      "repeat_id": 2,
+      "status": "ok",
+      "text": "Your sleep, steps, activity, resting heart rate, and low movement stayed close to your 28-day baseline over the past 14 days. Sleep averaged ~469 min (baseline ~470), ending consistently at 07:00, with starts shifting ~2 min later. Steps held near ~8,060/day. One notable change: HRV (RMSSD) dropped from a stable baseline mean of 44.5 ms to 39.4 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms. Day-to-day HRV variability increased markedly. Resting heart rate remained steady at ~56 bpm. The brief HRV dip was isolated; continued monitoring may clarify whether such fluctuations recur."
+    },
+    "R08": {
+      "baseline_id": "B1",
+      "repeat_id": 1,
+      "status": "ok",
+      "text": "Over 28 baseline days, sleep averaged 470 min (start ~22:50, end fixed 07:00), steps ~8054, activity ~55 min, RHR 56 bpm, RMSSD 44.5 ms. In the 14-day window, sleep, steps, activity, low movement, and RHR remained near baseline. RMSSD dropped to a mean of 39.4 ms with high variance (22–47 ms) from Apr 3–6 before recovering to 43–47 ms by Apr 7. Daytime activity occurred consistently around 21:00; daytime low-movement blocks spanned ~10:00–18:00. No strong cross-metric relationships were observed."
+    },
+    "R09": {
+      "baseline_id": "B3",
+      "repeat_id": 2,
+      "status": "ok",
+      "text": "HRV RMSSD transient drop to 22 ms during days 5-8 of a 14-day window after stable 43-47 ms baseline then recovery to 44-47 ms\nstable sleep duration near 470 minutes and fixed 07:00 wake time across 28-day baseline and 14-day follow-up with no weekday weekend difference\nresting heart rate remaining between 55 and 57 bpm with variance under 1 bpm across both 28-day baseline and 14-day observation window\ndaily activity duration decreasing by about 2.4 minutes in the 14-day window compared to 28-day baseline while steps remain near 8000 per day\nnegative correlation of -0.54 between resting heart rate and HRV RMSSD emerging only in the 14-day window but absent during the 28-day baseline"
+    }
+  },
+  "audit": {
+    "facts": [
+      {
+        "fact_id": "F1",
+        "fact_statement": "Baseline mean sleep duration was 470.46 minutes and window mean was 468.50 minutes, a decrease of approximately 2 minutes. Sleep end time was fixed at 07:00 (1140 minutes from local noon) across all 42 days.",
+        "knowledge_ids": [
+          "K001",
+          "K015",
+          "K094"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "metrics.sleep_duration_minutes",
+              "derived_statistics.metric_statistics.sleep_duration_minutes.baseline.mean",
+              "derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.baseline.mean"
+            ],
+            "explanation": "Baseline sleep mean 470.46 min; sleep end fixed at 1140 min from noon (07:00)."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "metrics.sleep_duration_minutes",
+              "derived_statistics.metric_statistics.sleep_duration_minutes.window.mean",
+              "derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.window.mean",
+              "derived_statistics.metric_statistics.sleep_duration_minutes.comparison.mean_difference"
+            ],
+            "explanation": "Window sleep mean 468.50 min; difference -1.96 min; sleep end fixed at 1140 min."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "sleep duration (~470 min)... remained stable. Sleep consistently ended at 07:00",
+            "rationale": "Accurately reports approximate baseline mean and fixed wake time.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "stable sleep timing with fixed 7am wake time",
+            "rationale": "Correctly identifies the fixed 07:00 wake time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "sleep averaged 470 min (start ~22:50, end fixed 07:00)",
+            "rationale": "Reports correct baseline mean and fixed end time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "Sleep averaged ~469 min (baseline ~470), always ending at 07:00",
+            "rationale": "Reports both means approximately and the fixed end time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "sleep duration stable near 470 minutes with fixed 07:00 wake time",
+            "rationale": "Correctly notes stability and fixed wake time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "Sleep averaged ~469 min vs ~470 min baseline, ending consistently at 07:00",
+            "rationale": "Accurate comparison and fixed end time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "Sleep averaged ~469 min (baseline ~470), ending consistently at 07:00",
+            "rationale": "Accurate comparison and fixed end time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "sleep averaged 470 min (start ~22:50, end fixed 07:00)",
+            "rationale": "Reports correct baseline mean and fixed end time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "stable sleep duration near 470 minutes and fixed 07:00 wake time",
+            "rationale": "Correctly notes stability and fixed wake time.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F2",
+        "fact_statement": "HRV RMSSD mean decreased from 44.5 ms in baseline to 39.36 ms in the window. During Apr 3-6, values dropped to 22, 25, 28, and 24 ms, below the baseline minimum of 43 ms, before recovering to 43-47 ms.",
+        "knowledge_ids": [
+          "K080",
+          "K081",
+          "K082",
+          "K084",
+          "K085",
+          "K086"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "metrics.hrv_rmssd_ms",
+              "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.mean",
+              "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.min",
+              "derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.max"
+            ],
+            "explanation": "Baseline HRV RMSSD mean 44.5, range 43-47."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-04-03",
+              "2026-04-04",
+              "2026-04-05",
+              "2026-04-06",
+              "2026-04-07"
+            ],
+            "field_paths": [
+              "metrics.hrv_rmssd_ms",
+              "derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean",
+              "derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference",
+              "arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min"
+            ],
+            "explanation": "Window mean 39.36; Apr 3-6 values 22-28 are below baseline min 43; Apr 7 recovers to 47."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "HRV RMSSD dropped from a stable baseline mean of 44.5 ms (range 43-47) to a window mean of 39.4 ms, driven by a transient dip to 22-28 ms during Apr 3-6 before recovering to 43-47 ms by Apr 7",
+            "rationale": "Accurately captures means, range, specific low dates, and recovery.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "wearable HRV RMSSD sudden drop from 44ms baseline to 22ms isolated days then recovery within two weeks",
+            "rationale": "Captures the drop and recovery qualitatively.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "RMSSD dropped to a mean of 39.4 ms with markedly increased variance, driven by values of 22-28 ms on Apr 3-6 before recovering to 43-47 ms from Apr 7 onward",
+            "rationale": "Accurately reports means, dates, and recovery.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "HRV (RMSSD) dropped from a steady ~44 ms to an average of ~39 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms",
+            "rationale": "Accurately reports the change and dates.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "sudden drop from 44ms baseline to 22ms for five days then recovery",
+            "rationale": "The low values occurred on four days (Apr 3-6), not five.",
+            "model_status": "contradicted",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "HRV (RMSSD): it dipped to 22–28 ms on Apr 3–6 from a stable ~44–45 ms baseline, then returned to 43–47 ms by Apr 7",
+            "rationale": "Accurately reports dates and values.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "HRV (RMSSD) dropped from a stable baseline mean of 44.5 ms to 39.4 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms",
+            "rationale": "Accurately reports means and dates.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "RMSSD dropped to a mean of 39.4 ms with high variance (22–47 ms) from Apr 3–6 before recovering to 43–47 ms by Apr 7",
+            "rationale": "Accurately reports the drop and recovery.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "transient drop to 22 ms during days 5-8 of a 14-day window",
+            "rationale": "Days 5-8 of the window correspond to Apr 3-6, which is correct, but the phrasing is ambiguous without explicit dates.",
+            "model_status": "uncertain",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F3",
+        "fact_statement": "Resting heart rate remained stable between 55 and 57 bpm across both periods, with baseline mean 56.14 and window mean 56.00.",
+        "knowledge_ids": [
+          "K077",
+          "K078",
+          "K083"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "metrics.resting_heart_rate_bpm",
+              "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.mean",
+              "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.min",
+              "derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.max"
+            ],
+            "explanation": "Baseline RHR mean 56.14, range 55-57."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "metrics.resting_heart_rate_bpm",
+              "derived_statistics.metric_statistics.resting_heart_rate_bpm.window.mean",
+              "derived_statistics.metric_statistics.resting_heart_rate_bpm.comparison.mean_difference"
+            ],
+            "explanation": "Window RHR mean 56.00, difference -0.14 bpm."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "resting heart rate (~56 bpm) remained stable",
+            "rationale": "Accurately summarizes stability and approximate value.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "resting heart rate stable between 55-57 bpm across 28-day baseline and 14-day follow-up",
+            "rationale": "Correctly states the observed range and stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "RHR 56 bpm... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+            "rationale": "Accurately reports baseline mean and stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "resting heart rate stayed close to your 28-day baseline",
+            "rationale": "Qualitative description of stability is accurate.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "resting heart rate stays stable at 55-57 bpm",
+            "rationale": "Correctly states range and stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "without a corresponding shift in resting heart rate (~56 bpm)",
+            "rationale": "Accurately notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "Resting heart rate remained steady at ~56 bpm",
+            "rationale": "Accurately notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "RHR 56 bpm... sleep, steps, activity, low movement, and RHR remained near baseline",
+            "rationale": "Accurately reports baseline mean and stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "resting heart rate remaining between 55 and 57 bpm with variance under 1 bpm",
+            "rationale": "Correctly states range and low variance.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F4",
+        "fact_statement": "Mean daily steps were nearly unchanged: 8053.82 in baseline versus 8060.57 in the window, a difference of 6.75 steps.",
+        "knowledge_ids": [
+          "K082"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "metrics.steps",
+              "derived_statistics.metric_statistics.steps.baseline.mean"
+            ],
+            "explanation": "Baseline steps mean 8053.82."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "metrics.steps",
+              "derived_statistics.metric_statistics.steps.window.mean",
+              "derived_statistics.metric_statistics.steps.comparison.mean_difference"
+            ],
+            "explanation": "Window steps mean 8060.57, difference 6.75."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "steps (~8054)... remained stable",
+            "rationale": "Accurately approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Steps are not mentioned.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "steps ~8054... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+            "rationale": "Accurately approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "Steps (~8061)... were stable",
+            "rationale": "Approximates window mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "no change in step count",
+            "rationale": "Qualitatively accurate given the negligible 6.75 difference.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "Your sleep, steps... stayed close to your 28-day baseline",
+            "rationale": "Qualitatively accurate.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "Steps held near ~8,060/day",
+            "rationale": "Accurately approximates window mean.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "steps ~8054... sleep, steps, activity, low movement, and RHR remained near baseline",
+            "rationale": "Accurately approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "steps remain near 8000 per day",
+            "rationale": "Reasonable approximation of both period means.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F5",
+        "fact_statement": "Mean activity duration decreased slightly from 55.43 minutes in baseline to 53.00 minutes in the window, a difference of 2.43 minutes.",
+        "knowledge_ids": [
+          "K082"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "metrics.activity_duration_minutes",
+              "derived_statistics.metric_statistics.activity_duration_minutes.baseline.mean"
+            ],
+            "explanation": "Baseline activity mean 55.43 min."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "metrics.activity_duration_minutes",
+              "derived_statistics.metric_statistics.activity_duration_minutes.window.mean",
+              "derived_statistics.metric_statistics.activity_duration_minutes.comparison.mean_difference"
+            ],
+            "explanation": "Window activity mean 53.00 min, difference -2.43 min."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "activity (~55 min)... remained stable",
+            "rationale": "Approximates baseline mean; calling it stable is reasonable for a 2.4 min difference.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Activity duration means are not compared between periods.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "activity ~55 min... Sleep, steps, activity, low movement, and RHR showed no meaningful change",
+            "rationale": "Approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "active minutes (~53) were stable",
+            "rationale": "Approximates window mean.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "daily active minutes averaging 55 in baseline decreasing to 53 in follow-up window",
+            "rationale": "Accurately reports both means and direction.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "Activity minutes were slightly lower (53 vs 55 avg)",
+            "rationale": "Accurately reports both means and direction.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention activity duration values or change.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "activity ~55 min... sleep, steps, activity, low movement, and RHR remained near baseline",
+            "rationale": "Approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "daily activity duration decreasing by about 2.4 minutes in the 14-day window compared to 28-day baseline",
+            "rationale": "Accurately reports the mean difference.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F6",
+        "fact_statement": "Evening activity intervals started at 21:00 every day in both baseline and window periods, with intensity recorded as unknown.",
+        "knowledge_ids": [
+          "K073"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "activity_intervals.0.start_at",
+              "activity_intervals.0.intensity"
+            ],
+            "explanation": "All baseline days show activity start at 21:00:00+08:00 with intensity unknown."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "activity_intervals.0.start_at",
+              "activity_intervals.0.intensity"
+            ],
+            "explanation": "All window days show activity start at 21:00:00+08:00 with intensity unknown."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "retained",
+            "representation_excerpt": "Evening activity occurred daily ~21:00",
+            "rationale": "Accurately reports the consistent timing.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R02",
+            "status": "retained",
+            "representation_excerpt": "evening activity intervals consistently starting at 21:00 daily with unknown intensity",
+            "rationale": "Accurately reports timing and unknown intensity.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R03",
+            "status": "retained",
+            "representation_excerpt": "Evening activity occurred daily near 21:00",
+            "rationale": "Accurately reports the consistent timing.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R04",
+            "status": "omitted",
+            "representation_excerpt": "",
+            "rationale": "Does not mention evening activity timing.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R05",
+            "status": "omitted",
+            "representation_excerpt": "",
+            "rationale": "Does not mention evening activity timing explicitly.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R06",
+            "status": "retained",
+            "representation_excerpt": "with evening timing unchanged",
+            "rationale": "Qualitatively acknowledges consistent timing.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "omitted",
+            "representation_excerpt": "",
+            "rationale": "Does not mention evening activity timing.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R08",
+            "status": "contradicted",
+            "representation_excerpt": "Daytime activity occurred consistently around 21:00",
+            "rationale": "21:00 is evening, not daytime.",
+            "model_status": "contradicted",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R09",
+            "status": "omitted",
+            "representation_excerpt": "",
+            "rationale": "Does not mention activity timing.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          }
+        ],
+        "evidence_paths_valid": true
+      },
+      {
+        "fact_id": "F7",
+        "fact_statement": "Low movement intervals consistently formed 10 blocks per day spanning approximately 10:00 to 18:00, with mean total low movement minutes of 447.93 in baseline and 449.86 in the window.",
+        "knowledge_ids": [
+          "K068"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "low_movement_intervals.0.start_at",
+              "low_movement_intervals.9.end_at",
+              "metrics.low_movement_minutes",
+              "derived_statistics.metric_statistics.low_movement_minutes.baseline.mean"
+            ],
+            "explanation": "10 intervals daily from ~10:00 to ~18:00+; baseline mean 447.93 min."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "low_movement_intervals.0.start_at",
+              "low_movement_intervals.9.end_at",
+              "metrics.low_movement_minutes",
+              "derived_statistics.metric_statistics.low_movement_minutes.window.mean",
+              "arithmetic_probe_seeds.low_movement:interval_structure.daily_interval_structure"
+            ],
+            "explanation": "10 intervals daily; window mean 449.86 min; interval_count is 10 each day."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "low movement (~448 min)... remained stable",
+            "rationale": "Approximates baseline mean and notes stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "daytime low movement minutes structured as ten 44-minute blocks separated by 5-minute gaps",
+            "rationale": "Accurately describes the interval structure.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "daytime low-movement blocks were consistent",
+            "rationale": "Qualitatively accurate.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention low movement.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "low movement minutes clustered in ten 44-minute blocks daily from 10:00 to 18:00 remaining stable",
+            "rationale": "Accurately describes structure and stability.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "low movement stayed close to your 28-day baseline",
+            "rationale": "Qualitatively accurate.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "low movement stayed close to your 28-day baseline",
+            "rationale": "Qualitatively accurate.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "daytime low-movement blocks spanned ~10:00–18:00",
+            "rationale": "Accurately describes the time span.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention low movement.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          }
+        ],
+        "evidence_paths_valid": false
+      },
+      {
+        "fact_id": "F8",
+        "fact_statement": "In the window period, same-day resting heart rate and HRV RMSSD had a Pearson correlation of -0.54, while in baseline it was -0.10. HRV dates below the observed baseline minimum (43 ms) were Apr 3-6.",
+        "knowledge_ids": [
+          "K080",
+          "K081",
+          "K082",
+          "K084"
+        ],
+        "raw_data_support": [
+          {
+            "period": "baseline",
+            "dates": [
+              "2026-03-02",
+              "2026-03-29"
+            ],
+            "field_paths": [
+              "derived_statistics.paired_statistics.1.pearson_r"
+            ],
+            "explanation": "Baseline RHR-HRV paired correlation is -0.097."
+          },
+          {
+            "period": "window",
+            "dates": [
+              "2026-03-30",
+              "2026-04-12"
+            ],
+            "field_paths": [
+              "derived_statistics.paired_statistics.4.pearson_r",
+              "arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min"
+            ],
+            "explanation": "Window RHR-HRV paired correlation is -0.540; HRV below baseline min on Apr 3-6."
+          }
+        ],
+        "representation_checks": [
+          {
+            "representation_ref": "R01",
+            "status": "uncertain",
+            "representation_excerpt": "Paired correlations between metrics were weak in both periods",
+            "rationale": "Broadly characterizes correlations as weak, though -0.54 is moderate; acceptable qualitative summary.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R02",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention correlations.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R03",
+            "status": "uncertain",
+            "representation_excerpt": "moderate negative RHR-RMSSD correlation in the window",
+            "rationale": "Accurately characterizes the -0.54 correlation as moderate.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R04",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention RHR-HRV correlation.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R05",
+            "status": "uncertain",
+            "representation_excerpt": "same-day negative correlation between resting heart rate and HRV RMSSD emerging only during a two-week observation window not present in prior 28-day baseline",
+            "rationale": "Accurately describes the emergence of the stronger correlation in the window.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R06",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention RHR-HRV correlation.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R07",
+            "status": "uncertain",
+            "representation_excerpt": "",
+            "rationale": "Does not mention RHR-HRV correlation.",
+            "model_status": "omitted",
+            "excerpt_verifiable": false
+          },
+          {
+            "representation_ref": "R08",
+            "status": "uncertain",
+            "representation_excerpt": "No strong cross-metric relationships were observed",
+            "rationale": "Characterizes -0.54 as not strong; borderline but acceptable qualitative assessment.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          },
+          {
+            "representation_ref": "R09",
+            "status": "uncertain",
+            "representation_excerpt": "negative correlation of -0.54 between resting heart rate and HRV RMSSD emerging only in the 14-day window but absent during the 28-day baseline",
+            "rationale": "Accurately reports the exact correlation value and its temporal pattern.",
+            "model_status": "retained",
+            "excerpt_verifiable": true
+          }
+        ],
+        "evidence_paths_valid": false
+      }
+    ],
+    "unsupported_interpretations": [
+      {
+        "representation_ref": "R04",
+        "claim_excerpt": "This was an isolated fluctuation, not a persistent shift",
+        "why_unsupported": "The raw data shows HRV RMSSD values of 22-28 ms over four consecutive days. Whether this constitutes a persistent shift or isolated fluctuation requires clinical context not present in the observations. K084 states HRV trends are wellness observations, not diagnoses.",
+        "raw_data_context": "Window HRV RMSSD values: 43, 46, 45, 45, 22, 25, 28, 24, 47, 44, 46, 47, 43, 46",
+        "excerpt_verifiable": true
+      },
+      {
+        "representation_ref": "R07",
+        "claim_excerpt": "continued monitoring may clarify whether such fluctuations recur",
+        "why_unsupported": "This is forward-looking advice not derivable from the provided observational data. The audit scope covers information retention, not recommendations.",
+        "raw_data_context": "No future data exists beyond 2026-04-12 in the dataset",
+        "excerpt_verifiable": true
+      },
+      {
+        "representation_ref": "R02",
+        "claim_excerpt": "ten 44-minute blocks separated by 5-minute gaps",
+        "why_unsupported": "While the data shows 10 intervals per day, their durations vary (e.g., 44-47 minutes) and gap durations also vary (typically 4-5 minutes). Stating exactly 44-minute blocks and 5-minute gaps oversimplifies the observed variation.",
+        "raw_data_context": "low_movement_intervals entries show varying start/end times, e.g., 10:00-10:46, 10:51-11:37 on 2026-03-30",
+        "excerpt_verifiable": true
+      }
+    ],
+    "potential_retrieval_noise": [
+      {
+        "representation_ref": "R08",
+        "representation_excerpt": "Daytime activity occurred consistently around 21:00",
+        "possible_mechanism": "Misclassification of temporal keyword: 21:00 is evening/night but was labeled 'daytime', possibly due to conflating 'daily' with 'daytime'.",
+        "raw_fact_or_missing_context": "activity_intervals.0.start_at shows 21:00:00+08:00 for all days; metadata defines activity as moving minutes, not restricted to daytime",
+        "confidence": "high",
+        "excerpt_verifiable": true
+      },
+      {
+        "representation_ref": "R02",
+        "representation_excerpt": "ten 44-minute blocks separated by 5-minute gaps",
+        "possible_mechanism": "Over-precise rounding of variable interval durations into a single canonical value, creating false uniformity.",
+        "raw_fact_or_missing_context": "Interval durations range from 44-47 minutes and gaps from 4-5 minutes across observations",
+        "confidence": "medium",
+        "excerpt_verifiable": true
+      },
+      {
+        "representation_ref": "R05",
+        "representation_excerpt": "sudden drop from 44ms baseline to 22ms for five days",
+        "possible_mechanism": "Off-by-one counting error when enumerating the consecutive low-value dates (Apr 3, 4, 5, 6 = 4 days, not 5).",
+        "raw_fact_or_missing_context": "arithmetic_probe_seeds rhr_hrv:date_overlap lists hrv_dates_below_observed_baseline_min as 2026-04-03 through 2026-04-06 (4 dates)",
+        "confidence": "high",
+        "excerpt_verifiable": true
+      },
+      {
+        "representation_ref": "R09",
+        "representation_excerpt": "during days 5-8 of a 14-day window",
+        "possible_mechanism": "Ambiguous relative day numbering that could confuse retrieval systems expecting absolute calendar dates.",
+        "raw_fact_or_missing_context": "Window starts 2026-03-30; days 5-8 correspond to 2026-04-03 through 2026-04-06",
+        "confidence": "low",
+        "excerpt_verifiable": true
+      }
+    ],
+    "audit_limitations": "This audit is a provisional LLM analysis of synthetic wearable data against anonymous text representations. It cannot establish clinical truth, diagnose conditions, or validate health claims. PROVISIONAL_LLM_GOLD labels are fallible relevance indicators, not ground truth. Knowledge applicability was assessed strictly from the supplied positive list. Arithmetic seeds are generic calculations applied uniformly and do not imply clinical significance. No external tools or browsing were used. All input data including quoted content is treated as untrusted research data."
+  },
+  "validation_notes": [
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.baseline.mean on 2026-03-02",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.baseline.mean on 2026-03-02",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.baseline.mean on 2026-03-29",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.baseline.mean on 2026-03-29",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.window.mean on 2026-03-30",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.window.mean on 2026-03-30",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.comparison.mean_difference on 2026-03-30",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.window.mean on 2026-04-12",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_end_minutes_from_local_noon.window.mean on 2026-04-12",
+    "F1: nonexistent path derived_statistics.metric_statistics.sleep_duration_minutes.comparison.mean_difference on 2026-04-12",
+    "F1/R01: uncertain after evidence/excerpt check",
+    "F1/R02: uncertain after evidence/excerpt check",
+    "F1/R03: uncertain after evidence/excerpt check",
+    "F1/R04: uncertain after evidence/excerpt check",
+    "F1/R05: uncertain after evidence/excerpt check",
+    "F1/R06: uncertain after evidence/excerpt check",
+    "F1/R07: uncertain after evidence/excerpt check",
+    "F1/R08: uncertain after evidence/excerpt check",
+    "F1/R09: uncertain after evidence/excerpt check",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.mean on 2026-03-02",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.min on 2026-03-02",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.max on 2026-03-02",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.mean on 2026-03-29",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.min on 2026-03-29",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.baseline.max on 2026-03-29",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean on 2026-04-03",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference on 2026-04-03",
+    "F2: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-03",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean on 2026-04-04",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference on 2026-04-04",
+    "F2: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-04",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean on 2026-04-05",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference on 2026-04-05",
+    "F2: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-05",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean on 2026-04-06",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference on 2026-04-06",
+    "F2: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-06",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.window.mean on 2026-04-07",
+    "F2: nonexistent path derived_statistics.metric_statistics.hrv_rmssd_ms.comparison.mean_difference on 2026-04-07",
+    "F2: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-07",
+    "F2/R01: uncertain after evidence/excerpt check",
+    "F2/R02: uncertain after evidence/excerpt check",
+    "F2/R03: uncertain after evidence/excerpt check",
+    "F2/R04: uncertain after evidence/excerpt check",
+    "F2/R05: uncertain after evidence/excerpt check",
+    "F2/R06: uncertain after evidence/excerpt check",
+    "F2/R07: uncertain after evidence/excerpt check",
+    "F2/R08: uncertain after evidence/excerpt check",
+    "F2/R09: uncertain after evidence/excerpt check",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.mean on 2026-03-02",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.min on 2026-03-02",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.max on 2026-03-02",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.mean on 2026-03-29",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.min on 2026-03-29",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.baseline.max on 2026-03-29",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.window.mean on 2026-03-30",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.comparison.mean_difference on 2026-03-30",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.window.mean on 2026-04-12",
+    "F3: nonexistent path derived_statistics.metric_statistics.resting_heart_rate_bpm.comparison.mean_difference on 2026-04-12",
+    "F3/R01: uncertain after evidence/excerpt check",
+    "F3/R02: uncertain after evidence/excerpt check",
+    "F3/R03: uncertain after evidence/excerpt check",
+    "F3/R04: uncertain after evidence/excerpt check",
+    "F3/R05: uncertain after evidence/excerpt check",
+    "F3/R06: uncertain after evidence/excerpt check",
+    "F3/R07: uncertain after evidence/excerpt check",
+    "F3/R08: uncertain after evidence/excerpt check",
+    "F3/R09: uncertain after evidence/excerpt check",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.baseline.mean on 2026-03-02",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.baseline.mean on 2026-03-29",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.window.mean on 2026-03-30",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.comparison.mean_difference on 2026-03-30",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.window.mean on 2026-04-12",
+    "F4: nonexistent path derived_statistics.metric_statistics.steps.comparison.mean_difference on 2026-04-12",
+    "F4/R01: uncertain after evidence/excerpt check",
+    "F4/R02: uncertain after evidence/excerpt check",
+    "F4/R03: uncertain after evidence/excerpt check",
+    "F4/R04: uncertain after evidence/excerpt check",
+    "F4/R05: uncertain after evidence/excerpt check",
+    "F4/R06: uncertain after evidence/excerpt check",
+    "F4/R07: uncertain after evidence/excerpt check",
+    "F4/R08: uncertain after evidence/excerpt check",
+    "F4/R09: uncertain after evidence/excerpt check",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.baseline.mean on 2026-03-02",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.baseline.mean on 2026-03-29",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.window.mean on 2026-03-30",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.comparison.mean_difference on 2026-03-30",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.window.mean on 2026-04-12",
+    "F5: nonexistent path derived_statistics.metric_statistics.activity_duration_minutes.comparison.mean_difference on 2026-04-12",
+    "F5/R01: uncertain after evidence/excerpt check",
+    "F5/R02: uncertain after evidence/excerpt check",
+    "F5/R03: uncertain after evidence/excerpt check",
+    "F5/R04: uncertain after evidence/excerpt check",
+    "F5/R05: uncertain after evidence/excerpt check",
+    "F5/R06: uncertain after evidence/excerpt check",
+    "F5/R07: uncertain after evidence/excerpt check",
+    "F5/R08: uncertain after evidence/excerpt check",
+    "F5/R09: uncertain after evidence/excerpt check",
+    "F7: nonexistent path derived_statistics.metric_statistics.low_movement_minutes.baseline.mean on 2026-03-02",
+    "F7: nonexistent path derived_statistics.metric_statistics.low_movement_minutes.baseline.mean on 2026-03-29",
+    "F7: nonexistent path derived_statistics.metric_statistics.low_movement_minutes.window.mean on 2026-03-30",
+    "F7: nonexistent path arithmetic_probe_seeds.low_movement:interval_structure.daily_interval_structure on 2026-03-30",
+    "F7: nonexistent path derived_statistics.metric_statistics.low_movement_minutes.window.mean on 2026-04-12",
+    "F7: nonexistent path arithmetic_probe_seeds.low_movement:interval_structure.daily_interval_structure on 2026-04-12",
+    "F7/R01: uncertain after evidence/excerpt check",
+    "F7/R02: uncertain after evidence/excerpt check",
+    "F7/R03: uncertain after evidence/excerpt check",
+    "F7/R04: uncertain after evidence/excerpt check",
+    "F7/R05: uncertain after evidence/excerpt check",
+    "F7/R06: uncertain after evidence/excerpt check",
+    "F7/R07: uncertain after evidence/excerpt check",
+    "F7/R08: uncertain after evidence/excerpt check",
+    "F7/R09: uncertain after evidence/excerpt check",
+    "F8: nonexistent path derived_statistics.paired_statistics.1.pearson_r on 2026-03-02",
+    "F8: nonexistent path derived_statistics.paired_statistics.1.pearson_r on 2026-03-29",
+    "F8: nonexistent path derived_statistics.paired_statistics.4.pearson_r on 2026-03-30",
+    "F8: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-03-30",
+    "F8: nonexistent path derived_statistics.paired_statistics.4.pearson_r on 2026-04-12",
+    "F8: nonexistent path arithmetic_probe_seeds.rhr_hrv:date_overlap.hrv_dates_below_observed_baseline_min on 2026-04-12",
+    "F8/R01: uncertain after evidence/excerpt check",
+    "F8/R02: uncertain after evidence/excerpt check",
+    "F8/R03: uncertain after evidence/excerpt check",
+    "F8/R04: uncertain after evidence/excerpt check",
+    "F8/R05: uncertain after evidence/excerpt check",
+    "F8/R06: uncertain after evidence/excerpt check",
+    "F8/R07: uncertain after evidence/excerpt check",
+    "F8/R08: uncertain after evidence/excerpt check",
+    "F8/R09: uncertain after evidence/excerpt check"
+  ],
+  "querygen_fact_recovery": [
+    {
+      "fact_id": "F1",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F1",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F1",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F1",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F1",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F1",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K001",
+        "K015",
+        "K094"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084",
+        "K085",
+        "K086"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K083"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K082"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "retained",
+      "querygen_status": "retained",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "retained",
+      "querygen_status": "retained",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "contradicted",
+      "querygen_status": "omitted",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "omitted",
+      "querygen_status": "omitted",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "retained",
+      "querygen_status": "omitted",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": true,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "omitted",
+      "querygen_status": "omitted",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K073"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K068"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "3",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "3",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "1",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "1",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "2",
+      "compared_baseline": "B1",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "repeat_id": "2",
+      "compared_baseline": "B2",
+      "compared_status": "uncertain",
+      "querygen_status": "uncertain",
+      "querygen_recovers_omitted_or_contradicted_fact": false,
+      "querygen_loses_retained_fact": false,
+      "knowledge_ids": [
+        "K080",
+        "K081",
+        "K082",
+        "K084"
+      ]
+    }
+  ],
+  "llm_metadata": {
+    "task_id": "execution-qwen-v1/semantic-audit-v1/C004",
+    "input_sha256": "4179a48f11325cd7ae81078ef19ecd59a4445763eb633525d319ef9e146ca762",
+    "result_sha256": "b50440722bd19dc3b7d49723ccadbacff48b2eb99801003302f438d9d577ed5b",
+    "model": "qwen3.8-max",
+    "provider_model": "qwen3.8-max",
+    "backend": "openai_compatible_chat_completions",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "fresh_context": true,
+    "message_count": 2,
+    "tool_calls": 0,
+    "attempt": 1,
+    "duration_seconds": 74.891,
+    "usage": {
+      "completion_tokens": 6344,
+      "prompt_tokens": 50450,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 50450
+      },
+      "total_tokens": 56794
+    },
+    "provider_request_id": "chatcmpl-2d957c77-1294-9afd-956b-1714fb0f927a",
+    "http_request_id": "2d957c77-1294-9afd-956b-1714fb0f927a",
+    "system_fingerprint": null,
+    "finish_reason": "stop",
+    "sampling_temperature": 0,
+    "sampling_seed": null,
+    "max_tokens": 16384,
+    "response_format": "json_object",
+    "prior_failures": [],
+    "model_identifier_pins_provider_weights": false,
+    "judge_independence_note": "Fresh contexts are independent calls; roles using the same model can share correlated errors.",
+    "enable_thinking": false
+  },
+  "blinding": "No case ID/type/stratum/designer notes, baseline names, or retrieval output in model prompt"
+}

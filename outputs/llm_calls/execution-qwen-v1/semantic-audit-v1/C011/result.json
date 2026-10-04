@@ -1,0 +1,775 @@
+{
+  "facts": [
+    {
+      "fact_id": "F1",
+      "fact_statement": "Mean sleep duration was 470.57 minutes in the 28-day baseline (2026-03-02 to 2026-03-29) and 471.71 minutes in the 14-day window (2026-03-30 to 2026-04-12), a difference of approximately 1.14 minutes.",
+      "knowledge_ids": [
+        "K001",
+        "K015"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Baseline mean 470.57 computed from 28 daily observations of metrics.sleep_duration_minutes."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_duration_minutes"
+          ],
+          "explanation": "Window mean 471.71 computed from 14 daily observations; arithmetic probe confirms mean_difference 1.14."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Sleep duration averaged about 471 minutes in the baseline and 472 minutes recently",
+          "rationale": "Accurately paraphrases both period means rounded to nearest minute."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged ~471 min",
+          "rationale": "Reports baseline mean accurately; omits explicit window value but implies stability."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Sleep duration averaged ~471 min (baseline) vs ~472 min (window)",
+          "rationale": "Both period means correctly stated."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "stable sleep duration near 470 minutes",
+          "rationale": "Qualitative approximation consistent with both means being near 470-472."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "Sleep duration averaged about 7.9 hours",
+          "rationale": "471 minutes is approximately 7.85 hours, reasonably rounded to 7.9."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "stable sleep duration near 470 minutes",
+          "rationale": "Consistent qualitative description of both means."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "States sleep duration was stable but provides no numerical values for either period."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "Sleep averaged ~472 min (baseline ~471)",
+          "rationale": "Correctly reports both means."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "sleep averaged 471 min... sleep mean 472 min",
+          "rationale": "Both period means correctly reported."
+        }
+      ]
+    },
+    {
+      "fact_id": "F2",
+      "fact_statement": "Sleep end time was exactly 07:00 local time every day across all 42 observations, while sleep start times varied between approximately 22:42 and 22:58.",
+      "knowledge_ids": [
+        "K094",
+        "K095"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at",
+            "metrics.sleep_start_at"
+          ],
+          "explanation": "All 28 baseline sleep_end_at values are T07:00:00+08:00; sleep_start_at varies. Derived statistic sleep_end_minutes_from_local_noon has variance 0.0 and range 0."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.sleep_end_at",
+            "metrics.sleep_start_at"
+          ],
+          "explanation": "All 14 window sleep_end_at values are T07:00:00+08:00; sleep_start_minutes_from_local_noon ranges 642-657."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "consistently ending at 07:00 with starts near 22:50",
+          "rationale": "Correctly captures fixed end time and approximate start time."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "onset ~22:50, offset fixed at 07:00",
+          "rationale": "Accurately describes both timing features."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "consistently ending at 07:00 with starts near 22:50",
+          "rationale": "Accurate description of sleep timing."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "consistent sleep timing",
+          "rationale": "Qualitative but accurate summary of the fixed offset and narrow start range."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "consistently starting near 22:50 and ending at 07:00",
+          "rationale": "Correctly states both timing elements."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "consistent sleep onset and offset times",
+          "rationale": "Accurate qualitative description."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "consistent 7am wake time",
+          "rationale": "Correctly identifies the fixed end time."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "consistently ending at 07:00, with starts around 22:48–22:53",
+          "rationale": "End time correct; start range slightly narrower than actual 22:42-22:58 but directionally retained."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "start ~22:50, end fixed 07:00",
+          "rationale": "Accurately captures both timing features."
+        }
+      ]
+    },
+    {
+      "fact_id": "F3",
+      "fact_statement": "Mean daily steps were 7937.68 in the baseline and 7922.93 in the window, a decrease of 14.75 steps. The window slope was -21.70 steps per day.",
+      "knowledge_ids": [
+        "K050",
+        "K096"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.steps"
+          ],
+          "explanation": "Baseline mean 7937.68 from 28 daily step counts."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.steps"
+          ],
+          "explanation": "Window mean 7922.93 from 14 daily step counts; slope_per_day -21.70 indicates slight downward trend within window."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Daily steps remained around 7,930-7,920",
+          "rationale": "Approximates both means accurately."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7938 vs ~7923)",
+          "rationale": "Exact rounded values match derived statistics."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7938 vs ~7923)",
+          "rationale": "Exact rounded values match."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "daily step count remaining near 7900",
+          "rationale": "Reasonable approximation of both means."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "Daily steps stayed around 7,900-8,000",
+          "rationale": "Range encompasses both means."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "daily steps averaging around 7900 with slight negative slope in follow-up",
+          "rationale": "Captures mean and the negative window slope."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "daily steps unchanged between baseline mean 7938 and window mean 7923",
+          "rationale": "Exact rounded values match."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "Steps (~7,923 vs ~7,938)",
+          "rationale": "Values match, order reversed but comparison preserved."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "steps 7938... steps 7923",
+          "rationale": "Exact rounded values match."
+        }
+      ]
+    },
+    {
+      "fact_id": "F4",
+      "fact_statement": "Mean activity duration increased from 54.68 minutes (baseline) to 56.21 minutes (window), a difference of 1.54 minutes.",
+      "knowledge_ids": [
+        "K065",
+        "K073"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.activity_duration_minutes"
+          ],
+          "explanation": "Baseline mean 54.68 from 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.activity_duration_minutes"
+          ],
+          "explanation": "Window mean 56.21 from 14 days; mean_difference 1.54."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "active minutes held near 55-56",
+          "rationale": "Encompasses both means qualitatively."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "activity (~55 vs ~56 min)",
+          "rationale": "Rounded values consistent with 54.68 and 56.21."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "activity (~55 vs ~56 min)",
+          "rationale": "Rounded values consistent."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "activity duration minutes averaging 55 per day",
+          "rationale": "Approximation of overall level."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "active minutes near 55",
+          "rationale": "Approximate description."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "activity duration and low movement minutes remaining within narrow personal ranges",
+          "rationale": "Qualitative but consistent with small change."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention activity duration values."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "activity minutes (~56 vs ~55)",
+          "rationale": "Values match rounded means."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "activity 55 min... activity 56 min",
+          "rationale": "Rounded values match."
+        }
+      ]
+    },
+    {
+      "fact_id": "F5",
+      "fact_statement": "Mean low-movement minutes decreased slightly from 449.71 (baseline) to 446.79 (window), a difference of -2.93 minutes. Each window day had exactly 10 low-movement intervals.",
+      "knowledge_ids": [
+        "K068"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.low_movement_minutes"
+          ],
+          "explanation": "Baseline mean 449.71 from 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.low_movement_minutes",
+            "low_movement_intervals"
+          ],
+          "explanation": "Window mean 446.79; interval_structure probe shows 10 intervals each day."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Low-movement minutes were stable near 450",
+          "rationale": "Approximates both means."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "low movement (~450 vs ~447 min)",
+          "rationale": "Rounded values match."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "low movement (~450 vs ~447 min)",
+          "rationale": "Rounded values match."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes near 450 per day showing slight decrease of 3 minutes",
+          "rationale": "Accurately captures both level and direction of change."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "low-movement minutes near 450",
+          "rationale": "Approximate description."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes remaining within narrow personal ranges",
+          "rationale": "Qualitative but consistent."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "low movement minutes slightly decreased by 3 minutes per day in follow-up",
+          "rationale": "Accurately captures the direction and magnitude."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "Low-movement time slightly decreased (~447 vs ~450 min)",
+          "rationale": "Correct direction and rounded values."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Mentions low movement patterns showed no meaningful change but does not provide values or direction."
+        }
+      ]
+    },
+    {
+      "fact_id": "F6",
+      "fact_statement": "Mean resting heart rate was 61.82 bpm (baseline) and 61.71 bpm (window). Mean HRV RMSSD was 44.82 ms (baseline) and 45.07 ms (window).",
+      "knowledge_ids": [
+        "K077",
+        "K078",
+        "K080",
+        "K085"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "metrics.hrv_rmssd_ms"
+          ],
+          "explanation": "Baseline RHR mean 61.82, HRV mean 44.82 from 28 days."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "metrics.resting_heart_rate_bpm",
+            "metrics.hrv_rmssd_ms"
+          ],
+          "explanation": "Window RHR mean 61.71, HRV mean 45.07 from 14 days."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "Resting heart rate stayed at approximately 62 bpm and HRV around 45 ms",
+          "rationale": "Rounded values consistent with both periods."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "resting HR (~61.8 vs ~61.7 bpm), and RMSSD (~44.8 vs ~45.1 ms)",
+          "rationale": "Precise rounded values match derived statistics."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "resting HR (~61.8 vs ~61.7 bpm), and RMSSD (~44.8 vs ~45.1 ms)",
+          "rationale": "Precise rounded values match."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate stable between 61 and 63 bpm with weak same-day correlation to HRV RMSSD",
+          "rationale": "Range encompasses observed values; correlation claim supported by paired statistics."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "retained",
+          "representation_excerpt": "Resting heart rate held steady at ~62 bpm and HRV at ~45 ms",
+          "rationale": "Rounded values consistent."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate and HRV RMSSD showing no meaningful change",
+          "rationale": "Qualitative but consistent with small differences."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "resting heart rate 61-63 bpm and RMSSD 43-47 ms stable over 42 days",
+          "rationale": "Ranges encompass all observed daily values."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "Resting heart rate (~62 bpm) and RMSSD (~45 ms)",
+          "rationale": "Rounded values consistent."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "RHR 62 bpm, and RMSSD 45 ms... RHR 62 bpm, RMSSD 45 ms",
+          "rationale": "Rounded values consistent."
+        }
+      ]
+    },
+    {
+      "fact_id": "F7",
+      "fact_statement": "Every window day had an evening activity interval starting at 21:00 local time with unknown intensity. The lag-1 Pearson correlation between activity duration and next-day sleep was -0.11 (baseline) and 0.05 (window).",
+      "knowledge_ids": [
+        "K071",
+        "K073"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "activity_intervals.0.start_at",
+            "activity_intervals.0.intensity"
+          ],
+          "explanation": "All baseline days show one activity interval starting at 21:00 with intensity unknown."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "activity_intervals.0.start_at",
+            "activity_intervals.0.intensity"
+          ],
+          "explanation": "All window days show one activity interval starting at 21:00 with intensity unknown. Paired statistics confirm weak lag-1 correlations."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "retained",
+          "representation_excerpt": "No consistent relationship was observed between evening activity duration and the following night's sleep",
+          "rationale": "Consistent with near-zero lag-1 correlations."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Paired correlations between activity, sleep, steps, HR, and RMSSD were weak or absent",
+          "rationale": "Matches paired statistics showing weak correlations."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "Paired correlations between activity and next-day sleep, steps and activity, and RHR and RMSSD were weak in both periods",
+          "rationale": "Accurately reflects paired statistics."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention activity timing or correlations."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention activity timing or correlations."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "retained",
+          "representation_excerpt": "weak or absent correlations between activity steps and sleep duration",
+          "rationale": "Consistent with paired statistics."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "retained",
+          "representation_excerpt": "evening activity intervals consistently starting at 21:00 with unknown intensity across all observed days",
+          "rationale": "Directly matches raw data observation."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "retained",
+          "representation_excerpt": "No clear multi-variable relationships emerged",
+          "rationale": "Consistent with weak paired correlations."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "retained",
+          "representation_excerpt": "daily activity intervals near 21:00... Paired correlations among steps, activity, sleep, RHR, and RMSSD were weak or absent",
+          "rationale": "Captures both timing and correlation findings."
+        }
+      ]
+    },
+    {
+      "fact_id": "F8",
+      "fact_statement": "Nighttime coverage met validity requirements on all 42 days (minimum 482 minutes, well above 180-minute threshold). Daytime wear was 720 minutes every day.",
+      "knowledge_ids": [
+        "K090",
+        "K095"
+      ],
+      "raw_data_support": [
+        {
+          "period": "baseline",
+          "dates": [
+            "2026-03-02",
+            "2026-03-29"
+          ],
+          "field_paths": [
+            "daytime_wear_minutes",
+            "nighttime_coverage_minutes"
+          ],
+          "explanation": "All 28 baseline days have daytime_wear_minutes=720 and nighttime_coverage_minutes ranging 482-498."
+        },
+        {
+          "period": "window",
+          "dates": [
+            "2026-03-30",
+            "2026-04-12"
+          ],
+          "field_paths": [
+            "daytime_wear_minutes",
+            "nighttime_coverage_minutes"
+          ],
+          "explanation": "All 14 window days have daytime_wear_minutes=720 and nighttime_coverage_minutes ranging 483-498."
+        }
+      ],
+      "representation_checks": [
+        {
+          "representation_ref": "R01",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        },
+        {
+          "representation_ref": "R02",
+          "status": "retained",
+          "representation_excerpt": "Complete wear coverage",
+          "rationale": "Accurately summarizes that all days met wear requirements."
+        },
+        {
+          "representation_ref": "R03",
+          "status": "retained",
+          "representation_excerpt": "with complete wear",
+          "rationale": "Accurately notes full coverage."
+        },
+        {
+          "representation_ref": "R04",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        },
+        {
+          "representation_ref": "R05",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        },
+        {
+          "representation_ref": "R06",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        },
+        {
+          "representation_ref": "R07",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not explicitly mention wear coverage completeness."
+        },
+        {
+          "representation_ref": "R08",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        },
+        {
+          "representation_ref": "R09",
+          "status": "omitted",
+          "representation_excerpt": "",
+          "rationale": "Does not mention wear coverage."
+        }
+      ]
+    }
+  ],
+  "unsupported_interpretations": [
+    {
+      "representation_ref": "R01",
+      "claim_excerpt": "Your routine appears highly stable",
+      "why_unsupported": "Stability is a descriptive summary of small numerical differences, not a clinical conclusion. However, this is an ordinary user-oriented phrase describing observed changes rather than a health interpretation, so it is borderline acceptable.",
+      "raw_data_context": "Mean differences are small (sleep +1.14 min, steps -14.75, activity +1.54 min) across 42 days of observations."
+    },
+    {
+      "representation_ref": "R04",
+      "claim_excerpt": "low movement minutes near 450 per day showing slight decrease of 3 minutes in follow-up without trend",
+      "why_unsupported": "The window slope for low_movement_minutes is +0.73 per day, indicating a slight upward trend within the window, contradicting 'without trend' if interpreted as no intra-window trend.",
+      "raw_data_context": "derived_statistics.metric_statistics.low_movement_minutes.window.slope_per_day is 0.727472527473."
+    },
+    {
+      "representation_ref": "R05",
+      "claim_excerpt": "reflecting a highly stable routine across both periods",
+      "why_unsupported": "Descriptive characterization; not a clinical claim but goes beyond raw numbers to infer behavioral consistency without supporting context about what constitutes 'stable'.",
+      "raw_data_context": "Small mean differences exist across all metrics between baseline and window periods."
+    },
+    {
+      "representation_ref": "R06",
+      "claim_excerpt": "no significant baseline difference",
+      "why_unsupported": "Statistical significance testing was not performed; only arithmetic means and differences are available. Claiming 'no significant difference' implies hypothesis testing that was not conducted.",
+      "raw_data_context": "derived_statistics provide mean_difference values but no p-values or confidence intervals."
+    }
+  ],
+  "potential_retrieval_noise": [
+    {
+      "representation_ref": "R01",
+      "representation_excerpt": "No consistent relationship was observed between evening activity duration and the following night's sleep",
+      "possible_mechanism": "LLM may retrieve general knowledge about exercise improving sleep and either confirm or deny it based on weak correlations, potentially over-interpreting near-zero Pearson r values as definitive evidence of no relationship.",
+      "raw_fact_or_missing_context": "Lag-1 Pearson r is -0.11 (baseline) and 0.05 (window); these are weak but sample sizes are small (n=27, n=13).",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R02",
+      "representation_excerpt": "Paired correlations between activity, sleep, steps, HR, and RMSSD were weak or absent in both periods",
+      "possible_mechanism": "Retrieval systems might surface literature about strong activity-sleep or HR-HRV correlations, creating noise when the actual data shows weak associations in this specific individual.",
+      "raw_fact_or_missing_context": "Pearson r values range from -0.24 to 0.13 across all paired statistics; none are strong.",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R04",
+      "representation_excerpt": "resting heart rate stable between 61 and 63 bpm with weak same-day correlation to HRV RMSSD",
+      "possible_mechanism": "General medical literature often describes inverse RHR-HRV relationships; retrieving such content could conflict with the observed weak positive baseline correlation (r=0.13) and weak negative window correlation (r=-0.22).",
+      "raw_fact_or_missing_context": "paired_statistics show pearson_r 0.1266 (baseline) and -0.2217 (window) for RHR vs HRV.",
+      "confidence": "medium"
+    },
+    {
+      "representation_ref": "R07",
+      "representation_excerpt": "evening activity intervals consistently starting at 21:00 with unknown intensity across all observed days",
+      "possible_mechanism": "Knowledge about late-evening exercise disrupting sleep (K071) might be retrieved, but intensity is unknown, making such retrieval potentially misleading since K071 requires known intensity.",
+      "raw_fact_or_missing_context": "All activity_intervals have intensity='unknown'; K071 applicability requires intensity context.",
+      "confidence": "high"
+    }
+  ],
+  "audit_limitations": "This audit is provisional LLM analysis based solely on the provided synthetic wearable data and arithmetic statistics. No clinical conclusions can be drawn. The representations were evaluated against numerical observations without access to ground-truth labels or human expert review. PROVISIONAL_LLM_GOLD relevance labels are fallible and do not constitute factual proof. Small mean differences (e.g., 1.14 minutes of sleep, 14.75 steps) may not be practically meaningful despite being arithmetically precise. Correlation coefficients are based on small samples (13-28 pairs) and should not be over-interpreted. Activity intensity is uniformly unknown, limiting any temporal analysis involving exercise recommendations. Low-movement minutes lack posture context, preventing classification as sedentary behavior. This audit cannot establish causal relationships or validate health claims."
+}

@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b81ddc462cc2764d",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~471 min, ending consistently at 07:00 with starts near 22:50. Steps (~8,008 vs ~8,039), activity (~58 vs ~55 min), resting HR (~56 bpm), and RMSSD (40 ms) were stable. Day-to-day variability decreased slightly. No concerning shifts observed."
+    },
+    {
+      "case_ref": "sample_bb8fb30970c60404",
+      "text": "In your 14-day window, sleep timing shifted on 7 nights: starts moved from ~22:50 to after midnight, reducing duration to ~385-392 min while wake time stayed at 07:00. On other nights, sleep remained ~474-485 min. Activity alternated between 45 and 90 min versus a steady ~56-min baseline. Steps (~8,088), RHR (~56 bpm), and RMSSD (~46 ms) stayed near baseline."
+    },
+    {
+      "case_ref": "sample_51960540cc887954",
+      "text": "During your 14-day window, sleep timing alternated: 7 nights started near your ~22:50 baseline with ~474-485 min duration, while 7 nights started after midnight, shortening sleep to ~385-392 min. Wake time remained 07:00 throughout. Activity alternated between 45 and 90 min versus a consistent ~56-min baseline. Steps (~8,088), RHR (~56 bpm), and RMSSD (~46 ms) were stable."
+    },
+    {
+      "case_ref": "sample_62721a92dbc25f07",
+      "text": "Your daily steps increased markedly in the 14-day window, averaging ~7,927 versus ~2,818 in your 28-day baseline. Sleep duration (~469 min), timing (starts ~22:50, ends 07:00), activity (~55 min), low movement (~447 min), resting HR (~56 bpm), and RMSSD (~45 ms) all remained close to baseline levels. The step change was persistent across all 14 days."
+    }
+  ]
+}

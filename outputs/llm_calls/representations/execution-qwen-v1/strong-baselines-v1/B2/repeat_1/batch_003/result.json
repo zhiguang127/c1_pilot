@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b3b5f1a8a69d8cdc",
+      "text": "Your 14-day window closely matched your 28-day baseline. Sleep averaged ~471 min, ending consistently at 07:00 with starts near 22:50. Steps (~8,008 vs 8,039), activity (~58 vs 55 min), resting HR (~56 bpm), and RMSSD (40 ms) were stable. Day-to-day variability slightly decreased. No clear multi-variable shifts emerged."
+    },
+    {
+      "case_ref": "sample_60ee25e54744726b",
+      "text": "Your recent 14 days show a striking alternating sleep pattern versus your stable ~471-min baseline. Seven nights dropped to ~385–392 min with bedtimes after midnight; the other seven reached ~474–485 min starting ~22:35–22:46. Wake time stayed at 07:00. On longer-sleep days, recorded activity was 90 min; on shorter ones, 45 min. Resting HR and RMSSD (~45 ms) remained stable. This regular alternation may reflect schedule or recording differences worth reviewing."
+    },
+    {
+      "case_ref": "sample_638fa86161cb0355",
+      "text": "Sleep duration and timing stayed near your 28-day baseline (~470 min, starting ~22:50, ending 07:00). Steps (~7,996) and activity (~55 min) were also stable. However, from Apr 3–6, resting heart rate rose to 65–67 bpm versus your usual 55–57, returning to baseline by Apr 7. During that same stretch, nightly RMSSD held steady, but then fell to 23–26 ms from Apr 7–10 before recovering. These transient, sequential shifts in heart metrics are notable; continued monitoring may clarify whether they recur."
+    },
+    {
+      "case_ref": "sample_2a7014f62869c2b9",
+      "text": "A major shift occurred in your recent 14 days compared to your 28-day baseline. Baseline sleep averaged ~328 min with bedtimes around 01:10. In the new window, sleep start moved roughly two hours earlier to ~23:10, and duration increased by about 120 min to ~448 min per night, while wake time remained fixed at 07:00. Steps (~7,963), active minutes (~55), resting heart rate (~56 bpm), and RMSSD (~45 ms) all stayed close to baseline levels despite the large change in sleep timing and duration."
+    }
+  ]
+}

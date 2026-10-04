@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "2aa1e31703b1",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps constant at 7200 daily across baseline and window with zero variance.",
+      "item_condition_evidence": "Item requires step readings changing with possible measurement limitations.",
+      "rationale": "No step variability observed; item conditions not met, only generic background."
+    },
+    {
+      "item_ref": "62a0e0f0f540",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Window sleep starts alternate between 23:00 and 02:00, mean start shifted +90 min from baseline.",
+      "item_condition_evidence": "Item applies to repeated variability in bedtime or wake time.",
+      "rationale": "Alternating 3-hour sleep timing shifts directly match the item's core condition of repeated schedule variability."
+    },
+    {
+      "item_ref": "34c93c022797",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes (8 hours) every day in both periods.",
+      "item_condition_evidence": "Item requires sleep duration below the age-specific recommendation of 7 hours.",
+      "rationale": "Observed 8-hour sleep exceeds the 7-hour minimum; required condition contradicted by data."
+    },
+    {
+      "item_ref": "d0e4188bdc00",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60, not 61-64.",
+      "item_condition_evidence": "Item explicitly requires age 61 to 64 to be established.",
+      "rationale": "Age band 18-60 contradicts the item's required population of adults aged 61-64."
+    },
+    {
+      "item_ref": "dfb2085a6b60",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration 480 min equals nighttime coverage 480 min daily; sleep boundaries recorded.",
+      "item_condition_evidence": "Item notes estimated time asleep differs from full sleep period when boundaries available.",
+      "rationale": "Boundaries exist but duration equals coverage here; provides contextual note on estimation, not core pattern."
+    },
+    {
+      "item_ref": "7a1c885d94b4",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR constant at 61 bpm with zero variance across all 42 days.",
+      "item_condition_evidence": "Item applies to repeated RHR readings or a recent change for trend context.",
+      "rationale": "Zero RHR variance means no trend or change exists; item offers only generic background without concrete connection."
+    }
+  ]
+}

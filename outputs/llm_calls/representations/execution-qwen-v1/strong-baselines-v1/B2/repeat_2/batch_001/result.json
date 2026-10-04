@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3159a77476d400f2",
+      "text": "Your 28-day baseline showed consistent sleep (~470 min, ending at 07:00 daily) and ~8,000 steps with ~55 active minutes. In the recent 14 days, sleep timing and duration stayed stable, but steps dropped to ~2,300/day and activity to ~5 min. Resting heart rate (~56 bpm) and HRV (~45 ms) remained near baseline. Low-movement minutes were unchanged. The large step/activity reduction without shifts in sleep or cardiac metrics suggests a change in daytime movement patterns rather than rest disruption."
+    },
+    {
+      "case_ref": "sample_7de66e1de896dc00",
+      "text": "During your 28-day baseline you slept ~469 min nightly (starting ~22:50, waking 07:00) with ~8,000 steps and ~54 active minutes. In the past 14 days, sleep start shifted to ~01:08 and duration fell to ~331 min, while wake time stayed at 07:00. Steps dropped to ~2,643/day, but activity minutes held steady at ~55. Resting heart rate (~56 bpm) and HRV (~45 ms) remained near baseline. The shorter sleep reflects delayed sleep onset rather than earlier waking, while maintained activity minutes alongside fewer steps suggest altered movement patterns."
+    },
+    {
+      "case_ref": "sample_ac1d07ee01bc3c76",
+      "text": "Over your 28-day baseline you averaged ~469 min of sleep starting ~22:51 and ending at 07:00, with ~8,019 steps and ~55 active minutes daily. In the last 14 days, weekday sleep starts shifted later to ~00:10 with durations near ~390 min, still ending at 07:00. Weekend sleep extended to ~571 min, ending at 11:00. Steps (~7,939), activity (~55 min), resting heart rate (~56 bpm), and HRV (~45 ms) all remained near baseline. The main change is a weekday/weekend split in sleep timing and duration, while daytime metrics stayed stable."
+    },
+    {
+      "case_ref": "sample_0ce72b16d8a094a5",
+      "text": "Across your 28-day baseline and the recent 14 days, your patterns remained highly stable. Sleep consistently ran from 01:00 to 09:00, averaging ~475 min. Daily steps stayed near ~7,950, activity minutes around 54, low-movement minutes near 450, resting heart rate ~56 bpm, and HRV ~45 ms. Weekday and weekend values were similar throughout both periods. No meaningful shifts in timing, duration, or variability were observed. Your data reflect a very consistent routine across all recorded metrics over these six weeks."
+    }
+  ]
+}

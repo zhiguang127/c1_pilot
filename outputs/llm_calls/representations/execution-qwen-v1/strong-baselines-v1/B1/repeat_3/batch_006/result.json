@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_ae2025f9ed2694c2",
+      "text": "Over 28 baseline days, sleep averaged 470 min (start ~22:50, end fixed 07:00), steps ~8054, activity ~55 min, RHR 56 bpm, RMSSD 44.5 ms. In the 14-day window, most metrics remained stable. However, RMSSD dropped to a mean of 39.4 ms with markedly increased variance, driven by values of 22-28 ms on Apr 3-6 before recovering to 43-47 ms from Apr 7 onward. Sleep, steps, activity, low movement, and RHR showed no meaningful change. Evening activity occurred daily near 21:00; daytime low-movement blocks were consistent. No strong cross-metric relationships emerged beyond a moderate negative RHR-RMSSD correlation in the window."
+    },
+    {
+      "case_ref": "sample_b1bb4e0fe38d3896",
+      "text": "During the 28-day baseline, sleep averaged 471 min starting ~22:50 and ending at 07:00, steps ~7947, activity ~56 min, RHR 56 bpm, RMSSD 45 ms. The 14-day window showed two distinct phases. Days 1-6 maintained baseline patterns but activity alternated between 45 and 90 min. From day 7 onward, sleep start shifted abruptly past midnight (~00:08-00:15), reducing sleep duration to 385-392 min (mean window 441 vs 471 baseline). Nighttime coverage dropped to ~405-412 min during this phase. Steps, RHR, and RMSSD remained stable throughout. Activity continued alternating 45/90 min. The late sleep onset persisted through day 14 without recovery."
+    },
+    {
+      "case_ref": "sample_0b64101da6aac779",
+      "text": "Across both the 28-day baseline and 14-day window, all metrics remained highly stable. Sleep consistently spanned 01:00-09:00, averaging 476 min baseline and 475 min window. Steps averaged ~7963 baseline and ~7935 window. Activity duration held near 54 min, low movement near 450 min, RHR at 56 bpm, and RMSSD at 45 ms. Day-to-day variability was minimal with no trends or shifts. Activity occurred each evening near 21:00 for ~50-60 min. Daytime low-movement intervals followed a regular pattern of ten ~45-min blocks from 10:00-18:15. Weekday/weekend differences were negligible. No meaningful cross-metric correlations were observed."
+    },
+    {
+      "case_ref": "sample_10a8bc96d6fed707",
+      "text": "The 28-day baseline showed stable patterns: sleep averaged 470 min (start ~22:50, end 07:00), steps ~8026, activity ~55 min, low movement ~449 min, RHR 56 bpm, RMSSD 45 ms. In the 14-day window, sleep, steps, activity duration, RHR, and RMSSD remained unchanged. However, low movement minutes increased sharply to exactly 480 min every window day versus 449 min baseline. Daytime activity structure changed: instead of one ~55-min evening block, the window showed brief 1-min activity bouts every 20 min from ~10:16-20:17 plus a ~25-min evening session. Low-movement intervals reorganized into 32 consecutive 15-min blocks filling 10:00-20:35. This structural shift persisted throughout the window."
+    }
+  ]
+}

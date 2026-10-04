@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_634a74781104fc89",
+      "queries": [
+        "persistent 2.3 hour sleep onset delay from 22:50 to 01:10 with unchanged 07:00 wake time over 14 days",
+        "daily steps decreased by 67 percent from baseline 7985 to window 2643 while activity minutes remained stable near 55",
+        "sleep duration reduced by 138 minutes per night for 14 consecutive days compared to 28-day personal baseline",
+        "resting heart rate and HRV RMSSD remained within one bpm and zero ms of 28-day baseline despite large sleep and step changes",
+        "low movement minutes stayed near 450 per day across both baseline and window periods despite major reductions in step count"
+      ]
+    },
+    {
+      "case_ref": "sample_12837a30b91b9fbe",
+      "queries": [
+        "activity duration dropped from 55 minutes baseline to under 10 minutes daily for 14 days including multiple zero-minute days",
+        "daily steps fell 71 percent from 7998 to 2321 while sleep duration timing and resting heart rate remained at baseline levels",
+        "HRV RMSSD and resting heart rate correlation shifted from weak positive 0.14 in baseline to moderate negative -0.59 in the 14-day window",
+        "sleep start time sleep end time and sleep duration showed no meaningful change across 28-day baseline and 14-day follow-up",
+        "low movement minutes remained near 450 per day despite activity duration dropping below 10 minutes for two weeks"
+      ]
+    },
+    {
+      "case_ref": "sample_428714e84f129728",
+      "queries": [
+        "resting heart rate increased abruptly by 10 bpm from baseline mean 51.8 to window mean 61.7 persisting all 14 days",
+        "sleep duration steps activity minutes low movement minutes and HRV RMSSD remained within baseline ranges during the 14-day window",
+        "no weekday weekend difference in the sustained 10 bpm resting heart rate elevation during the 14-day observation period",
+        "HRV RMSSD mean 45 ms and variance did not change alongside a persistent 10 bpm resting heart rate increase over two weeks",
+        "steps remained near 7900 per day and activity duration near 55 minutes despite a 10 bpm rise in resting heart rate"
+      ]
+    },
+    {
+      "case_ref": "sample_6afee74fd2861af0",
+      "queries": [
+        "weekend sleep duration increased to 570 minutes with sleep end delayed to 11:00 on four weekend days during the 14-day window",
+        "weekday sleep onset shifted approximately 70 minutes later to around midnight with sleep duration near 390 minutes for 10 days",
+        "steps activity duration low movement minutes resting heart rate and HRV RMSSD remained within baseline ranges across all 14 days",
+        "sleep timing variability increased sharply in the window with standard deviation rising from 5 minutes to 27 minutes",
+        "isolated weekend sleep extension to 11:00 wake time occurred twice during the 14-day period without changes in daytime activity metrics"
+      ]
+    }
+  ]
+}

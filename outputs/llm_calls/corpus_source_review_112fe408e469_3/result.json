@@ -1,0 +1,119 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K049",
+      "assessment": "supported",
+      "rationale": "Source context explicitly states the talk test rule of thumb: moderate intensity allows talking but not singing; vigorous intensity permits only a few words before pausing for breath. The content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "Source context directly states that for activities like spinning or yoga, step count might not reflect intensity level. The inference that lower steps alone do not establish decreased activity is reasonable and grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "NHS source states 'the easiest way to get moving is to make activity part of everyday life, like walking for health or cycling instead of using the car.' Content accurately paraphrases this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "supported",
+      "rationale": "CDC source explicitly says 'Start with activities, locations, and times you enjoy.' The content's framing about preferences helping identify options beyond numeric goals is a reasonable editorial extension consistent with the source.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "Source states 'Try activities with others for motivation and mutual encouragement.' Content accurately reflects this as an option for support rather than a causal explanation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "Source under 'I don't have time' obstacle says 'Monitor your daily activities for 1 week with this diary. Find at least three 30-minute time slots.' Content accurately reflects this guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "Source under 'I have so much to do already' says 'Make physical activity a regular part of your schedule by writing it on your calendar.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "MedlinePlus source states people with disabilities or special health needs should check with their provider on activity types and amounts. The note that wearable data does not supply medical context is a valid editorial caveat.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "NHS guidelines state 'reduce time spent sitting or lying down and break up long periods of not moving with some activity.' Content accurately reflects this recommendation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "NHS source explicitly states 'you can hit your weekly activity target but still be at risk of ill health if you spend the rest of the time sitting or lying down.' Content accurately captures this distinction.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "NHS source advises to 'reduce the amount of time you and your family spend sitting down' alongside raising activity levels. Content accurately reflects this dual recommendation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K057",
+        "K058"
+      ]
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "MyHealth London source suggests 'standing for at least short periods on your journey or get off the bus a few stops early and walk.' Content accurately reflects these commuting tips.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "Source explicitly says 'Go over to talk to colleagues rather than sending them an email.' Content accurately reflects this workplace movement suggestion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "Source lists 'Ask for a standing desk or have a standing or walking meeting.' Content accurately reflects these workplace options.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "Source states 'get up at every ad break, or get on your exercise bike or hit the floor. You can keep moving even during your favourite programme.' Content accurately reflects this advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "Source says 'Plan in some active time when you are often sitting' and gives examples including walking after meals and cooking from scratch. Content accurately reflects this guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

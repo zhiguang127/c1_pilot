@@ -1,0 +1,21 @@
+{
+  "task_id": "execution-qwen-v1/blinded-annotation-v2-shortrefs/adjudicator_C007",
+  "input_sha256": "aa4bb0abcfad748205ad1a5a6519ae0bfef3715bca3f035bb4eeecefb01d6635",
+  "model": "qwen3.8-max",
+  "runtime": {
+    "backend": "openai_compatible_chat_completions",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "max_tokens": 16384,
+    "temperature": 0,
+    "timeout_seconds": 900,
+    "max_attempts": 2,
+    "max_workers": 3,
+    "sampling_seed": null,
+    "response_format": "json_object",
+    "configuration_revision": null,
+    "enable_thinking": false
+  },
+  "message_count": 2,
+  "fresh_context": true,
+  "tools_sent": false
+}

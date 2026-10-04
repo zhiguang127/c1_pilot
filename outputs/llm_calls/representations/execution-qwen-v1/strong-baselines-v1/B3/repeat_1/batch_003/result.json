@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b3b5f1a8a69d8cdc",
+      "queries": [
+        "wearable sleep duration stable across 28-day baseline and 14-day follow-up with consistent 07:00 wake time and variance under 25 minutes",
+        "daily active minutes increased by 2.6 minutes in follow-up versus baseline while steps remained unchanged near 8000 per day",
+        "HRV RMSSD mean 40 ms with high day-to-day alternation between 26 and 54 ms over 42 days of continuous wearable recording",
+        "resting heart rate stable at 55-57 bpm with no trend change when comparing 28-day personal baseline to subsequent 14-day window",
+        "evening activity intervals consistently starting at 21:00 with unknown intensity and daytime low movement blocks every 45 minutes from 10:00 to 18:00"
+      ]
+    },
+    {
+      "case_ref": "sample_60ee25e54744726b",
+      "queries": [
+        "alternating sleep onset times between 22:45 and after midnight causing bimodal sleep duration distribution in 14-day wearable follow-up",
+        "active minutes switching between 45 and 90 minutes on alternating days during follow-up compared to stable 50-60 minute baseline",
+        "sleep duration inversely correlated with same-day active minutes at Pearson r -0.996 during 14-day period of alternating long and short sleep nights",
+        "nighttime wearable coverage dropping below 420 minutes on short sleep nights affecting sleep start timestamp reliability",
+        "steps remaining near 8000 per day despite large alternating changes in activity duration and sleep timing over two weeks"
+      ]
+    },
+    {
+      "case_ref": "sample_638fa86161cb0355",
+      "queries": [
+        "resting heart rate increasing from 56 bpm baseline to 65-67 bpm on four days during 14-day follow-up while HRV RMSSD dropped to 23-26 ms",
+        "HRV RMSSD variance increasing from 1.86 in 28-day baseline to 84.5 in 14-day window with values dropping below 26 ms on multiple days",
+        "elevated resting heart rate days coinciding with lowest HRV RMSSD readings during follow-up period with Pearson correlation 0.40",
+        "sleep duration and activity minutes remaining stable near 470 minutes and 55 minutes despite large heart rate variability changes",
+        "weekend resting heart rate averaging 61 bpm versus weekday 57.8 bpm during 14-day follow-up compared to uniform 56 bpm baseline"
+      ]
+    },
+    {
+      "case_ref": "sample_2a7014f62869c2b9",
+      "queries": [
+        "sleep duration increasing from 328 minutes baseline to 448 minutes in follow-up with sleep onset shifting from 01:15 to 23:15 while wake time fixed at 07:00",
+        "nighttime wearable coverage increasing from 342-358 minutes in baseline to 462-477 minutes in follow-up alongside 120-minute longer recorded sleep",
+        "activity duration and daily steps remaining stable across periods despite sleep duration increasing by 36 percent relative to personal baseline",
+        "HRV RMSSD stable near 45 ms and resting heart rate near 56 bpm before and after a persistent shift to earlier sleep onset times",
+        "low movement minutes stable near 450 per day across 28-day baseline and 14-day follow-up despite major change in sleep timing and duration"
+      ]
+    }
+  ]
+}

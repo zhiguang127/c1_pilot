@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b81ddc462cc2764d",
+      "text": "Over 28 baseline days and 14 window days, all metrics remained stable. Sleep averaged ~470 min (22:50–07:00), steps ~8039 vs ~8008, activity ~55 vs ~58 min, resting HR ~56 bpm, and RMSSD 40 ms throughout. Day-to-day variability was low with no sustained shifts or multi-variable relationships."
+    },
+    {
+      "case_ref": "sample_bb8fb30970c60404",
+      "text": "During the 28-day baseline, sleep averaged 471 min (22:50–07:00), steps ~7947, activity ~56 min, RHR ~56 bpm, and RMSSD ~45 ms. In the 14-day window, activity alternated between 45 and 90 min. From Apr 7, sleep start shifted to ~00:10, reducing duration to ~389 min on those nights while steps (~8088) and RMSSD stayed stable."
+    },
+    {
+      "case_ref": "sample_51960540cc887954",
+      "text": "Baseline (28 days): sleep ~471 min (22:50–07:00), steps ~7947, activity ~56 min, RHR ~56 bpm, RMSSD ~45 ms. Window (14 days): activity alternated 45/90 min. Sleep became bimodal—nights starting ~22:40 lasted ~480 min; from Apr 7, some starts shifted to ~00:10 with duration ~389 min. Steps and RMSSD remained stable. Activity and next-day sleep correlated strongly in the window (r≈−1.0)."
+    },
+    {
+      "case_ref": "sample_62721a92dbc25f07",
+      "text": "During the 28-day baseline, steps averaged ~2818/day with sleep ~471 min (22:50–07:00), activity ~56 min, RHR ~56 bpm, and RMSSD ~45 ms. In the 14-day window, steps rose sharply to ~7927/day (+181%). Sleep timing, duration, activity, RHR, and RMSSD remained at baseline levels. No paired metric relationships were observed."
+    }
+  ]
+}

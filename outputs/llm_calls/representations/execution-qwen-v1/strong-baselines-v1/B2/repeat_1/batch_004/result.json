@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_5f92088738b354c4",
+      "text": "Your sleep, steps, activity, and resting heart rate stayed close to your 28-day baseline over the past 14 days. Sleep averaged ~469 min (baseline ~470), always ending at 07:00, with starts around 22:50. Steps (~8061) and active minutes (~53) were stable. One notable change: HRV (RMSSD) dropped from a steady ~44 ms to an average of ~39 ms, driven by lower readings (22–28 ms) on Apr 3–6 before returning to 43–47 ms. This was an isolated fluctuation, not a persistent shift. Day-to-day HRV variability increased compared to baseline. No clear relationship between daily activity and next-day sleep was observed."
+    },
+    {
+      "case_ref": "sample_2628ad1bc996ceaf",
+      "text": "Over the past 14 days your sleep timing shifted noticeably. During your 28-day baseline you consistently slept ~22:50–07:00 (~470 min). In this window, sleep alternated between two patterns: earlier schedules (~22:15–06:30) and later ones (~00:37–09:00), averaging ~478 min—about 8.5 min longer than baseline. Despite these shifts, total sleep remained consistent day to day. Steps rose slightly (~8052 vs ~7940), while active minutes dipped modestly (~53 vs ~54). Resting heart rate and HRV stayed near baseline levels (~56 bpm, ~45 ms). The alternating sleep schedule is the main change; other metrics remained stable."
+    },
+    {
+      "case_ref": "sample_291467c938997fee",
+      "text": "Your first week matched your 28-day baseline well: sleep ~470–485 min (22:35–07:00), steps ~7600–8300, HRV ~43–47 ms, and RHR ~56 bpm. From Apr 7 onward, sleep start times shifted later (around midnight) and recorded sleep duration dropped to ~385–392 min for six consecutive nights, with nighttime coverage falling to ~405–412 min from ~490+. Steps (~8000–8400), active minutes, RHR, and HRV remained at baseline levels throughout. Because daytime wear stayed complete while nighttime coverage decreased alongside shorter recorded sleep, the reduced sleep values may partly reflect less overnight device recording rather than only a true sleep change. Consider checking device fit or charging habits at night."
+    },
+    {
+      "case_ref": "sample_bb758b54bff66927",
+      "text": "During your 28-day baseline you typically slept ~465 min (roughly 22:50–07:00). Over the past 14 days, sleep start shifted about two hours later to around 00:50 while wake time stayed fixed at 07:00, reducing recorded sleep to ~335–355 min (average ~346 min, down ~118 min). Nighttime device coverage also dropped from ~485 min to ~365 min, so some reduction may reflect shorter recording windows rather than sleep alone. Despite this, steps (~8037 vs ~7983), active minutes (~55), low movement, resting heart rate (~55 bpm), and HRV (~45 ms) all remained near baseline levels. The primary change is the later sleep onset and correspondingly shorter recorded sleep."
+    }
+  ]
+}

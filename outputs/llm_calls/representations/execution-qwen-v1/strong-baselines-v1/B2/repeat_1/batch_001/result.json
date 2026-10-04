@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2e3166f6475aca54",
+      "text": "Your sleep stayed stable near your 28-day baseline of ~470 min, consistently ending at 07:00 with starts around 22:45–22:58. Steps (~8,000) and active minutes (~55) were unchanged. A notable shift occurred Apr 3–6: resting heart rate rose from your typical 55–57 bpm to 65–67 bpm while RMSSD dropped from ~45 ms to 23–26 ms. Both returned to baseline by Apr 7. This four-day cluster was isolated; no corresponding change in sleep or activity was observed. In the window, RHR and RMSSD became strongly inversely correlated (r≈−0.97), unlike baseline (r≈0.13). Continue monitoring to see if such episodes recur."
+    },
+    {
+      "case_ref": "sample_fc5d91e2f9081f52",
+      "text": "Your 28-day baseline showed consistent sleep (~469 min, starting ~22:50, ending 07:00), steps (~8,019), and stable RHR (~56.5 bpm) and RMSSD (~45 ms). In the 14-day window, a clear weekday/weekend split emerged. Weekday sleep start shifted ~80 min later (to ~00:10) with duration dropping to ~390 min, while wake time remained 07:00. Weekend sleep start moved ~140 min later (to ~01:10) with duration rising to ~570 min and wake extending to 11:00. Steps, active minutes, RHR, and RMSSD stayed near baseline throughout. The new pattern is a pronounced weekday shortening and weekend lengthening of sleep, absent in your prior 28 days."
+    },
+    {
+      "case_ref": "sample_8d5aede9373bb3fa",
+      "text": "During your 28-day baseline you recorded ~2,818 steps/day with stable sleep (~471 min, 22:45–07:00), active minutes (~56), RHR (~56 bpm), and RMSSD (~45 ms). In the 14-day window, steps increased sharply to ~7,927/day (+181%), while sleep timing, duration, active minutes, low-movement minutes, RHR, and RMSSD all remained within baseline ranges. Day-to-day step variability also widened. No paired relationship between steps and active minutes or sleep was evident in either period. Your physiological metrics stayed steady despite the large step-count change. Consider whether device placement or counting settings changed at the window start."
+    },
+    {
+      "case_ref": "sample_7c2fa0bcac64337f",
+      "text": "Your 28-day baseline showed ~8,009 steps/day, sleep averaging ~470 min (starting ~22:50, ending 07:00), active minutes ~55, RHR ~55.7 bpm, and RMSSD ~45 ms, all with low day-to-day variability. In the 14-day window, steps dropped markedly to ~2,335/day (−71%), while sleep duration, timing, active minutes, low-movement minutes, RHR, and RMSSD remained essentially unchanged. No strong correlation between steps and active minutes or sleep appeared in either period. The step reduction is isolated to that metric; other recorded patterns are stable. Consider whether device wear location or step-detection conditions changed during the window."
+    }
+  ]
+}

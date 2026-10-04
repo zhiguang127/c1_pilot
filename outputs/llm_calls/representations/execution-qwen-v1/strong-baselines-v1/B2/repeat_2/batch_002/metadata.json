@@ -1,0 +1,35 @@
+{
+  "task_id": "representations/execution-qwen-v1/strong-baselines-v1/B2/repeat_2/batch_002",
+  "input_sha256": "948925eda7c141169672eed2b0de3d4433cbfd19ca8c18d4366fb5eff06ed923",
+  "result_sha256": "79589ef0b19b26274f0ce03dcd91960f16c839f396a8423f804168b3240e43f3",
+  "model": "qwen3.8-max",
+  "provider_model": "qwen3.8-max",
+  "backend": "openai_compatible_chat_completions",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "fresh_context": true,
+  "message_count": 2,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 15.703,
+  "usage": {
+    "completion_tokens": 588,
+    "prompt_tokens": 197931,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 197931
+    },
+    "total_tokens": 198519
+  },
+  "provider_request_id": "chatcmpl-9892617c-ccb6-9692-85b4-28d3b378dd9f",
+  "http_request_id": "9892617c-ccb6-9692-85b4-28d3b378dd9f",
+  "system_fingerprint": null,
+  "finish_reason": "stop",
+  "sampling_temperature": 0,
+  "sampling_seed": null,
+  "max_tokens": 16384,
+  "response_format": "json_object",
+  "prior_failures": [],
+  "model_identifier_pins_provider_weights": false,
+  "judge_independence_note": "Fresh contexts are independent calls; roles using the same model can share correlated errors.",
+  "enable_thinking": false
+}

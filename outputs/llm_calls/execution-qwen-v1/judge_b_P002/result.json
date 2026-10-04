@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "427568f5ef0c",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps constant at 7200 daily across baseline and window with zero variance.",
+      "item_condition_evidence": "Item requires step readings changing with possible measurement limitations.",
+      "rationale": "No step count changes observed; item conditions not met, only generic background."
+    },
+    {
+      "item_ref": "876309d1c07c",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes (8 hours) every night in both periods.",
+      "item_condition_evidence": "Item requires sleep duration below the age-specific recommendation of 7 hours.",
+      "rationale": "Observed 8-hour sleep meets CDC recommendation; required condition contradicted by data."
+    },
+    {
+      "item_ref": "bf1740a7c48a",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Window sleep starts alternate between 23:00 and 02:00; sleep end times alternate correspondingly.",
+      "item_condition_evidence": "Item addresses repeated variability in bedtime or wake time as reason to review consistency.",
+      "rationale": "Alternating 3-hour sleep timing shifts directly match the item's core condition of repeated variability."
+    },
+    {
+      "item_ref": "92f600f2231e",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60; sleep duration is 480 minutes nightly.",
+      "item_condition_evidence": "Item applies only to adults aged 61 to 64.",
+      "rationale": "Age band 18-60 explicitly excludes the 61-64 population required by this item."
+    },
+    {
+      "item_ref": "1e18c2fa6efc",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR is exactly 61 bpm every day with zero variance across all 42 days.",
+      "item_condition_evidence": "Item requires repeated RHR readings showing a recent change or informative trend context.",
+      "rationale": "No RHR change or trend exists; constant values provide no pattern for multi-day review."
+    },
+    {
+      "item_ref": "f597ff6e8068",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration equals 480 minutes, matching nighttime coverage and sleep opportunity exactly.",
+      "item_condition_evidence": "Item explains that estimated time asleep differs from full sleep period boundaries.",
+      "rationale": "Duration equals coverage here; item distinction not specifically informative about actual observations."
+    }
+  ]
+}

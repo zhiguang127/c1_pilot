@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "db8c51e36996",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps are null on Feb 5,8,11,14 due to insufficient daytime coverage (360 min).",
+      "item_condition_evidence": "Item requires step readings changing with possible measurement limitations during wear.",
+      "rationale": "Missing steps result from insufficient wear time, not arm-swing or sensing issues; condition unmet."
+    },
+    {
+      "item_ref": "f9a0b7627cc0",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes every night, matching sleep start-to-end interval precisely.",
+      "item_condition_evidence": "Item explains estimated time asleep differs from full bedtime-to-wake sleep period.",
+      "rationale": "No discrepancy exists between sleep boundaries and duration in this data; item not informative here."
+    },
+    {
+      "item_ref": "67b1bea86f16",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR is constant at 61 bpm across all 42 baseline and window days with zero variance.",
+      "item_condition_evidence": "Item applies when repeated RHR readings or a recent change are present for trend context.",
+      "rationale": "No variation or recent change in RHR exists; multi-day trend review adds no information."
+    },
+    {
+      "item_ref": "e9d4743c5b2c",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration is 480 minutes (8 hours) nightly; metadata age_band is 18-60.",
+      "item_condition_evidence": "Item applies when sleep duration is below the 7-hour recommendation for adults aged 18-60.",
+      "rationale": "Age band matches but observed 8h sleep exceeds the 7h threshold; provides general contextual reference only."
+    },
+    {
+      "item_ref": "63fbe4ea023e",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep starts at 23:00 and ends at 07:00 consistently every day; variance is 0.0.",
+      "item_condition_evidence": "Item applies when there is repeated variability in bedtime or wake time.",
+      "rationale": "Sleep schedule is perfectly stable with zero variability; required observable condition is contradicted."
+    },
+    {
+      "item_ref": "a481106f1977",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata specifies age_band as 18-60 for this wearable user.",
+      "item_condition_evidence": "Item explicitly requires established age 61 to 64 and lists other age groups as non-applicable.",
+      "rationale": "User age band 18-60 directly contradicts the required 61-64 condition; item is non-applicable."
+    }
+  ]
+}

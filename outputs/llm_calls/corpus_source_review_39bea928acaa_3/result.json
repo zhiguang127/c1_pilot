@@ -1,0 +1,119 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K049",
+      "assessment": "supported",
+      "rationale": "Source context explicitly states the talk test rule of thumb: moderate intensity allows talking but not singing; vigorous intensity permits only a few words before pausing for breath. The note that this requires observed effort aligns with the source's description of relative intensity.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "Source context directly states that for activities like spinning or yoga, step count might not reflect intensity level. The inference that lower steps alone do not establish decreased activity is a reasonable editorial caveat consistent with the source.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "NHS source context recommends making activity part of everyday life, such as walking or cycling instead of using a car. The claim about restoring activity when movement has declined is a reasonable paraphrase of incorporating routine opportunities.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "supported",
+      "rationale": "CDC source context explicitly advises to 'Start with activities, locations, and times you enjoy.' The applicability framing about preferences helping identify options beyond numeric goals is consistent with the source's individualized advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "CDC source context states 'Try activities with others for motivation and mutual encouragement.' The content correctly frames this as an option for support rather than a causal explanation for activity decline.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "CDC source context under 'I don't have time' advises to 'Monitor your daily activities for 1 week with this diary. Find at least three 30-minute time slots you could use for physical activity.' The claim accurately reflects this guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "CDC source context under 'I have so much to do already' advises to 'Make physical activity a regular part of your schedule by writing it on your calendar.' The claim is directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "MedlinePlus source context states that people with disabilities or special health needs should check with their provider on how much and what types of activity they should do. The caveat about wearable data not supplying medical context is appropriate editorial framing.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "NHS source context explicitly recommends to 'reduce time spent sitting or lying down and break up long periods of not moving with some activity.' The note about continuous periods and total accumulated time is a reasonable interpretation of the guideline.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "NHS source context states: 'Crucially, you can hit your weekly activity target but still be at risk of ill health if you spend the rest of the time sitting or lying down.' This directly supports the title and content claims.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "NHS source context advises to 'reduce the amount of time you and your family spend sitting down' alongside raising activity levels. The claim about total sitting time remaining relevant is directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K057",
+        "K058"
+      ]
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "MyHealth London source context suggests standing for short periods on journeys or getting off the bus a few stops early and walking. The applicability caveats about safe transport and mobility are appropriate editorial additions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "MyHealth London source context explicitly advises to 'Go over to talk to colleagues rather than sending them an email.' The workplace movement framing is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "MyHealth London source context lists 'Ask for a standing desk or have a standing or walking meeting' as tips. The suitability caveats are appropriate editorial framing.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "MyHealth London source context advises to 'get up at every ad break' when watching television. The requirement for actual screen-related sitting context rather than just low-movement estimates is a sound editorial caveat.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "MyHealth London source context advises to 'Plan in some active time when you are often sitting,' including going for a walk after meals or cooking from scratch. The claim about fitting replacements to actual routines is consistent with the source's practical framing.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

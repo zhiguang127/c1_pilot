@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2f379fa4a808b90c",
+      "queries": [
+        "sustained 33 percent decrease in daily steps from 9500 to 6400 over 14 days while sleep duration and timing remain stable",
+        "wearable daytime sensor coverage dropping to 50 percent causing missing step and activity data for one day",
+        "stable resting heart rate near 56 bpm and RMSSD near 45 ms despite large reduction in daily step count",
+        "consistent evening activity bouts starting at 21:00 with unknown intensity maintained across baseline and follow-up windows",
+        "unchanged sleep end time at 07:00 and sleep start near 22:50 with less than one minute mean difference over 14 days"
+      ]
+    },
+    {
+      "case_ref": "sample_ee525be46f256837",
+      "queries": [
+        "abrupt sleep onset delay from 22:40 to after midnight reducing sleep duration by 120 minutes for six consecutive nights",
+        "sleep duration returning to 480 minute baseline after six nights of 360 minute sleep with delayed onset",
+        "daily step count remaining stable near 8000 steps despite major shift in sleep timing and reduced sleep duration",
+        "weak correlation between resting heart rate and HRV RMSSD during baseline changing direction in follow-up window",
+        "activity duration minutes staying near 55 per day across periods with large sleep timing variability"
+      ]
+    },
+    {
+      "case_ref": "sample_d921a0972c269117",
+      "queries": [
+        "sleep onset shifting from 22:40 to after midnight for seven consecutive nights reducing sleep duration by approximately 120 minutes",
+        "sleep duration recovering to 480 minute baseline after a week of delayed sleep onset near 00:30 to 00:40",
+        "daily steps remaining stable near 8000 throughout both normal and delayed sleep onset periods",
+        "low movement minutes averaging 450 per day with no meaningful change across sleep timing shifts",
+        "HRV RMSSD decreasing by approximately 1 ms on average during the period of delayed sleep onset compared to baseline"
+      ]
+    },
+    {
+      "case_ref": "sample_42940b941d60f03b",
+      "queries": [
+        "stable sleep duration near 470 minutes and consistent sleep timing across 28-day baseline and 14-day follow-up",
+        "daily step count remaining near 7900 with no sustained change between baseline and follow-up periods",
+        "resting heart rate stable between 61 and 63 bpm with weak same-day correlation to HRV RMSSD",
+        "activity duration minutes averaging 55 per day with low variance across weekday and weekend groups",
+        "low movement minutes near 450 per day showing slight decrease of 3 minutes in follow-up without trend"
+      ]
+    }
+  ]
+}

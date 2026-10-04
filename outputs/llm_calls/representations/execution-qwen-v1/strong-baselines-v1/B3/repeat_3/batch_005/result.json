@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_163b1862742bf872",
+      "queries": [
+        "wearable sleep duration increase 120 minutes with earlier bedtime and unchanged wake time over two weeks",
+        "stable daily steps around 8000 and resting heart rate near 56 bpm across 42-day wearable monitoring",
+        "evening activity block at 21:00 lasting about 55 minutes with unknown intensity in longitudinal wearable data",
+        "ten structured low movement intervals of 45 minutes each between 10:00 and 18:00 daily on wearable tracker",
+        "weak correlation between evening activity duration and next-day sleep duration in personal baseline wearable data"
+      ]
+    },
+    {
+      "case_ref": "sample_66dd8b37958c142d",
+      "queries": [
+        "alternating sleep schedule between 06:30 and 09:00 wake times every other day in wearable records",
+        "sleep start time variance increasing from 18 to 5583 minutes squared after schedule change in wearable data",
+        "stable sleep duration near 470 minutes despite alternating early and late wake times over 14 days",
+        "daily steps around 8000 with slight upward trend of 21 steps per day during variable sleep schedule period",
+        "resting heart rate and HRV RMSSD positive correlation emerging during alternating sleep schedule window"
+      ]
+    },
+    {
+      "case_ref": "sample_9e90fbbaa606c039",
+      "queries": [
+        "resting heart rate spikes to 65-67 bpm for five consecutive days then returns to 55-57 bpm baseline",
+        "HRV RMSSD drop from 45 ms to 23-26 ms persisting four days before returning to baseline range",
+        "isolated high resting heart rate episode without corresponding change in sleep duration or step count",
+        "temporal alignment of elevated resting heart rate and reduced HRV RMSSD over same five-day window",
+        "stable daily steps near 8000 and sleep duration near 470 minutes throughout 42-day wearable observation"
+      ]
+    },
+    {
+      "case_ref": "sample_c6e0c78041734a4e",
+      "queries": [
+        "alternating activity duration between 45 and 90 minutes every other day over 14-day wearable window",
+        "sleep duration dropping to 385-392 minutes on low activity days versus 474-485 minutes on high activity days",
+        "near perfect negative correlation between daily active minutes and next-day sleep duration in two-week window",
+        "activity timing shifting between 17:30-18:15 and 20:30-22:00 on alternating days in wearable records",
+        "stable resting heart rate 55-57 bpm and HRV RMSSD 43-47 ms despite large activity and sleep variability"
+      ]
+    }
+  ]
+}

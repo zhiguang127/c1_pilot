@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "item_001",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps constant at 7200 daily across baseline and window with zero variance.",
+      "item_condition_evidence": "Item applies when step readings change with possible measurement limitations.",
+      "rationale": "No step variability observed; item conditions not met, only generic background."
+    },
+    {
+      "item_ref": "item_002",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Window sleep starts alternate 23:00 and 02:00; sleep_start variance 8100 vs baseline 0.",
+      "item_condition_evidence": "Item requires repeated variability in bedtime or wake time.",
+      "rationale": "Alternating 3-hour sleep start shifts directly match the item's core condition of inconsistent bedtimes."
+    },
+    {
+      "item_ref": "item_003",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration is exactly 480 minutes (8 hours) every day in both periods.",
+      "item_condition_evidence": "Item applies when sleep duration is below 7 hours for adults 18-60.",
+      "rationale": "Observed 480 minutes exceeds the 7-hour threshold; required condition contradicted by data."
+    },
+    {
+      "item_ref": "item_004",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata age_band is 18-60; sleep duration is 480 minutes daily.",
+      "item_condition_evidence": "Item explicitly non-applicable to age groups other than 61-64.",
+      "rationale": "Age band 18-60 contradicts the item's required 61-64 age group."
+    },
+    {
+      "item_ref": "item_005",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration 480 min equals nighttime coverage 480 min daily; sleep boundaries recorded.",
+      "item_condition_evidence": "Item applies when device-estimated sleep duration and sleep boundaries are available.",
+      "rationale": "Contextually relevant as estimated sleep matches total period here, but no discrepancy observed to explain."
+    },
+    {
+      "item_ref": "item_006",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR constant at 61 bpm across all 42 days with zero variance.",
+      "item_condition_evidence": "Item applies to repeated RHR readings or a recent change in RHR.",
+      "rationale": "No RHR change or informative trend exists; item provides only generic background with no concrete connection."
+    }
+  ]
+}

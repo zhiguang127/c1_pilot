@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "17848542e4f7",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep start shifted from 23:00 to 01:30 but remained perfectly stable within each period, variance 0.0.",
+      "item_condition_evidence": "Requires repeated variability in bedtime or wake time; notes stable schedule alone is not a problem.",
+      "rationale": "Both periods show zero-variance sleep timing. The shift created a new stable schedule, not repeated variability."
+    },
+    {
+      "item_ref": "1319578e26da",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps remained exactly 7200 daily across baseline and window with zero variance and no change.",
+      "item_condition_evidence": "Requires step readings changing with possible measurement limitations or wear context differences.",
+      "rationale": "No step count change occurred. Item addresses measurement artifacts during changes, which are absent here."
+    },
+    {
+      "item_ref": "8bebcf26f1e6",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Window sleep duration is 330 minutes (5.5 hours) nightly from Feb 3-16; age band is 18-60.",
+      "item_condition_evidence": "Applies to adults 18-60 with sleep below 7 hours; recommends reviewing available sleep time.",
+      "rationale": "Directly explains the observed persistent short sleep pattern against the age-matched CDC recommendation threshold."
+    },
+    {
+      "item_ref": "4790b6f7dbaf",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Metadata specifies age_band 18-60 for this wearable data record.",
+      "item_condition_evidence": "Requires established age 61-64; explicitly non-applicable to other age groups.",
+      "rationale": "Age band 18-60 contradicts the required 61-64 condition. Item is explicitly non-applicable to this data."
+    },
+    {
+      "item_ref": "5f1b8cff6906",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Sleep duration dropped from 480 to 330 minutes while sleep end stayed fixed at 07:00 and start shifted to 01:30.",
+      "item_condition_evidence": "States estimated time asleep differs from full sleep period boundaries based on sleep stage classification.",
+      "rationale": "Contextually relevant for interpreting device-estimated sleep duration, though data show no boundary-versus-estimate discrepancy."
+    },
+    {
+      "item_ref": "da7c8ba1f721",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "RHR remained exactly 61 bpm with zero variance across all 42 days of observation.",
+      "item_condition_evidence": "Requires repeated RHR readings or a recent change to preserve trend context over time.",
+      "rationale": "While repeated readings exist, RHR never changed. Item provides generic background with no concrete connection to observations."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K081",
+      "assessment": "supported",
+      "rationale": "Source explicitly states HRV varies person to person and lists age, sex, sleep, hormones, circadian rhythm, caffeine/alcohol, exercise, and stress as influencing factors. Title and content accurately reflect this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K082",
+      "assessment": "supported",
+      "rationale": "Source states personal range is based on the average of recent data using up to 30 days. Content accurately paraphrases this for trend monitoring.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K083",
+      "assessment": "supported",
+      "rationale": "Source confirms users can view heart rate trends over a week, month, 3 months, or year, and see average resting heart rate over periods of time. Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K084",
+      "assessment": "supported",
+      "rationale": "Source states the vitals feature provides information for well-being and is not intended to diagnose or treat any medical condition. HRV is listed as one of these vitals. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K085",
+      "assessment": "requires_correction",
+      "rationale": "Content claims Fitbit reports HRV using RMSSD, which is supported by the source. However, the source_url points to answer/14237938 (resting heart rate page), while the RMSSD text anchor appears in the source_context for answer/14237938's HRV section. The URL should likely be verified, but the core claim is present in the provided context block.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K086",
+      "assessment": "supported",
+      "rationale": "Source states the latest HRV measurement is from the longest sleep period over the past 24 hours and only sleep periods greater than 3 hours are considered. Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K087",
+      "assessment": "supported",
+      "rationale": "Source advises keeping an eye on how things balance out over time rather than focusing too much on any one day, and mentions comparing data to a 30-day average for sleep stages. Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K088",
+      "assessment": "supported",
+      "rationale": "Source explicitly states 'For health concerns, consult a healthcare provider.' Content accurately reflects this directive.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K089",
+      "assessment": "supported",
+      "rationale": "Source states accuracy is affected by personal physiology, device placement, and activity, and advises ensuring the back of the device contacts the skin with a snug band. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K090",
+      "assessment": "supported",
+      "rationale": "Source troubleshooting advises wearing the device for at least one full day, 'during the day and to sleep at night'. Content accurately reflects this requirement for overnight vitals.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K091",
+      "assessment": "supported",
+      "rationale": "Source states most metrics require at least 3 hours of quality sleep and excessive movement or short sessions may result in no reading. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K092",
+      "assessment": "supported",
+      "rationale": "Source advises checking if the device synced recently and whether it tracks the specific metric. Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K093",
+      "assessment": "supported",
+      "rationale": "Source notes variations between new and old Fitbit devices due to changes in the heart rate sensor or algorithm. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K094",
+      "assessment": "supported",
+      "rationale": "Source states time asleep is estimated as all time in the main sleep period identified as Light, Deep, or REM. Content accurately distinguishes this from total sleep period duration.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K095",
+      "assessment": "supported",
+      "rationale": "Source states wrist-based devices automatically detect sleep when worn to bed and recommends a snug wristband. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K096",
+      "assessment": "supported",
+      "rationale": "Source states Fitbit uses a 3-axis accelerometer to count steps and that the arm must swing back and forth during a walk or run for steps to be counted. Content is supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

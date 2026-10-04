@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K001",
+      "assessment": "supported",
+      "rationale": "The CDC source table explicitly lists 'Adult 18–60 years: 7 or more hours'. The editorial note about reviewing time rather than diagnosing a disorder is a conservative caveat consistent with the source's advice to talk to a provider if problems persist.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K002",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 61–64 years: 7–9 hours'. The requirement to know the age group before applying the range is a valid applicability condition derived from the age-stratified table.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K003",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 65 years and older: 7–8 hours'. The statement that this differs from younger adults is directly supported by comparing rows in the same table.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K004",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Teen 13–17 years: 8–10 hours'. The caution against transferring adult targets is a reasonable editorial inference from the distinct age bands.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K005",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explicitly states 'Sleep is often the first thing that busy people squeeze out of their schedules. Making time to sleep will help you protect your health and well-being.' The content accurately paraphrases this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K006",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'A common myth is that people can learn to get by on little sleep with no negative effects.' The item correctly reflects this rejection of adaptation without adverse effects.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K007",
+      "assessment": "supported",
+      "rationale": "The CDC source defines quality sleep as 'uninterrupted and refreshing' and states it is 'not just about how many hours you sleep, but how well you sleep,' listing specific signs of poor quality. The claim that recorded hours alone do not establish quality follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K008"
+      ]
+    },
+    {
+      "knowledge_id": "K008",
+      "assessment": "supported",
+      "rationale": "The CDC source lists 'Repeatedly waking up during the night' as a sign of poor sleep quality. The statement that total duration alone does not indicate awakenings is a valid logical inference from the source distinguishing duration and quality signs.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K007"
+      ]
+    },
+    {
+      "knowledge_id": "K009",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explicitly advises: 'You also should talk with your doctor if you sleep more than 8 hours a night, but don't feel well rested.' The item accurately captures the threshold and the requirement for subjective reporting.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K010",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Studies show that a good night's sleep improves learning and problem-solving skills. Sleep also helps you pay attention...' The caveat that a wearable record alone does not establish impaired cognition is a conservative editorial limit, not a fabricated source assertion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K011",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'After several nights of losing sleep... your ability to function suffers' and notes people have 'a slower reaction time, and make more mistakes.' It also states some people 'may still think they can function well' despite deficiency. All claims are grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K012",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Ongoing sleep deficiency can change the way your body’s natural defense against germs and sickness responds.' The caveat that this general fact does not allow diagnosing infection from a wearable is a valid conservative limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K013",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explains sleep helps balance 'hormones that make you feel hungry (ghrelin) or full (leptin)' and that deficiency alters these levels. The caveat requiring separate evidence for individual appetite changes is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K014",
+      "assessment": "supported",
+      "rationale": "The NHS source explicitly lists under 'Don’t': 'do not drive when you feel sleepy'. The applicability conditions correctly note this depends on actual sleepiness and driving context, which duration data alone cannot establish.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K015",
+      "assessment": "supported",
+      "rationale": "The NHS source states 'Everyone needs different amounts of sleep. On average: adults need 7 to 9 hours'. The item accurately reflects both the variability and the average range.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K016",
+      "assessment": "supported",
+      "rationale": "The NHS source lists three triggers to see a GP: habits haven't helped, trouble sleeping for months, or insomnia affecting daily life making it hard to cope. The caveat that a two-week wearable window alone cannot establish these is a valid conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

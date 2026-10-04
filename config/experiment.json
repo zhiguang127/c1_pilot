@@ -1,0 +1,38 @@
+{
+  "revision": "execution-qwen-v1",
+  "design_revision": "design-v1",
+  "access_date": "2026-10-03",
+  "seed": 20261003,
+  "repeats": 3,
+  "representation_batch_size": 4,
+  "representation_output_tokens": 256,
+  "language": "en",
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "llm": {
+    "backend": "openai_compatible",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "generator_model": "qwen3.8-max",
+    "judge_a_model": "qwen3.8-max",
+    "judge_b_model": "qwen3.8-max",
+    "adjudicator_model": "qwen3.8-max",
+    "audit_model": "qwen3.8-max",
+    "max_tokens": 16384,
+    "enable_thinking": false,
+    "timeout_seconds": 900,
+    "max_attempts": 2,
+    "max_workers": 3,
+    "temperature": 0,
+    "provider_seed_supported": false
+  },
+  "scope": "B1 strong generic longitudinal summary; B2 insight-style, not official PHIA; B3 five retrieval queries; B4 deterministic raw statistical facts. No Personal Evidence method implemented.",
+  "protocol_amendments": [
+    "Human gold replaced by requested independent-context LLM judges and adjudicator, with explicit provisional status.",
+    "Evidence-vs-summary primary comparison cannot be executed because this phase intentionally excludes Evidence; all baseline comparisons diagnose whether further research is warranted.",
+    "B3 uses five queries and fixed within-retriever RRF. This is the requested strong multiquery baseline and has five retrieval operations versus one for B1/B2/B4; report this resource difference.",
+    "All representation prompts and knowledge text use English; no PHIA claim.",
+    "Qwen3.8-max uses the user-confirmed Alibaba Cloud endpoint. No Codex model calls or outputs are part of this execution version. The prior aborted model run is archived separately.",
+    "Two independent fresh-context Qwen judges and a third fresh-context Qwen adjudicator share weights; they are not independent model families. Shared-family bias is a validity limitation.",
+    "LLM model identifier fixed but provider weights are not an immutable open snapshot; HTTP request IDs, returned model names and usage logs retained.",
+    "API max_tokens=16384 and temperature=0 are fixed. 256-token final representation text budget is separately enforced with cl100k_base; record pre-enforcement tokens and truncation. No unverified provider seed support is assumed."
+  ]
+}

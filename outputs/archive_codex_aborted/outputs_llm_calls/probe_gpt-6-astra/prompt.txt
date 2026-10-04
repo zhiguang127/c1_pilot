@@ -1,0 +1,1 @@
+Do not use tools. Return {"availability":"ok"}. Authorized structured model availability check.

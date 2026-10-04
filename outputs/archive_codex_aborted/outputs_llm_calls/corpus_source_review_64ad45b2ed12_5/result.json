@@ -1,0 +1,116 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K081",
+      "assessment": "supported",
+      "rationale": "The excerpt explicitly supports personal variation and the listed influences. Rejecting a universal normal value is a reasonable editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K082",
+      "assessment": "supported",
+      "rationale": "Recent averages and up to 30 days are explicit. Personal-history requirements appropriately scope baseline comparisons without inventing a minimum duration.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K083",
+      "assessment": "supported",
+      "rationale": "Multiweek and multimonth views and period averages are explicit. The single-reading limitation is conservative, not an invented persistence threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K084",
+      "assessment": "supported",
+      "rationale": "The contexts identify HRV as a vital and explicitly prohibit diagnostic or treatment use. The disease-inference caveat follows.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K085",
+      "assessment": "supported",
+      "rationale": "RMSSD is explicitly identified. Preserving metric definitions in comparisons is a conservative interpretation limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K086",
+      "assessment": "supported",
+      "rationale": "The longest sleep period within 24 hours and strictly greater-than-three-hour criterion are explicit. Applicability correctly limits this collection rule to Fitbit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K087",
+      "assessment": "supported",
+      "rationale": "Natural variation, review over time, and the personal 30-day average are explicit. Requiring stage data preserves the source's scope.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K088",
+      "assessment": "supported",
+      "rationale": "Consultation for health concerns is explicit. Limits on diagnosis, treatment, and emergency inference are conservative wellness-data caveats; the topic differs from K084's HRV-specific interpretation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K089",
+      "assessment": "supported",
+      "rationale": "Physiology, placement, activity, skin contact, and band fit are explicit accuracy factors. Possible measurement effects are not asserted as an individual's cause.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K090",
+      "assessment": "supported",
+      "rationale": "Daytime and sleep wear are explicit troubleshooting guidance. The overnight-coverage caveat follows and introduces no new sleep-duration threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K091",
+      "assessment": "supported",
+      "rationale": "The three-hour quality-sleep requirement for most metrics and possible missingness from movement or short sleep are explicit. Missing-versus-zero is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K092",
+      "assessment": "supported",
+      "rationale": "Syncing and device support checks are explicit. Technical missingness is presented as a possibility, with no unsupported health inference.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K093",
+      "assessment": "supported",
+      "rationale": "Technology, sensor, and algorithm differences explicitly explain possible cross-device variation. Baseline-comparison caution is appropriately conditional.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K094",
+      "assessment": "supported",
+      "rationale": "The excerpt explicitly defines estimated time asleep using light, deep, and REM portions of the main sleep period. Distinguishing elapsed duration follows.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K095",
+      "assessment": "supported",
+      "rationale": "Automatic sleep detection when worn to bed and snug wristband guidance are explicit. Non-wear is appropriately treated as missing evidence, distinct from overnight-vitals coverage.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K096",
+      "assessment": "supported",
+      "rationale": "Accelerometer sensing and arm swing during walking or running are explicit. Wear-context caution concerns measurement accuracy, distinct from K050's non-step exercise intensity.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

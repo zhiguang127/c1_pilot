@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "2aa1e31703b1",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps remain 7,200 daily throughout baseline and February 3–16; wear duration remains 900 minutes.",
+      "item_condition_evidence": "The item concerns changing step readings with measurement limitations; wear context and activity type are unavailable.",
+      "rationale": "Neither changing readings nor relevant measurement limitations are established, so the sensing explanation lacks a specific connection."
+    },
+    {
+      "item_ref": "62a0e0f0f540",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "February 3–16 sleep alternates between 23:00–07:00 and 02:00–10:00, always lasting 480 minutes.",
+      "item_condition_evidence": "Repeated bedtime and wake-time variability directly satisfies the item's condition, independently of total sleep duration.",
+      "rationale": "Persistent three-hour timing alternation directly matches the item's coverage of sleep schedule consistency."
+    },
+    {
+      "item_ref": "34c93c022797",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "All baseline and February 3–16 nights record 480 minutes of sleep; age band is 18–60.",
+      "item_condition_evidence": "The age requirement is supported, but the specified below-seven-hour sleep condition is contradicted by eight-hour nights.",
+      "rationale": "Repeated short sleep is absent; the age match alone does not establish the item's specific applicability."
+    },
+    {
+      "item_ref": "d0e4188bdc00",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Recorded age band is 18–60, and every observed night contains 480 minutes of sleep.",
+      "item_condition_evidence": "The item requires established age 61–64 and explicitly excludes other age groups.",
+      "rationale": "The recorded age band contradicts the necessary population condition, despite available daily sleep duration."
+    },
+    {
+      "item_ref": "dfb2085a6b60",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep duration equals the eight-hour timestamp interval every night; the device is a synthetic common wearable.",
+      "item_condition_evidence": "The item concerns device-estimated sleep from stage classifications; that estimation method is not established here.",
+      "rationale": "Available durations and boundaries do not establish the source's estimation condition or a specific measurement distinction."
+    },
+    {
+      "item_ref": "7a1c885d94b4",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Resting heart rate remains 61 bpm on all 28 baseline days and all 14 window days.",
+      "item_condition_evidence": "Repeated resting-heart-rate readings satisfy the item's trend-context condition; a recent change is not required.",
+      "rationale": "The item contextualizes a separately supported stable heart-rate series, while sleep timing variability remains the core pattern."
+    }
+  ]
+}

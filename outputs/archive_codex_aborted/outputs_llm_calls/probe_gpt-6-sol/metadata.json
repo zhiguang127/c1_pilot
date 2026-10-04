@@ -1,0 +1,22 @@
+{
+  "task_id": "probe_gpt-6-sol",
+  "input_sha256": "e62ac1474442fd5bcc4d5bee66f87d79dddffe5faf2ec414f82a33d3f8848062",
+  "model": "gpt-6-sol",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 11.375,
+  "usage": {
+    "input_tokens": 16051,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

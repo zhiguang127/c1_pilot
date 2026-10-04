@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_b3b5f1a8a69d8cdc",
+      "queries": [
+        "Wearable sleep stable across 28-day baseline and 14-day window: 470 versus 471 minutes, bedtime near 22:49, wake time consistently 07:00, no sustained trend.",
+        "Weekend sleep averages 468 versus weekday 472 minutes in the window, reversing baseline 473 versus 469; only four current weekend nights.",
+        "Night RMSSD mean unchanged at 40 ms, range narrowing from 26–54 to 28–52; resting heart rate stable near 56 bpm, weak same-day association.",
+        "Daily moving minutes increase modestly from 55.2 to 57.8 while steps remain near 8000; 21:00 activity has weak next-wake-date sleep association across 13 pairs.",
+        "Low movement stable at 452 versus baseline 450 minutes daily, ten bouts around 44–47 minutes separated by five-minute gaps from 10:00; posture unconfirmed."
+      ]
+    },
+    {
+      "case_ref": "sample_60ee25e54744726b",
+      "queries": [
+        "Wearable sleep mean falls from 471 to 441 minutes over 14 days, but median remains 474; six short nights of 385–392 minutes interspersed with 474–485 minutes.",
+        "Six 90-minute activity intervals at 20:30–22:00 precede sleep starting 00:08–00:15; seven paired 45-minute intervals ending 18:15 precede 22:35–22:46 sleep, intensity unknown.",
+        "Repeated short sleep returns to baseline-length sleep on the next wake date across both weeks and weekdays/weekends; 07:00 waking unchanged, aligned activity–sleep correlation −0.996 across 13 pairs, causation unestablished.",
+        "Resting heart rate remains 55–57 bpm and RMSSD 43–47 ms despite alternating sleep durations; means 56.4 versus 55.9 bpm and 45.7 versus 45.0 ms.",
+        "Moving minutes average 64 versus baseline 56 with alternating 45/90-minute days; steps only rise 1.8%, low movement stays near 449 minutes, all daily metrics complete."
+      ]
+    },
+    {
+      "case_ref": "sample_638fa86161cb0355",
+      "queries": [
+        "Wearable resting heart rate rises to 65–67 bpm April 3–6 from a 55–57 personal baseline, then returns to 55–57 April 7–12; window mean 58.7 versus 56.0.",
+        "Night RMSSD drops to 23–26 ms for four consecutive weekdays April 7–10 versus baseline 43–47, then returns to 45 on April 11–12; window mean 38.9 versus 45.",
+        "Elevated resting heart rate April 3–6 occurs with RMSSD 44–47; subsequent RMSSD decline April 7–10 occurs after heart rate returns to baseline, so changes do not overlap.",
+        "Sleep remains near 470 minutes throughout separate heart rate and RMSSD episodes, with bedtime 22:44–22:56 and fixed 07:00 waking; weekday and weekend sleep means nearly identical.",
+        "Steps remain near 8000 and moving minutes near 55 versus baseline; low movement decreases slightly from 451 to 447 minutes, with weak activity-to-next-wake-date sleep association across 13 pairs."
+      ]
+    },
+    {
+      "case_ref": "sample_2a7014f62869c2b9",
+      "queries": [
+        "Wearable sleep increases from 328 to 448 minutes versus 28-day personal baseline, about 120 minutes or 36%; all 14 current nights 442–457 versus baseline 322–338.",
+        "Sleep onset shifts about two hours earlier from 01:02–01:18 to 23:03–23:18 with unchanged 07:00 waking; sustained weekdays and weekends, slight further advance within window.",
+        "Daily steps average 7963 versus baseline 8044, declining about 25 steps per day; weekend mean falls from 8195 to 7784 while weekday mean remains near 8000.",
+        "Longer sleep coincides with stable resting heart rate near 56 bpm and RMSSD near 45 ms; current ranges remain 55–57 bpm and 43–47 ms, all observations complete.",
+        "Moving minutes remain near 55 daily at 21:00, low movement near 450 minutes; activity-to-next-wake-date sleep association weak across 13 pairs, despite modest positive same-day steps–moving-minutes correlation."
+      ]
+    }
+  ]
+}

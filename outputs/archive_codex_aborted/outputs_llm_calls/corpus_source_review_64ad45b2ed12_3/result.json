@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K049",
+      "assessment": "requires_correction",
+      "rationale": "The conversation thresholds match, but CDC presents the talk test as a rule of thumb for aerobic activity. Preserve that scope rather than applying it to activity generally.",
+      "unsupported_claims": [
+        "Unqualified application of the talk-test descriptions to all activity types."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "The spinning/yoga examples support the intensity limitation. The conclusion about lower steps is a conservative limit on inference.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "Everyday walking and cycling are directly recommended. The tentative restoration suggestion is a reasonable educational application, without attributing a cause to decline.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "requires_correction",
+      "rationale": "CDC recommends enjoyable activities and suitable scheduling; it does not establish preferences and schedule knowledge as necessary conditions for every workable habit. Rephrase the second sentence as planning guidance.",
+      "unsupported_claims": [
+        "A workable activity habit necessarily needs personal preferences and schedule context."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "Social activity for motivation is explicit. The barrier-related restrictions are conservative editorial limits, not causal claims.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "The one-week diary recommendation is explicitly tied to a time barrier. Identifying schedule opportunities is supported by the accompanying instruction to find activity slots.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "Calendar planning directly addresses competing demands. Schedule-context requirements conservatively limit individualized advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "The heading and provider advice support the health-condition scope. The wearable limitation appropriately avoids inferring medical context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "NHS explicitly recommends both reducing sitting time and breaking up long inactive periods. Wear coverage and posture caveats prevent unsupported sitting conclusions; no duration threshold is invented.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "The source explicitly retains sitting-related concerns despite meeting activity targets. Its topic differs from reducing total sitting or interrupting individual bouts.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "Reducing the amount of sitting supports reviewing the daily total across settings. The item does not claim equal risk for different sitting patterns or prescribe a threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "Standing during journeys and walking part of a bus trip are explicit options. Transport and mobility conditions are reasonable editorial safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "Walking to colleagues is directly supported. It is a distinct workplace option from changing desks or meeting arrangements.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "Standing desks and standing or walking meetings are explicitly listed. Suitability caveats appropriately constrain individualized application.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "Advertisement-break movement and moving during programmes are explicit. Requiring viewing context prevents inferring screen habits from movement estimates.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "Planning activity during habitual sitting, post-meal walks, and cooking are directly supported. Routine and mobility restrictions are conservative; this differs from the specific television-break option.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

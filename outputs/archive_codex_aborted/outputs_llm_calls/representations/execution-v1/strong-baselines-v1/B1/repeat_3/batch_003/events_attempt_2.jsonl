@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a1012d-e281-7253-bd3b-02fa6ed419f3"}
+{"type":"turn.started"}
+{"type":"error","message":"Your workspace is out of credits. Ask your workspace owner to refill in order to continue."}
+{"type":"turn.failed","error":{"message":"Your workspace is out of credits. Ask your workspace owner to refill in order to continue."}}

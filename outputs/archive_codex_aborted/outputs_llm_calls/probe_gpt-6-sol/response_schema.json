@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "availability": {
+      "type": "string",
+      "enum": [
+        "ok"
+      ]
+    }
+  },
+  "required": [
+    "availability"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_f00826ce58f54514",
+      "queries": [
+        "Wearable sleep stable over 14 days versus 28-day personal baseline: 471.7 versus 470.6 minutes, bedtime 22:42–22:57, wake 07:00 weekdays and weekends; slight trend of shorter sleep, 0.22 minutes/day.",
+        "Daily steps essentially unchanged at 7923 versus baseline 7938 despite a downward 14-day slope of 22 steps/day; active minutes slightly higher, 56.2 versus 54.7, with unknown intensity.",
+        "Low movement 446.8 versus baseline 449.7 minutes/day, increasing 0.73 minutes/day within window; ten daytime bouts around 44–47 minutes with five-minute gaps, posture unknown; weekday/weekend means 446.1/448.5.",
+        "Same-device resting heart rate stable at 61.7 versus 61.8 bpm and RMSSD 45.1 versus 44.8 ms; HRV day-to-day absolute changes smaller, 0.85 versus 1.85 ms.",
+        "Activity at 21:00 ending 21:50–22:00 precedes sleep ending next morning; duration correlation near zero across 13 window pairs, r=0.05, versus baseline -0.11; no clear relationship."
+      ]
+    },
+    {
+      "case_ref": "sample_d0a5b6f2398d4ebc",
+      "queries": [
+        "Single Sunday April 5 wearable RMSSD estimate 23 ms versus 28-day baseline 43–47 ms; 45 ms previous day, 43 ms next day, subsequent values 43–46; isolated drop without sustained decline.",
+        "Fourteen-day RMSSD mean 43.1 versus baseline 45.3 ms but median unchanged at 45; one low estimate increases variance and lowers four-day weekend mean to 39.3; all measurements present.",
+        "Resting heart rate slightly lower, 55.8 versus baseline 56.3 bpm, continuing downward trend; April 5 HRV drop accompanies 57 bpm within baseline range; same-day window correlation -0.41 does not establish causation.",
+        "Sleep 467.7 versus baseline 470.9 minutes, bedtime about three minutes later with unchanged 07:00 wake; weekend sleep advantage narrows from 3.6 to 0.4 minutes; no sustained window trend.",
+        "Steps slightly lower at 7954 versus 8066, active minutes stable near 55 and low movement near 453 versus 451; 21:00 activity duration shows no next-morning sleep relationship, r=-0.02 across 13 pairs."
+      ]
+    },
+    {
+      "case_ref": "sample_e97142a55baea655",
+      "queries": [
+        "Abrupt wearable activity decline persisting all 14 days: steps 2321 versus 28-day baseline 7998, down 71%; active minutes 4.9 versus 55.2, down 91%, without return to baseline.",
+        "Activity decline spans weekdays and weekends: steps 2337/2280 versus baseline 7990/8020; recorded activity at 21:00 lasts 0–10 minutes versus 50–60; two observed zero days, no missing values, intensity unknown.",
+        "Low movement remains near personal baseline despite large steps and active-minute declines: 447.5 versus 450.5 minutes/day, no window trend; ten daytime bouts around 44–46 minutes, five-minute gaps, posture unknown.",
+        "Sleep remains near baseline, 469.4 versus 470.5 minutes, wake 07:00; window sleep increases 0.48 minutes/day; preceding evening activity duration has modest next-morning sleep correlation, r=0.32 across 13 pairs, without causal evidence.",
+        "Same-device resting heart rate and RMSSD means remain near baseline, 56.3 versus 56.1 bpm and 44.8 versus 45.3 ms; RMSSD rises 0.17 ms/day, same-day heart-rate correlation -0.59 versus baseline 0.14."
+      ]
+    },
+    {
+      "case_ref": "sample_9e2cc57b2faef23c",
+      "queries": [
+        "Wearable resting heart rate rises abruptly from 28-day personal baseline 51–53 bpm to 61–63 on all 14 subsequent days; mean 51.8 to 61.7, increase 9.9 bpm or 19%, without return.",
+        "Resting heart rate elevation spans weekdays and weekends, means 61.7/61.8 versus baseline 51.8/52.0; same-device RMSSD stays near 45 ms, range 43–47, with weak window correlation -0.22.",
+        "Sleep remains stable despite resting heart rate increase: 471.7 versus baseline 470.6 minutes, bedtime 22:42–22:57 and 07:00 wake including weekends; slight window shortening trend 0.22 minutes/day.",
+        "Steps stable at 7923 versus baseline 7938 despite window slope -22/day; active minutes slightly higher, 56.2 versus 54.7; activity at 21:00 has no clear next-morning sleep-duration relationship, r=0.05, 13 pairs.",
+        "Low movement slightly lower overall, 446.8 versus baseline 449.7 minutes, but increases 0.73 minutes/day within window; weekday/weekend means 446.1/448.5; daytime bouts 44–47 minutes with five-minute gaps, posture unknown."
+      ]
+    }
+  ]
+}

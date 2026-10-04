@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "17848542e4f7",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Sleep starts at 01:30 and ends at 07:00 on all 14 current nights.",
+      "item_condition_evidence": "Bedtime shifted once from baseline; repeated variability within the current window is absent.",
+      "rationale": "The current schedule is stable, so routine inconsistency does not explain the observed shorter sleep."
+    },
+    {
+      "item_ref": "1319578e26da",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps remain 7,200 daily in both periods, with 900 daytime wear minutes.",
+      "item_condition_evidence": "No step change, altered wear context, or activity type is reported.",
+      "rationale": "The measurement limitation has no specific connection to these unchanged step readings."
+    },
+    {
+      "item_ref": "8bebcf26f1e6",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "Sleep is 330 minutes on every current night, down from 480 minutes at baseline.",
+      "item_condition_evidence": "The age band is 18–60, and every current night is below seven hours.",
+      "rationale": "The age-specific recommendation directly contextualizes the persistent short sleep duration."
+    },
+    {
+      "item_ref": "4790b6f7dbaf",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Current sleep duration is available at 330 minutes nightly; recorded age band is 18–60.",
+      "item_condition_evidence": "The required age range of 61–64 is contradicted by the recorded age band.",
+      "rationale": "The item's sleep range does not apply to this age group."
+    },
+    {
+      "item_ref": "5f1b8cff6906",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Each current sleep estimate is 330 minutes, matching its 01:30–07:00 recorded boundaries.",
+      "item_condition_evidence": "Estimated duration and boundaries are available, but no difference between them appears.",
+      "rationale": "The distinction informs interpretation of these fields without explaining a discrepancy in this record."
+    },
+    {
+      "item_ref": "da7c8ba1f721",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Resting heart rate is 61 bpm on all 28 baseline and 14 current days.",
+      "item_condition_evidence": "Repeated readings support a stable longitudinal comparison rather than a single-day conclusion.",
+      "rationale": "The item supports using the observed series for trend context; no heart-rate change is present."
+    }
+  ]
+}

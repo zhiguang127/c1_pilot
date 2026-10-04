@@ -1,0 +1,24 @@
+2026-10-03T10:08:34.760673Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-03T10:08:34.836478Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\deploy\SKILL.md: missing YAML frontmatter delimited by ---
+2026-10-03T10:08:34.836497Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\prepare\SKILL.md: missing YAML frontmatter delimited by ---
+2026-10-03T10:08:34.836501Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\scaffold\SKILL.md: missing YAML frontmatter delimited by ---
+2026-10-03T10:08:37.607153Z  WARN codex_core::session::startup_prewarm: startup websocket prewarm setup failed: Your workspace is out of credits. Ask your workspace owner to refill in order to continue.
+2026-10-03T10:08:38.912647Z  WARN codex_core_plugins::manager: failed to refresh cached remote plugin catalog error=remote plugin catalog request to https://chatgpt.com/backend-api/ps/plugins/list?scope=GLOBAL&limit=200&pageToken=eyJzY29wZSI6IkdMT0JBTCIsIndvcmtzcGFjZV9pZCI6bnVsbCwiY3JlYXRvcl9hY2NvdW50X3VzZXJfaWQiOm51bGwsImNvbGxlY3Rpb24iOm51bGwsImluY2x1ZGVfcmVzdHJpY3RlZF9wbHVnaW5zIjp0cnVlLCJpbmNsdWRlX3VubGlzdGVkX2dsb2JhbF9wbHVnaW5zIjp0cnVlLCJlbGlnaWJsZV9wbGFuX3R5cGUiOiJ0ZWFtIiwiZW5mb3JjZV9wbGFuX2VsaWdpYmlsaXR5IjpmYWxzZSwicmFua19ieV9wb3B1bGFyaXR5Ijp0cnVlLCJjb250aW51YXRpb24iOnsiZGVwbG95bWVudF90eXBlIjoicHJpbWFyeSIsInF1ZXJ5X2lkIjoicnM0OjA2ZGU4OTI2LTJjN2EtNGJhNy04ODg1LTg3YzM2NTFkOWU2ZDpaaFlCa3BWOjA6bGVhZi03ZGVjMTM3Mi01OGFjLTRlOWEtOTQwYy1jNWJkZGU5ZmJjOGIiLCJjdXJzb3IiOiJaSDY5ZFhDNGdMdnZlSExwaEpVSzZmamkyTkdqUE5TMEdzVkNwSlZaZ192VU5lRUZjWjVjZGpTNENKZ3BSWlpnajhiZzJ2eVIyaTNRZi14amJwNy1TeEg0UFo1Z2hqd2hQWkxFS3gtVUVHNlBhS1dTcFdjSGdtZDdPemVNREdBRDhmMl9TcWlyTkI1dkhmYlNpUk1xSHQ2dU84N2J4VllXazVQM1ZRUmRZR0h5M2NUSlFpU2FvVFp1dmhCQXRJdFN2YzQ0UEE1alExVT0ifX0 failed with status 401 Unauthorized: {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+} scope=Global
+2026-10-03T10:08:39.741059Z ERROR codex_api::endpoint::responses_websocket: failed to connect to websocket: HTTP error: 401 Unauthorized, url: wss://chatgpt.com/backend-api/codex/responses
+2026-10-03T10:08:40.859155Z  WARN codex_analytics::client: events failed with status 401 Unauthorized: {
+  "error": {
+    "message": "Encountered invalidated oauth token for user, failing request",
+    "type": null,
+    "code": "token_revoked",
+    "param": null
+  },
+  "status": 401
+}

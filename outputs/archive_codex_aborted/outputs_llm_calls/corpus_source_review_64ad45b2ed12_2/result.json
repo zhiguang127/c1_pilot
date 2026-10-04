@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K033",
+      "assessment": "supported",
+      "rationale": "CDC lists these diary entries. Preserving a timeline is a reasonable implication of recording when events occur; missing-event safeguards are editorial limits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K034",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly describes accumulated sleep loss. The recovery caveat conservatively limits inference without inventing a recovery timetable.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K035",
+      "assessment": "supported",
+      "rationale": "The source supports both the possible indication of insufficient workday sleep and potential sleep-wake disruption. Later timing is an educational context, not a required diagnostic criterion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K036",
+      "assessment": "supported",
+      "rationale": "The source explicitly distinguishes naps' short-term benefits from the full benefits of nighttime sleep. The compensation caveat follows conservatively.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K037",
+      "assessment": "supported",
+      "rationale": "The advice preserves the insomnia context and the specific bad-night instruction. The diagnostic caveat is conservative; this condition differs from K018's general waking-time advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K038",
+      "assessment": "supported",
+      "rationale": "Both three-month boundaries match the source. Requiring symptom history rather than diagnosing from sleep estimates is a conservative evidentiary limit, not a fourteen-day clinical rule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K039",
+      "assessment": "supported",
+      "rationale": "The travel context, destination-time advice, and optional two-to-three-day exception match the excerpt. Its short-trip advice substantially overlaps K040.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K040"
+      ]
+    },
+    {
+      "knowledge_id": "K040",
+      "assessment": "supported",
+      "rationale": "The duration, optional wording, and reason for retaining original schedules are explicit. This repeats the short-trip exception already included in K039.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K039"
+      ]
+    },
+    {
+      "knowledge_id": "K041",
+      "assessment": "supported",
+      "rationale": "CDC supports moving more, sitting less, and benefits below weekly targets. Low or declining movement is an educational context without an invented threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K042",
+      "assessment": "supported",
+      "rationale": "Gradual increases after inactivity and benefits from small increases are explicit. Health-context safeguards are conservative; reduced activity is an educational context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K043",
+      "assessment": "supported",
+      "rationale": "The moderate-intensity target matches CDC's stated option. The item addresses that option specifically; unspecified movement totals cannot establish its intensity requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K044",
+      "assessment": "supported",
+      "rationale": "CDC explicitly provides the 75-minute vigorous aerobic option. Requiring known vigorous intensity appropriately limits application and distinguishes it from K043.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K045",
+      "assessment": "supported",
+      "rationale": "Spreading activity across the week and dividing it into smaller chunks are explicit. Limited opportunities are an educational context, not an unsupported eligibility rule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K046",
+      "assessment": "supported",
+      "rationale": "The two-day minimum and all-major-muscle-groups requirement are explicit. Step-count limitations are conservative evidentiary safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K047",
+      "assessment": "supported",
+      "rationale": "CDC explicitly describes additional benefits beyond the aerobic targets, including equivalent combinations. Intensity and duration requirements appropriately constrain assessment.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K048",
+      "assessment": "supported",
+      "rationale": "CDC's relative-intensity example directly supports the fitness comparison. Fitness or perceived effort appropriately contextualizes relative intensity; movement totals alone do not establish it.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+2026-10-03T09:44:34.147118Z  WARN codex_core::shell_snapshot: Failed to create shell snapshot for powershell: Shell snapshot not supported yet for PowerShell
+2026-10-03T09:44:34.247596Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\deploy\SKILL.md: missing YAML frontmatter delimited by ---
+2026-10-03T09:44:34.247617Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\prepare\SKILL.md: missing YAML frontmatter delimited by ---
+2026-10-03T09:44:34.247620Z ERROR codex_core::session::session: failed to load skill C:\Users\juvenile\.agents\skills\azure-app-onboard\scaffold\SKILL.md: missing YAML frontmatter delimited by ---

@@ -1,0 +1,122 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K017",
+      "assessment": "supported",
+      "rationale": "Daily schedule consistency is explicit. Reviewing variability independently of duration is a reasonable educational application, without a medical trigger.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K018",
+      "assessment": "supported",
+      "rationale": "Consistent waking and getting up are explicit insomnia advice. The symptom requirement conservatively preserves that context; general schedule advice and post-bad-night advice remain distinct.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K019",
+      "assessment": "requires_correction",
+      "rationale": "The approximate one-hour limit and rhythm explanation are supported. Change 'worknight' to 'weeknight': the source uses calendar categories, and the applicability caveat does not repair the title.",
+      "unsupported_claims": [
+        "The title substitutes worknights for the source's weeknights."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K020",
+      "assessment": "supported",
+      "rationale": "The one-hour quiet period is explicit. Limits on what bedtime records reveal are conservative editorial caveats.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K021",
+      "assessment": "supported",
+      "rationale": "Bright screen light and possible wakefulness signaling are explicit. Requiring exposure information prevents unsupported individual attribution.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K022",
+      "assessment": "supported",
+      "rationale": "Up to eight hours and possible difficulty after late-afternoon coffee are explicit. Intake records are an editorial evidence requirement, not a fabricated source threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K023",
+      "assessment": "supported",
+      "rationale": "Avoiding large meals within a few hours of bedtime and permitting light snacks are explicit. Meal-context requirements are conservative.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K024",
+      "assessment": "supported",
+      "rationale": "Avoiding alcohol before bed is explicit. The drinking-history requirement appropriately limits targeted application.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K025",
+      "assessment": "supported",
+      "rationale": "Nicotine's stimulant properties and possible sleep interference are explicit. Confirming use is a conservative prerequisite, without claiming proof of causation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K026",
+      "assessment": "supported",
+      "rationale": "The bedroom recommendation is explicit. Environmental information requirements appropriately limit inference from sleep measurements.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K027",
+      "assessment": "supported",
+      "rationale": "Baths and relaxation techniques are explicit optional suggestions. Routine requests or reported difficulty are conservative selection contexts.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K028",
+      "assessment": "requires_correction",
+      "rationale": "Difficulty falling asleep conditions the advice to limit or move naps earlier. The separate twenty-minute adult recommendation is stated generally; remove 'in that context' from its source attribution. Targeted applicability may remain narrower.",
+      "unsupported_claims": [
+        "The source conditions its adult twenty-minute nap recommendation on difficulty falling asleep at night."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K029",
+      "assessment": "supported",
+      "rationale": "Limiting shift changes to allow body-clock adjustment supports the title and content. Confirmed shift work preserves the source context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K030",
+      "assessment": "supported",
+      "rationale": "Bright workplace lighting is explicitly suggested under shift-worker strategies. Its work context distinguishes it from pre-bed light avoidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K031",
+      "assessment": "supported",
+      "rationale": "The first-part-of-shift caffeine advice is explicit. Shift and intake context appropriately distinguish this from general caffeine-duration education.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K032",
+      "assessment": "requires_correction",
+      "rationale": "Daytime bedroom light and sound reduction for shift workers is explicit. Remove 'after shifts' from the title; the source does not specify that temporal restriction. The shift-work application is distinct from general bedroom advice.",
+      "unsupported_claims": [
+        "The title restricts the recommendation to daytime sleep after shifts."
+      ],
+      "near_duplicate_ids": []
+    }
+  ]
+}

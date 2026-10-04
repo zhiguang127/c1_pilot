@@ -1,0 +1,22 @@
+{
+  "task_id": "corpus_source_review_64ad45b2ed12_2",
+  "input_sha256": "5fe4bf634039453e8e77bd756a0a540d265c061e382785a7a31e28ee435cf86c",
+  "model": "gpt-6.1-sol",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 61.969,
+  "usage": {
+    "input_tokens": 35945,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1224,
+    "reasoning_output_tokens": 393
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

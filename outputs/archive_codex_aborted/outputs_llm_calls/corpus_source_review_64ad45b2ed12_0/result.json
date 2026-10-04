@@ -1,0 +1,116 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K001",
+      "assessment": "supported",
+      "rationale": "CDC supports the age band and seven-hour minimum. Reviewing sleep opportunity is modest editorial guidance, not a diagnostic trigger or CDC-defined recurrence threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K002",
+      "assessment": "supported",
+      "rationale": "The seven-to-nine-hour range and ages 61–64 match the table; requiring the correct age band is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K003",
+      "assessment": "supported",
+      "rationale": "The table explicitly gives seven to eight hours for ages 65 and older, distinct from younger-adult recommendations.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K004",
+      "assessment": "supported",
+      "rationale": "CDC explicitly recommends eight to ten hours for ages 13–17. The population restriction preserves that scope.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K005",
+      "assessment": "supported",
+      "rationale": "NHLBI directly discusses busy schedules displacing sleep and protecting sleep time. Repetition is an educational context, not a source-required threshold; schedule evidence appropriately limits attribution.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K006",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly rejects learning to manage little sleep without negative effects. The stable-routine statement is a conservative inference limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K007",
+      "assessment": "supported",
+      "rationale": "CDC supports refreshing, uninterrupted sleep and all three listed concerns. The limitation of duration-only evidence follows; K008 addresses a distinct documented-awakening condition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K008",
+      "assessment": "supported",
+      "rationale": "Repeated awakenings are explicitly listed as a poor-quality sign. Requiring continuity information appropriately prevents inference from duration alone.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K009",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly combines more than eight hours nightly with not feeling rested as grounds for doctor discussion. Both conditions are preserved.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K010",
+      "assessment": "supported",
+      "rationale": "Learning, attention and problem-solving benefits are explicit. Review language supplies no invented threshold, and the individual-impairment caveat is conservative.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K011",
+      "assessment": "supported",
+      "rationale": "The excerpt supports slower reactions, mistakes and effects after several nights of sleep loss, including unrecognized difficulty functioning. Individual impairment is appropriately qualified.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K012",
+      "assessment": "supported",
+      "rationale": "Ongoing sleep deficiency altering immune responses is explicit. The infection-diagnosis restriction is an editorial evidence limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K013",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly describes hunger and fullness hormones changing with insufficient sleep. Repetition is an educational context, and individual appetite effects are appropriately withheld.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K014",
+      "assessment": "supported",
+      "rationale": "The NHS instruction explicitly says not to drive when sleepy. Requiring actual sleepiness and driving context preserves the safety condition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K015",
+      "assessment": "supported",
+      "rationale": "NHS explicitly describes individual variation and average adult needs of seven to nine hours. The diagnostic caveat is a conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K016",
+      "assessment": "supported",
+      "rationale": "All three GP-review conditions and their alternative relationship match NHS advice. The brief-record caveat is conservative; K038 separately concerns insomnia duration categories.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

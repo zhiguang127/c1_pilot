@@ -1,0 +1,52 @@
+{
+  "labels": [
+    {
+      "item_ref": "0324636c6742",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Steps remain 7,200 daily throughout baseline and February 3–16; daytime wear is consistently 900 minutes.",
+      "item_condition_evidence": "The item concerns changing step readings with measurement limitations; wear changes and activity type are unestablished.",
+      "rationale": "Stable step readings provide no specific connection to the item's measurement-change conditions."
+    },
+    {
+      "item_ref": "9eec3365321d",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "Age band is 18–60; February 3–16 sleep duration is consistently 330 minutes nightly.",
+      "item_condition_evidence": "The recommendation requires established age 61–64, which contradicts the supplied age band.",
+      "rationale": "Available sleep duration does not make a recommendation for a different age group applicable."
+    },
+    {
+      "item_ref": "597bf1f39ecf",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "Resting heart rate remains 61 bpm across all 28 baseline days and 14 current days.",
+      "item_condition_evidence": "Repeated resting-heart-rate readings support reviewing period averages and trends; a recent change is unnecessary.",
+      "rationale": "Longitudinal readings directly support trend context as an independent branch, secondary to the current sleep reduction."
+    },
+    {
+      "item_ref": "edf44b9f0d32",
+      "status": "labeled",
+      "relevance": 0,
+      "raw_data_evidence": "February 3–16 sleep consistently spans 01:30–07:00, following baseline sleep consistently spanning 23:00–07:00.",
+      "item_condition_evidence": "The item requires repeated timing variability; a stable schedule alone does not establish its stated problem.",
+      "rationale": "One transition to a persistently later bedtime does not demonstrate repeated schedule irregularity."
+    },
+    {
+      "item_ref": "ff2c1b099d46",
+      "status": "labeled",
+      "relevance": 1,
+      "raw_data_evidence": "February 3–16 reports 330 sleep minutes and 01:30–07:00 boundaries, equal to the recorded sleep period.",
+      "item_condition_evidence": "Sleep duration and boundaries are available, supporting the conceptual distinction between estimated sleep and elapsed sleep period.",
+      "rationale": "The distinction provides specific measurement context, although no discrepancy or sleep-stage classification is documented here."
+    },
+    {
+      "item_ref": "c496405932e9",
+      "status": "labeled",
+      "relevance": 2,
+      "raw_data_evidence": "February 3–16 sleep is 330 minutes nightly, down from 480; supplied age band is 18–60.",
+      "item_condition_evidence": "CDC's minimum seven-hour recommendation applies to ages 18–60; every current night is below that threshold.",
+      "rationale": "The item directly contextualizes persistent current short sleep with its age and duration conditions supported."
+    }
+  ]
+}

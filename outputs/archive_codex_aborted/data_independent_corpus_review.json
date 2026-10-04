@@ -1,0 +1,703 @@
+{
+  "corpus_sha256": "a0832dbe7f1a986a200fd3750895f7909a196eed51ccb1b2a0b49358bc8151e7",
+  "reviewer": "independent fresh-context LLM; not human clinical review",
+  "cases_or_outputs_visible": false,
+  "reviews": [
+    {
+      "knowledge_id": "K001",
+      "assessment": "supported",
+      "rationale": "CDC supports the age band and seven-hour minimum. Reviewing sleep opportunity is modest editorial guidance, not a diagnostic trigger or CDC-defined recurrence threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K002",
+      "assessment": "supported",
+      "rationale": "The seven-to-nine-hour range and ages 61–64 match the table; requiring the correct age band is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K003",
+      "assessment": "supported",
+      "rationale": "The table explicitly gives seven to eight hours for ages 65 and older, distinct from younger-adult recommendations.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K004",
+      "assessment": "supported",
+      "rationale": "CDC explicitly recommends eight to ten hours for ages 13–17. The population restriction preserves that scope.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K005",
+      "assessment": "supported",
+      "rationale": "NHLBI directly discusses busy schedules displacing sleep and protecting sleep time. Repetition is an educational context, not a source-required threshold; schedule evidence appropriately limits attribution.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K006",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly rejects learning to manage little sleep without negative effects. The stable-routine statement is a conservative inference limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K007",
+      "assessment": "supported",
+      "rationale": "CDC supports refreshing, uninterrupted sleep and all three listed concerns. The limitation of duration-only evidence follows; K008 addresses a distinct documented-awakening condition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K008",
+      "assessment": "supported",
+      "rationale": "Repeated awakenings are explicitly listed as a poor-quality sign. Requiring continuity information appropriately prevents inference from duration alone.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K009",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly combines more than eight hours nightly with not feeling rested as grounds for doctor discussion. Both conditions are preserved.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K010",
+      "assessment": "supported",
+      "rationale": "Learning, attention and problem-solving benefits are explicit. Review language supplies no invented threshold, and the individual-impairment caveat is conservative.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K011",
+      "assessment": "supported",
+      "rationale": "The excerpt supports slower reactions, mistakes and effects after several nights of sleep loss, including unrecognized difficulty functioning. Individual impairment is appropriately qualified.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K012",
+      "assessment": "supported",
+      "rationale": "Ongoing sleep deficiency altering immune responses is explicit. The infection-diagnosis restriction is an editorial evidence limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K013",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly describes hunger and fullness hormones changing with insufficient sleep. Repetition is an educational context, and individual appetite effects are appropriately withheld.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K014",
+      "assessment": "supported",
+      "rationale": "The NHS instruction explicitly says not to drive when sleepy. Requiring actual sleepiness and driving context preserves the safety condition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K015",
+      "assessment": "supported",
+      "rationale": "NHS explicitly describes individual variation and average adult needs of seven to nine hours. The diagnostic caveat is a conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K016",
+      "assessment": "supported",
+      "rationale": "All three GP-review conditions and their alternative relationship match NHS advice. The brief-record caveat is conservative; K038 separately concerns insomnia duration categories.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K017",
+      "assessment": "supported",
+      "rationale": "Daily bedtime and waking consistency is explicit. Reviewing variability separately from duration is a reasonable educational use, without a medical trigger. K018 overlaps but targets insomnia.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K018"
+      ]
+    },
+    {
+      "knowledge_id": "K018",
+      "assessment": "supported",
+      "rationale": "The wake-and-rise advice appears in insomnia self-care. Requiring reported sleeping difficulties conservatively preserves that context. K017 and K037 overlap but address distinct conditions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K017",
+        "K037"
+      ]
+    },
+    {
+      "knowledge_id": "K019",
+      "assessment": "supported",
+      "rationale": "The approximately one-hour limit and possible rhythm disruption are explicit. The calendar caveat is an editorial limit; K035 separately concerns insufficient workday sleep.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K020",
+      "assessment": "supported",
+      "rationale": "The hour of quiet time is explicit. Limits on inferring activities from bedtime records are conservative editorial safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K021",
+      "assessment": "supported",
+      "rationale": "The excerpt identifies bright screens as artificial light that may signal wakefulness. Requiring exposure information does not claim that exposure alone proves causation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K022",
+      "assessment": "supported",
+      "rationale": "Up to eight hours and possible difficulty after late-afternoon coffee are explicit. Intake-history requirements are editorial safeguards, not a fabricated cutoff.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K023",
+      "assessment": "supported",
+      "rationale": "Avoiding large meals within a few hours of bedtime and allowing a light snack are explicit. Meal-history conditions reasonably support targeted education.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K024",
+      "assessment": "supported",
+      "rationale": "Avoiding alcohol before bed is explicit. Requiring drinking history for personalized application is a conservative evidence limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K025",
+      "assessment": "supported",
+      "rationale": "Nicotine's stimulant properties and potential sleep interference are explicit. Confirming use before linking the habit to sleep concerns is a reasonable safeguard.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K026",
+      "assessment": "supported",
+      "rationale": "Quiet, cool and dark bedroom advice is explicit. The data caveat is conservative. K032 overlaps in environment advice but has a distinct daytime shift-work context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K032"
+      ]
+    },
+    {
+      "knowledge_id": "K027",
+      "assessment": "supported",
+      "rationale": "Baths and relaxation before bed are explicit optional suggestions. Routine-interest conditions and limits on inferring stress are editorial safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K028",
+      "assessment": "supported",
+      "rationale": "The twenty-minute adult limit is explicit, and the separate timing advice correctly retains the nighttime sleep-onset difficulty condition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K029",
+      "assessment": "supported",
+      "rationale": "Limiting shift changes to permit body-clock adjustment supports the title and content. Confirmed shift work preserves the source's applicability.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K030",
+      "assessment": "supported",
+      "rationale": "Bright workplace lighting is explicitly suggested in the shift-worker section. The distinction from pre-bed light avoidance preserves the two contexts.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K031",
+      "assessment": "supported",
+      "rationale": "The first-part-of-shift caffeine recommendation is explicit. Work and intake context appropriately distinguish it from K022's general caffeine guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K032",
+      "assessment": "supported",
+      "rationale": "Removing daytime bedroom light and sound distractions, including blocking curtains, is explicit for shift workers. K026 overlaps but covers general bedroom conditions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K026"
+      ]
+    },
+    {
+      "knowledge_id": "K033",
+      "assessment": "supported",
+      "rationale": "CDC lists these diary entries. Preserving a timeline is a reasonable implication of recording when events occur; missing-event safeguards are editorial limits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K034",
+      "assessment": "supported",
+      "rationale": "NHLBI explicitly describes accumulated sleep loss. The recovery caveat conservatively limits inference without inventing a recovery timetable.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K035",
+      "assessment": "supported",
+      "rationale": "The source supports both the possible indication of insufficient workday sleep and potential sleep-wake disruption. Later timing is an educational context, not a required diagnostic criterion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K036",
+      "assessment": "supported",
+      "rationale": "The source explicitly distinguishes naps' short-term benefits from the full benefits of nighttime sleep. The compensation caveat follows conservatively.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K037",
+      "assessment": "supported",
+      "rationale": "The advice preserves the insomnia context and the specific bad-night instruction. The diagnostic caveat is conservative; this condition differs from K018's general waking-time advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K038",
+      "assessment": "supported",
+      "rationale": "Both three-month boundaries match the source. Requiring symptom history rather than diagnosing from sleep estimates is a conservative evidentiary limit, not a fourteen-day clinical rule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K039",
+      "assessment": "supported",
+      "rationale": "The travel context, destination-time advice, and optional two-to-three-day exception match the excerpt. Its short-trip advice substantially overlaps K040.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K040"
+      ]
+    },
+    {
+      "knowledge_id": "K040",
+      "assessment": "supported",
+      "rationale": "The duration, optional wording, and reason for retaining original schedules are explicit. This repeats the short-trip exception already included in K039.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K039"
+      ]
+    },
+    {
+      "knowledge_id": "K041",
+      "assessment": "supported",
+      "rationale": "CDC supports moving more, sitting less, and benefits below weekly targets. Low or declining movement is an educational context without an invented threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K042",
+      "assessment": "supported",
+      "rationale": "Gradual increases after inactivity and benefits from small increases are explicit. Health-context safeguards are conservative; reduced activity is an educational context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K043",
+      "assessment": "supported",
+      "rationale": "The moderate-intensity target matches CDC's stated option. The item addresses that option specifically; unspecified movement totals cannot establish its intensity requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K044",
+      "assessment": "supported",
+      "rationale": "CDC explicitly provides the 75-minute vigorous aerobic option. Requiring known vigorous intensity appropriately limits application and distinguishes it from K043.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K045",
+      "assessment": "supported",
+      "rationale": "Spreading activity across the week and dividing it into smaller chunks are explicit. Limited opportunities are an educational context, not an unsupported eligibility rule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K046",
+      "assessment": "supported",
+      "rationale": "The two-day minimum and all-major-muscle-groups requirement are explicit. Step-count limitations are conservative evidentiary safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K047",
+      "assessment": "supported",
+      "rationale": "CDC explicitly describes additional benefits beyond the aerobic targets, including equivalent combinations. Intensity and duration requirements appropriately constrain assessment.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K048",
+      "assessment": "supported",
+      "rationale": "CDC's relative-intensity example directly supports the fitness comparison. Fitness or perceived effort appropriately contextualizes relative intensity; movement totals alone do not establish it.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K049",
+      "assessment": "requires_correction",
+      "rationale": "The conversation thresholds match, but CDC presents the talk test as a rule of thumb for aerobic activity. Preserve that scope rather than applying it to activity generally.",
+      "unsupported_claims": [
+        "Unqualified application of the talk-test descriptions to all activity types."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "The spinning/yoga examples support the intensity limitation. The conclusion about lower steps is a conservative limit on inference.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "Everyday walking and cycling are directly recommended. The tentative restoration suggestion is a reasonable educational application, without attributing a cause to decline.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "requires_correction",
+      "rationale": "CDC recommends enjoyable activities and suitable scheduling; it does not establish preferences and schedule knowledge as necessary conditions for every workable habit. Rephrase the second sentence as planning guidance.",
+      "unsupported_claims": [
+        "A workable activity habit necessarily needs personal preferences and schedule context."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "Social activity for motivation is explicit. The barrier-related restrictions are conservative editorial limits, not causal claims.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "The one-week diary recommendation is explicitly tied to a time barrier. Identifying schedule opportunities is supported by the accompanying instruction to find activity slots.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "Calendar planning directly addresses competing demands. Schedule-context requirements conservatively limit individualized advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "The heading and provider advice support the health-condition scope. The wearable limitation appropriately avoids inferring medical context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "NHS explicitly recommends both reducing sitting time and breaking up long inactive periods. Wear coverage and posture caveats prevent unsupported sitting conclusions; no duration threshold is invented.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "The source explicitly retains sitting-related concerns despite meeting activity targets. Its topic differs from reducing total sitting or interrupting individual bouts.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "Reducing the amount of sitting supports reviewing the daily total across settings. The item does not claim equal risk for different sitting patterns or prescribe a threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "Standing during journeys and walking part of a bus trip are explicit options. Transport and mobility conditions are reasonable editorial safeguards.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "Walking to colleagues is directly supported. It is a distinct workplace option from changing desks or meeting arrangements.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "Standing desks and standing or walking meetings are explicitly listed. Suitability caveats appropriately constrain individualized application.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "Advertisement-break movement and moving during programmes are explicit. Requiring viewing context prevents inferring screen habits from movement estimates.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "Planning activity during habitual sitting, post-meal walks, and cooking are directly supported. Routine and mobility restrictions are conservative; this differs from the specific television-break option.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K065",
+      "assessment": "supported",
+      "rationale": "Definition and everyday-movement distinction follow from the excerpt. Applicability adds conservative data limits without inventing a threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K066",
+      "assessment": "supported",
+      "rationale": "Lunch-break walking is explicitly suggested for tiredness. Low movement supplies an educational context, not a CDC-defined trigger.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K067",
+      "assessment": "supported",
+      "rationale": "Stair use is explicitly conditional on possibility. Safe mobility and access are reasonable conservative conditions; no step threshold is asserted.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K068",
+      "assessment": "supported",
+      "rationale": "The sedentary examples support the posture distinction. Waking-context and non-wear caveats are conservative interpretation limits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K069",
+      "assessment": "supported",
+      "rationale": "CDC explicitly describes better sleep as an immediate benefit and a benefit of regular activity. The individual-causation caveat is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K070",
+      "assessment": "supported",
+      "rationale": "Outdoor time and physical activity are explicit sleep-habit recommendations. Applicability does not impose a daytime threshold or attribute a sleep change to exercise.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K071",
+      "assessment": "supported",
+      "rationale": "The preceding quiet-time sentence supplies the one-hour context. Requiring known intensity and bedtime timing preserves the recommendation's scope.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K072",
+      "assessment": "supported",
+      "rationale": "The four-hour advice appears within insomnia self-care. Symptom-history requirements and causation limits preserve that targeted context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K073",
+      "assessment": "supported",
+      "rationale": "CDC explicitly includes when exercise, bedtime, and waking occur. Temporal-order safeguards are reasonable editorial limits; the exercise focus is distinct from K033.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K074",
+      "assessment": "requires_correction",
+      "rationale": "The warning is explicit, but the source frames these instructions as applying while deployed. Add deployment context to the content and applicability.",
+      "unsupported_claims": [
+        "Applicability to emergency responders working long hours without preserving the source's 'while deployed' context."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K075",
+      "assessment": "supported",
+      "rationale": "Scheduling activity when energetic directly matches the tiredness-barrier advice. Subjective-energy requirements are conservative and distinct from general preference-based scheduling.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K076",
+      "assessment": "supported",
+      "rationale": "The diary explicitly includes alcohol, caffeine, and medications. Avoiding automatic causal attribution is a conservative editorial rationale; this focus differs from K073.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K077",
+      "assessment": "supported",
+      "rationale": "The resting definition and daily-estimate description support distinguishing resting estimates from exercise readings.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K078",
+      "assessment": "supported",
+      "rationale": "Continuous overnight detection, often-lower sleeping rate, and daily resting estimation are explicit. Comparing like measures is a reasonable interpretive safeguard.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K079",
+      "assessment": "supported",
+      "rationale": "All listed influences appear in the excerpt. A rise alone cannot select among causes; no unsupported change threshold is introduced.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K080",
+      "assessment": "supported",
+      "rationale": "The definition supports distinguishing interbeat variability from average heart rate. The shared-sleep-period wording is conditional, not an asserted collection rule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K081",
+      "assessment": "supported",
+      "rationale": "The excerpt explicitly supports personal variation and the listed influences. Rejecting a universal normal value is a reasonable editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K082",
+      "assessment": "supported",
+      "rationale": "Recent averages and up to 30 days are explicit. Personal-history requirements appropriately scope baseline comparisons without inventing a minimum duration.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K083",
+      "assessment": "supported",
+      "rationale": "Multiweek and multimonth views and period averages are explicit. The single-reading limitation is conservative, not an invented persistence threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K084",
+      "assessment": "supported",
+      "rationale": "The contexts identify HRV as a vital and explicitly prohibit diagnostic or treatment use. The disease-inference caveat follows.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K085",
+      "assessment": "supported",
+      "rationale": "RMSSD is explicitly identified. Preserving metric definitions in comparisons is a conservative interpretation limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K086",
+      "assessment": "supported",
+      "rationale": "The longest sleep period within 24 hours and strictly greater-than-three-hour criterion are explicit. Applicability correctly limits this collection rule to Fitbit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K087",
+      "assessment": "supported",
+      "rationale": "Natural variation, review over time, and the personal 30-day average are explicit. Requiring stage data preserves the source's scope.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K088",
+      "assessment": "supported",
+      "rationale": "Consultation for health concerns is explicit. Limits on diagnosis, treatment, and emergency inference are conservative wellness-data caveats; the topic differs from K084's HRV-specific interpretation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K089",
+      "assessment": "supported",
+      "rationale": "Physiology, placement, activity, skin contact, and band fit are explicit accuracy factors. Possible measurement effects are not asserted as an individual's cause.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K090",
+      "assessment": "supported",
+      "rationale": "Daytime and sleep wear are explicit troubleshooting guidance. The overnight-coverage caveat follows and introduces no new sleep-duration threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K091",
+      "assessment": "supported",
+      "rationale": "The three-hour quality-sleep requirement for most metrics and possible missingness from movement or short sleep are explicit. Missing-versus-zero is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K092",
+      "assessment": "supported",
+      "rationale": "Syncing and device support checks are explicit. Technical missingness is presented as a possibility, with no unsupported health inference.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K093",
+      "assessment": "supported",
+      "rationale": "Technology, sensor, and algorithm differences explicitly explain possible cross-device variation. Baseline-comparison caution is appropriately conditional.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K094",
+      "assessment": "supported",
+      "rationale": "The excerpt explicitly defines estimated time asleep using light, deep, and REM portions of the main sleep period. Distinguishing elapsed duration follows.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K095",
+      "assessment": "supported",
+      "rationale": "Automatic sleep detection when worn to bed and snug wristband guidance are explicit. Non-wear is appropriately treated as missing evidence, distinct from overnight-vitals coverage.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K096",
+      "assessment": "supported",
+      "rationale": "Accelerometer sensing and arm swing during walking or running are explicit. Wear-context caution concerns measurement accuracy, distinct from K050's non-step exercise intensity.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ],
+  "requires_correction": [
+    "K049",
+    "K052",
+    "K074"
+  ]
+}

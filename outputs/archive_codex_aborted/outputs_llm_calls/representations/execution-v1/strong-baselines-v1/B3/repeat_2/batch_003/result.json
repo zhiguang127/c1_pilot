@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_93f8d63109301e24",
+      "queries": [
+        "Wearable nocturnal RMSSD falls to 22–28 ms for four days April 3–6 versus 28-day baseline 44.5 ms, returns to 43–47 ms April 7–12; window mean down 11.6%.",
+        "Four-day RMSSD decline with resting heart rate remaining within personal baseline 55–57 bpm; same-device estimates and limits of interpreting HRV alone.",
+        "Sleep stable at 468.5 versus 470.5 minutes, bedtime 22:42–22:58 and wake 07:00 across weekdays and weekends; preceding 21:00 activity has weak next-night sleep association, r=-0.25.",
+        "Active minutes decrease to 53 from 55.4 daily, with slight downward trend; weekends 50.8 versus baseline 55.6 despite weekend steps increasing to 8187 from 8025; intensity unknown.",
+        "Daily steps stable near 8060 and low movement near 450 versus 448 minutes; ten daytime bouts around 45 minutes separated by five-minute gaps, without confirmed sitting."
+      ]
+    },
+    {
+      "case_ref": "sample_2b04e2e8dd5691b1",
+      "queries": [
+        "Wearable steps abruptly decrease from 28-day baseline 8009 to 2335 daily, down 71%; all 14 days remain 2064–2636 with no return and complete daytime coverage.",
+        "Sustained step decline while active minutes remain 54.6 versus 55.1 and low movement 452.6 versus 451.4 minutes; movement duration and step counts diverge, intensity and posture unknown.",
+        "Weekend steps 2477 versus weekday 2278, both far below personal baselines; weekend active minutes fall from 56.9 to 52.3 while weekdays rise from 54.5 to 55.5.",
+        "Sleep stable at 469.6 versus 469.8 minutes with bedtime around 22:50 and fixed 07:00 wake; 21:00 activity paired with following wake-date sleep shows modest inverse correlation r=-0.36 across 13 pairs.",
+        "Same-device resting heart rate stable at 56 versus 55.7 bpm and RMSSD 45.3 versus 45.1 ms despite fewer steps; inverse same-day correlation r=-0.57 across 14 observations does not establish causation."
+      ]
+    },
+    {
+      "case_ref": "sample_554cb87f02ca49a4",
+      "queries": [
+        "Wearable resting heart rate rises to 65–67 bpm April 3–6 versus 28-day baseline 55–57, then returns April 7–12; four-day elevation raises window mean to 58.7 from 56.0.",
+        "Nocturnal RMSSD falls to 23–26 ms April 7–10 versus personal baseline 45 ms, returns to 45 April 11–12; window mean down 13.5%, local decline rather than continuous deterioration.",
+        "Resting heart rate elevation April 3–6 occurs with RMSSD 44–47 ms; RMSSD decline follows April 7–10 after heart rate returns to baseline, so changes do not coincide.",
+        "Sleep remains near 470 minutes with fixed 07:00 wake across weekdays and weekends; activity starts 21:00 and has little association with following wake-date sleep, r=0.10 across 13 pairs.",
+        "Steps stable at 7996 versus 8043 and active minutes 55.3 versus 54.9 despite local cardiac estimate changes; low movement slightly decreases to 446.6 from 450.7 minutes, posture and intensity unknown."
+      ]
+    },
+    {
+      "case_ref": "sample_fcbb50a5c89187d7",
+      "queries": [
+        "Wearable daily steps persistently decrease 32.6% from 28-day baseline 9552 to 6433 across 13 valid days; weekends 6500 and weekdays 6404 both remain below baseline, without return.",
+        "April 7 daytime wear only 360 minutes: steps, active minutes and low movement missing rather than zero; nighttime sleep and cardiac estimates remain available, limiting daily and aligned comparisons.",
+        "Steps decline substantially while active minutes decrease only 3% to 53.5 from 55.1 and low movement stays near 451 versus 448 minutes; step–activity correlation near zero, intensity and posture unknown.",
+        "Sleep stable at 469.9 versus 469.5 minutes, bedtime 22:44–22:55 and fixed 07:00 wake; 21:00 activity has modest inverse association with following wake-date sleep, r=-0.32 across 12 valid pairs.",
+        "Same-device resting heart rate remains 55–57 bpm, mean 56.3 versus 56.1; nocturnal RMSSD stable at 45.5 versus 45.2 ms with reduced variability despite sustained lower steps."
+      ]
+    }
+  ]
+}

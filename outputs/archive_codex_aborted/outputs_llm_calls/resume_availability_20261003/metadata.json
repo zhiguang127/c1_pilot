@@ -1,0 +1,22 @@
+{
+  "task_id": "resume_availability_20261003",
+  "input_sha256": "aca62c7629b8c3f1c3a1543142f3dd9e7813f9f4284bd95aa6a0557391058f63",
+  "model": "gpt-6.1-sol",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 11.781,
+  "usage": {
+    "input_tokens": 16512,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

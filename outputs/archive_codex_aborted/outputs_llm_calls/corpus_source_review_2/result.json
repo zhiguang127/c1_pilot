@@ -1,0 +1,120 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K033",
+      "assessment": "supported",
+      "rationale": "Diary entries support a timeline rather than just an average. Missing-record safeguards are conservative editorial limits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K034",
+      "assessment": "supported",
+      "rationale": "Regular sleep loss accumulating is explicit. The recovery caveat avoids an unsupported recovery estimate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K035",
+      "assessment": "supported",
+      "rationale": "The days-off comparison, possible insufficient sleep, and sleep-wake disruption follow from the excerpt.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K036",
+      "assessment": "supported",
+      "rationale": "The source explicitly distinguishes short-term nap benefits from the full benefits of nighttime sleep.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K037",
+      "assessment": "supported",
+      "rationale": "The advice matches the insomnia context and explicitly addresses a bad night. The diagnostic caveat is conservative.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K038",
+      "assessment": "requires_correction",
+      "rationale": "The three-month distinction is accurate, but the title implies insomnia necessarily lasts longer than a wearable snapshot. Short-term insomnia can fall within that window; revise the title to emphasize symptom history.",
+      "unsupported_claims": [
+        "Insomnia duration is longer than a wearable snapshot."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K039",
+      "assessment": "requires_correction",
+      "rationale": "Jet lag and the travel-history safeguard are supported. Qualify destination-time adaptation with the source's alternative for trips lasting two to three days, also reflected in K040.",
+      "unsupported_claims": [
+        "Destination-time adaptation presented without the short-trip qualification in content or applicability."
+      ],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K040",
+      "assessment": "supported",
+      "rationale": "The two-to-three-day duration, optional wording, and reason for retaining original times are explicit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K041",
+      "assessment": "supported",
+      "rationale": "Benefits below recommended amounts are explicit. Low or declining movement is an educational context, not an asserted medical threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K042",
+      "assessment": "supported",
+      "rationale": "Gradual increases after inactivity and benefits from small increases are explicit. Health-context safeguards are conservative.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K043",
+      "assessment": "supported",
+      "rationale": "The moderate-intensity weekly target is explicit. Unspecified movement totals cannot establish intensity; this topic does not claim moderate activity is the only option.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K044",
+      "assessment": "supported",
+      "rationale": "The vigorous-intensity option and weekly duration are explicit. Requiring intensity information is a justified interpretive limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K045",
+      "assessment": "supported",
+      "rationale": "Spreading activity across the week and dividing it into smaller portions are explicit; no minimum session duration is invented.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K046",
+      "assessment": "supported",
+      "rationale": "The separate strengthening recommendation and two-day frequency are explicit. Step totals alone cannot establish strengthening participation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K047",
+      "assessment": "supported",
+      "rationale": "Further benefits above the aerobic targets are explicit. Intensity and duration requirements appropriately constrain individual assessment.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K048",
+      "assessment": "supported",
+      "rationale": "The fitness-dependent comparison directly matches relative intensity. Movement totals alone do not establish effort; K049 addresses a distinct assessment method.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

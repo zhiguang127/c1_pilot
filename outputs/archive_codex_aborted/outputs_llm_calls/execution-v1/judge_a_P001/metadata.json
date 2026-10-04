@@ -1,0 +1,22 @@
+{
+  "task_id": "execution-v1/judge_a_P001",
+  "input_sha256": "1b67c412a7b8a8a2009806536490c80f3cc52fb817f54260a0aef2ae719ff18b",
+  "model": "gpt-6.1-sol",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 34.172,
+  "usage": {
+    "input_tokens": 27004,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 635,
+    "reasoning_output_tokens": 42
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

@@ -1,0 +1,116 @@
+{
+  "reviews": [
+    {
+      "knowledge_id": "K049",
+      "assessment": "supported",
+      "rationale": "Accurately paraphrases the talk test as an effort indicator. Observation requirements are conservative application limits; the source presents this as a rule of thumb.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "The source explicitly names spinning and yoga as activities whose intensity steps may not reflect. The conclusion about lower steps is a conservative evidence limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "Everyday walking and cycling are explicit recommendations. Declining movement is an educational context, and the tentative restoration statement introduces no threshold or causal diagnosis.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "supported",
+      "rationale": "Preferences, enjoyable locations and times, and schedule fit are supported. Context requirements appropriately limit personalized advice rather than assert a source-mandated prerequisite.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "Motivation and mutual encouragement are explicitly stated. Seeking support is an appropriate context, and the decline caveat avoids an unsupported causal explanation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "The one-week diary recommendation is explicitly tied to lack of time. Finding available periods follows from the accompanying time-slot advice; movement totals cannot supply that schedule.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "Calendar scheduling is explicitly recommended for competing demands. Habit support is a reasonable paraphrase, and schedule requirements are conservative editorial limits.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "The heading and provider advice support the chronic-condition and special-needs scope. Wearable-data limitations do not fabricate a medical trigger.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "The source separately recommends reducing sitting time and breaking up long inactive periods. Wear coverage and posture conditions are editorial safeguards, without an invented duration threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "The source explicitly states that meeting the weekly activity target can coexist with sitting-related health concerns. Applicability preserves the distinction between low movement and confirmed sitting.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "Reducing the amount of sitting supports reviewing accumulated daily sitting. Distribution across the day adds no quantitative risk rule; this focus differs from interrupting continuous bouts.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "Standing during journeys and leaving the bus early to walk are explicit suggestions. Transport, mobility and safety conditions conservatively govern personalization.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "Speaking to colleagues in person is explicitly offered under workplace sitting advice. The walking and workplace conditions fit that context and differ from meeting or desk changes.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "Standing desks and standing or walking meetings are explicitly listed. Suitability qualifications are editorial limits; the intervention differs from walking to colleagues.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "Advertisement breaks and movement during television viewing are explicit suggestions. Requiring viewing context prevents unsupported inference from low movement alone.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "Planning activity during usually seated time, walks after meals, and cooking are explicit examples. Seated leisure is a reasonable educational context with no invented threshold.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ]
+}

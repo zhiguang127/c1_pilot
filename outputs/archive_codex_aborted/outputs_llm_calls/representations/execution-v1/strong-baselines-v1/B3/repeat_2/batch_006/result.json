@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_9b3ff859d9bec486",
+      "queries": [
+        "Wearable nocturnal RMSSD isolated Sunday April 5 drop to 23 ms versus 28-day baseline 43–47 ms, returning to 43 ms next day; median unchanged at 45 ms despite lower fortnight mean.",
+        "Same-device resting heart rate nearly stable, mean 56.3 to 55.8 bpm; isolated RMSSD drop accompanies 57 bpm within baseline range; fortnight correlation −0.41 does not establish causation.",
+        "Sleep mean 471 to 468 minutes with bedtime three minutes later and fixed 07:00 waking; weekend sleep advantage narrows from 3.6 to 0.4 minutes, without sustained duration trend.",
+        "Evening activity at 21:00 remains about 55 minutes, intensity unknown; activity paired with next wake-date sleep shows negligible correlation across 13 pairs, as in baseline.",
+        "Daily steps slightly lower, 8066 to 7954; low movement stable around 451–453 minutes in ten daytime bouts with five-minute gaps, not confirmed sitting. All 14 days have valid measurements."
+      ]
+    },
+    {
+      "case_ref": "sample_57f611dd4b2ab003",
+      "queries": [
+        "Same-device resting heart rate abruptly rises from 28-day baseline 51–53 to 61–63 bpm on all 14 subsequent days, mean increase 9.9 bpm; persists equally on weekdays and weekends without return.",
+        "Nocturnal RMSSD remains 43–47 ms, mean 44.8 to 45.1, despite persistent resting heart rate rise; weak concurrent correlation −0.22, no established causal relationship.",
+        "Sleep remains about 471–472 minutes with fixed 07:00 waking and bedtimes 22:42–22:57; 21:00 activity paired with next wake-date sleep has negligible correlation across 13 pairs.",
+        "Steps mean stable at 7938 versus 7923 despite fortnight slope −22 steps daily; moving minutes increase slightly from 54.7 to 56.2 with unknown intensity and negligible current steps–activity correlation.",
+        "Low movement mean slightly decreases from 450 to 447 minutes but rises within fortnight; weekday/weekend means shift from 452/444 to 446/449. Low movement is not posture; no missing measurements."
+      ]
+    },
+    {
+      "case_ref": "sample_6eec85b3c4f2fb93",
+      "queries": [
+        "Wearable sleep abruptly shortens after seven near-baseline nights: April 6–12 sleep 357–368 minutes versus 28-day baseline 474–488; fortnight mean falls 59 minutes, with no return by window end.",
+        "Sleep onset shifts from baseline 22:32–22:46 to 00:32–00:43 for seven consecutive wake dates while waking stays 07:00; change persists through weekdays and final weekend, not merely weekend timing.",
+        "Activity remains at 21:00 for 50–58 minutes, intensity unknown; paired with following wake-date sleep, correlation weakly negative at −0.26 across 13 pairs versus approximately zero at baseline.",
+        "Resting heart rate stays 55–57 bpm during sleep shortening; RMSSD remains within baseline 43–47 ms, mean 45.3 to 44.2; concurrent heart rate–RMSSD correlation negligible.",
+        "Steps remain about 7976–7979 daily and low movement about 450 minutes despite sleep change; moving minutes slightly lower, 55.5 to 54.4. Shorter nights have valid coverage, no missing values."
+      ]
+    },
+    {
+      "case_ref": "sample_61018e0de4ab948a",
+      "queries": [
+        "Sleep timing alternates every night for 14 days between onset 22:07–22:16 with 06:30 waking and 00:37–00:44 with 09:00 waking, versus baseline bedtime near 22:50 and fixed 07:00 waking.",
+        "Wearable sleep duration increases from 28-day mean 470 to 478 minutes, remaining 474–483 throughout fortnight despite approximately 150-minute daily timing swings; alternation spans weekdays and weekends.",
+        "Moving minutes decrease from 54.4 to 52.7 but rise within fortnight; weekdays average 51.7 versus weekends 55.3. Activity at 21:00 has negligible correlation with following wake-date sleep across 13 pairs.",
+        "Steps slightly increase from 7940 to 8052 with upward fortnight slope 21 steps daily; low movement slightly decreases from 452 to 449 minutes despite upward within-window trend, without confirmed posture.",
+        "Same-device resting heart rate and RMSSD stay within baseline 55–57 bpm and 43–47 ms; means rise 0.6 bpm and 0.8 ms. Concurrent correlation +0.38 is not causal; all measurements valid."
+      ]
+    }
+  ]
+}

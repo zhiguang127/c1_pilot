@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_3159a77476d400f2",
+      "queries": [
+        "Wearable steps abruptly fell from a 28-day baseline of 7998 to 2321 daily, down 71%, remaining 2086–2500 throughout 14 days across weekdays and weekends without recovery.",
+        "Wearable active minutes fell from 55.2 to 4.9 daily for two weeks; 21:00 activity intervals shortened from 50–60 to 0–10 minutes, with unknown intensity and unchanged 720-minute daily wear.",
+        "Low movement remained near personal baseline, 447.5 versus 450.5 minutes daily, despite large step and active-minute reductions; ten daytime bouts retained five-minute gaps, with posture unobserved.",
+        "Sleep remained 469 versus 471 minutes with starts around 22:50 and fixed 07:00 waking; preceding-day activity had only a modest next-sleep association, r=0.32 across 13 pairs.",
+        "Same-device resting heart rate and RMSSD stayed near baseline at 56.3 bpm and 44.8 ms; RMSSD rose slightly within the fortnight, while their daily correlation changed from 0.14 to -0.59, without causal evidence."
+      ]
+    },
+    {
+      "case_ref": "sample_7de66e1de896dc00",
+      "queries": [
+        "Sleep fell from a 28-day personal baseline of 469 to 331 minutes, down 138 minutes, remaining 322–338 throughout 14 days with virtually flat trend and no weekend extension.",
+        "Wearable sleep starts shifted from about 22:51 to 01:02–01:18 for two weeks while waking stayed 07:00; weekday and weekend sleep averaged 331 and 330 minutes.",
+        "Daily steps fell 67%, from 7985 to 2643 throughout two weeks, while active minutes stayed 55 versus 54 at baseline; 21:00 activity lasted 50–60 minutes with unknown intensity.",
+        "Evening activity ending 21:50–22:00 preceded next-day sleep starting after 01:00; activity duration and next-sleep duration showed weak correlation, r=-0.15 across 13 pairs, versus -0.36 at baseline.",
+        "Despite shorter sleep and fewer steps, RMSSD remained 44.9 ms, resting heart rate averaged 56.3 versus 55.9 bpm, and low movement stayed 451 versus 449 minutes; all observations met coverage requirements."
+      ]
+    },
+    {
+      "case_ref": "sample_ac1d07ee01bc3c76",
+      "queries": [
+        "Two-week wearable weekday sleep averaged 390 versus 469 baseline minutes, down 79; starts shifted from about 22:51 to 00:07–00:14 while waking remained 07:00 on all ten weekdays.",
+        "Both observed weekends showed 565–575 minutes of sleep versus 469 baseline, with starts 01:05–01:15 and waking 11:00; weekday sleep returned to 386–393 minutes after the first weekend.",
+        "Wearable sleep mean fell only 27 minutes overall, but weekday and weekend means differed by 180 minutes; apparent upward fortnight trend accompanies repeating calendar shifts rather than steady daily lengthening.",
+        "Steps and active minutes stayed near baseline at 7939 versus 8019 and 54.7 versus 55.4; 21:00 activity had weak next-sleep correlation, r=-0.15 across 13 aligned pairs, with unknown intensity.",
+        "Low movement stayed near 451 minutes but began 11:30 on weekends versus 10:00 weekdays; resting heart rate and RMSSD remained near baseline at 56.1 bpm and 45.4 ms despite sleep schedule changes."
+      ]
+    },
+    {
+      "case_ref": "sample_0ce72b16d8a094a5",
+      "queries": [
+        "Wearable sleep remained stable across 28 baseline and 14 current days: 475 minutes nightly, fixed 01:00–09:00 intervals, and similar weekday and weekend duration with no sustained change.",
+        "Steps remained near personal baseline, 7935 versus 7963 daily, while active minutes averaged 54.4 versus 53.9; small current upward trends and weekend steps of 8065 versus weekday 7883.",
+        "Low movement remained 449 versus 450 baseline minutes daily, with ten roughly 44–47-minute bouts beginning 10:00 and five-minute gaps; wearable low movement does not identify posture.",
+        "Same-device RMSSD increased slightly from 45.0 to 45.8 ms while resting heart rate decreased from 56.2 to 55.9 bpm; both remained within baseline ranges, with weak daily correlation r=0.14.",
+        "Activity at 21:00–21:50/21:58 preceded next-day 01:00–09:00 sleep; duration correlation was modestly negative, r=-0.32 over 13 pairs versus baseline 0.11, with unknown intensity and no missing measurements."
+      ]
+    }
+  ]
+}

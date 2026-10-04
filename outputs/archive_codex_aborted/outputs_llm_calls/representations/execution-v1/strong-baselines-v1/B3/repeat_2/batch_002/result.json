@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_30eeebbcb3af6958",
+      "queries": [
+        "Wearable low-movement bouts shortened from 43–47 to 15 minutes, with one-minute activity every 20 minutes from 10:16 to 20:16, all 14 days including weekends; posture unknown.",
+        "Daily low movement increased from 449.25-minute personal baseline to 480 minutes throughout two weeks, despite shorter bouts and unchanged activity totals.",
+        "Steps averaged 8038 versus 8026 baseline but trended downward 29 steps/day; activity stayed near 55 minutes, redistributed from one 21:00 bout into daytime bursts and 19–28 evening minutes.",
+        "Sleep remained 471 versus 470 baseline minutes, starts 22:42–22:58 and wakes 07:00; activity versus following wake-date sleep association weak, r=0.25 across 13 pairs.",
+        "Same-device resting heart rate unchanged at 55.9 bpm and RMSSD near baseline 45.6 versus 45.4 ms; weekday RMSSD declined locally then returned to 47 ms on final Sunday."
+      ]
+    },
+    {
+      "case_ref": "sample_ee652a22a0edb710",
+      "queries": [
+        "Wearable moving minutes fell from 54.4 baseline to 9.4 daily, down 83%, persisting all 14 days including weekends; 21:00 activity bouts shortened to 8–12 minutes, intensity unknown.",
+        "Low movement rose from 449.6 baseline to 602 minutes/day, up 34%; ten daily bouts lengthened from 43–47 to 59–61 minutes across 10:00–20:53, without confirmed sitting.",
+        "Steps remained 8029 versus 8015 baseline despite sustained moving-minute decline and increased low movement; weekday and weekend steps nearly identical, steps/activity correlation weak at r=0.13.",
+        "Sleep stable at 470.6 versus 469.8 baseline minutes, starts 22:42–22:57 and wakes 07:00; weak activity/following-night sleep correlation r=-0.29 across 13 aligned pairs.",
+        "Same-device resting heart rate 55.9 versus 55.8 baseline bpm and RMSSD 44.9 versus 45.1 ms remained stable during activity changes; complete observations with 720 daytime wear minutes daily."
+      ]
+    },
+    {
+      "case_ref": "sample_496a352e5f95a52f",
+      "queries": [
+        "Wearable sleep shortened to 357–368 minutes for seven consecutive wake dates March 30–April 5 versus 481-minute baseline, then returned to 474–485 minutes April 6–12; window mean 422 masks return.",
+        "Sleep starts shifted from baseline 22:32–22:46 to 00:32–00:43 for one week including weekend, then returned to 22:35–22:46; waking remained 07:00 throughout.",
+        "Same-device RMSSD averaged 43.6 ms during short-sleep week and 44.9 after sleep returned, versus 45.3 baseline; resting heart rate remained 55–57 bpm, without clear concurrent relationship.",
+        "Steps stable near 7979 versus 7976 baseline, moving minutes 54.4 versus 55.5, low movement 449.6 versus 450; sleep episode occurred without substantial movement changes.",
+        "21:00 activity bouts of unknown intensity remained 50–58 minutes; association with following wake-date sleep weak, r=0.26 across 13 pairs, baseline near zero; no missing sleep observations."
+      ]
+    },
+    {
+      "case_ref": "sample_377d6b28febce198",
+      "queries": [
+        "Wearable low movement consolidated from ten baseline bouts of 43–47 minutes into three daily bouts of 150, 160 and 170 minutes, persisting all 14 days including weekends; posture unknown.",
+        "Low movement increased from 449.25 baseline to exactly 480 minutes daily; fixed intervals 10:00–12:30, 12:45–15:25 and 15:40–18:30 with two 15-minute gaps.",
+        "Steps averaged 8038 versus 8026 baseline but trended downward 29/day; moving minutes stable near 55 in single 21:00 bouts; weekday/weekend activity difference narrowed from 2.7 to 0.3 minutes.",
+        "Sleep stable at 471 versus 470 baseline minutes with starts 22:42–22:58 and fixed 07:00 waking; weak activity/following wake-date sleep association r=0.25 across 13 pairs.",
+        "Same-device resting heart rate unchanged at 55.9 bpm and RMSSD near baseline 45.6 versus 45.4 ms despite longer low-movement bouts; weak heart rate/RMSSD correlation r=0.22."
+      ]
+    }
+  ]
+}

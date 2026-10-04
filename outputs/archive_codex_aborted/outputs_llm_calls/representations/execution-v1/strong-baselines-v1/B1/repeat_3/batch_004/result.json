@@ -1,0 +1,20 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_8ca46d97901f44a3",
+      "text": "Across March 30–April 12, measurements stayed close to the preceding 28-day baseline: sleep 470.6 versus 470.3 min, steps 8,008 versus 8,039/day, low movement 452 versus 450 min, and resting heart rate 55.9 versus 56.2 bpm. Activity increased modestly to 57.8 from 55.2 min, remaining one continuous bout starting at 21:00. Sleep starts stayed near 22:49 and wakes at 07:00, without sustained change. Weekend sleep averaged 468 versus 472 weekday minutes, reversing a similarly small baseline difference. RMSSD averaged 40 ms in both periods; daily variation narrowed from 26–54 to 28–52 ms and remained greater on weekdays. Low movement comprised ten daytime bouts separated by five-minute gaps. Activity and next-wake-date sleep were weakly related (r=-0.14, 13 pairs). All measurements were present."
+    },
+    {
+      "case_ref": "sample_801e31ab16d9a295",
+      "text": "During March 30–April 12, RMSSD fell once to 23 ms on April 5, versus a 28-day baseline of 43–47 ms (mean 45.3). It returned to 43 ms the next day and stayed within baseline range thereafter. This isolated dip lowered the window mean to 43.1 ms and the weekend mean; it did not represent persistent suppression. Resting heart rate remained 55–57 bpm, with no accompanying distinct sleep or activity change. Sleep averaged 467.7 versus 470.9 min, with starts about three minutes later and unchanged 07:00 wakes; the baseline weekend sleep advantage largely disappeared. Steps averaged 7,954 versus 8,066/day, activity 54.9 versus 55.1 min, and low movement 453 versus 451 min. Activity remained continuous from 21:00; low movement had five-minute interruptions. Activity and next-wake-date sleep were essentially unrelated. No measurements were missing."
+    },
+    {
+      "case_ref": "sample_323873fa0be416ec",
+      "text": "Steps dropped abruptly from the 28-day baseline mean of 8,009/day to 2,335/day during March 30–April 12 (-71%). All 14 days remained at 2,064–2,636, without recovery, including weekends (2,477 versus 2,278 weekdays). Other measures stayed near baseline: activity 54.6 versus 55.1 min, low movement 452.6 versus 451.4 min, sleep 469.6 versus 469.8 min, resting heart rate 56.0 versus 55.7 bpm, and RMSSD 45.3 versus 45.1 ms. Activity remained one bout from 21:00; low movement comprised ten interrupted daytime bouts. Weekend activity fell to 52.3 from 56.9 min. Sleep starts remained near 22:50 with 07:00 wakes. Activity versus next-wake-date sleep showed a modest inverse association (r=-0.36, 13 pairs); heart rate and RMSSD also varied inversely (r=-0.57), without establishing cause. No measurements were missing."
+    },
+    {
+      "case_ref": "sample_89b435aaf692161e",
+      "text": "Steps rose abruptly from a 28-day baseline mean of 2,818/day to 7,927/day during March 30–April 12 (+181%). Every window day remained above baseline range, at 7,636–8,320, despite a slight downward trend; weekends averaged 8,126 versus 7,847 weekdays. Activity stayed similar overall (55.3 versus 56.2 min), but weekend activity decreased to 52.5 from 57.3 min while weekday activity stayed near 56 min. Activity remained continuous from 21:00. Low movement decreased slightly to 446.7 from 450.7 min, retaining ten daytime bouts with five-minute gaps. Sleep averaged 469.1 versus 470.8 min, drifting slightly shorter with later starts and fixed 07:00 wakes. Resting heart rate remained near 56 bpm and RMSSD near 45 ms. Activity and next-wake-date sleep were weakly related; heart rate and RMSSD were uncorrelated. All measurements were present."
+    }
+  ]
+}

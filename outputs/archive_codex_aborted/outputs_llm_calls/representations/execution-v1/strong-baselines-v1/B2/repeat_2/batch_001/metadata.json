@@ -1,0 +1,22 @@
+{
+  "task_id": "representations/execution-v1/strong-baselines-v1/B2/repeat_2/batch_001",
+  "input_sha256": "c497e2b8ecf03ab3f1a753c0c26ecbc06326ef8961bdcccce8dc18449d765d7a",
+  "model": "gpt-6.1-sol",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 62.437,
+  "usage": {
+    "input_tokens": 131873,
+    "cached_input_tokens": 15488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1307,
+    "reasoning_output_tokens": 121
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

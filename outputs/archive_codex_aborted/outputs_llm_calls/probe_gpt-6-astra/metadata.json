@@ -1,0 +1,22 @@
+{
+  "task_id": "probe_gpt-6-astra",
+  "input_sha256": "ebecf23b17d333f15d061dccce6ba6792351d6e577a2887a1ebffbf120f30328",
+  "model": "gpt-6-astra",
+  "backend": "codex_exec",
+  "fresh_context": true,
+  "tool_calls": 0,
+  "attempt": 1,
+  "duration_seconds": 12.14,
+  "usage": {
+    "input_tokens": 16500,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 15,
+    "reasoning_output_tokens": 0
+  },
+  "reasoning_effort": "medium",
+  "sampling_seed": null,
+  "sampling_temperature": null,
+  "cli_version": "codex-cli 0.160.0",
+  "prior_failures": []
+}

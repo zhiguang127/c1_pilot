@@ -1,0 +1,44 @@
+{
+  "representations": [
+    {
+      "case_ref": "sample_2e3166f6475aca54",
+      "queries": [
+        "Wearable resting heart rate rising from personal baseline 55–57 to 65–67 bpm while RMSSD falls from 43–47 to 23–26 ms for April 3–6, Friday through Monday, returning April 7–12.",
+        "Interpreting 14-day wearable averages versus 28-day baseline: resting heart rate 58.7 versus 56.0 bpm, RMSSD 38.9 versus 45 ms; strong inverse correlation reflects a four-day change, not causation.",
+        "Stable wearable sleep during concurrent heart rate and RMSSD changes: 470 versus 470 baseline minutes, bedtime around 22:50 and wake time 07:00, little weekday–weekend difference.",
+        "Evening movement 21:00–22:00, 50–60 minutes of unknown intensity, remains near baseline; weak association with sleep ending the following day, r=0.10 across 13 pairs.",
+        "Stable daily steps around 8000 and low movement 447 versus 451 baseline minutes, with ten daytime bouts around 44–46 minutes separated by five-minute gaps; low movement does not establish sitting."
+      ]
+    },
+    {
+      "case_ref": "sample_fc5d91e2f9081f52",
+      "queries": [
+        "Wearable sleep shortened on all ten weekdays across two weeks: 390 versus 469 personal baseline minutes, sleep onset delayed from about 22:51 to 00:10 while waking remains 07:00.",
+        "Repeated weekend wearable sleep shift on both weekends: onset 01:05–01:15 and waking 11:00 versus baseline about 22:51–07:00; sleep increases from 469 to 570 minutes.",
+        "Interpreting calendar-dependent sleep variability: 14-day mean 441 versus 469 baseline minutes masks weekday shortening and weekend extension; overall upward slope does not represent consistent nightly improvement.",
+        "Movement at 21:00 for 50–60 minutes, unknown intensity, remains near baseline despite changed sleep schedule; weak association with following wake-date sleep duration, r=-0.15 over 13 pairs.",
+        "Stable wearable estimates despite two-week sleep timing changes: resting heart rate 56.1 versus 56.5 bpm, RMSSD 45.4 versus 45.3 ms, steps 7939 versus 8019, low movement about 451 minutes."
+      ]
+    },
+    {
+      "case_ref": "sample_8d5aede9373bb3fa",
+      "queries": [
+        "Sustained wearable step increase on all 14 days from 28-day personal baseline 2818 to 7927 daily steps, up 5109 or 181%; small window decline of 10 steps per day without return.",
+        "Weekend steps 8126 versus weekday 7847 during increased-step window, while weekend moving minutes are lower, 52.5 versus 56.4; baseline steps were about 2818 in both calendar groups.",
+        "Large step increase with moving minutes essentially stable, 55.3 versus 56.2 baseline; low movement only slightly lower, 447 versus 451 minutes, retaining ten daytime bouts separated by five-minute gaps.",
+        "Sleep stays near personal baseline, 469 versus 471 minutes, about 22:51–07:00; movement at 21:00–22:00 has little association with following wake-date sleep, r=-0.10 over 13 pairs, intensity unknown.",
+        "Stable same-device resting heart rate 55.9 versus 56.2 baseline bpm and RMSSD 45.0 versus 44.9 ms throughout increased-step window; no contemporaneous heart rate–RMSSD correlation, all daily values available."
+      ]
+    },
+    {
+      "case_ref": "sample_7c2fa0bcac64337f",
+      "queries": [
+        "Wearable steps fall persistently across all 14 days from 28-day personal baseline 8009 to 2335 daily, down 5675 or 71%; range 2064–2636 with no return to baseline.",
+        "Weekend steps 2477 versus weekday 2278 after sustained decline, while weekend moving minutes fall from baseline 56.9 to 52.3; weekday moving minutes remain similar, 55.5 versus 54.5.",
+        "Step decline with low movement essentially unchanged, 453 versus 451 baseline minutes; ten daytime bouts around 44–47 minutes separated by five-minute gaps; moving minutes about 55, intensity and posture unknown.",
+        "Sleep remains stable at 470 minutes with onset around 22:50 and 07:00 waking; 21:00–22:00 movement has modest inverse association with following wake-date sleep, r=-0.36 across 13 pairs, without causal evidence.",
+        "Same-device resting heart rate remains near baseline, 56.0 versus 55.7 bpm, RMSSD 45.3 versus 45.1 ms; RMSSD trends slightly downward within baseline range 43–47, with inverse contemporaneous correlation r=-0.57."
+      ]
+    }
+  ]
+}

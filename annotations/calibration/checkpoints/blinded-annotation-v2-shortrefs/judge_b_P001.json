@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "case_id": "P001",
+      "knowledge_id": "K017",
+      "annotator_id": "judge_b",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep start shifted from 23:00 to 01:30 but remained perfectly stable within each period, variance 0.",
+      "item_condition_evidence": "Requires repeated variability in bedtime or wake time; notes stable schedule alone is not a problem.",
+      "rationale": "The new sleep schedule is late but completely consistent with zero variance, so the required condition of repeated variability is not met.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K096",
+      "annotator_id": "judge_b",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Steps remained exactly 7200 daily across both baseline and window periods with zero variance.",
+      "item_condition_evidence": "Requires step readings changing with possible measurement limitations or wear context changes.",
+      "rationale": "No change in step counts was observed, so the item about step measurement variability has no connection to the data.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K001",
+      "annotator_id": "judge_b",
+      "relevance": 2,
+      "status": "labeled",
+      "raw_data_evidence": "Window sleep duration is 330 minutes (5.5 hours) nightly; metadata age band is 18-60.",
+      "item_condition_evidence": "Applies to adults 18-60 with sleep duration below the recommended 7 hours per day.",
+      "rationale": "Directly explains that the observed 330-minute window sleep is below the CDC-recommended 7 hours for this age band.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K002",
+      "annotator_id": "judge_b",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Metadata specifies age band 18-60, not 61-64.",
+      "item_condition_evidence": "Requires established age 61 to 64; explicitly non-applicable to other age groups.",
+      "rationale": "The user's age band is 18-60, directly contradicting the required 61-64 age condition for this item.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K094",
+      "annotator_id": "judge_b",
+      "relevance": 1,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep duration equals nighttime coverage (480 min baseline, 330 min window); sleep start/end timestamps recorded.",
+      "item_condition_evidence": "Applies when device-estimated sleep duration and boundaries are available; distinguishes estimated sleep from full period.",
+      "rationale": "Provides supported context that the reported sleep duration is an estimate derived from the recorded sleep period boundaries.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K083",
+      "annotator_id": "judge_b",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "RHR remained exactly 61 bpm daily across all 42 days with zero variance and no recent change.",
+      "item_condition_evidence": "Requires repeated RHR readings or a recent change; warns against concluding trends from one reading.",
+      "rationale": "RHR is perfectly flat with no change, making guidance on tracking RHR trends over time uninformative for these observations.",
+      "model": "qwen3.8-max",
+      "input_sha256": "76869ca680991d722863fe6d69b83863628a00fe8fca881a8ec14efc6d8535d8",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    }
+  ],
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "annotation_revision": "blinded-annotation-v2-shortrefs"
+}

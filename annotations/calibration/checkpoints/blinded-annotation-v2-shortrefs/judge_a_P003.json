@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "case_id": "P003",
+      "knowledge_id": "K096",
+      "annotator_id": "judge_a",
+      "relevance": 1,
+      "status": "labeled",
+      "raw_data_evidence": "Window days Feb 5,8,11,14 have null steps due to 360 daytime wear minutes, below 720 threshold.",
+      "item_condition_evidence": "Item states step counts depend on movement sensing and changes in how device is worn affect recorded steps.",
+      "rationale": "Reduced daytime wear explains missing steps; item provides supported contextual measurement explanation.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P003",
+      "knowledge_id": "K094",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep duration equals 480 minutes every day, matching sleep start-to-end interval exactly with zero variance.",
+      "item_condition_evidence": "Item states estimated time asleep differs from full sleep period boundaries.",
+      "rationale": "No discrepancy observed between sleep boundaries and duration; item condition not triggered by data.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P003",
+      "knowledge_id": "K083",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "RHR is exactly 61 bpm every day across baseline and window with zero variance or change.",
+      "item_condition_evidence": "Item requires repeated RHR readings or a recent change to provide trend context.",
+      "rationale": "No RHR variability or change exists; multi-day trend viewing adds no information beyond constant value.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P003",
+      "knowledge_id": "K001",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep duration is 480 minutes (8 hours) daily; metadata age band is 18-60.",
+      "item_condition_evidence": "Item applies when sleep duration is below the 7-hour recommendation for adults aged 18-60.",
+      "rationale": "Observed 8-hour sleep meets the 7-hour recommendation; required condition of short sleep not met.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P003",
+      "knowledge_id": "K017",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep starts at 23:00 and ends at 07:00 every single day with zero variance across all 42 days.",
+      "item_condition_evidence": "Item applies when there is repeated variability in bedtime or wake time.",
+      "rationale": "Perfectly consistent sleep schedule observed; required condition of variability is contradicted by data.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P003",
+      "knowledge_id": "K002",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Metadata specifies age band 18-60 for this wearable user.",
+      "item_condition_evidence": "Item explicitly requires age 61 to 64 and lists other age groups as non-applicable.",
+      "rationale": "User age band 18-60 directly contradicts the item's required 61-64 age condition.",
+      "model": "qwen3.8-max",
+      "input_sha256": "09f3f52e74d4efeeebdc15aa4f37c46a3ff9791b6c6029c9b78f60353bc5f68b",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    }
+  ],
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "annotation_revision": "blinded-annotation-v2-shortrefs"
+}

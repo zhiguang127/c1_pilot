@@ -1,0 +1,200 @@
+Learn about Google Health sleep stages - Google Health Help Center Skip to main content
+Google Health Help Center
+Sign in
+Google Help
+Help Center
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Community
+Google Health
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+CloseNext
+Help Center
+Community
+Google Health
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Health Guardian
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Notification
+For assistance with Fitbit Ace LTE, go to support.google.com/fitbitacelte.
+Learn about Google Health sleep stages
+If you use a Fitbit device or Pixel watch with heart-rate tracking (except Fitbit Charge HR or Fitbit Surge) to track your sleep, you can find a record of your sleep stages.
+For other questions about sleep, refer to How do I track my sleep with my Fitbit device?
+Expand all Collapse all
+Check your sleep stages
+When you wake up, open the Google Health app and sync your device.
+You may need to wait a minute until the progress bar at the top of the app finishes syncing to see your updated sleep metrics.
+On the Today tab, scroll down until you see your Sleep timeline graph. Tap your sleep timeline.
+Under the “Sleep duration” section, you can press and hold the graph. Move your finger left or right to view your sleep stages and the time period you were in them the previous night.
+Below your sleep timeline, tap Benchmarks or your 30 day average, to see more sleep data.
+Understand sleep stages
+While you're asleep, your body typically goes through several sleep cycles that last on average 90-120 minutes. Each cycle alternates between 2 types of sleep:
+Rapid-Eye-Movement (REM) sleep: The stage associated with vivid dreams, REM sleep periods are typically longer and more frequent the longer you are asleep.
+Non-REM (NREM) sleep: Several progressively deeper stages (N1, N2, and N3) of sleep make up non-rapid eye movement (NREM) sleep. Measuring activity levels and heart rate patterns, Fitbit identifies two stages of NREM sleep:
+Light (likely capturing N1 & N2 sleep)
+Deep (likely capturing N3 sleep). Periods of Deep sleep are typically longer in the early part of a normal-length sleep, gradually disappearing and shortening the longer you sleep.
+During a sleep cycle, you commonly switch from periods of NREM sleep to REM sleep before the cycle generally repeats. However, sleep patterns vary naturally from person to person, depending on what your body needs from day to day.
+Learn how Google Health detects your sleep stages
+In clinical labs, experts use sensors on the brain and muscles to track sleep. Google Health uses a more comfortable and convenient way to estimate sleep stages by monitoring your body’s signals directly from your wrist.
+How it works
+Your device uses movement and heart rate to predict when you are asleep. It begins tracking after you have been still for an extended period of time. Small actions, like rolling over, help the device confirm your sleep status.
+Tracking Sleep Stages
+While you sleep, your device monitors tiny changes in your heart rate, known as heart rate variability (HRV). These changes follow specific patterns as you move through three stages:
+Light Sleep
+Deep Sleep
+REM Sleep
+When you sync your device upon waking, our system uses your movement and heart rate data to map out your full sleep cycle. If you spend time resting quietly or trying to fall asleep, the app will update your timeline to show those details accurately.
+Learn more about Google’s updated sleep tracking in this whitepaper.
+Understand each sleep stage
+Google Health uses sleep stages defined by our researchers and similar to the National Sleep Foundation. You will see these names used throughout your sleep log:
+Light Sleep
+Light sleep is usually the first stage you enter after falling asleep. During this time, your body begins to relax, your heart rate steadies, and you move much less.
+When it happens: Throughout your sleep, Light sleep is represented in each 90-120 cycle through stages.
+Why it matters: It makes up the majority of your total sleep time and is a necessary part of a healthy sleeping pattern.
+Deep Sleep
+Deep sleep is commonly used to describe slow-wave sleep, because of how hard it is to wake someone up from this stage of sleep. Your breathing slows down, and your heart beats at a steady, calm pace.
+When it happens: You get most of your Deep sleep during the first few hours of sleep.
+Why it matters: Like all sleep, it helps your body recover from the physical and mental demands of the day. The amount you need depends on your age, gender, and how active you were while awake, among other things.
+REM Sleep
+REM stands for Rapid Eye Movement. As the name implies, your eyes tend to dart around while dreaming and your brain activity looks similar to when it’s awake.
+When it happens: REM stages usually get longer and happen more often the longer you stay asleep.
+Why it matters: How much REM sleep you need on a daily basis may depend on how physically and mentally demanding your day was.
+Sleep stage benchmark
+The benchmark is based on analyzing millions of nights of data from a broadly representative population of Fitbit & Pixel Watch users.
+In general, the amount and percentage of each sleep stage will depend upon several factors, including your age, gender, how long you slept, patterns of prior sleep and activity, and even your genetics.
+However, the benchmarks provided are meant to point out what is expected for most people of a similar age and gender who got a similar amount of sleep. The graph displays the typical range for each sleep stage as a shaded area.
+Keep in mind sleep cycles vary naturally, so you may notice your sleep data occasionally fall outside the typical ranges. So, it’s important to keep an eye on how things balance out over time, rather than focusing too much on any one day.
+This is why we provide other ways to analyze your sleep stages, by comparing your data to your own 30-day average (under the 30 day average tab), since your sleep patterns will naturally vary from day to day.
+Find your sleep stages benchmarks:
+Click on the sleep duration tile on the Today tab or tap on any sleep card.
+Scroll down to see your sleep stages chart.
+You can toggle between multiple views, including:
+Timeline view
+Benchmarks view
+30 day averages
+Why don’t the numbers add up to 100%?
+While we show you the data about wake and sleep stages alongside one another, it’s important to note that your sleep data tracks two different things at once:
+“Total awake” shows how much time you spent awake (vs asleep) during your main sleep period for the day.
+REM, Light, and Deep breaks down how much of your sleep was spent in each of these 3 stages.
+These scores may not add up to 100%, depending on rounding.
+How can I check the start and end times for my sleep stages?
+In the Google Health app , on the Today tab , tap the Sleep duration tile .
+Press and hold your finger on the Sleep timeline graph. Move your finger slowly left or right to check the time spent in each sleep stage.
+Tap Benchmark to show the percentage of time spent in each sleep stage.
+Learn about awake minutes
+It's normal to spend some part of your sleep period awake. In particular, your brain requires time to transition into sleep, and it’s completely normal to experience brief awakenings in the middle of your sleep as part of natural transitions between stages.
+Similar to a research or clinical sleep study, most consumer sleep health trackers can identify "awake" periods as short as 30 seconds, some of which you may remember, many of which are too short for you to recall after you wake up. However, this value is the total amount of awake stage, taking into account:
+The estimated time it initially took you to fall asleep
+The times you appeared more fully awake in the middle of your sleep
+The estimated time from your final awakening to the end of your sleep log
+Studies have suggested that it can take anywhere from 30 seconds to 10 minutes of persistent wakefulness for an individual to recall having been awake after they're done sleeping, with many people needing about 5 continuous minutes of midsleep wakefulness to accurately recollect an awakening the following day.
+Even though we used this 5-minute duration to point out awakenings that are more likely disruptive to sleep, some people may recall even shorter wake periods that we deemed “restless” sleep, while others may not recall or be bothered by all of the highlighted wake periods.
+What to do if your sleep stages are missing
+If you received a sleep log, but it did not calculate your sleep stages or your score, check the following:
+Sleep position: you may have slept in a position that prevented your device from getting a consistent heart-rate
+Your device was too loose: For best results, wear your device higher on your wrist – about 2-3 finger widths above your wrist bone. The band should feel secure but not too tight. Learn how to wear your device for optimal sleep tracking.
+Your device's battery might be critically low: To check your current battery level, refer to How do I charge my Fitbit device?
+Why didn’t I receive sleep stages for a nap?
+Your device needs at least 20 minutes of sleep data to estimate your sleep stages, so you won't find sleep stages for shorter sleep periods. Additionally, for some naps we may not be able to fully detect accurate stages but ensure we log your nap.
+Edit my sleep stages data
+If your sleep times are incorrect, you can manually edit your log. If you extend your time asleep, you may find gaps at the start or end of your sleep stages, and some data won’t be considered in coach analyses.
+For step-by-step instructions, refer to How to edit or delete sleep logs in the Fitbit app.
+Improve your sleep quality with these tips
+Fitbit offers several tools in the Google Health app to help you get the restorative sleep you need:
+Sleep Goals & Schedules: Build a consistent routine and stay on track with personalized bedtime reminders.
+Deep insights (Premium): Explore your sleep habits through proactive, personalized daily summaries.
+Your personal Sleep Coach (Premium): Chat directly with your sleep coach whenever you need feedback, guidance, or a fresh perspective on your recovery.
+For more information, visit How do I track my sleep with my Fitbit device?
+Adjust alarms on your Fitbit device based on your sleep stages
+When you set an alarm on Fitbit devices that support Smart Wake, turn on Smart Wake to prioritize waking up in a lighter stage of sleep. Smart Wake attempts to find the best time to wake you, starting 30 minutes before your set alarm. If it successfully awakens you in a lighter stage of sleep, you may wake up feeling more refreshed.
+Not to worry if Smart Wake can't find an ideal time to wake you — your alarm will still alert you at the set time.
+For more information, refer to How do I manage alarms on my Fitbit device?
+Additional Resources
+For more information on sleep stages, read our whitepaper.
+For a technical deep-dive, read this academic paper in Nature Medicine.
+Was this helpful?
+How can we improve it?
+YesNo
+Submit
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+Related articles
+1 of 24What is Morning Brief
+2 of 24Track sleep with Google Health
+3 of 24Learn about Google Health sleep stages
+4 of 24What's the Sleep Score in the Google Health app
+5 of 24Understanding your readiness score in the Google Health app
+6 of 24How do I track breathing rate in the Google Health app?
+7 of 24Track blood oxygen saturation (SpO2) with your Fitbit device
+8 of 24Track your vitals in the Google Health app
+9 of 24Log your glucose in the Google Health app
+10 of 24Manage stress & mindfulness in Google Health
+11 of 24Use the Google Health app to track your period
+12 of 24Track your Cycle health with Google Health
+13 of 24Track your nutrition and hydration with the Google Health app
+14 of 24What is the Google ECG app?
+15 of 24How do Google Irregular Rhythm Notifications check for atrial fibrillation (AFib)?
+16 of 24How can Google Health help me track my temperature?
+17 of 24How do I take my temperature with my Pixel phone?
+18 of 24What is Loss of Pulse Detection on my Google Pixel Watch?
+19 of 24What is Breathing Emergency Detection on my Google Pixel Watch?
+20 of 24Sync your medical records with the Google Health app
+21 of 24Manage & delete your medical records data in the Google Health app
+22 of 24How accurate are Fitbit devices?
+23 of 24Track your Sleep breathing quality with the Google Health app
+24 of 24Health Guardian
+©2026 Google
+Privacy Policy
+Terms of Service Language dansk‎Deutsch‎eesti‎English (Australia)‎English (United Kingdom)‎español‎español (Latinoamérica)‎français‎français (Canada)‎hrvatski‎Indonesia‎italiano‎latviešu‎lietuvių‎magyar‎Malti‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Türkçe‎íslenska‎čeština‎Ελληνικά‎български‎русский‎‏עברית‏العربية中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎
+Enable Dark Mode
+Send feedback on... This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+15971677969111153623
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+5306962
+false
+false
+false
+false
+false

@@ -1,0 +1,195 @@
+Track your vitals in the Google Health app - Google Health Help Center Skip to main content
+Google Health Help Center
+Sign in
+Google Help
+Help Center
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Community
+Google Health
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+CloseNext
+Help Center
+Community
+Google Health
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Health Guardian
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Notification
+For assistance with Fitbit Ace LTE, go to support.google.com/fitbitacelte.
+Track your vitals in the Google Health app
+You can track your key vitals and understand trends with a Pixel Watch or certain Fitbit devices in the Google Health app .
+This feature provides well-being insights. For health concerns, consult a healthcare provider. In emergencies, contact emergency services immediately.
+Expand all Collapse all
+Understand vitals
+View your vitals in the Google Health app
+The Google Health app tracks several important vitals including:
+Breathing rate
+Heart rate variability
+Skin temperature
+Oxygen saturation
+Resting heart rate
+To view your vitals in the Google Health app:
+Open the Google Health app and tap the Health tab .
+Tap Vitals.
+Supported vitals by Fitbit device or Pixel Watch
+You’ll need a compatible Fitbit device or Pixel Watch to track vitals in the Google Health app. If data does not appear for a metric, your device does not support it.
+Breathing Rate
+HRV
+Skin Temperature Variation
+SpO2
+RHR
+Google Fitbit Air
+Alta HR
+Blaze
+Charge 2
+Charge 3
+Charge 4
+Charge 5
+Charge 6
+Google Pixel Watch
+Google Pixel Watch 2
+Google Pixel Watch 3
+Google Pixel Watch 4
+Google Pixel Watch 5
+Inspire 2
+Inspire 3
+Inspire HR
+Luxe
+Sense series
+Versa series
+Track your vitals
+Understand each vital
+Metric
+Significance
+Breathing Rate (BR)
+This metric is the number of breaths you take per minute. Your body usually adjusts your breathing rate to help you get enough oxygen. Typically, breathing rate is 12-20 breaths per minute.
+Track your average breathing rate during sleep to help you assess your overall well-being. Typically, your average breathing rate during sleep won’t vary significantly from night to night.
+Factors that can affect breathing rate include sleep, altitude, some medical conditions, medications, or drug use (including alcohol).
+For more information, refer to How do I track breathing rate in the Google Health app?
+Heart Rate Variability (HRV)
+Heart rate variability (HRV) is the variation in time between heartbeats, determined by the autonomic nervous system (ANS). We use the RMSSD formula to determine heart rate variability from heart rate data.
+HRV varies from person to person. Age, sex, sleep, hormones, circadian rhythm, and other factors (for example, caffeine or alcohol intake, exercise, and stress) can affect HRV.
+Studies show that a higher HRV is linked with better health. A significant drop in HRV suggests that your body may be experiencing stress, strain, or showing potential signs of illness.
+For more information, refer to Track your heart rate with your Pixel Watch or Fitbit device.
+Skin temperature
+This metric is the variation in your skin temperature taken from your wrist while you sleep.
+Core temperature is the temperature inside your body usually taken with a thermometer. Skin temperature is the temperature on the skin's surface which varies throughout sleep and from night to night.
+Factors that may cause skin temperature to vary nightly include changes in room temperature, bedding, circadian rhythm, menstrual cycle, or the potential onset of fever.
+Significant changes in ambient temperature may negatively impact skin temperature tracking.
+For more information, refer to How can Google Health help me track my temperature?
+Oxygen saturation (SpO2)
+This metric estimates the amount of oxygen in your blood. Nighttime SpO2 is usually lower than daytime SpO2 because your breathing rate is usually slower during sleep (typically above 90%).
+Tracking SpO2 can help you be more aware of your oxygen saturation trends during sleep. Your blood oxygen levels tend to remain relatively constant, even during exercise and sleep.
+Tip: To collect SpO2 data, install an SpO2 clock face (available on Sense, Versa, Versa Lite Edition, Versa 2, and 3), or the SpO2 app (available on Charge 4, 5, and 6, Luxe, Sense, Sense 2, Versa 3 and 4).
+For more information, refer to How do I track blood oxygen saturation (SpO2) with my Fitbit device?
+Resting heart rate (RHR)
+This metric is the number of times your heart beats per minute when you're still and well-rested.
+Resting heart rate varies (60-100 bpm) depending on age and fitness level. This can also indicate your fitness and cardiovascular health. Active individuals tend to have lower resting heart rates.
+Several factors can affect resting heart rate: stress, alcohol or caffeine intake, or fever usually raises your resting heart rate, while exercise or meditation can lower it.
+Tip: Air temperature and certain medications can also affect your heart rate.
+For more information, refer to Track your heart rate with your Pixel Watch or Fitbit device.
+Understand your personal range
+Your personal range, which is based on the average of your recent data, can help you monitor trends in your readings. We calculate your personal range for each health metric based on up to 30 days of data.
+Troubleshoot vitals
+Resolve missing vitals data
+Check if your Fitbit device or Pixel Watch synced recently. For troubleshooting , go to Why won't my Fitbit device or Pixel Watch sync?
+Wear your device for at least one full day (during the day and to sleep at night). Check your stats after you wake up in the morning.
+Ensure the back of the device is in direct contact with your skin. The band should be snug but comfortable.
+Skin temperature requires 3 nights of data to establish a baseline.
+Most metrics require at least 3 hours of quality sleep. If you move excessively or the sleep session is too short, you may not receive a reading.
+Check if your Fitbit device or Pixel Watch tracks the metric you’re looking for. Refer to Vitals tracked by Fitbit devices or Pixel Watch to check a list of which metrics each device tracks.
+To track your blood oxygen saturation, confirm you have an SpO2 clock face installed (available on Sense, Versa, Versa Lite Edition, Versa 2, and Versa 3) or the SpO2 app (available on Air, Charge 4, Charge 5, Charge 6, Inspire 3, Luxe, Sense, Sense 2, Versa 3, and Versa 4). For more information, refer to How do I track blood oxygen saturation (SpO2) with my Fitbit device?
+Manage your data and privacy settings
+This feature provides information for well-being and is not intended to diagnose or treat any medical condition. Do not rely on this data for medical purposes. Consult a healthcare provider for health concerns, or contact emergency services for medical emergencies.
+Delete your vitals data
+Open the Google Health app and tap the Health tab .
+Tap Vitals a specific vital.
+Tap More Delete data.
+Select the length of time of data you want to delete Confirm and Delete.
+Was this helpful?
+How can we improve it?
+YesNo
+Submit
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+Related articles
+1 of 24What is Morning Brief
+2 of 24Track sleep with Google Health
+3 of 24Learn about Google Health sleep stages
+4 of 24What's the Sleep Score in the Google Health app
+5 of 24Understanding your readiness score in the Google Health app
+6 of 24How do I track breathing rate in the Google Health app?
+7 of 24Track blood oxygen saturation (SpO2) with your Fitbit device
+8 of 24Track your vitals in the Google Health app
+9 of 24Log your glucose in the Google Health app
+10 of 24Manage stress & mindfulness in Google Health
+11 of 24Use the Google Health app to track your period
+12 of 24Track your Cycle health with Google Health
+13 of 24Track your nutrition and hydration with the Google Health app
+14 of 24What is the Google ECG app?
+15 of 24How do Google Irregular Rhythm Notifications check for atrial fibrillation (AFib)?
+16 of 24How can Google Health help me track my temperature?
+17 of 24How do I take my temperature with my Pixel phone?
+18 of 24What is Loss of Pulse Detection on my Google Pixel Watch?
+19 of 24What is Breathing Emergency Detection on my Google Pixel Watch?
+20 of 24Sync your medical records with the Google Health app
+21 of 24Manage & delete your medical records data in the Google Health app
+22 of 24How accurate are Fitbit devices?
+23 of 24Track your Sleep breathing quality with the Google Health app
+24 of 24Health Guardian
+©2026 Google
+Privacy Policy
+Terms of Service Language dansk‎Deutsch‎eesti‎English (Australia)‎English (United Kingdom)‎español‎español (Latinoamérica)‎français‎français (Canada)‎hrvatski‎Indonesia‎italiano‎latviešu‎lietuvių‎magyar‎Malti‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Türkçe‎íslenska‎čeština‎Ελληνικά‎български‎русский‎‏עברית‏العربية中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎
+Enable Dark Mode
+Send feedback on... This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+15971677969111153623
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+5306962
+false
+false
+false
+false
+false

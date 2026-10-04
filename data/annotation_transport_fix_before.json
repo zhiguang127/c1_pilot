@@ -1,0 +1,6 @@
+{
+  "rubric_sha256": "756524a4f0025d2e04253b3ca91ce905976726e202b5dfe84caa1491ca90afe9",
+  "source_code_sha256": "63d146651e82bf2df5e3a1a0a71dc1b830d49f8f49cc0f7b870d64b77979a057",
+  "old_code_revision": "blinded-annotation-v1-hashrefs",
+  "reason": "Long opaque hash identifiers repeatedly mistyped by Qwen; rejected by strict enum/coverage validation. No finalized gold or retrieval/evaluation exists. Fresh complete annotation run will use shorter opaque references after identical seeded item shuffling. No automatic ID repair or inferred label."
+}

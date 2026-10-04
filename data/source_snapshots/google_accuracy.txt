@@ -1,0 +1,138 @@
+How does my Fitbit device calculate my daily activity? - Google Health Help Center Skip to main content
+Google Health Help Center
+Sign in
+Google Help
+Help Center
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Community
+Google Health
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+CloseNext
+Help Center
+Community
+Google Health
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Health Guardian
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Notification
+For assistance with Fitbit Ace LTE, go to support.google.com/fitbitacelte.
+How does my Fitbit device calculate my daily activity?
+Track a variety of stats like steps taken, floors climbed, distance traveled, and calories burned with your Fitbit device.
+Expand all Collapse all
+To learn more about all the ways you can track your activity, check What activities do my Fitbit device and Google Pixel Watch track. Use Gemini to get real-time data like your heart rate and step count while you work out on your Google Pixel Watch. For more information, refer to Gemini on Google Pixel Watch.
+How does my Fitbit device count steps taken
+Fitbit devices use a 3-axis accelerometer to count your steps. This sensor also allows your device to determine the frequency, duration, intensity, and patterns of your movement.
+How does my Fitbit device calculate distance traveled
+Fitbit devices use the formula below to calculate distance. Your stride length is determined by your height and sex.
+Steps x Stride Length = Distance Traveled
+When you track an activity with GPS, your device calculates your distance with GPS data rather than steps. If you move before you get a GPS signal, your device calculates distance based on your steps until GPS connects.
+To update your stride length, track a run with GPS or measure your stride length manually. For more information, check Can I change my stride length?
+How does my Fitbit device count floors climbed
+Fitbit devices that count floors have an altimeter sensor that detects when you go up in elevation. Your device registers 1 floor when you climb about 10 feet or 3 meters. Your device uses changes in barometric pressure combined with the steps you take to calculate floors climbed. Fitbit devices don’t count floors on stationary exercise equipment, such as a StairMaster or treadmill, or when you go down a flight of steps.
+How does my Fitbit device calculate calories burned?
+Fitbit devices combine your basal metabolic rate (BMR) and your activity data to estimate your calories burned. Your BMR is the rate at which you burn calories at rest to maintain vital body functions like breathing, blood circulation, and heartbeat. If your device tracks heart rate, your heart-rate data is also included, especially to estimate calories burned during exercise. The number that appears on your Fitbit device is your total calories burned for the day.
+Your BMR is based on the physical data you entered into your Google Health account like height, weight, sex, and age. It also accounts for at least half the calories you burn in a day. Your body burns calories even if you’re asleep there's no activity. Because of this, your device will display your calories burned when you wake up and notice this number increase throughout the day.
+Tip: Certain regions use kilojoules instead of calories. To change your units of measurement, check How do I change the units of measurement in Google Health?
+What are some tips to make sure my Fitbit daily activity is accurate
+Make sure that you wear your device correctly, either on top of your wrist or in the clip. If you switch your device to your other wrist, update the Wrist setting in the Google Health app.
+Confirm that the personal information you entered when you set up your Google Health account (height, weight, sex, and age) is correct.
+On certain devices, you can use the Exercise app to track your workouts and check your real-time heart-rate data. This can better determine calories burned during exercise, especially for activities like spinning or yoga where your step count might not reflect your intensity level. For more information, check What activities do my Fitbit device and Google Pixel Watch track.
+For your device to count steps during a walk or run, your arm must swing back and forth as you move. You can use a GPS to better calculate your distance traveled and calories burned if you need both hands for your activity. For more information, check Use GPS on your Fitbit device or Pixel Watch.
+Can I edit or delete my daily activity data
+You can’t delete daily activity data. If extra steps or floors appear on your device , log a non-step-based activity, such as driving, to override them. For more information, check How do I add, edit, or delete Google Health data and activities?
+Can I change my stride length?
+After you track a run with GPS, your stride length updates automatically. For best results, run at a comfortable pace for 10 minutes or more. For more information, check Use GPS on your Fitbit device or Pixel Watch.
+You can also measure your stride length manually and add it to your Google Health account.
+How do I measure my stride length?
+Go to a place where you're sure of the distance, such as a track.
+Count your steps as you walk or run to make sure that you travel at least 20 steps.
+Divide the distance traveled (in yards or meters) by the number of steps you took to determine your stride length. If needed, convert your stride length into inches or centimeters.
+How do I adjust my stride length?
+Open the Google Health app .
+At the top right, tap your Profile picture or Initial.
+Tap Google Health settings Activity Stride Length.
+Adjust your Walking or Running stride length and tap Save.
+Was this helpful?
+How can we improve it?
+YesNo
+Submit
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+Related articles
+1 of 21What activities do my Fitbit device and Google Pixel Watch track
+2 of 21Track workouts with your Fitbit device and Google Pixel Watch
+3 of 21Track your heart rate with your Pixel Watch or Fitbit device
+4 of 21Track Active Zone Minutes or active minutes on your Fitbit device and Pixel Watch
+5 of 21What are the reminders on my Fitbit device
+6 of 21Swim or shower with your Fitbit device
+7 of 21Use GPS on your Fitbit device or Pixel Watch
+8 of 21Share your real-time heart rate with fitness equipment & apps
+9 of 21How does my Fitbit device calculate my daily activity?
+10 of 21How to add, edit, or delete Google Health data & activities
+11 of 21Track your steps with Google Health on your phone
+12 of 21Track your health and fitness goals with Google Health
+13 of 21What factors can affect my heart-rate reading on my Fitbit device?
+14 of 21Track swims with your Fitbit device and Google Pixel Watch
+15 of 21Learn about your VO2 max
+16 of 21How do I track my running goals & records?
+17 of 21Advanced running and form metrics for Pixel Watch 3, 4 & 5
+18 of 21How can custom workouts help with my daily fitness
+19 of 21Learn about cardio load and target load
+20 of 21Use Real-Time Sync for your workouts
+21 of 21Ask your Google Health Coach
+©2026 Google
+Privacy Policy
+Terms of Service Language dansk‎Deutsch‎eesti‎English (Australia)‎English (United Kingdom)‎español‎español (Latinoamérica)‎français‎français (Canada)‎hrvatski‎Indonesia‎italiano‎latviešu‎lietuvių‎magyar‎Malti‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Türkçe‎íslenska‎čeština‎Ελληνικά‎български‎русский‎‏עברית‏العربية中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎
+Enable Dark Mode
+Send feedback on... This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+15971677969111153623
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+5306962
+false
+false
+false
+false
+false

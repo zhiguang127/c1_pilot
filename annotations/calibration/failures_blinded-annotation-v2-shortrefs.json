@@ -1,0 +1,8 @@
+{
+  "stage": "calibration",
+  "annotation_revision": "blinded-annotation-v2-shortrefs",
+  "completed_case_jobs": 6,
+  "submitted_case_jobs": 6,
+  "failures": [],
+  "all_jobs_handled": true
+}

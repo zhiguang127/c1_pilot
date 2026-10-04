@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "case_id": "P001",
+      "knowledge_id": "K096",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Steps remained constant at 7200 across baseline and window periods with no change.",
+      "item_condition_evidence": "Item requires step readings changing with possible measurement limitations to be applicable.",
+      "rationale": "No step variation observed; item conditions not met, making it uninformative for this data.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K002",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Metadata age_band is 18-60, not specifically 61-64.",
+      "item_condition_evidence": "Item explicitly requires age 61 to 64 and lists other age groups as non-applicable.",
+      "rationale": "Age band 18-60 contradicts the required 61-64 condition; item is not applicable.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K083",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "RHR remained constant at 61 bpm across all 42 days with zero variance.",
+      "item_condition_evidence": "Item requires repeated RHR readings or a recent change to provide trend context.",
+      "rationale": "No RHR change or variability exists; item about tracking trends is uninformative here.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K017",
+      "annotator_id": "judge_a",
+      "relevance": 0,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep start shifted from 23:00 to 01:30 on Feb 3 and remained stable at 01:30 through Feb 16.",
+      "item_condition_evidence": "Item requires repeated variability in bedtime or wake time to be applicable.",
+      "rationale": "The new sleep schedule is perfectly stable after one shift; no repeated variability observed.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K094",
+      "annotator_id": "judge_a",
+      "relevance": 1,
+      "status": "labeled",
+      "raw_data_evidence": "Sleep duration dropped from 480 to 330 minutes while sleep_end stayed fixed at 07:00.",
+      "item_condition_evidence": "Item explains estimated time asleep differs from full sleep period boundaries.",
+      "rationale": "Provides contextual support that recorded 330 min may reflect classified sleep, not just time in bed.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    },
+    {
+      "case_id": "P001",
+      "knowledge_id": "K001",
+      "annotator_id": "judge_a",
+      "relevance": 2,
+      "status": "labeled",
+      "raw_data_evidence": "Window sleep duration is 330 minutes (5.5 hours) nightly from Feb 3-16, below 7 hours.",
+      "item_condition_evidence": "CDC recommends at least 7 hours for adults aged 18-60; metadata confirms age_band 18-60.",
+      "rationale": "Directly explains the observed persistent short sleep pattern against the age-matched recommendation threshold.",
+      "model": "qwen3.8-max",
+      "input_sha256": "05b385f28f6de13f8c5afe73ffec657b67da13329fccb7950b2cf6c4c6056314",
+      "annotation_revision": "blinded-annotation-v2-shortrefs"
+    }
+  ],
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "annotation_revision": "blinded-annotation-v2-shortrefs"
+}

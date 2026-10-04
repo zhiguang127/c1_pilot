@@ -1,0 +1,16 @@
+{
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "annotation_revision": "blinded-annotation-v2-shortrefs",
+  "pairs": 2304,
+  "complete_2304_pairs": true,
+  "human_reviewed": false,
+  "model_ids": {
+    "judge_a": "qwen3.8-max",
+    "judge_b": "qwen3.8-max",
+    "adjudicator": "qwen3.8-max"
+  },
+  "labels_sha256": "07756adaac1dd83ca91a0f16ae9dbd8408f744e59aaef7d009d96b879ad55e82",
+  "judge_uncertainty_policy": "needs_review labels remain null until resolved by adjudicator; unresolved adjudication stops without gold",
+  "practice_calibration_summary": "annotations/calibration/summary.json",
+  "blind_view": "raw data and supported item conditions; no case_type/stratum/designer_notes/representations/retrieval"
+}

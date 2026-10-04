@@ -1,0 +1,980 @@
+{
+  "verification_revision": "source-audit-v1",
+  "count": 96,
+  "domain_counts": {
+    "sleep_duration": 16,
+    "sleep_timing": 16,
+    "temporary_variation": 8,
+    "daily_activity": 16,
+    "low_movement": 12,
+    "activity_sleep_context": 8,
+    "personal_monitoring": 12,
+    "measurement_quality": 8
+  },
+  "indexed_fields": [
+    "title",
+    "content"
+  ],
+  "checks": [
+    {
+      "knowledge_id": "K001",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K002",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K003",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K004",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K005",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K006",
+      "source_key": "nhlbi_definition",
+      "source_text_sha256": "d37aab7d2c0aa3d0dcb077978c725725ce9fbb914f6a9c544045abc36f059b25",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K007",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K008",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K009",
+      "source_key": "nhlbi_enough",
+      "source_text_sha256": "2eefe4cd4abafce4c83c69af9b96842ed7d5519d0473aacc6d66517d7e35318c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K010",
+      "source_key": "nhlbi_effects",
+      "source_text_sha256": "7ad7952ce350e85542a6663c8d8bc5c8550d43d68b0dedcec89be60966ab62d0",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K011",
+      "source_key": "nhlbi_effects",
+      "source_text_sha256": "7ad7952ce350e85542a6663c8d8bc5c8550d43d68b0dedcec89be60966ab62d0",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K012",
+      "source_key": "nhlbi_effects",
+      "source_text_sha256": "7ad7952ce350e85542a6663c8d8bc5c8550d43d68b0dedcec89be60966ab62d0",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K013",
+      "source_key": "nhlbi_effects",
+      "source_text_sha256": "7ad7952ce350e85542a6663c8d8bc5c8550d43d68b0dedcec89be60966ab62d0",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K014",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K015",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K016",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K017",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K018",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K019",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K020",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K021",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K022",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K023",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K024",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K025",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K026",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K027",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K028",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K029",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K030",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K031",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K032",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K033",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K034",
+      "source_key": "nhlbi_enough",
+      "source_text_sha256": "2eefe4cd4abafce4c83c69af9b96842ed7d5519d0473aacc6d66517d7e35318c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K035",
+      "source_key": "nhlbi_enough",
+      "source_text_sha256": "2eefe4cd4abafce4c83c69af9b96842ed7d5519d0473aacc6d66517d7e35318c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K036",
+      "source_key": "nhlbi_enough",
+      "source_text_sha256": "2eefe4cd4abafce4c83c69af9b96842ed7d5519d0473aacc6d66517d7e35318c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K037",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K038",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K039",
+      "source_key": "nhs_jetlag",
+      "source_text_sha256": "74cafe2b5308bf81e6026fde6d1c3d1647765b5a7f151c7913c44a9dcdba0224",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K040",
+      "source_key": "nhs_jetlag",
+      "source_text_sha256": "74cafe2b5308bf81e6026fde6d1c3d1647765b5a7f151c7913c44a9dcdba0224",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K041",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K042",
+      "source_key": "medline_exercise",
+      "source_text_sha256": "b3bf7fa9af82fbdd896c0671c32cf217d5d0be747cf3c2f70c3e915b703f234f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K043",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K044",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K045",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K046",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 2,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K047",
+      "source_key": "cdc_adults",
+      "source_text_sha256": "126a56d8a5e32192fed21dd565a22fe1e0ae1a5b235cc989476c250dbd8aef98",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K048",
+      "source_key": "cdc_intensity",
+      "source_text_sha256": "bb80596ff97e3536c4f53cec0a19296dd708fefee4bc2b0e0d008f6f6f56fa0a",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K049",
+      "source_key": "cdc_intensity",
+      "source_text_sha256": "bb80596ff97e3536c4f53cec0a19296dd708fefee4bc2b0e0d008f6f6f56fa0a",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K050",
+      "source_key": "google_activity",
+      "source_text_sha256": "7db399f6e1a99c22a25136737d88958b2b8236763d6b09bc8a33cba9606ca04f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K051",
+      "source_key": "nhs_benefits",
+      "source_text_sha256": "4aa184013de935f98beacf88d2c18643f633b46ee0773d60e13fbe1e52a9ea23",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K052",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K053",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K054",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K055",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K056",
+      "source_key": "medline_exercise",
+      "source_text_sha256": "b3bf7fa9af82fbdd896c0671c32cf217d5d0be747cf3c2f70c3e915b703f234f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K057",
+      "source_key": "nhs_adult_guidelines",
+      "source_text_sha256": "cbd13b0b0a0016a48a0dbbf99ce04cec06cdf3e1f5a4ad5e483d8fc9717688ac",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K058",
+      "source_key": "nhs_benefits",
+      "source_text_sha256": "4aa184013de935f98beacf88d2c18643f633b46ee0773d60e13fbe1e52a9ea23",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K059",
+      "source_key": "nhs_benefits",
+      "source_text_sha256": "4aa184013de935f98beacf88d2c18643f633b46ee0773d60e13fbe1e52a9ea23",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K060",
+      "source_key": "nhs_london_sit",
+      "source_text_sha256": "77f9d9b2af46bae1964ad6279d21ecc285fac8fab2e0b0f299fe427c5e8e9dcc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K061",
+      "source_key": "nhs_london_sit",
+      "source_text_sha256": "77f9d9b2af46bae1964ad6279d21ecc285fac8fab2e0b0f299fe427c5e8e9dcc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K062",
+      "source_key": "nhs_london_sit",
+      "source_text_sha256": "77f9d9b2af46bae1964ad6279d21ecc285fac8fab2e0b0f299fe427c5e8e9dcc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K063",
+      "source_key": "nhs_london_sit",
+      "source_text_sha256": "77f9d9b2af46bae1964ad6279d21ecc285fac8fab2e0b0f299fe427c5e8e9dcc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K064",
+      "source_key": "nhs_london_sit",
+      "source_text_sha256": "77f9d9b2af46bae1964ad6279d21ecc285fac8fab2e0b0f299fe427c5e8e9dcc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K065",
+      "source_key": "medline_fitness",
+      "source_text_sha256": "2c8a08401c6379f3cc3ba608537741e323ca726ccfaf927c71f1198b654060b4",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K066",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K067",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K068",
+      "source_key": "nhs_benefits",
+      "source_text_sha256": "4aa184013de935f98beacf88d2c18643f633b46ee0773d60e13fbe1e52a9ea23",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K069",
+      "source_key": "cdc_benefits",
+      "source_text_sha256": "37b32d7785d4abcf88f4037238fa81bbbcaa41bcc85ab22161ccc5eea1f9c616",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K070",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K071",
+      "source_key": "nhlbi_habits",
+      "source_text_sha256": "b23071b25cda24508256f81d57073088ae0af459f9d48e7ea05c142e8fa41f0f",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K072",
+      "source_key": "nhs_insomnia",
+      "source_text_sha256": "de35326fe0ae4417a90a0cd22b80fa9343a55b2c24b013cda3fb925398e5ccb1",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K073",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K074",
+      "source_key": "cdc_work_sleep",
+      "source_text_sha256": "9ec43ba3d5d9c6318b488e17885e144a7be6cbb7d68f8f218081c28c761314fc",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K075",
+      "source_key": "cdc_start",
+      "source_text_sha256": "9b99343b0096889dd92460a8f5aaaed9da2c5e2b64b806226d5fea2d1a5fdfb9",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K076",
+      "source_key": "cdc_sleep",
+      "source_text_sha256": "bb93e06990b0e1d4f05c29a184ac4db80df3b4d91a5af02fc81c1a13813fc12c",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K077",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K078",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K079",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K080",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K081",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K082",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K083",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K084",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 2,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K085",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K086",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K087",
+      "source_key": "google_stages",
+      "source_text_sha256": "0071bfcbf6e581ac883cf758e21ad3168946d5f51a9deb2a04c3485c62e1d901",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K088",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K089",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K090",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K091",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K092",
+      "source_key": "google_vitals",
+      "source_text_sha256": "099ed4a8aea7dbe31197b0728cce121dd57f75315b997a7d37f4f65846437324",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K093",
+      "source_key": "google_hr",
+      "source_text_sha256": "b8da32fb90594f57948d2c0592d111364ea17e4b44015ca570f6198b238b1d6b",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K094",
+      "source_key": "google_sleep",
+      "source_text_sha256": "96ec4de9e50bdb991a412e893f0391fa1e0c9461aac96e33fc5e9d4891c87c09",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K095",
+      "source_key": "google_sleep",
+      "source_text_sha256": "96ec4de9e50bdb991a412e893f0391fa1e0c9461aac96e33fc5e9d4891c87c09",
+      "support_anchor_found": true,
+      "support_anchors_found": 1,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    },
+    {
+      "knowledge_id": "K096",
+      "source_key": "google_activity",
+      "source_text_sha256": "7db399f6e1a99c22a25136737d88958b2b8236763d6b09bc8a33cba9606ca04f",
+      "support_anchor_found": true,
+      "support_anchors_found": 2,
+      "reviewer": "source-corpus-LLM-editor",
+      "review_kind": "source_support_and_applicability",
+      "human_review": false
+    }
+  ]
+}

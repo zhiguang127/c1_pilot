@@ -1,0 +1,232 @@
+Track sleep with Google Health - Google Health Help Center Skip to main content
+Google Health Help Center
+Sign in
+Google Help
+Help Center
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Community
+Google Health
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+CloseNext
+Help Center
+Community
+Google Health
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Health Guardian
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Notification
+For assistance with Fitbit Ace LTE, go to support.google.com/fitbitacelte.
+Track sleep with Google Health
+Understand your sleep patterns and quality with the Google Health app.
+Expand all Collapse all
+Sleep tracking
+How Google Health automatically detects sleep
+Wrist-based Fitbit devices and Google Pixel Watch series automatically detect your sleep when you wear your device to bed. We recommend you wear your device in a snug wristband during sleep. Do not wear your device in a clip or pendant accessory.
+When your body is completely at rest and you haven’t moved for about an hour, your device records that you’re asleep.
+What sleep information Google Health tracks
+Important:
+Availability varies by region or country and device. This feature is intended for general wellness purposes only and is not intended for medical use. This feature is not a pre-screener for sleep apnea and is not intended to diagnose or mitigate any disease. Not for users under 18 years of age.
+This feature may require a Google Health Premium subscription.
+If your device doesn’t track heart rate, you can check your sleep pattern in the Google Health app. Your sleep pattern includes your time spent awake, restless, and asleep. Restless sleep indicates that you move in your sleep, like if you toss and turn. If your device detects excessive movement, enough that restful sleep won't be possible, your device records time spent awake.
+Fitbit devices that track heart rate (except Charge HR and Surge) also track sleep stages. Learn more about Google Health sleep stages.
+On select devices, Google Health can also track your breathing overnight to check for changes in your blood oxygen levels. For more information, refer to Track your Sleep breathing quality with the Google Health app.
+Find sleep information
+Sync your device each morning to review your sleep data, such as your sleep score. You can check this information on your Fitbit device or in the Google Health app.
+Device
+Steps
+Fitbit devices
+Swipe up from the clock face to find “Fitbit Today.”
+Tap the Sleep tile to find your sleep information. You may have to swipe up to find it.
+Google Pixel Watch
+Press the crown and scroll to the Google Health app .
+Tap the app to open it.
+Under Recovery, tap the Sleep card to find more details about your sleep log.
+iPhones and Android phones
+Open the Google Health app and tap the Sleep duration tile on the Today tab.
+Under the “Sleep duration” chart, tap Benchmarks to check the amount of time spent in each sleep stage in comparison with other users.
+Under the “Sleep duration” chart, tap 30 day average to compare your most recent results with your average over the past 30 days.
+At the top, choose D, W, M, 3M, Y to toggle between different time views: day, week, month, 3 months, or year.
+Check your average sleep stats
+Check your averages for the week or longer periods of time for certain sleep stats, including:
+Hours slept: The number of hours you slept each night that week and your weekly average.
+Sleep score: Your sleep scores throughout the week and your weekly average score.
+Sleep schedule: An overview of your sleep schedule that week which includes your bedtime and wake-up times.
+Sleep stages: The number of hours you spent in each sleep stage each night that week and your weekly average minutes asleep.
+Device
+Steps
+Fitbit devices
+Swipe up from the clock face to find Fitbit Today.
+Check the Sleep tile to find your sleep information. You may have to swipe up to find it. If you don't find the Sleep tile, tap Settings at the bottom of “Fitbit Today” and make sure you turn on the sleep tile.
+Swipe left on the Sleep tile to find your sleep history for the past week.
+Google Pixel Watch
+Press the crown and scroll to the Google Health app .
+Tap the app to open it.
+Swipe to the Sleep card , and tap the card to find more details.
+Swipe up to find your sleep history for the past week.
+Tip: For a faster way to check your sleep data, add the Sleep tile to your watch. For more information, refer to Change settings, alarms, and notifications on Google Pixel Watch.
+iPhones and Android phones
+Open the Google Health app and tap the Sleep tab .
+Review your stats from your previous sleep session.
+To check your average stats, tap D, W, M, 3M, or Y.
+Choose Duration, Score, Schedule, Sleep efficiency, Sleep stages, or Quality metrics to filter your sleep data.
+Tip: Google Health Premium members get access to more features and advanced insights of their sleep data.
+Find sleeping heart rate details
+Open the Google Health app .
+On the Today tab , scroll to "How you slept," then tap Sleep duration.
+Scroll to "More about your sleep."
+Tap Sleeping heart rate.
+Track your Sleep breathing quality metrics
+Google Health tracks your breathing patterns throughout the night to highlight variations in your blood oxygen levels.
+If available on your device and in your region, to check your Sleep breathing quality summary:
+Open the Google Health app .
+On the Today tab , scroll to "How you slept," then tap Sleep duration.
+Scroll to "More about your sleep," and tap Breathing quality.
+Learn how to Track your Sleep breathing quality with the Google Health app.
+Review how Google Health app calculates time asleep
+Your time asleep is estimated as all the time in the main sleep period that was identified to be in one of the 3 sleep stages: Light, Deep, or REM.
+Check and edit sleep details
+Understand your Sleep trends
+In the Google Health app, you can find how aspects of your sleep vary or trend over time. Most of your sleep metrics from your daily sleep can be viewed as weekly, monthly, 3 month, and yearly periods.
+Open the Google Health app and tap the Sleep tab .
+To check your trends over time, tap to change between:
+D: Your timeline overview within this day.
+W: Your timeline overview within this week.
+M: Your timeline overview within this month.
+3M: Your timeline overview within 3 months.
+Y: Your timeline overview within this year.
+Select the metric you want to view over time. You can find information about the following:
+Total duration of sleep
+Main sleep
+Sleep score
+Staying on your sleep schedule
+Sleep efficiency
+Sleep stages
+A variety of sleep quality metrics
+Breathing quality
+Set a sleep schedule in the Google Health app
+To help you achieve your sleep goals and establish a consistent sleep routine, use the Google Health app to set a sleep schedule. You can set either a bedtime or a wake-up time target, or set both targets.
+If you meet your target when you go to sleep or wake up within 15 minutes of the target, a star appears in the sleep schedule graph. You won’t find a star If you set both bedtime and wake-up time targets but only meet one.
+You can also adjust your sleep goal duration. If you don't select it, a default 7 hour duration is set for you. The sleep goal does impact your sleep score.
+Set up your Bedtime, Wake time, or Sleep duration targets
+Open the Google Health app .
+On the Today tab , scroll to "How you slept," then tap Sleep duration.
+At the top right, tap More options Sleep settings.
+Tap Sleep schedule.
+Choose Bedtime, Wake time, or Sleep duration.
+Use the + or - buttons to add or remove time.
+Tap Set goal.
+Log a nap in the Google Health app
+Your Fitbit device detects and records naps that are at least 20 minutes long. To check your logged naps, go to your daily Sleep Score. Naps are displayed in separate tabs under the date.
+To manually log a nap:
+Open the Google Health app and tap the Sleep tab .
+Tap Sleep duration.
+At the top right, tap Add .
+Enter the day and your Bedtime and Wake up time.
+Tap Save.
+Edit sleep logs in the Google Health app
+Your Fitbit or Google Pixel Watch device detects and records naps that are at least 20 minutes long. To check your logged naps, go to your daily sleep log. Below the date, sleep events will be represented in different tabs. To edit or delete a sleep log in the Google Health app:
+Open the Google Health app and tap the Sleep tab .
+Scroll and tap the Sleep duration tile.
+Scroll to the day where you want to edit your sleep log.
+You can also go back in time by tapping the arrows next to the calendar, or time filters at the top of the app.
+Tap the day you want to edit.
+At the top right, tap Edit .
+Tip: If you don’t have any sleep recorded for that day, you will first need to add it by tapping Add at the top right.
+Tap Edit , or Delete , and you can adjust your bedtime and wake up time.
+Troubleshoot sleep issues
+Find your sleep session
+If your Fitbit device’s battery is not critically low, check when you last synced the device. Your Fitbit usually syncs automatically when it's near your phone and you open the Google Health app. If it does not or if it syncs but your sleep session does not appear, follow these steps:
+Open the Google Health app and tap the Sleep tab .
+Touch and hold on the screen and pull down to refresh.
+If your Fitbit device didn’t sync, force quit the Google Health app and restart your phone’s Bluetooth connection.
+Try to manually sync your Fitbit device again.
+If you still experience issues, go to Why won't my Fitbit device sync?
+Resolve sleep duration inaccuracies. To accurately track your sleep, make sure your device is positioned higher on your wrist, about 2-3 finger widths above the wrist bone. The band should feel secure but not too tight. For detailed instructions, check out How do I wear my Fitbit device?
+To adjust a sleep session’s start or end time, edit it in the Google Health app. For instructions, refer to How do I add, edit, or delete Fitbit data and activities.
+Was this helpful?
+How can we improve it?
+YesNo
+Submit
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+Related articles
+1 of 24What is Morning Brief
+2 of 24Track sleep with Google Health
+3 of 24Learn about Google Health sleep stages
+4 of 24What's the Sleep Score in the Google Health app
+5 of 24Understanding your readiness score in the Google Health app
+6 of 24How do I track breathing rate in the Google Health app?
+7 of 24Track blood oxygen saturation (SpO2) with your Fitbit device
+8 of 24Track your vitals in the Google Health app
+9 of 24Log your glucose in the Google Health app
+10 of 24Manage stress & mindfulness in Google Health
+11 of 24Use the Google Health app to track your period
+12 of 24Track your Cycle health with Google Health
+13 of 24Track your nutrition and hydration with the Google Health app
+14 of 24What is the Google ECG app?
+15 of 24How do Google Irregular Rhythm Notifications check for atrial fibrillation (AFib)?
+16 of 24How can Google Health help me track my temperature?
+17 of 24How do I take my temperature with my Pixel phone?
+18 of 24What is Loss of Pulse Detection on my Google Pixel Watch?
+19 of 24What is Breathing Emergency Detection on my Google Pixel Watch?
+20 of 24Sync your medical records with the Google Health app
+21 of 24Manage & delete your medical records data in the Google Health app
+22 of 24How accurate are Fitbit devices?
+23 of 24Track your Sleep breathing quality with the Google Health app
+24 of 24Health Guardian
+©2026 Google
+Privacy Policy
+Terms of Service Language dansk‎Deutsch‎eesti‎English (Australia)‎English (United Kingdom)‎español‎español (Latinoamérica)‎français‎français (Canada)‎hrvatski‎Indonesia‎italiano‎latviešu‎lietuvių‎magyar‎Malti‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Türkçe‎íslenska‎čeština‎Ελληνικά‎български‎русский‎‏עברית‏العربية中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎
+Enable Dark Mode
+Send feedback on... This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+15971677969111153623
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+5306962
+false
+false
+false
+false
+false

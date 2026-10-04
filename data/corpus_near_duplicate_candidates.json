@@ -1,0 +1,77 @@
+{
+  "criterion": "word-set Jaccard >= 0.28 after declared stop words; a review flag, not semantic proof",
+  "stop_words": [
+    "a",
+    "about",
+    "after",
+    "alone",
+    "an",
+    "and",
+    "are",
+    "as",
+    "at",
+    "be",
+    "before",
+    "by",
+    "can",
+    "do",
+    "does",
+    "each",
+    "even",
+    "for",
+    "from",
+    "if",
+    "in",
+    "is",
+    "it",
+    "its",
+    "may",
+    "more",
+    "must",
+    "needs",
+    "not",
+    "of",
+    "on",
+    "only",
+    "or",
+    "rather",
+    "same",
+    "should",
+    "so",
+    "some",
+    "than",
+    "that",
+    "the",
+    "then",
+    "this",
+    "to",
+    "when",
+    "with"
+  ],
+  "candidate_pairs": [
+    {
+      "left_id": "K057",
+      "right_id": "K059",
+      "token_jaccard": 0.333333,
+      "same_domain": true
+    },
+    {
+      "left_id": "K002",
+      "right_id": "K003",
+      "token_jaccard": 0.321429,
+      "same_domain": true
+    },
+    {
+      "left_id": "K001",
+      "right_id": "K003",
+      "token_jaccard": 0.3,
+      "same_domain": true
+    },
+    {
+      "left_id": "K002",
+      "right_id": "K004",
+      "token_jaccard": 0.285714,
+      "same_domain": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "stage": "adjudication",
+  "annotation_revision": "blinded-annotation-v2-shortrefs",
+  "completed_case_jobs": 24,
+  "submitted_case_jobs": 24,
+  "failures": [],
+  "all_jobs_handled": true
+}

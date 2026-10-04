@@ -1,0 +1,833 @@
+{
+  "corpus_sha256": "6dcd50b6c8f34279656eab187130b64ca573f1a173d450b41be171310ad608d0",
+  "reviewed_item_sha256": {
+    "K001": "2b1569a8ad93d7a52490ad9a75fd8214e0aa6a0ce26da164e66bcb2c4e15cae6",
+    "K002": "8cc09cab77f63df5abd281fd2dae36e7cd9d0b9bd7172c01cb200c663cb15805",
+    "K003": "86dc2479496a8f105791ce003eb9314976e0dfd82751ca91315d5f30a607441c",
+    "K004": "19e7911ed82cc4917218584db84ccf805f6749bc01d6427889433d8c224500c6",
+    "K005": "cfcc59363cd6b5043a46ccfcf29a316389e016445b90f7c34ae577fc252aa603",
+    "K006": "9e67b3b17b245198b647a31dd72c7399763f6cb261b382d5c12ff67750d55ff6",
+    "K007": "807f72cbec2a51744047d6a40a4a1ab1972a7580b2afcdb1337c0fdeeffe4d8d",
+    "K008": "fba9200573f6f98406e4ee076d94ff81eb25ed2751c3167375dd9570264a1740",
+    "K009": "e6b742cef752d0a72acffe9dd444f71b3162255786cadf1ca8f13a9198537e34",
+    "K010": "ba7c5fa7f2fb4db1fe909bab924ac9d4f42cdef6fc8ecdeca27a822a2b0a8894",
+    "K011": "3616286f40cd87ad4825ef6da7ab7b6fee912d8ba30e91a35ffc5829b2e2f62c",
+    "K012": "be050430bc89e35292d3a3b857ec32e3e00bb4927e88863ce7d380648f72d8ae",
+    "K013": "5e7e65a1ece481cabd1cccdd00ec47f622c6c91658453be23cb48f54c77b0018",
+    "K014": "45e70e87962d759a3f856a6e69b46f3f42caac47b2005d650182c845dcd8f6c7",
+    "K015": "ae6501447a87b4a51da041e0014f0c394ce76c25f1f24ab6d4c50f73bddcb293",
+    "K016": "d745413f9ece1ce9a0e6588186df32527d2e7af04f22846672013bb451557c45",
+    "K017": "5ec9d9f1003c205ea228f574e45f88c253b0720a5f148f9ec4ece7d454d8463d",
+    "K018": "266d342d171c1f90c852028c6c8275ad8aee2836b5a476db77a30e269041d957",
+    "K019": "dcb69ac82206c167c8c899e85af82e7ba38beda82c8cd3eb571dfd7270986821",
+    "K020": "2e3dd7afe379444f3cd3daba939457d32009b2fc0a020d23436c485026590bc1",
+    "K021": "df444bebc8a815a21d5f2bb168571482b303f671ef6a749e881ce3a2f4cdbf24",
+    "K022": "4de5216149bb9d69c6253bece5e42eedbc148dbea6d17bd8fbf492b2f36f6967",
+    "K023": "4572304934b3e95403652f82cd68bad2a1e1c9adf8f51a2d98dc38f4839e1549",
+    "K024": "90076b3d343deeae89780e3c6f1b1d3b04d932fd116820f44f4ce0060820b08f",
+    "K025": "badc78d877b0caa3c33dbea1bbef85194d37270e25875a3706a67a1633d9cbfa",
+    "K026": "99359a67332bcaaa9f89676a0d75bf89b7e5a71faf6a1d03e7bc9abb466e51e5",
+    "K027": "e16e2b0d9f5436a453eeecfe23178387a7dd6524ee43ca2b3073d17dc276f171",
+    "K028": "c42dcd4ccc4d671cf2ba6fda12967a5595ad8a5935e4899f1ac17a19a30f96a9",
+    "K029": "d2a089a5fc67fe188e5542ac80ee87c96a8bef67a42273b06e83671bed9a7bc9",
+    "K030": "2cd65088826600e7a069bc4ae8e116ed08098d43634dcea79f14437e695ce3e0",
+    "K031": "c2d970522b1fd6912a5d9ddc670c7acf40f14eb1f1bfece0cf78a31eff196667",
+    "K032": "9bf8aee423a62f547c2950c52c460fc3156ab776a407c53e2bc1b71c7b9b1f85",
+    "K033": "6a4379b7e1dd5a2fa9530fa99b41ecf4df80bce4c42a6b18ee83482d4e12a24b",
+    "K034": "8104337f1d4ff0b7afc2db76936b709f01db5b70146ae19701874a32522a2aa5",
+    "K035": "fc797099cee012ff5c54ab0a40ba4d07e0efc4d7561f03eb6712d2bc1f39eb76",
+    "K036": "fb076eda8f43e5fedbbf0ccb79237355b673058cc6a3f8fdb1a38a953ed7b2db",
+    "K037": "a149f067e07bb5ed4de9b16ad6a9ad754c69c08833aefdd031e09e4b41efb60e",
+    "K038": "9c3bffcebca66325c00c0373aae42567fa87c63226bdfb32206189eee687762c",
+    "K039": "9bf7875568bf4930195c1d2cea7ba7618926787d6e8510b21ca6fecad7234173",
+    "K040": "b19d4d697d4339f80af775c9fb4e202e2a56b40bd6656c9093fe3f850fef1f87",
+    "K041": "43f5d44676584d1ccaa865ff25754becbe81288ece04e0649a64f420a980606f",
+    "K042": "4ac4dc055bd31b9488a57ad08f1b4dfcabf2af9a137284690ad67b23e6fe82dc",
+    "K043": "7d6917b6b265a70b337477397bbef38c24328c707cad1b1941916d6415cc010d",
+    "K044": "f063a17b5c18f1c5647f8978cf560978194ccbe76552b450dda06bf7857fc383",
+    "K045": "ebe02d13afe941e8b0dba0fe037848d9fbc04aa71eaac9a6ae707d75fedb5fd2",
+    "K046": "a57cf88ee118669de69586ea7cfabd0bd16013c0291f289c8d4814c1bbab617d",
+    "K047": "a8cc373af445e8a192dc0837adaf2158bfb38b7ccf0b36b36ce8331018f896da",
+    "K048": "1e24460587323c2eecae3bb5659052d52f7de825f2fab148cb223d41ecef03a7",
+    "K049": "135d7ef70984d8db48b56eff1b24c3c64e2eeff09f138f63fb9422c65c8e83f8",
+    "K050": "f9f533d9289f30e7b61df571f2c2b58c783003a72c01de6c7f0e4f58aee7c559",
+    "K051": "7dedba4c6369cc7430fcaf5cfaebaa5fc98421fa148667fe463e466c9d4b761d",
+    "K052": "ba63ae157a8f32fa2b015d1b75f7d107134a0e4268f14f71a41a0ef0bafd666a",
+    "K053": "19dfcb3191324047bf250a9e300e393227001256588c48d39c707b870fc1e185",
+    "K054": "cfad495ec393d53aba99d51f9c9460330916bc0a3c2c1f4187d673757ae10b8d",
+    "K055": "537a5964b42a8af5b602fae425a1730896f18eaf81bac33824ba962122fa0433",
+    "K056": "a87d0d12102dfea88d77f6ed5fa3d599874d940ba944822cc882ccea7a58d55d",
+    "K057": "b75fcbfab3c90b4e9da9bc75d0de78a04af3cbd8209a483cf591564cdcadc6b9",
+    "K058": "04b6d3c3a5b98444ef83172fe262b6f77f9c5b32036ee9e098a5126309763930",
+    "K059": "b1fde4f439936e5d17802326477f32c3d78a5768782b545e4cf5771fade96faa",
+    "K060": "c643c0a447efa2cdfd3e3b05839b6cc32105d549353e5188758f73df32c4c1ce",
+    "K061": "c96b42676f78b67b938e9eec42f934c751eb702c330153f75dfe47961bc738f0",
+    "K062": "13c29529a23cffb457e40a17a5bf5dd89a14a85e33d04f1ff5f1591879055e07",
+    "K063": "329ac5761fa148fc7ab1fa63a07755bad7da84763310f5892640034d16cb0d0a",
+    "K064": "2b57c691e344fd9891d752a7ad318a819b97227719df8ef1ec181860b33555e1",
+    "K065": "e7c4d3bbd6f60af4cc985ea64e7f2cc4a744b81cd937dc37246a63f152358e10",
+    "K066": "45fde5db9f32bcc618df7ea80e83c61255dfec407e3abfc6f71a678382f033f6",
+    "K067": "a94d028ad0ba2a13b1145ede6f6ba3bcbefeb433306ed6086657add8eefe3e55",
+    "K068": "ed64359eda04728950f7a27ca28676994a4e4918a95790413f152c3f17889a1a",
+    "K069": "0c98e37cdf1fc5048bc1042c13fbac70db6a35bddb54c933fae4c88abd3a04c1",
+    "K070": "9a04bf32b3038a2054ae4d7dc0048d0505fa633e55c5077c918af0c855d04dfa",
+    "K071": "12a34be7e214f23b8d24d8ed5ad7e1c5655acd2c5dc99c45d396e16e63ff3546",
+    "K072": "69c06e9b719d24b4d0dde402d5aa223bbf651dbb17a796f9754e740d45450d5e",
+    "K073": "81716febbb0dc27605c7852b987328d5deaf65988d4ca064d955ff523f755a4d",
+    "K074": "d62dcf3a07a68cb031d4d97add3a3293a5d50bf0592e676e012dc7b0ab23b737",
+    "K075": "4cde613fa701afc68aa7dd3bb61e7683f3307c1372b11a8392966ed352824982",
+    "K076": "0d0665b9b156503f91f1ab6e49c1cd22259ed1d67a63a0f7eb4533bee64b9b93",
+    "K077": "cf4d6cf006fd1b8ed17ae30223494632878640da6067f88804781d2681821e7f",
+    "K078": "ff9d1414e3d2cf73a4c3e266e60de431eb15a50528479b39e06c6045784c5049",
+    "K079": "12baab944f2b612c78a9079ca5463649430fe378f84b25b3838c4b69db79fa46",
+    "K080": "1e4bc5b1427b888b22d536206df54c0a6b5f57a7c87f509080b75846f63857b9",
+    "K081": "7098448a51df76dc4b9d11a2c4531cc742b5482033b252d1fc001864fb3d8a5d",
+    "K082": "3d13aceeb1c8bec0b97ca45e90b5df2c183e043ba7e21a76c69de80017cb3074",
+    "K083": "d9069d478eeecd97489971a9a81139d3c70b718eb87be7fdaf871ede0b5f1262",
+    "K084": "f44e5aee0643daa3c2cb8de8ab5200d54c54d3e11d23d40dc0a500bc7b5dbaed",
+    "K085": "c0eb4d2e397017aa4d5d1f3f669f699c42a224309b1de87a0e6cc239659e5a5f",
+    "K086": "a20d0241ee3ab0eea0f9552e7858e5866ef3ff6a8efa40945584bb2c77cb7ab5",
+    "K087": "1c3d1c2f2d4eacd1a986bd26bb180c4b8205cc0888833e9111416782ce9a0ded",
+    "K088": "d89d6cdee34d8681a0b92eb1f0cef8fb66b372062984718d11c0927eeb7571a2",
+    "K089": "3ec5ebc8c3bacc3e2891b059e02afa57aa1680796c1ce49dd97434c84704431d",
+    "K090": "1a9cb471ea6652d7801089c86f4675f4d3d41179acd2d8bc4b7a9833390df4fa",
+    "K091": "0c211fc7fd058603fac2b0103265f0ccd903b86b49001accc86d777ac304bf65",
+    "K092": "7b7dfd99fbf25197563639b4a602f9761a890c4bbe206861a1402886fae8fee0",
+    "K093": "b4c44871c734e4cb5a0a34e54de16ed18c10f019ca9070ddd27d818fd5b20c23",
+    "K094": "e020d60af7d181cbb52369b7cf50687ba39098e258458e88aee2768cb955cf2f",
+    "K095": "ea9bcac91e777009fa97705e0fe853945e8f940d9b1b30114c569865e259c180",
+    "K096": "76f2d5857e924b1e9d76cd9c9325682bbe3506af25945b0adec5c220fd613f18"
+  },
+  "reviewer": "independent fresh-context LLM; not human clinical review",
+  "cases_or_outputs_visible": false,
+  "reviews": [
+    {
+      "knowledge_id": "K001",
+      "assessment": "supported",
+      "rationale": "The CDC source table explicitly lists 'Adult 18–60 years: 7 or more hours'. The editorial note about reviewing time rather than diagnosing a disorder is a conservative caveat consistent with the source's advice to talk to a provider if problems persist.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K002",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 61–64 years: 7–9 hours'. The requirement to know the age group before applying the range is a valid applicability condition derived from the age-stratified table.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K003",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Adult 65 years and older: 7–8 hours'. The statement that this differs from younger adults is directly supported by comparing rows in the same table.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K004",
+      "assessment": "supported",
+      "rationale": "The CDC source table lists 'Teen 13–17 years: 8–10 hours'. The caution against transferring adult targets is a reasonable editorial inference from the distinct age bands.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K005",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explicitly states 'Sleep is often the first thing that busy people squeeze out of their schedules. Making time to sleep will help you protect your health and well-being.' The content accurately paraphrases this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K006",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'A common myth is that people can learn to get by on little sleep with no negative effects.' The item correctly reflects this rejection of adaptation without adverse effects.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K007",
+      "assessment": "supported",
+      "rationale": "The CDC source defines quality sleep as 'uninterrupted and refreshing' and states it is 'not just about how many hours you sleep, but how well you sleep,' listing specific signs of poor quality. The claim that recorded hours alone do not establish quality follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K008"
+      ]
+    },
+    {
+      "knowledge_id": "K008",
+      "assessment": "supported",
+      "rationale": "The CDC source lists 'Repeatedly waking up during the night' as a sign of poor sleep quality. The statement that total duration alone does not indicate awakenings is a valid logical inference from the source distinguishing duration and quality signs.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K007"
+      ]
+    },
+    {
+      "knowledge_id": "K009",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explicitly advises: 'You also should talk with your doctor if you sleep more than 8 hours a night, but don't feel well rested.' The item accurately captures the threshold and the requirement for subjective reporting.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K010",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Studies show that a good night's sleep improves learning and problem-solving skills. Sleep also helps you pay attention...' The caveat that a wearable record alone does not establish impaired cognition is a conservative editorial limit, not a fabricated source assertion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K011",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'After several nights of losing sleep... your ability to function suffers' and notes people have 'a slower reaction time, and make more mistakes.' It also states some people 'may still think they can function well' despite deficiency. All claims are grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K012",
+      "assessment": "supported",
+      "rationale": "The NHLBI source states 'Ongoing sleep deficiency can change the way your body’s natural defense against germs and sickness responds.' The caveat that this general fact does not allow diagnosing infection from a wearable is a valid conservative limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K013",
+      "assessment": "supported",
+      "rationale": "The NHLBI source explains sleep helps balance 'hormones that make you feel hungry (ghrelin) or full (leptin)' and that deficiency alters these levels. The caveat requiring separate evidence for individual appetite changes is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K014",
+      "assessment": "supported",
+      "rationale": "The NHS source explicitly lists under 'Don’t': 'do not drive when you feel sleepy'. The applicability conditions correctly note this depends on actual sleepiness and driving context, which duration data alone cannot establish.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K015",
+      "assessment": "supported",
+      "rationale": "The NHS source states 'Everyone needs different amounts of sleep. On average: adults need 7 to 9 hours'. The item accurately reflects both the variability and the average range.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K016",
+      "assessment": "supported",
+      "rationale": "The NHS source lists three triggers to see a GP: habits haven't helped, trouble sleeping for months, or insomnia affecting daily life making it hard to cope. The caveat that a two-week wearable window alone cannot establish these is a valid conservative editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K017",
+      "assessment": "supported",
+      "rationale": "The source explicitly states 'Go to bed and wake up at the same time every day.' The content accurately paraphrases this. The applicability note about reviewing routine consistency is a reasonable editorial framing, not a fabricated source claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K018"
+      ]
+    },
+    {
+      "knowledge_id": "K018",
+      "assessment": "supported",
+      "rationale": "The NHS insomnia page under 'How you can treat insomnia yourself' lists 'wake up and get out of bed at the same time every day.' The item correctly scopes this to people with sleeping difficulties/insomnia as per the source context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K017"
+      ]
+    },
+    {
+      "knowledge_id": "K019",
+      "assessment": "supported",
+      "rationale": "Source states 'Try to keep the same sleep schedule on weeknights and weekends. Limit the difference to no more than about an hour. Staying up late and sleeping in late on weekends can disrupt your body clock's sleep-wake rhythm.' All claims match.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K020",
+      "assessment": "supported",
+      "rationale": "Source states 'Use the hour before bed for quiet time.' The content and applicability caveats about what a bedtime record can or cannot reveal are conservative editorial limits, not fabricated assertions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K021",
+      "assessment": "supported",
+      "rationale": "Source advises avoiding 'bright artificial light, such as from a TV or computer screen' because 'The light may signal the brain that it's time to be awake.' Title and content accurately reflect this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K022",
+      "assessment": "supported",
+      "rationale": "Source states 'The effects of caffeine can last up to 8 hours. So, a cup of coffee in the late afternoon can make it hard for you to fall asleep at night.' Content matches exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K023",
+      "assessment": "supported",
+      "rationale": "Source states 'Avoid heavy or large meals within a few hours of bedtime. (Having a light snack is okay.)' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K024",
+      "assessment": "supported",
+      "rationale": "Source states 'Also, avoid alcoholic drinks before bed.' Content accurately reflects this. The caveat about needing drinking history is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K025",
+      "assessment": "supported",
+      "rationale": "Source states 'Nicotine and caffeine are stimulants, and both substances can interfere with sleep.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K026",
+      "assessment": "supported",
+      "rationale": "Source states 'Keep your bedroom quiet, cool, and dark (a dim night light is fine, if needed).' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K027",
+      "assessment": "supported",
+      "rationale": "Source states 'Take a hot bath or use relaxation techniques before bed.' Content accurately reflects this as optional routine advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K028",
+      "assessment": "supported",
+      "rationale": "Source states 'if you have trouble falling asleep at night, limit naps or take them earlier in the afternoon. Adults should nap for no more than 20 minutes.' Content accurately captures both the duration limit and the conditional timing advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K029",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Limit shift changes so your body clock can adjust.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K030",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Keep the lights bright at work.' Content accurately distinguishes this work-context advice from pre-bedtime light avoidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K031",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Limit caffeine use to the first part of your shift.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K032",
+      "assessment": "supported",
+      "rationale": "Source under shift workers states 'Remove sound and light distractions in your bedroom during daytime sleep (for example, use light-blocking curtains).' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K033",
+      "assessment": "supported",
+      "rationale": "Source explicitly lists bedtimes, night awakenings, morning wake times, and naps as sleep diary entries. The interpretive note about preserving a sequence is a reasonable paraphrase of the diary's purpose.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K034",
+      "assessment": "supported",
+      "rationale": "Source states 'If you regularly lose sleep... the sleep loss adds up' and defines sleep debt. The content accurately reflects accumulation; the note that improvement does not quantify complete recovery aligns with source stating naps/extra sleep don't fully compensate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K035",
+      "assessment": "supported",
+      "rationale": "Source directly states 'Sleeping more on days off might be a sign that you aren't getting enough sleep' and 'it can upset your body's sleep-wake rhythm.' Content matches exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K036",
+      "assessment": "supported",
+      "rationale": "Source states 'Naps may give a short-term boost in alertness and performance. However, napping doesn't supply all the other benefits of nighttime sleep, so you can't really make up for lost sleep.' Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K037",
+      "assessment": "supported",
+      "rationale": "Source under insomnia self-treatment says 'do not sleep in after a bad night's sleep – stick to your regular sleeping hours instead.' The caveat that a resolved short episode does not prove insomnia is a conservative editorial limit consistent with the source's symptom-based definition.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K018"
+      ]
+    },
+    {
+      "knowledge_id": "K038",
+      "assessment": "supported",
+      "rationale": "Source defines short-term insomnia as less than 3 months and long-term as 3 months or longer, based on having insomnia symptoms. The requirement for symptom history rather than just device estimates is correctly derived from the source's symptom list preceding the duration categories.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K016"
+      ]
+    },
+    {
+      "knowledge_id": "K039",
+      "assessment": "supported",
+      "rationale": "Source describes jet lag as disturbed sleep after a long flight, advises changing sleep schedule to new time zone, and notes an alternative for short trips (2-3 days). The caveat that timing change alone doesn't establish jet lag is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K040"
+      ]
+    },
+    {
+      "knowledge_id": "K040",
+      "assessment": "supported",
+      "rationale": "Source explicitly states 'If your trip is short (2 to 3 days), you could try not changing your eating and sleeping times to the new time zone, to avoid needing to change your schedule again when you get back.' Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K039"
+      ]
+    },
+    {
+      "knowledge_id": "K041",
+      "assessment": "supported",
+      "rationale": "Source states 'Some physical activity is better than none. Adults who sit less and do any amount of moderate- or vigorous-intensity physical activity gain some health benefits.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K042",
+      "assessment": "supported",
+      "rationale": "Source states 'If you have been inactive, you may need to start exercising slowly. You can keep adding more gradually... Even small increases in exercise can benefit your health.' Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K043",
+      "assessment": "supported",
+      "rationale": "Source states 'adults need 150 minutes of moderate-intensity physical activity a week.' The caveat about device metrics being insufficient to determine intensity is a valid editorial limitation, not a fabricated claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K044",
+      "assessment": "supported",
+      "rationale": "Source states 'This can also be 75 minutes of vigorous-intensity...' and Example 2 details this option. The caveat about requiring actual vigorous intensity is correct per source definitions.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K045",
+      "assessment": "supported",
+      "rationale": "Source states 'you don't have to do it all at once... You can spread your activity out during the week and break it up into smaller chunks of time.' Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K046",
+      "assessment": "supported",
+      "rationale": "Source states 'adults need at least 2 days of muscle-strengthening activity each week' working 'all major muscle groups (legs, hips, back, abdomen, chest, shoulders, and arms).' The distinction from step counts is a valid editorial note.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K047",
+      "assessment": "supported",
+      "rationale": "Source states 'If you go beyond 150 minutes a week of moderate-intensity activity, or 75 minutes a week of vigorous-intensity activity... you'll gain even more health benefits.' Content is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K048",
+      "assessment": "supported",
+      "rationale": "Source states 'an activity that is vigorous for a person of average fitness may only be moderate for a very fit person' under relative intensity. Content accurately reflects this concept.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K049",
+      "assessment": "supported",
+      "rationale": "Source context explicitly states the talk test rule of thumb: moderate intensity allows talking but not singing; vigorous intensity permits only a few words before pausing for breath. The content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K050",
+      "assessment": "supported",
+      "rationale": "Source context directly states that for activities like spinning or yoga, step count might not reflect intensity level. The inference that lower steps alone do not establish decreased activity is reasonable and grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K051",
+      "assessment": "supported",
+      "rationale": "NHS source states 'the easiest way to get moving is to make activity part of everyday life, like walking for health or cycling instead of using the car.' Content accurately paraphrases this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K052",
+      "assessment": "supported",
+      "rationale": "CDC source explicitly says 'Start with activities, locations, and times you enjoy.' The content's framing about preferences helping identify options beyond numeric goals is a reasonable editorial extension consistent with the source.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K053",
+      "assessment": "supported",
+      "rationale": "Source states 'Try activities with others for motivation and mutual encouragement.' Content accurately reflects this as an option for support rather than a causal explanation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K054",
+      "assessment": "supported",
+      "rationale": "Source under 'I don't have time' obstacle says 'Monitor your daily activities for 1 week with this diary. Find at least three 30-minute time slots.' Content accurately reflects this guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K055",
+      "assessment": "supported",
+      "rationale": "Source under 'I have so much to do already' says 'Make physical activity a regular part of your schedule by writing it on your calendar.' Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K056",
+      "assessment": "supported",
+      "rationale": "MedlinePlus source states people with disabilities or special health needs should check with their provider on activity types and amounts. The note that wearable data does not supply medical context is a valid editorial caveat.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K057",
+      "assessment": "supported",
+      "rationale": "NHS guidelines state 'reduce time spent sitting or lying down and break up long periods of not moving with some activity.' Content accurately reflects this recommendation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K058",
+      "assessment": "supported",
+      "rationale": "NHS source explicitly states 'you can hit your weekly activity target but still be at risk of ill health if you spend the rest of the time sitting or lying down.' Content accurately captures this distinction.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K059",
+      "assessment": "supported",
+      "rationale": "NHS source advises to 'reduce the amount of time you and your family spend sitting down' alongside raising activity levels. Content accurately reflects this dual recommendation.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K057",
+        "K058"
+      ]
+    },
+    {
+      "knowledge_id": "K060",
+      "assessment": "supported",
+      "rationale": "MyHealth London source suggests 'standing for at least short periods on your journey or get off the bus a few stops early and walk.' Content accurately reflects these commuting tips.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K061",
+      "assessment": "supported",
+      "rationale": "Source explicitly says 'Go over to talk to colleagues rather than sending them an email.' Content accurately reflects this workplace movement suggestion.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K062",
+      "assessment": "supported",
+      "rationale": "Source lists 'Ask for a standing desk or have a standing or walking meeting.' Content accurately reflects these workplace options.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K063",
+      "assessment": "supported",
+      "rationale": "Source states 'get up at every ad break, or get on your exercise bike or hit the floor. You can keep moving even during your favourite programme.' Content accurately reflects this advice.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K064",
+      "assessment": "supported",
+      "rationale": "Source says 'Plan in some active time when you are often sitting' and gives examples including walking after meals and cooking from scratch. Content accurately reflects this guidance.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K065",
+      "assessment": "supported",
+      "rationale": "Source defines physical activity as 'any body movement that works your muscles and requires more energy than resting,' supporting the distinction from planned exercise.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K066",
+      "assessment": "supported",
+      "rationale": "Source explicitly suggests adding physical activity to the workday by 'walking during your lunch break.' The caveat about low-movement records not establishing opportunity is a conservative editorial limit, not a fabricated claim.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K075"
+      ]
+    },
+    {
+      "knowledge_id": "K067",
+      "assessment": "supported",
+      "rationale": "Source includes 'taking the stairs when possible' as a way to add activity. The note that this depends on safe access rather than a prescribed threshold is consistent with the source's conditional phrasing.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K068",
+      "assessment": "supported",
+      "rationale": "NHS source describes sedentary behaviour as 'sitting or lying down for long periods' and lists examples like watching TV and car travel. The caution against relabelling low movement as confirmed sitting without posture data is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K057",
+        "K058",
+        "K059"
+      ]
+    },
+    {
+      "knowledge_id": "K069",
+      "assessment": "supported",
+      "rationale": "CDC source states physical activity helps you 'sleep better' and lists it under immediate benefits. The caveat that this does not establish individual causation is appropriate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K070",
+      "assessment": "supported",
+      "rationale": "NHLBI source advises to 'Spend time outside every day (when possible) and be physically active' under healthy sleep habits. Characterizing this as general routine advice is accurate.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K071",
+      "assessment": "supported",
+      "rationale": "NHLBI source states 'Use the hour before bed for quiet time. Avoid intense exercise...' The content accurately reflects the one-hour window and intensity qualifier, and correctly notes that recorded late movement alone does not confirm intensity.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K020"
+      ]
+    },
+    {
+      "knowledge_id": "K072",
+      "assessment": "supported",
+      "rationale": "NHS insomnia page explicitly says 'do not exercise at least 4 hours before bed' under the Don't list. The item correctly limits applicability to those with reported insomnia symptoms.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K071"
+      ]
+    },
+    {
+      "knowledge_id": "K073",
+      "assessment": "supported",
+      "rationale": "CDC source lists 'Exercise' among items to record in a sleep diary alongside bedtimes and wake times. The rationale about preserving temporal context follows logically.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K033",
+        "K076"
+      ]
+    },
+    {
+      "knowledge_id": "K074",
+      "assessment": "supported",
+      "rationale": "NIOSH source explicitly states 'While deployed... Do not cut into your sleep time to exercise.' The item correctly scopes this to emergency responders during deployment and clarifies it is about competing time demands.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K075",
+      "assessment": "supported",
+      "rationale": "CDC source advises under 'I'm too tired': 'Schedule physical activity for times in the day or week when you feel energetic.' The caveat about wearable data not establishing preferred energy times is a valid editorial limit.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K066"
+      ]
+    },
+    {
+      "knowledge_id": "K076",
+      "assessment": "supported",
+      "rationale": "CDC source lists 'Drink alcohol or caffeinated drinks' and 'Take medications' as sleep diary entries alongside exercise and sleep times. The rationale about avoiding misattribution is sound.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K073"
+      ]
+    },
+    {
+      "knowledge_id": "K077",
+      "assessment": "supported",
+      "rationale": "Google source defines resting heart rate as beats per minute 'when you're still and well-rested.' The distinction from instantaneous exercise heart rate is supported by the source's explanation of daily estimation versus continuous detection.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K078"
+      ]
+    },
+    {
+      "knowledge_id": "K078",
+      "assessment": "supported",
+      "rationale": "Google source states sleeping heart rate 'is detected continuously throughout the night, and is often lower than your resting heart rate, which is estimated each day.' The advice to compare the same measure is a direct implication.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K077"
+      ]
+    },
+    {
+      "knowledge_id": "K079",
+      "assessment": "supported",
+      "rationale": "Google source lists stress, alcohol, caffeine, fever, regular exercise, meditation, air temperature, and medications as factors affecting resting heart rate. The statement that a rise has multiple possible explanations is directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K080",
+      "assessment": "supported",
+      "rationale": "Google source defines HRV as 'the variation in time between heartbeats.' The clarification that HRV differs from average heart rate is a correct definitional distinction supported by the source treating them as separate vitals.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K081",
+      "assessment": "supported",
+      "rationale": "Source explicitly states HRV varies person to person and lists age, sex, sleep, hormones, circadian rhythm, caffeine/alcohol, exercise, and stress as influencing factors. The caution against treating one person's HRV as universal follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K080"
+      ]
+    },
+    {
+      "knowledge_id": "K082",
+      "assessment": "supported",
+      "rationale": "Source states personal range is based on the average of recent data using up to 30 days, helping monitor trends. The distinction between personal change and inter-person comparison is a reasonable paraphrase of that context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K083",
+      "assessment": "supported",
+      "rationale": "Source confirms users can view resting heart rate trends over a week, month, 3 months, or year, and see averages over periods of time. The advice about preserving trend context aligns with this functionality.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K077",
+        "K078"
+      ]
+    },
+    {
+      "knowledge_id": "K084",
+      "assessment": "supported",
+      "rationale": "Source states the feature provides information for well-being and is not intended to diagnose or treat any medical condition, and lists HRV among tracked vitals. The conclusion that an HRV change alone does not identify disease follows directly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K088"
+      ]
+    },
+    {
+      "knowledge_id": "K085",
+      "assessment": "supported",
+      "rationale": "Source explicitly states Fitbit uses the RMSSD formula to determine HRV. The guidance to preserve metric definition in comparisons is a sound inference from specifying the formula.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K080"
+      ]
+    },
+    {
+      "knowledge_id": "K086",
+      "assessment": "supported",
+      "rationale": "Source states the latest HRV measurement is from the longest sleep period over the past 24 hours and only sleep periods greater than 3 hours are considered. All claims match exactly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K087",
+      "assessment": "supported",
+      "rationale": "Source advises keeping an eye on how things balance out over time rather than focusing too much on any one day, and offers comparison to a personal 30-day average for sleep stages. Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K088",
+      "assessment": "supported",
+      "rationale": "Source states 'For health concerns, consult a healthcare provider' and notes the feature provides well-being insights, not diagnoses. Content is fully grounded.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K084"
+      ]
+    },
+    {
+      "knowledge_id": "K089",
+      "assessment": "supported",
+      "rationale": "Source states accuracy is affected by personal physiology, device placement, and activity, and instructs wearing the device snugly with skin contact. All claims are supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K090",
+      "assessment": "supported",
+      "rationale": "Source troubleshooting section advises wearing the device for at least one full day, during the day and to sleep at night, to resolve missing vitals. Content accurately reflects this.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K091"
+      ]
+    },
+    {
+      "knowledge_id": "K091",
+      "assessment": "supported",
+      "rationale": "Source states most metrics require at least 3 hours of quality sleep and excessive movement or short sessions may result in no reading. The note that missing readings are not physiological zeros is a valid clarification of this troubleshooting context.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": [
+        "K090"
+      ]
+    },
+    {
+      "knowledge_id": "K092",
+      "assessment": "supported",
+      "rationale": "Source advises checking if the device synced recently and whether it tracks the specific metric when troubleshooting missing vitals. Content is fully supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K093",
+      "assessment": "supported",
+      "rationale": "Source explicitly notes variations between new and old Fitbit devices due to changes in the heart rate sensor or algorithm. Content matches perfectly.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K094",
+      "assessment": "supported",
+      "rationale": "Source states time asleep is estimated as all time in the main sleep period identified as Light, Deep, or REM. This supports the claim that bedtime-to-wake duration need not equal estimated minutes asleep.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K095",
+      "assessment": "supported",
+      "rationale": "Source states wrist-based devices automatically detect sleep when worn to bed and recommends a snug wristband. The editorial note that unworn nights should be treated as missing observations rather than zero sleep is a correct interpretation of the detection requirement.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    },
+    {
+      "knowledge_id": "K096",
+      "assessment": "supported",
+      "rationale": "Source states Fitbit uses a 3-axis accelerometer to count steps and that the arm must swing back and forth during walking or running for steps to be counted. All claims are directly supported.",
+      "unsupported_claims": [],
+      "near_duplicate_ids": []
+    }
+  ],
+  "requires_correction": []
+}

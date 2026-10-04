@@ -1,0 +1,8 @@
+{
+  "stage": "judges",
+  "annotation_revision": "blinded-annotation-v2-shortrefs",
+  "completed_case_jobs": 48,
+  "submitted_case_jobs": 48,
+  "failures": [],
+  "all_jobs_handled": true
+}

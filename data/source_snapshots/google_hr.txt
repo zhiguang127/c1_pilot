@@ -1,0 +1,304 @@
+Track your heart rate with your Pixel Watch or Fitbit device - Google Health Help Center Skip to main content
+Google Health Help Center
+Sign in
+Google Help
+Help Center
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Community
+Google Health
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+CloseNext
+Help Center
+Community
+Google Health
+Getting started
+Setup
+Notifications
+Fitness
+Sleep and wellness
+Health Guardian
+Settings
+Lifestyle
+Music
+Payments
+Accounts
+Updates
+Policies
+User manuals
+Notification
+For assistance with Fitbit Ace LTE, go to support.google.com/fitbitacelte.
+Track your heart rate with your Pixel Watch or Fitbit device
+Learn how the Google Health app tracks your heart rate day and night, and check the tips to improve the accuracy of your readings.
+Expand all Collapse all
+Understand how Fitbit devices detect heart rate
+Fitbit devices use optical heart rate sensors. These sensors use rapidly flashing green LEDs to detect blood volume changes in wrist capillaries. Light-sensitive photodiodes measure these changes.
+Your Fitbit device calculates your heart rate in beats per minute (bpm). Infrared light detects when the device is worn to improve the accuracy of your heart rate readings.
+Turn on heart rate tracking
+Heart rate tracking is turned on by default. If you’ve turned it off:
+On your device, open the Settings app .
+Tap Heart Rate.
+Check heart rate on your Fitbit device
+Device
+Steps
+Google Pixel Watch series
+From the clock face, swipe left until you find the Heart rate tile. The tile shows your current heart rate and a graph of your recent heart rate. Tap the tile to get more details in the Google Health app .
+When you use the Fitbit Exercise app to track a workout, your heart rate appears on the screen.
+The Fitbit Exercise app tracks your current heart rate and heart rate zone.
+You can also use Gemini to get real-time data like your heart rate while you work out. For more information, refer to Gemini on Google Pixel Watch.
+Versa 4 and Sense 2
+From the clock face, swipe right or left until you find the Heart rate tile. The tile shows your current heart rate, a graph of your heart rate over the past 4 hours with your lowest and highest heart rate indicated, and your daily resting heart rate.
+When you use the Exercise app to track a workout, tap the screen to cycle through your real-time stats.
+The Exercise app tracks your current heart rate and heart rate zone.
+Other Fitbit devices with screens*
+From the clock face, swipe up to show your current heart rate and either your heart rate zone or resting heart rate if not in a zone.
+If your device has an Exercise app, you can check your real-time heart rate and heart rate zone during a workout.
+*For the Fitbit Air, use the Google Health app to check your heart rate.
+To check your heart rate in the Google Health app:​
+Open the Google Health app and tap the Health tab .
+Under “Health areas,” tap Heart .
+Under “Tracked metrics,” you’ll find your heart rate. Tap Heart rate to find a more detailed graph.
+You can switch between a daily, weekly, monthly, quarterly, or yearly view of your data.
+In the daily view, tap Learn more below the graph to learn how this metric is calculated.
+Switch between days by tapping Left or Right beside the calendar icon.
+Improve the accuracy of your heart rate reading
+Fitbit’s heart rate tracking accuracy is affected by your personal physiology, device placement on your arm, and the activity you're doing.
+For a more accurate heart rate reading:
+Wear your Fitbit device on top of your wrist, and make sure the back of the device is in contact with your skin.
+Wear your device a finger’s width above your wrist bone when you’re not exercising.
+Wear your device a bit tighter and higher during exercise for an improved fit. The band should be snug but not constricting, as a tight band restricts blood flow and can potentially affect the heart rate signal.
+Many exercises, such as bike riding or weightlifting, cause you to bend your wrist frequently. This could interfere with the heart rate signal if the watch is positioned lower on your wrist.
+Wear instructions for Google Fitbit Air
+Woven band
+Clear your wrist: Please remove bracelets from your wrist.
+Position the tracker: Slide the band over your hand and position the tracker on top of your wrist, behind your wrist bone.
+Find the right tension: Push down on the metal buckle. Simultaneously pull back on the band until it fits comfortably snug.
+Close the velcro: Wrap the band over the device and close with velcro.
+When fitted properly:
+You should be able to just slide your pinky finger between your wrist and the band.
+The device should not slide up or down or rotate around your wrist when it’s properly secured.
+Active band
+Slide the bottom band through the first loop in the top band.
+Tighten the band until it fits comfortably, and press the peg through one of the holes in the band.
+Slide the loose end through the second loop until it lies flat on your wrist.
+Elevated SoftFlex band
+Slide the band over your hand and position the tracker on top of your wrist, behind your wrist bone,
+Push down on the metal buckle. Simultaneously pull back on the band until it fits comfortably.
+Fold the band over the pebble, and slide the metal end into the first layer of the band to secure in place.
+Fix a heart rate reading issue
+To resolve common issues, go to What factors can affect my heart-rate reading on my Fitbit device?
+My heart rate is visible on my device, but not in the Google Health app
+If your heart rate is shown on your Fitbit device, but not in the Google Health app, your device could be disconnected from the app. For assistance with syncing issues, refer to Why won't my Fitbit device sync?
+My heart rate readings are inconsistent between devices
+Your Fitbit's heart rate readings might not always match those from other devices, like chest straps or other wrist trackers, due to differences in technologies.
+Differences between heart rate readings on your device and on exercise equipment may also be due to wrist or hand position. Make sure the back of your device is in contact with your wrist and that your band is snug.
+You might also notice variations between your heart rate reading on new Fitbit devices compared with your old ones. This is because of changes in the heart rate sensor or algorithm.
+Know the factors that can affect heart rate
+Air temperature, stress level, alcohol or caffeine intake, immune response to illness, and medication use can affect heart rate (source).
+Cold weather can hinder your device's ability to accurately measure your heart rate during exercise because it affects blood flow to the skin.
+Sudden movements during sleep, like waking up and getting out of bed, or a poor wrist placement affecting the signal, can lead to increased heart rate readings.
+Review our tips on How do I improve the accuracy of a heart rate reading?
+For any concerns about your heart rate data, contact your physician.
+Track your resting heart rate
+Understand resting heart rate
+Resting heart rate is the number of times your heart beats per minute when you’re still and well-rested. Typically, resting heart rate ranges from 60 to 100 bpm, but the rate can vary based on age and fitness level.
+Why should I track resting heart rate in the Google Health app?
+Resting heart rate can be an important indicator of your fitness level and overall cardiovascular health. Generally, active people often have a lower resting heart rate because their heart muscle is in better condition. Their heart muscle doesn’t need to work as hard to maintain a steady beat.
+How is resting heart rate different from sleeping heart rate?
+Your sleeping heart rate is detected continuously throughout the night, and is often lower than your resting heart rate, which is estimated each day. Learn more about your sleep data and sleeping heart rate.
+Check your resting heart rate
+In the Google Health app
+On the Health tab, scroll down through your Key metrics until you see “Resting heart rate”.
+Tap Resting heart rate.
+You can view heart rate trends over time, including over the course of a week, month, 3 months, or year.
+Scrolling down gives you your average resting heart rate over periods of time.
+For more information about how this metric is calculated, scroll down to “About resting heart rate” and tap Learn more.
+On the Google Pixel Watch series
+Press the crown, then swipe up to the Google Health app.
+Tap the app to open it.
+Swipe to the Resting Heart Rate card, then tap the card to get more details.
+Tip: If you can’t find the Resting Heart Rate card, swipe left.
+Swipe down to check your average resting heart rate for the past week.
+Know the factors that affect resting heart rate
+Several factors can affect resting heart rate. Stress, alcohol or caffeine intake, or fever usually raise resting heart rate, while regular exercise or meditation can lower it. Air temperature and certain medications can also affect resting heart rate.
+Track your heart rate zones
+Understand heart rate zones
+Heart rate zones, which are percentages of your maximum heart rate, can help you determine the intensity of your workout or activity.
+Learn how Fitbit devices calculate heart rate zones
+Fitbit personalizes your heart rate zones using your heart rate reserve. This is the difference between your maximum heart rate* and your resting heart rate.
+Heart rate reserve is an indication of your overall cardiovascular fitness. While your maximum heart rate is generally determined by age, your resting heart rate can be lowered when you increase your fitness level. When you lower your resting heart rate, you can increase your heart rate reserve.
+For example, if you're 45 years old and your resting heart rate is 74 bpm:
+Calculate your maximum heart rate and heart rate reserve.
+Metric
+Calculation
+Maximum heart rate
+175 bpm
+Common formula of 220 - age (45)
+Heart rate reserve
+Maximum heart rate - resting heart rate
+Target heart rate per zone
+(Percentage of maximum heart rate × heart rate reserve) + resting heart rate
+Use your heart rate reserve to calculate your personalized heart rate zones.
+Heart rate zone
+Calculation
+Moderate zone (Fat burn zone on some devices)
+114 to 134 bpm
+Bottom of zone: (0.4 × 101) + 74 = 114 bpm
+Top of zone: (0.59 × 101 ) + 74 = 134 bpm
+Vigorous zone (Cardio zone on some devices)
+135 to 159 bpm
+Bottom of zone: (0.6 × 101) + 74 = 135 bpm
+Top of zone: (0.84 × 101) + 74 = 159 bpm
+Peak zone
+160+ bpm
+Bottom of zone: (.85 × 101) + 74 = 160 bpm
+Top of zone: Maximum heart rate
+Check your personalized heart rate zones on the Active Zone Minutes screen
+Important: Swim Active Zone minutes will no longer be available to certain Fitbit devices.
+Open the Google Health app and tap the Health tab .
+Under "Focus areas," tap Heart .
+Under "Tracked metrics," tap Heart rate.
+*Occasionally during intense exercise, you might notice your heart rate go above your Fitbit-calculated maximum heart rate.
+Know the heart rate zones shown on Fitbit devices and Pixel Watches
+Google Fitbit Air, Google Pixel Watch series, Charge 6, Inspire 3, Sense series, Versa series, Charge 5, Inspire 2, and Charge 4
+Personalized zones adjust as your fitness level or other factors change.
+Zone
+Description
+Light zone (Below zone on some devices)
+Below 40% of your heart rate reserve
+Below the moderate zone, your heart beats at a slower pace. You’re at rest for now.
+Moderate zone (Fat burn zone on some devices)
+Between 40% and 59% of your heart rate reserve
+In the moderate zone, you’re likely in a moderate activity, such as a brisk walk. Your heart rate and breathing might be elevated, but you can still carry on a conversation.
+Vigorous zone (Cardio zone on some devices)
+Between 60% and 84% of your heart rate reserve
+In the vigorous zone, you’re likely doing a vigorous activity, such as running or spinning.
+Peak zone
+Greater than 85% of your heart rate reserve
+In the peak zone, you’re likely doing a short and intense activity that improves performance and speed, such as sprinting or high-intensity interval training.
+All other devices
+Zone
+Description
+Below zones
+Below 50% of your maximum heart rate
+Below the fat burn zone, your heart beats at a slower pace. You’re at rest for now.
+Fat burn zone
+Between 50% and 69% of your maximum heart rate
+In the fat burn zone, you’re likely in a moderate activity, such as a brisk walk. Your heart rate and breathing might be elevated, but you can still carry on a conversation.
+Cardio zone
+Between 70% and 84% of your maximum heart rate
+In the cardio zone, you’re likely doing a vigorous activity, such as running or spinning.
+Peak zone
+Greater than 85% of your maximum heart rate
+In the peak zone, you’re likely doing a short and intense activity that improves performance and speed, such as sprinting or high-intensity interval training.
+Track your heart rate variability (HRV)
+Understand HRV in the Google Health app?
+Heart rate variability (HRV) is the variation in time between heartbeats. A heart rate of 60 beats per minute doesn't mean your heart beats exactly once every second. Your autonomic nervous system determines the timing of each heartbeat.
+HRV varies from person to person. Studies show that people with a higher HRV have better cardiovascular fitness and might be more resilient to stress. Mindfulness, meditation, sleep, and physical activity can help improve your HRV. A significant drop in HRV may indicate that your body is experiencing illness, stress, or depression or anxiety.
+Why should I track HRV?
+Track your HRV in the Google Health app to help you gauge your overall well-being. Trends in HRV data can help you be more aware of how stress and lifestyle choices, such as nutrition and exercise, can affect your body
+How does my Fitbit device track HRV?
+Fitbit uses the common formula called Root mean square of successive differences (RMSSD) to determine HRV from your recent heart rate data. In the graph, your latest HRV measurement is from the longest sleep period over the past 24 hours. Only sleep periods greater than 3 hours are considered.
+Check HRV
+Wear your device for at least a full day, including to sleep at night. In the morning, check your stats:
+Open the Google Health app and tap the Health tab .
+Under "Focus areas" tap Vitals.
+Tap Heart rate variability (HRV) to check your data in detail. These details include graphs of your data over the course of a week, month, quarter, or year.
+Switch between days by tapping Left or Right beside the calendar icon.
+For details, tap Learn More next to "About heart rate variability."
+Know the factors that affect HRV
+Several factors can affect HRV, including age, sex, sleep quality, stress, and lifestyle choices, such as nutrition and exercise.
+Set up heart rate notifications
+Learn how high or low heart rate notifications work
+Google Fitbit Air, Google Pixel Watch series, Charge 6, Charge 5, Versa 4, Inspire 3, Versa 3, Sense 2, and Sense notify you when your device detects that your heart rate is outside of your high or low thresholds while you appear to be inactive for at least 10 minutes.
+Turn heart rate notifications on or off
+Open the Google Health app .
+At the top left, tap Connections your device.
+Tap Google Health reminders & alerts High & low heart rate.
+Turn High or Low heart rate notification on or off.
+Understand heart rate notification
+When your Fitbit device detects your heart rate goes above or below your personal heart rate threshold while you’re inactive, your device notifies you.
+To learn more about your data and complete a survey to log potential factors, medications, and symptoms, tap Open, and then the notification in the Google Health app. You can use the information you log in the survey to track your heart health trends and share it with your healthcare provider.
+Change your heart rate notification thresholds
+For heart rate alerts, both high and low heart rate alert thresholds can be customized (or turned off entirely). Thresholds are based on your age and typical resting heart rate.
+To adjust your thresholds:
+Open the Google Health app .
+At the top left, tap Connections your device.
+Tap Google Health reminders & alerts High & low heart rate.
+Under either "High heart rate" or "Low heart rate," tap Threshold.
+Turn off Use default.
+Tap Set custom and choose a new threshold.
+Tap Save.
+To use your default thresholds, turn on Use default.
+Was this helpful?
+How can we improve it?
+YesNo
+Submit
+Need more help?
+Try these next steps:
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+Related articles
+1 of 21What activities do my Fitbit device and Google Pixel Watch track
+2 of 21Track workouts with your Fitbit device and Google Pixel Watch
+3 of 21Track your heart rate with your Pixel Watch or Fitbit device
+4 of 21Track Active Zone Minutes or active minutes on your Fitbit device and Pixel Watch
+5 of 21What are the reminders on my Fitbit device
+6 of 21Swim or shower with your Fitbit device
+7 of 21Use GPS on your Fitbit device or Pixel Watch
+8 of 21Share your real-time heart rate with fitness equipment & apps
+9 of 21How does my Fitbit device calculate my daily activity?
+10 of 21How to add, edit, or delete Google Health data & activities
+11 of 21Track your steps with Google Health on your phone
+12 of 21Track your health and fitness goals with Google Health
+13 of 21What factors can affect my heart-rate reading on my Fitbit device?
+14 of 21Track swims with your Fitbit device and Google Pixel Watch
+15 of 21Learn about your VO2 max
+16 of 21How do I track my running goals & records?
+17 of 21Advanced running and form metrics for Pixel Watch 3, 4 & 5
+18 of 21How can custom workouts help with my daily fitness
+19 of 21Learn about cardio load and target load
+20 of 21Use Real-Time Sync for your workouts
+21 of 21Ask your Google Health Coach
+©2026 Google
+Privacy Policy
+Terms of Service Language dansk‎Deutsch‎eesti‎English (Australia)‎English (United Kingdom)‎español‎español (Latinoamérica)‎français‎français (Canada)‎hrvatski‎Indonesia‎italiano‎latviešu‎lietuvių‎magyar‎Malti‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Türkçe‎íslenska‎čeština‎Ελληνικά‎български‎русский‎‏עברית‏العربية中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎
+Enable Dark Mode
+Send feedback on... This help content & information General Help Center experience
+Search
+Clear search
+Close search
+Google apps
+Main menu
+15971677969111153623
+true
+Search Help Center
+false
+true
+true
+true
+true
+true
+5306962
+false
+false
+false
+false
+false

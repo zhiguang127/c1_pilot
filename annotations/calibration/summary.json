@@ -1,0 +1,120 @@
+{
+  "practice_case_count": 3,
+  "practice_item_count": 6,
+  "practice_pair_count_per_judge": 18,
+  "annotation_revision": "blinded-annotation-v2-shortrefs",
+  "label_name": "PROVISIONAL_LLM_GOLD",
+  "agreement": {
+    "pairs": 18,
+    "resolved_pairs": 18,
+    "pending_judge_a": 0,
+    "pending_judge_b": 0,
+    "pending_either": 0,
+    "exact_agreement": 0.8888888888888888,
+    "confusion_matrix_rows_a_columns_b": [
+      [
+        12,
+        1,
+        0
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        2
+      ]
+    ],
+    "linear_weighted_cohen_kappa": 0.8144329896907216,
+    "non_zero_disagreement_rate": 0.1111111111111111,
+    "nonzero_union_disagreement_rate": 0.3333333333333333,
+    "nonzero_union_pairs": 6,
+    "denominator_note": "Agreement and kappa use pairs resolved by both independent judges; pending pairs stay explicit and never become zero",
+    "caution": "LLM judgments are provisional; separate models and contexts do not establish human validity or independent errors."
+  },
+  "simple_rubric_anchors": [
+    {
+      "annotator_id": "judge_a",
+      "case_id": "P001",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_a",
+      "case_id": "P002",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_a",
+      "case_id": "P003",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_a",
+      "case_id": "P001",
+      "knowledge_id": "K001",
+      "expected_relevance": 2,
+      "actual_relevance": 2,
+      "check": "Repeated330-minute nights directly match adult minimum duration knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_b",
+      "case_id": "P001",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_b",
+      "case_id": "P002",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_b",
+      "case_id": "P003",
+      "knowledge_id": "K002",
+      "expected_relevance": 0,
+      "actual_relevance": 0,
+      "check": "Age18-60 cannot support age61-64-specific knowledge",
+      "passed": true
+    },
+    {
+      "annotator_id": "judge_b",
+      "case_id": "P001",
+      "knowledge_id": "K001",
+      "expected_relevance": 2,
+      "actual_relevance": 2,
+      "check": "Repeated330-minute nights directly match adult minimum duration knowledge",
+      "passed": true
+    }
+  ],
+  "all_simple_anchors_passed": true,
+  "observed_label_values": [
+    0,
+    1,
+    2
+  ],
+  "protocol": "Three independently constructed synthetic practice series outsideC001-C024; six real corpus items; freshcontexts for every call; no methodoutputs",
+  "limitations": "Practice checks do not establish clinical expertise. Rubric fixed; failures are recorded without tuning it to the benchmark."
+}

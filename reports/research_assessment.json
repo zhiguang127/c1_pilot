@@ -1,0 +1,44 @@
+{
+  "category": "E",
+  "hypothesis_status": "inconclusive",
+  "reasoning": "No Personal Evidence method was implemented or tested, so its potential information-retention advantage cannot be evaluated. Among the executed baselines, retrievers disagree on the strongest condition: under BM25, Insight (B2) leads with nDCG@10 0.403 and Recall@10 0.209; under dense retrieval, deterministic numeric facts (B4) lead with nDCG@10 0.477 and Recall@10 0.320, while B2 achieves nDCG@10 0.475. QueryGen (B3) uses five RRF-fused retrieval operations per case, a resource advantage that prevents direct format comparison. The five automatically selected failure candidates (C008, C014, C020, C012, C018), chosen by largest mean Summary/Insight strong false-negative fraction, show high miss rates but do not isolate representation deficiency: semantic audits reveal retained facts alongside missed items, indicating ranking failures rather than wholesale information loss. Matched-pair analysis exposes conditional-versus-ranking limitations: for example, C003/C005 have 12 gold-different items, yet BM25 B1 retrieves none of the differing items at rank 10 in any repeat, while dense B1 retrieves some shared items (K011, K033, K078) identically for both cases, failing to discriminate. B4 produces identical candidate sets (Jaccard 1.0) for all matched pairs under BM25, confirming it cannot support conditional identification. PROVISIONAL_LLM_GOLD labels carry a nonzero-union disagreement rate of 0.271, limiting confidence in fine-grained relevance distinctions. Corpus source clustering (76 behavior/context items among 96 total) and provisional label error provide alternative explanations for recall ceilings below 1.0. Repeats at temperature=0 are not independent samples.",
+  "strongest": "BM25: Insight (B2), nDCG@10 0.403, Recall@10 0.209. Dense: B4, nDCG@10 0.477, Recall@10 0.320; B2 close at nDCG@10 0.475. Retrivers disagree; no single composite winner exists.",
+  "next_step": "Establish more reliable relevance identification before designing Personal Evidence. This requires reducing PROVISIONAL_LLM_GOLD disagreement through human audit of contested items, resolving corpus source-clustering effects on retrieval, and validating that matched-pair gold differences are consistently discriminable by at least one retriever. Only after these identification prerequisites are met can a retrieval-oriented Personal Evidence representation be meaningfully designed and compared.",
+  "failure_interpretation": "The five failure candidates exhibit high strong false-negative fractions across Summary, Insight, and QueryGen, but semantic audits confirm that many relevant facts are retained in representations while corresponding knowledge items remain unranked in top-10 results. Missed items coexist with retained facts, pointing to ranking limitations, corpus coverage gaps from source clustering, missing contextual conditions in knowledge applicability, and provisional label noise rather than systematic information destruction by compression. Identical B4 candidate sets across matched pairs and partial overlap in generative methods further indicate that current retrieval configurations lack the discrimination needed to attribute failures specifically to representation format.",
+  "assessment_kind": "PROVISIONAL_LLM_RESEARCH_SYNTHESIS",
+  "model_metadata": {
+    "task_id": "execution-qwen-v1/research_synthesis_v1",
+    "input_sha256": "16ab3e4632cbfbf9a92decc28457b22e2d8a3301df9e0780053f421fb4a3effd",
+    "result_sha256": "7351be32e9bb55788287e85321495dc8d5a9ed8b0e8c5b6eb0af26b673589bb8",
+    "model": "qwen3.8-max",
+    "provider_model": "qwen3.8-max",
+    "backend": "openai_compatible_chat_completions",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "fresh_context": true,
+    "message_count": 2,
+    "tool_calls": 0,
+    "attempt": 1,
+    "duration_seconds": 46.375,
+    "usage": {
+      "completion_tokens": 732,
+      "prompt_tokens": 605016,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 605016
+      },
+      "total_tokens": 605748
+    },
+    "provider_request_id": "chatcmpl-5feb41a8-bebd-95ed-b582-d175000a797e",
+    "http_request_id": "5feb41a8-bebd-95ed-b582-d175000a797e",
+    "system_fingerprint": null,
+    "finish_reason": "stop",
+    "sampling_temperature": 0,
+    "sampling_seed": null,
+    "max_tokens": 16384,
+    "response_format": "json_object",
+    "prior_failures": [],
+    "model_identifier_pins_provider_weights": false,
+    "judge_independence_note": "Fresh contexts are independent calls; roles using the same model can share correlated errors.",
+    "enable_thinking": false
+  }
+}

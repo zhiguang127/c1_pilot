@@ -1,0 +1,591 @@
+{
+  "corpus_sha256": "ecd85ebd39233ef7096fe6825a5be58fa24b43fd0104728be9d82cc26b16ce8b",
+  "domain_counts": {
+    "sleep_duration": 16,
+    "sleep_timing": 16,
+    "temporary_variation": 8,
+    "daily_activity": 16,
+    "low_movement": 12,
+    "activity_sleep_context": 8,
+    "personal_monitoring": 12,
+    "measurement_quality": 8
+  },
+  "items": [
+    {
+      "id": "K001",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "3d785102363d76116c4178ebd288b3d5bc0deb4b929e22cf4728854c5ff401d5",
+      "human_confirmed": false
+    },
+    {
+      "id": "K002",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "928c5274b394ff1463de0e4f0d27af1069779e80590e78fbd411066406c08725",
+      "human_confirmed": false
+    },
+    {
+      "id": "K003",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "e8a392b6f9df68d847f8224541458a1e7eba79b5b8eee08d2643e9aada0b5530",
+      "human_confirmed": false
+    },
+    {
+      "id": "K004",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "b4733ea1f7ae872481529768517b65b0705f4aeb387e1f21b293dd06e071b336",
+      "human_confirmed": false
+    },
+    {
+      "id": "K005",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "2afbf342747a17344b2d811f8d56b57b96455025c1301cadd134ed25299c60de",
+      "human_confirmed": false
+    },
+    {
+      "id": "K006",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+      "condition_sha256": "674ef83694c69c0fe4124eeaf34b62b86666c2241ab38cf236c1db339f9754f6",
+      "human_confirmed": false
+    },
+    {
+      "id": "K007",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "9dfd820afbcb49267c0c087c4f74d911694568555841596ac656f207ac9ac432",
+      "human_confirmed": false
+    },
+    {
+      "id": "K008",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "7e1678aacd7847e7459e6498ece4e4a73d5864fdfa5ddf2a53a331b53bd6dcc5",
+      "human_confirmed": false
+    },
+    {
+      "id": "K009",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "condition_sha256": "db55b0f53ef1df7689aeeda1d030367c58ec3420bf8b395f81001cc57846f182",
+      "human_confirmed": false
+    },
+    {
+      "id": "K010",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "condition_sha256": "9676c9d7588a88e0ef14bf43f9d7a4b21f8215f27bdff7f3edafd5efec58deab",
+      "human_confirmed": false
+    },
+    {
+      "id": "K011",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "condition_sha256": "9e73605d9f2baf642db4510209098480fd32d323aa70403b8e5bdf27df7e659b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K012",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "condition_sha256": "df7a5482c954c1f60e7d82c9f02e71d0b130745ab95203ca4eb57cc7cc27f6b5",
+      "human_confirmed": false
+    },
+    {
+      "id": "K013",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects",
+      "condition_sha256": "4c6943ed9e89e35edb26e7d16585dfae6c8bc547bc9513d0a0f156ab20781b7c",
+      "human_confirmed": false
+    },
+    {
+      "id": "K014",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "49a5c24785a31bc0a8638cf4afab3bd866b3d6b06b7af5c65ba0fea5619ee7b2",
+      "human_confirmed": false
+    },
+    {
+      "id": "K015",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "e81ebc564fabd1975abf52f34d9e6e0d5d2b33530f9c5fdd80f1b84629f5d658",
+      "human_confirmed": false
+    },
+    {
+      "id": "K016",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "196f3f6e4bed7efd220ec88413f1d04d94c580117d6fb6b2717332f78d757b41",
+      "human_confirmed": false
+    },
+    {
+      "id": "K017",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "b6980e9f5ef51e19b101462801589c3b713cc971dfb781b0f3ccabdabdf21ba8",
+      "human_confirmed": false
+    },
+    {
+      "id": "K018",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "a5679d1244ff34dd46172c0306fa2e1e3902b80e9ec4735d0f88887ae395f446",
+      "human_confirmed": false
+    },
+    {
+      "id": "K019",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "7dc1aca59399e011548a0791de4e5bfe29156b4af46cee80918e4f9e205f8cd3",
+      "human_confirmed": false
+    },
+    {
+      "id": "K020",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "efdf6e279c084f613dfb645747a31e14569195ac3cda3e7bfd3070e9fd56cc7e",
+      "human_confirmed": false
+    },
+    {
+      "id": "K021",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "279a4d6d025a25c0ae98bdcfa2c865973c917df43441c6b5066ffa92b57f2158",
+      "human_confirmed": false
+    },
+    {
+      "id": "K022",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "a71baecd3302e26b91d7ca0028453ff17d971f69c4ef84e406d24e630dbd0baf",
+      "human_confirmed": false
+    },
+    {
+      "id": "K023",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "8e1a6c076cc1036ae812a71ef8567e0ac40520eb12e6632bb8d465f20dfe184b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K024",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "a286da83a30fdf87803e7e04cad220b0768cf52592c60209c1641ecf52f52036",
+      "human_confirmed": false
+    },
+    {
+      "id": "K025",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "6f16d3d72e243603b9bd59d1ea7552c198a90a91b24a396b34f7fe909310aaca",
+      "human_confirmed": false
+    },
+    {
+      "id": "K026",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "396a05be997380851e5c69e67328f96136c9ace9a39b997c67c7a86c2ffed69b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K027",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "c95bc4852cea407d8de2eefa53a7de6160723e545ed07bce5253a646fe40644a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K028",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "5de5e9bb4d2453ece3b7137e269dd84605e1632b430b1de8d7d0d34f93ce9e9e",
+      "human_confirmed": false
+    },
+    {
+      "id": "K029",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "95c73a32cf7c3f80de98ce7d3992f2307114a348d32cc93336925e2406d77c4f",
+      "human_confirmed": false
+    },
+    {
+      "id": "K030",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "89d0f90f6ea9dee15dfe1d16ec2ea738fa5638f28c68acf616d684f810c89a7a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K031",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "b438568a019ffff56d91714e8d767c092ae41ef9ce225087779c0b576645fdd1",
+      "human_confirmed": false
+    },
+    {
+      "id": "K032",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "fb1db08c6e77fe1a94cf964826214c0ba7f08ca842b8e3f4852040986f62f6cb",
+      "human_confirmed": false
+    },
+    {
+      "id": "K033",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "e5d0734fd2353a64668f2291f7c743888d00f613cb05def5a65cb071d79b4b2a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K034",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "condition_sha256": "6c0d5a53a0907cf22d0b85673d1f38ece4f1c565a65a4569c9e25c201b95199e",
+      "human_confirmed": false
+    },
+    {
+      "id": "K035",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "condition_sha256": "9672aab56cd8e346c8ddac29a36e91df9a42d692cba35669616748856729b95f",
+      "human_confirmed": false
+    },
+    {
+      "id": "K036",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+      "condition_sha256": "46ec523072979a8481f11e6d2cca285b22e20523afd3871e43648897d736412b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K037",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "029dcbfbd965ba3f574b631fe9c66e958ebccc94dcec5ed2342fb74b15ccfe41",
+      "human_confirmed": false
+    },
+    {
+      "id": "K038",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "14b2f9c4378171794f145889c5b4c989b193b8d362d7d845691274c2cb5cf99d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K039",
+      "source_url": "https://www.nhs.uk/conditions/jet-lag/",
+      "condition_sha256": "7087b7220c6e534f9233ab04f1dbedeb237d63c4bb3891d17dc18195bf58469d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K040",
+      "source_url": "https://www.nhs.uk/conditions/jet-lag/",
+      "condition_sha256": "da4627331fef74a79599d6778c70c7a0ca6416b81eb1061b0ab497a0012260a5",
+      "human_confirmed": false
+    },
+    {
+      "id": "K041",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "4c772cb2434b6082e6b74f77b6adafff32c5537cc0672b7f1f6651312dc29556",
+      "human_confirmed": false
+    },
+    {
+      "id": "K042",
+      "source_url": "https://medlineplus.gov/howmuchexercisedoineed.html",
+      "condition_sha256": "74df10c390a3e1ad11b8dcf455768052388b8b5d2c607c3f660d439697666ac6",
+      "human_confirmed": false
+    },
+    {
+      "id": "K043",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "a82e1655f80167d78023233b61e91f798959bbd63aa8785958c22a3b386e8898",
+      "human_confirmed": false
+    },
+    {
+      "id": "K044",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "eca046e2741538d9462868b4d5cd0eae7003075c12d106ce29ccb8bfd1c08224",
+      "human_confirmed": false
+    },
+    {
+      "id": "K045",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "faf729b7b9e21f130867d1219f70955a317ba946f8a3dfb94b16530c4d69d91a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K046",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "4eb2005710877d7eb7ff9f1eb7c6c60adfe32fad31be051ad307d078507e6e86",
+      "human_confirmed": false
+    },
+    {
+      "id": "K047",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "condition_sha256": "34fff2ffade7ed7dbc43ce4c4f109c5c148a67f1babacf800f76d6e1dd327c0c",
+      "human_confirmed": false
+    },
+    {
+      "id": "K048",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html",
+      "condition_sha256": "0ce62f218fa2076211a18cd8f06f1ed189d63145b4ea03b242e0938d83af17fa",
+      "human_confirmed": false
+    },
+    {
+      "id": "K049",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/measuring/index.html",
+      "condition_sha256": "5ec892da7cffcea41cd3517f6c72d13bc80a2c80a630d13a556cb348fb46b207",
+      "human_confirmed": false
+    },
+    {
+      "id": "K050",
+      "source_url": "https://support.google.com/googlehealth/answer/14237111?hl=en",
+      "condition_sha256": "b666760b30d50a827df490c4c84888782872fdc8031e5b09b2c1c36977aa0de0",
+      "human_confirmed": false
+    },
+    {
+      "id": "K051",
+      "source_url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+      "condition_sha256": "79a009e3c2f893c47f38da53af670f11a2d601f1dead83ed50b82a510a435bff",
+      "human_confirmed": false
+    },
+    {
+      "id": "K052",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "2d700dbc43e94aec3198c5bd529017fdb56bd4da4ece40a960b06cba66bf932e",
+      "human_confirmed": false
+    },
+    {
+      "id": "K053",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "da389a6d3e9254beb42db0034647901abfe64f601a0e1c2f49e3ff08b338e788",
+      "human_confirmed": false
+    },
+    {
+      "id": "K054",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "ea377fe5168ad9a2be025a1066045a64a714646ffacef0868768117bbbf6ad9d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K055",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "8e80f3a5c577e56a5f113cb486940e54bea87c471a7110488fbac489b2c29d3d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K056",
+      "source_url": "https://medlineplus.gov/howmuchexercisedoineed.html",
+      "condition_sha256": "5a304f78199a4737958a34d6b3b66486742c743be74a486068f6875f42a7ef0d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K057",
+      "source_url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/",
+      "condition_sha256": "15f512539fc7b4bcd7daaf9ed1bdedf7d9910ded1df171bb23a87a77b9aadca3",
+      "human_confirmed": false
+    },
+    {
+      "id": "K058",
+      "source_url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+      "condition_sha256": "4c1345cf833ae0891c97e5bda2a600aca40095e99dab0812fdea0b4616c995fa",
+      "human_confirmed": false
+    },
+    {
+      "id": "K059",
+      "source_url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+      "condition_sha256": "5032130e8c01255270945f5c8927e74abf3a9086e9ccf1a9cf4e1988e1c5bccd",
+      "human_confirmed": false
+    },
+    {
+      "id": "K060",
+      "source_url": "https://www.myhealthlondon.nhs.uk/be-healthier/move-more/stand-up-for-yourself/",
+      "condition_sha256": "20fc831c8cf300215f404e57afe308b35af8a17b000c69c3d72e56a470dd1478",
+      "human_confirmed": false
+    },
+    {
+      "id": "K061",
+      "source_url": "https://www.myhealthlondon.nhs.uk/be-healthier/move-more/stand-up-for-yourself/",
+      "condition_sha256": "1943e8e0780229a4be20964a72f9b076669ccee679df759c007f3fe55490780a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K062",
+      "source_url": "https://www.myhealthlondon.nhs.uk/be-healthier/move-more/stand-up-for-yourself/",
+      "condition_sha256": "f422f6bde9e9da1c77dc9fa820c3729e96259ad5f872951a0465a82b4e7e4893",
+      "human_confirmed": false
+    },
+    {
+      "id": "K063",
+      "source_url": "https://www.myhealthlondon.nhs.uk/be-healthier/move-more/stand-up-for-yourself/",
+      "condition_sha256": "3aa48bdc86127eaef31f8d88ea939ecb15f3ba7c77eb457f6264600d9d8f1c5d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K064",
+      "source_url": "https://www.myhealthlondon.nhs.uk/be-healthier/move-more/stand-up-for-yourself/",
+      "condition_sha256": "bf23768e4e883da0139ddf00ebcea3011892439672162899065e56c4873c0f6c",
+      "human_confirmed": false
+    },
+    {
+      "id": "K065",
+      "source_url": "https://medlineplus.gov/healthdefinitions/fitnessdefinitions.html",
+      "condition_sha256": "b6ba8b2bda899a13edea2c601b8075f1445233e050043b8f1b6db5dc64b98118",
+      "human_confirmed": false
+    },
+    {
+      "id": "K066",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "e393df6e627e957307fbec5e889c76b4878ba42a25d9539786bb2c15862d4ff4",
+      "human_confirmed": false
+    },
+    {
+      "id": "K067",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "8439cd958aca091f207395b754878ec202751b5c653b18eab73030aaf32fbd7b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K068",
+      "source_url": "https://www.nhs.uk/live-well/exercise/exercise-health-benefits/",
+      "condition_sha256": "c709fec0d1a3f6a8f37e0f872de9d5e1ea93003eb8d8e6229c99803a42b82a40",
+      "human_confirmed": false
+    },
+    {
+      "id": "K069",
+      "source_url": "https://www.cdc.gov/physical-activity-basics/benefits/index.html",
+      "condition_sha256": "c42f4245c5432ac6e1aed3c427bf6cd51a87c2f550255769c8389ea626865455",
+      "human_confirmed": false
+    },
+    {
+      "id": "K070",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "66fb692c0353f4b1aa59e486190909b72167937239ce5d09465cbbb0af75daed",
+      "human_confirmed": false
+    },
+    {
+      "id": "K071",
+      "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "condition_sha256": "3ada63701e438c00fb958c4d2f14e2c3b4aff0d61d4822a22e9aaaffd929fa94",
+      "human_confirmed": false
+    },
+    {
+      "id": "K072",
+      "source_url": "https://www.nhs.uk/conditions/insomnia/",
+      "condition_sha256": "69ca960e993c0fa3e6cab9bde860984a32150222cd4ffd26b4b1d112e34eebbf",
+      "human_confirmed": false
+    },
+    {
+      "id": "K073",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "1b3dd4a422c75a929f77f95c1d7c03b904347cb125d4609e3af808baf95ae0af",
+      "human_confirmed": false
+    },
+    {
+      "id": "K074",
+      "source_url": "https://archive.cdc.gov/www_cdc_gov/niosh/emres/longhourstraining/gettingexercise.html",
+      "condition_sha256": "2167fe55012bb6fcbe18944fe14d330383d78bce8eb50e16456c25579a082d0b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K075",
+      "source_url": "https://www.cdc.gov/healthy-weight-growth/physical-activity/getting-started.html",
+      "condition_sha256": "2c0c6c672ded43f4675b7269e3a6ff8db8d4e8795a492e7ea6921def330d8fa6",
+      "human_confirmed": false
+    },
+    {
+      "id": "K076",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "condition_sha256": "78a5aabfff1aed92757973ba2dc3fd49e30a82849e051c1acd947aebae0e9ee8",
+      "human_confirmed": false
+    },
+    {
+      "id": "K077",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "5cc81bec60447b892a87c92c118c2622d047d5d4d7067c5f1172f4a65c0a34c9",
+      "human_confirmed": false
+    },
+    {
+      "id": "K078",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "11214253a3a54aea292caff9c7e7927439eb0aeef7f790aa625f3ecab4d72c84",
+      "human_confirmed": false
+    },
+    {
+      "id": "K079",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "c32128b3e5af28a0dac7bc503487e58acfd7e9415727d8d0a8a0db7f2714a6fe",
+      "human_confirmed": false
+    },
+    {
+      "id": "K080",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "baa47d06053ced85035b814c5f21f23c14d9f3be04d9d8efd307b9ae974cd2ec",
+      "human_confirmed": false
+    },
+    {
+      "id": "K081",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "2a61462c48376b28f1c78ff564c7a62e712422afb39b73e1b27b52034dacf40a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K082",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "78346b379af1cc65447544dbce47f680efcc8cfdee77bc24e5373693b3e8de6b",
+      "human_confirmed": false
+    },
+    {
+      "id": "K083",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "3a10ffe9dc5169a75f4903c1de65da82ccaaf96653358d6529677208a29ed709",
+      "human_confirmed": false
+    },
+    {
+      "id": "K084",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "ee6a41ed0d64643937e94f21171b5a813610064197ded26ec95db21fcd01bd54",
+      "human_confirmed": false
+    },
+    {
+      "id": "K085",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "65f0bc403e4d49bb2ccb04254daa63a201bbcbb7dadc1470fd873d1453ed39a7",
+      "human_confirmed": false
+    },
+    {
+      "id": "K086",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "91ad1f90b69e536c296009074a90c8928bcf6cae1b65b3cebcd8bc6ef406f46c",
+      "human_confirmed": false
+    },
+    {
+      "id": "K087",
+      "source_url": "https://support.google.com/googlehealth/answer/14236712?hl=en",
+      "condition_sha256": "cc100d55a7eda3a86c41fb1e55a59072a56d17c70f3f818f8c6bd26baf95f62f",
+      "human_confirmed": false
+    },
+    {
+      "id": "K088",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "6e1037c258de41c8a3981dd0d3fcb07784546b13b7d88bad4298f0fd8233ecfe",
+      "human_confirmed": false
+    },
+    {
+      "id": "K089",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "a35b249a47e6f7b45535d434205341ba78a358431eb6f34cca7dbb72ae8459dd",
+      "human_confirmed": false
+    },
+    {
+      "id": "K090",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "d212927072304a4aca0445d47f0dac726368b057a26fa298f1f5e748efd76f7d",
+      "human_confirmed": false
+    },
+    {
+      "id": "K091",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "5bb50428b8bf61cba04df5011beb1cbb420801409a26f20fe3ed95c63b2e114a",
+      "human_confirmed": false
+    },
+    {
+      "id": "K092",
+      "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+      "condition_sha256": "ddc5fc8bef26e93f867772a4055631b8cadecbfcfe1c62a78a9fc382d3e2bb96",
+      "human_confirmed": false
+    },
+    {
+      "id": "K093",
+      "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+      "condition_sha256": "152ffd4f8407d09040621b933cf842f6b8f03a8d21e6c281cc7bf94827a38914",
+      "human_confirmed": false
+    },
+    {
+      "id": "K094",
+      "source_url": "https://support.google.com/googlehealth/answer/14236407?hl=en",
+      "condition_sha256": "8ab003e28a2ada063211ac80c8b85973472d967d9b8145c4751276e7d92d17dc",
+      "human_confirmed": false
+    },
+    {
+      "id": "K095",
+      "source_url": "https://support.google.com/googlehealth/answer/14236407?hl=en",
+      "condition_sha256": "99d66d09b0935ff5125338916e51936440a22ec0efecd7a38c1b7de3202eaf7e",
+      "human_confirmed": false
+    },
+    {
+      "id": "K096",
+      "source_url": "https://support.google.com/googlehealth/answer/14237111?hl=en",
+      "condition_sha256": "03c37cd1820704d9d3df4c6a47bc95854accfa5c2eb39a14bfe0129604b949e3",
+      "human_confirmed": false
+    }
+  ]
+}

@@ -1,0 +1,1274 @@
+{
+  "status": "PENDING_HUMAN_ANNOTATION",
+  "legacy_hashes_verified": 77,
+  "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "p1_manifest_sha256": "61785adaeb19f598f8f8687b8d1fbf5a92eb74c9231a8807cb55b172c116cfc1",
+  "cases": 48,
+  "participants": 16,
+  "windows_per_participant": {
+    "3": 16
+  },
+  "daily_rows": 2016,
+  "a0_pairs": 240,
+  "corpus_items": 96,
+  "human_gold_pairs": 0,
+  "formal_metrics": null,
+  "p1_files": {
+    "cases.jsonl": "62a81cfe65548c64955311c15ce281ebdaf040d540d3243d9e820fefe72f64b5",
+    "import_audit.json": "f1e1b744b7d17d3aa1e40e8e40d37373e84b8b562ab47516b145448783c757af",
+    "knowledge.jsonl": "65523bdc3324a1ce43ecbbaf75aabb59be2224e9164291b04fcc64af6a0feba8",
+    "P1_ANNOTATION_GUIDE.md": "8cb5cb1b51145a0f8e5fa85c78d76483d9292045891592fe0fe7ccf7ba49611e",
+    "P1_PROTOCOL.md": "e68feae546b0391348921aea1955654360667974eb5916e3053c05e43cac6f2c",
+    "sampling_plan.json": "71091791f1d0f071fb8e0fdb94e56c3ecaf2a7564262d3b7c43f8af0c69ce605"
+  },
+  "knowledge_conditions": [
+    {
+      "id": "K001",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K002",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K003",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K004",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K005",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K006",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K007",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K008",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K009",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K010",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K011",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K012",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K013",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K014",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K015",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K016",
+      "domain": "sleep_duration",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K017",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K018",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K019",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K020",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K021",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K022",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K023",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K024",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K025",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K026",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K027",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K028",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K029",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K030",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K031",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K032",
+      "domain": "sleep_timing",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K033",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K034",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K035",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K036",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K037",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K038",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K039",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K040",
+      "domain": "temporary_variation",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K041",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K042",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K043",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K044",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K045",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K046",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K047",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K048",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K049",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K050",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K051",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K052",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K053",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K054",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K055",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K056",
+      "domain": "daily_activity",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K057",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K058",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K059",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K060",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K061",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K062",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K063",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K064",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K065",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K066",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K067",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K068",
+      "domain": "low_movement",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K069",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K070",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K071",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K072",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K073",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K074",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K075",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K076",
+      "domain": "activity_sleep_context",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": true,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K077",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K078",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K079",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K080",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K081",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K082",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K083",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K084",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K085",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K086",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K087",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K088",
+      "domain": "personal_monitoring",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K089",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K090",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K091",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K092",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K093",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K094",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 0,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K095",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    },
+    {
+      "id": "K096",
+      "domain": "measurement_quality",
+      "fields": {
+        "population": 1,
+        "observable_conditions": 1,
+        "required_context": 1,
+        "non_applicable_conditions": 1
+      },
+      "human_confirmed": false,
+      "missingness_wording_needs_review": false,
+      "scope_note": "Context needed for a particular claim may not be necessary for general education"
+    }
+  ]
+}

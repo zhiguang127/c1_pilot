@@ -1,0 +1,20 @@
+{
+  "kind": "ENGINEERING_VALIDATION_ONLY",
+  "valid": true,
+  "release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "real_case_count": 48,
+  "participant_count": 16,
+  "raw_numeric_fields_checked": 10080,
+  "raw_sleep_dates_checked": 2016,
+  "raw_file_bytes_checked": 8937162,
+  "blind_cards_checked": 96,
+  "blank_templates_checked": 96,
+  "legacy_frozen_hashes_checked": 77,
+  "quality_flag_counts": {
+    "zero_rhr_source_value_not_valid_for_health_interpretation": 90,
+    "repeated_identical_selected_sleep_fields": 50,
+    "nonzero_sleep_info_code_raw_device_quality_unknown": 28
+  },
+  "human_annotations_created": 0,
+  "research_conclusion": null
+}

@@ -1,0 +1,18 @@
+{
+  "version": "a1-v1",
+  "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "cases": 48,
+  "participants": 16,
+  "unique_knowledge": 26,
+  "unique_pairs": 1248,
+  "group_memberships_per_case": 27,
+  "selection_code_sha256": "7efe5e2211de3569d09c19d21d0736e181d3186e4358b8c7dba737a34247247a",
+  "human_gold": false,
+  "files": {
+    "cases.jsonl": "a6acca8f866c3709df7dfd0bb6f40181f6aee146e13dbd303b49204b65fdb4e7",
+    "groups.json": "1bab8129298eeb6f1b872415fdb4b3f1b6ab6bcb2e484b35ff3ec1304e42fa4a",
+    "knowledge.jsonl": "4d6a7fa4241bc3bc6cfa2872e020de880de7393cb454d776dd666876c51cf2e5",
+    "source_audit.json": "c03f24548f601b7e4006ccf43fdb5803d8f5c84a49701cb49d3560c6277a7876"
+  },
+  "release_id": "6e92073cf3bfe0cb12ae63f7a281490ab54bf21a44a0ad5cad56e6885512d523"
+}

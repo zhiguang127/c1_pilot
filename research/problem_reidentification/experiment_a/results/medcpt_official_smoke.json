@@ -1,0 +1,203 @@
+{
+  "status": "OFFICIAL_README_INFERENCE_PASSED_COMPATIBLE_ENV",
+  "at": "2026-10-16T10:05:29.518164+00:00",
+  "strict_historical_environment": false,
+  "source": {
+    "directory": "MedCPT",
+    "url": "https://github.com/ncbi/MedCPT",
+    "commit": "11e129be74102c98d16a11c310b0b5ce74c1db5e",
+    "license": "LICENSE",
+    "license_sha256": "20061e0e4ef5a82eb075b960725cc4dc04d23a4c3e1fbc94f58bb1fe0077d6f2",
+    "source_modified": false
+  },
+  "runtime": {
+    "python": "3.11.14",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.4",
+      "PyYAML": "6.0.3",
+      "certifi": "2026.7.22",
+      "charset-normalizer": "3.5.2",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "filelock": "4.2.0",
+      "fsspec": "2026.9.0",
+      "huggingface-hub": "0.29.3",
+      "idna": "3.20",
+      "joblib": "1.6.0",
+      "mpmath": "1.3.0",
+      "narwhals": "2.27.1",
+      "networkx": "3.6.1",
+      "numpy": "2.2.3",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "regex": "2026.9.29",
+      "requests": "2.34.2",
+      "safetensors": "0.8.0",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.17.1",
+      "sentence-transformers": "3.4.1",
+      "sympy": "1.13.1",
+      "threadpoolctl": "3.7.0",
+      "tiktoken": "0.9.0",
+      "tokenizers": "0.21.4",
+      "torch": "2.6.0",
+      "tqdm": "4.70.1",
+      "transformers": "4.49.0",
+      "typing_extensions": "4.16.0",
+      "urllib3": "2.8.0"
+    }
+  },
+  "examples": [
+    {
+      "example": "Query-Encoder",
+      "source_sha256": "36852507bd7facaa755cf81bcb7d3fa59fd865a47fb7e198b3f2125b9d2a1461",
+      "input": [
+        "diabetes treatment",
+        "How to treat diabetes?",
+        "A 45-year-old man presents with increased thirst and frequent urination over the past 3 months."
+      ],
+      "shape": [
+        3,
+        768
+      ],
+      "stdout": "tensor([[ 0.0413,  0.0084, -0.0491,  ..., -0.4963, -0.3830, -0.3593],\n        [ 0.0801,  0.1193, -0.0905,  ..., -0.5380, -0.5059, -0.2944],\n        [-0.3412,  0.1521, -0.0946,  ...,  0.0952,  0.1660, -0.0902]])\ntorch.Size([3, 768])\n",
+      "values": [
+        [
+          0.04126071557402611,
+          0.008413208648562431,
+          -0.04908452555537224,
+          0.15185587108135223,
+          0.013630099594593048,
+          -0.27507513761520386,
+          0.16023987531661987,
+          0.19855307042598724
+        ],
+        [
+          0.08005966246128082,
+          0.11931528896093369,
+          -0.09046663343906403,
+          0.14332197606563568,
+          0.11096060276031494,
+          -0.195242241024971,
+          0.23802372813224792,
+          0.24795328080654144
+        ],
+        [
+          -0.34116020798683167,
+          0.15213565528392792,
+          -0.09455181658267975,
+          0.021931737661361694,
+          0.24124379456043243,
+          -0.6340020298957825,
+          -0.455390065908432,
+          -0.34349751472473145
+        ]
+      ]
+    },
+    {
+      "example": "Article-Encoder",
+      "source_sha256": "01e0f432e0e5816e1f5d1bc51930adb27fc5425e6fde408c9744f94e27e1a9d8",
+      "input": [
+        [
+          "Diagnosis and Management of Central Diabetes Insipidus in Adults",
+          "Central diabetes insipidus (CDI) is a clinical syndrome which results from loss or impaired function of vasopressinergic neurons in the hypothalamus/posterior pituitary, resulting in impaired synthesis and/or secretion of arginine vasopressin (AVP). [...]"
+        ],
+        [
+          "Adipsic diabetes insipidus",
+          "Adipsic diabetes insipidus (ADI) is a rare but devastating disorder of water balance with significant associated morbidity and mortality. Most patients develop the disease as a result of hypothalamic destruction from a variety of underlying etiologies. [...]"
+        ],
+        [
+          "Nephrogenic diabetes insipidus: a comprehensive overview",
+          "Nephrogenic diabetes insipidus (NDI) is characterized by the inability to concentrate urine that results in polyuria and polydipsia, despite having normal or elevated plasma concentrations of arginine vasopressin (AVP). [...]"
+        ]
+      ],
+      "shape": [
+        3,
+        768
+      ],
+      "stdout": "tensor([[-0.0189,  0.0115,  0.0988,  ..., -0.0655,  0.3155, -0.0357],\n        [-0.3402, -0.3064, -0.0749,  ..., -0.0799,  0.3332,  0.1263],\n        [-0.2764, -0.0506, -0.0608,  ...,  0.0389,  0.2532,  0.1580]])\ntorch.Size([3, 768])\n",
+      "values": [
+        [
+          -0.018886972218751907,
+          0.011518245562911034,
+          0.09877383708953857,
+          0.054051462560892105,
+          -0.08883947134017944,
+          -0.2923842966556549,
+          -0.2901020348072052,
+          0.10896243900060654
+        ],
+        [
+          -0.3401655852794647,
+          -0.30642595887184143,
+          -0.07488967478275299,
+          -0.1559755504131317,
+          -0.10988882929086685,
+          -0.21870744228363037,
+          -0.4427715837955475,
+          0.0350552573800087
+        ],
+        [
+          -0.2764081358909607,
+          -0.050645895302295685,
+          -0.06080198287963867,
+          -0.12075227499008179,
+          0.06492429226636887,
+          -0.2714743912220001,
+          -0.3043646812438965,
+          -0.0989486426115036
+        ]
+      ]
+    },
+    {
+      "example": "Cross-Encoder",
+      "source_sha256": "fa2a3d97be3ef1e2b83e160bb0dc4da44269043509dfc9a0e0fdb53046462fd4",
+      "input": [
+        "Type 1 and 2 diabetes mellitus: A review on current treatment approach and gene therapy as potential intervention. Type 1 and type 2 diabetes mellitus is a serious and lifelong condition commonly characterised by abnormally elevated blood glucose levels due to a failure in insulin production or a decrease in insulin sensitivity and function. [...]",
+        "Diabetes mellitus and its chronic complications. Diabetes mellitus is a major cause of morbidity and mortality, and it is a major risk factor for early onset of coronary heart disease. Complications of diabetes are retinopathy, nephropathy, and peripheral neuropathy. [...]",
+        "Diagnosis and Management of Central Diabetes Insipidus in Adults. Central diabetes insipidus (CDI) is a clinical syndrome which results from loss or impaired function of vasopressinergic neurons in the hypothalamus/posterior pituitary, resulting in impaired synthesis and/or secretion of arginine vasopressin (AVP). [...]",
+        "Adipsic diabetes insipidus. Adipsic diabetes insipidus (ADI) is a rare but devastating disorder of water balance with significant associated morbidity and mortality. Most patients develop the disease as a result of hypothalamic destruction from a variety of underlying etiologies. [...]",
+        "Nephrogenic diabetes insipidus: a comprehensive overview. Nephrogenic diabetes insipidus (NDI) is characterized by the inability to concentrate urine that results in polyuria and polydipsia, despite having normal or elevated plasma concentrations of arginine vasopressin (AVP). [...]",
+        "Impact of Salt Intake on the Pathogenesis and Treatment of Hypertension. Excessive dietary salt (sodium chloride) intake is associated with an increased risk for hypertension, which in turn is especially a major risk factor for stroke and other cardiovascular pathologies, but also kidney diseases. Besides, high salt intake or preference for salty food is discussed to be positive associated with stomach cancer, and according to recent studies probably also obesity risk. [...]"
+      ],
+      "shape": [
+        6
+      ],
+      "stdout": "tensor([  6.9363,  -8.2064,  -8.7691, -12.3450, -10.4416, -15.8475])\n",
+      "values": [
+        6.936295032501221,
+        -8.206377029418945,
+        -8.769149780273438,
+        -12.345020294189453,
+        -10.44157886505127,
+        -15.847537994384766
+      ]
+    }
+  ],
+  "duration_seconds": 3.6719999999986612,
+  "models": {
+    "Query-Encoder": {
+      "model": "ncbi/MedCPT-Query-Encoder",
+      "revision": "d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc",
+      "weight_file": "model.safetensors",
+      "weight_sha256": "19d78c0d5eaee2f81e6c47c5425bbadcc0c6af016cbb5da4a000d64e59d6e342",
+      "license": "other"
+    },
+    "Article-Encoder": {
+      "model": "ncbi/MedCPT-Article-Encoder",
+      "revision": "d05a736da4bb84ee4057b7f7999485be6ed85465",
+      "weight_file": "model.safetensors",
+      "weight_sha256": "a5d5ffe4d8666c1d0aa15f371b94fc3492ca8f927e5621abd4b3ee9fc845b0f3",
+      "license": "other"
+    },
+    "Cross-Encoder": {
+      "model": "ncbi/MedCPT-Cross-Encoder",
+      "revision": "71caf65d4927987813984f54c284405a13fcca49",
+      "weight_file": "pytorch_model.bin",
+      "weight_sha256": "61d5ccd48869e03500544525fc231641d7daa9ba267b202c82724750038dc1e0",
+      "license": "other"
+    }
+  }
+}

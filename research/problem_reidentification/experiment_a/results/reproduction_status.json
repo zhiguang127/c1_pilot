@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-10-16T10:20:06.553190+00:00",
+  "sources": {
+    "medcpt": {
+      "directory": "MedCPT",
+      "url": "https://github.com/ncbi/MedCPT",
+      "commit": "11e129be74102c98d16a11c310b0b5ce74c1db5e",
+      "license": "LICENSE",
+      "license_sha256": "20061e0e4ef5a82eb075b960725cc4dc04d23a4c3e1fbc94f58bb1fe0077d6f2",
+      "source_modified": false
+    },
+    "trialgpt": {
+      "directory": "TrialGPT",
+      "url": "https://github.com/ncbi-nlp/TrialGPT",
+      "commit": "1b3242cd50c153a9c324661d4a0bd94fc68a4226",
+      "license": "LICENSE",
+      "license_sha256": "704890f21e31860b65fd547cb4c2f8fb496f5dafa2ff23c8d261f3c0ad072815",
+      "source_modified": false
+    },
+    "pha": {
+      "directory": "consumer-health-research",
+      "url": "https://github.com/Google-Health/consumer-health-research",
+      "commit": "3e9d1e4877a54cf81ce8ef34085006952dd19601",
+      "license": "personal_health_agent/LICENSE.txt",
+      "license_sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+      "source_modified": false
+    }
+  },
+  "medcpt": "OFFICIAL_README_INFERENCE_PASSED_COMPATIBLE_ENV",
+  "trialgpt": "OFFICIAL_PARSER_PASSED_INFERENCE_BLOCKED_MISSING_CREDENTIAL",
+  "pha": "OFFICIAL_REACT_IMPORT_AND_PYTHON_TOOL_PASSED_INFERENCE_BLOCKED_MISSING_CREDENTIAL",
+  "phia_native_inference": false,
+  "pha_parallel_native_inference": false,
+  "pha_orchestrator_native_inference": false,
+  "strict_paper_environment_reproduced": false,
+  "provider_api_requests_sent": 0,
+  "verified_api_cost": 0,
+  "health_data_transfer_authorized": true,
+  "paid_batch_authorized": false,
+  "native_azure_gemini_keys_configured": false,
+  "credential_env_available": false,
+  "dpapi_file_available": false,
+  "dependency_resolution_failures": {
+    "medcpt": "torch==1.7.1+cu110 unavailable for current Python/platform",
+    "trialgpt": "faiss==1.8.0 unavailable from configured index",
+    "pha": "onetwo full transitive gemma/TensorFlow Text unavailable on Windows"
+  },
+  "compatibility_note": "Unmodified official source with pinned separate environments; no LLM inference success claimed for import/tests/fixture outputs"
+}

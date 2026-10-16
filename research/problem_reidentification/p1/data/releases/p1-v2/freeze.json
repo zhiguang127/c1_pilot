@@ -1,0 +1,21 @@
+{
+  "revision": "p1-v1",
+  "files": {
+    "cases.jsonl": "62a81cfe65548c64955311c15ce281ebdaf040d540d3243d9e820fefe72f64b5",
+    "import_audit.json": "f1e1b744b7d17d3aa1e40e8e40d37373e84b8b562ab47516b145448783c757af",
+    "knowledge.jsonl": "65523bdc3324a1ce43ecbbaf75aabb59be2224e9164291b04fcc64af6a0feba8",
+    "P1_ANNOTATION_GUIDE.md": "8cb5cb1b51145a0f8e5fa85c78d76483d9292045891592fe0fe7ccf7ba49611e",
+    "P1_PROTOCOL.md": "e68feae546b0391348921aea1955654360667974eb5916e3053c05e43cac6f2c",
+    "sampling_plan.json": "71091791f1d0f071fb8e0fdb94e56c3ecaf2a7564262d3b7c43f8af0c69ce605"
+  },
+  "release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "code_sha256": {
+    "__init__.py": "0b52029a954deddbd7da66c2740ae751d50b39e7925ee6972e9be7bb9de594a5",
+    "__main__.py": "d4896ef0326782e4bcf0bf92cf6b621bb0ad93387746afcc300cfd1f085427e0",
+    "annotations.py": "d9733dce5b3fc34a730bb05ec260025e64baf59200c2c04cc13067397347ec8d",
+    "dataset.py": "470c6dadc536cf15dad757b83ac0c4487c1a0fbef0d75ab5d7761247c9315160",
+    "download_pmdata.py": "2b55a081410acd655464350c0b83203f965a79974f691af91ea4a5b74f668e8e",
+    "form.py": "9114ba28d77feaaa0ffe6c5ff4f5e32d97495647aa58a0c501f21d2507374d3b",
+    "packets.py": "a91347b1e00f49677e04daa6d5be0b69a699730dac712778386eaccb1366f892"
+  }
+}

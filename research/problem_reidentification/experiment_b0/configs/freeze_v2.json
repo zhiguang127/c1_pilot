@@ -1,0 +1,226 @@
+{
+  "files": {
+    "audit_upstream.py": "842be67bf7eaaeb22cb45283ae2e573fbb0d4866ec4831898833957bc89230ec",
+    "core.py": "44f746d5bd61573539d437cdadfdd1eac4dde6f80d1cc0b03e7311ec933cf118",
+    "prompts.py": "042c47a82ceae571a03c76a69abd0f703e3653c0c5af8fbc613ad156ffbe01ae",
+    "run.py": "e7ff5854100de89dbcade58e0b177199a85d9a9cc60fc043577fa4793c052e75",
+    "__init__.py": "ee1f906c9fa26948601fdd2097a014367cf4264fbdf3fea5e2944593f0e767b3",
+    "configs/protocol.json": "7ea5d7ffc3d636a53ff49ff007b9a5b2d32145c9c52e5cbdb56758ff042c00bc"
+  },
+  "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "cases": [
+    {
+      "case_id": "P1-83046e802cca5c4d",
+      "subject_id": "S1acb83d500da094f",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "62eb565f0d48f51f829d58d1f0e8c60e7278161819f90b35de3a9efec922d683"
+    },
+    {
+      "case_id": "P1-ffc60b6083a1037d",
+      "subject_id": "S5cf934278f2ec299",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "a27216eaf3935f117c764eceef83aa990ad392a5791dd66f729affc1690ce24d"
+    },
+    {
+      "case_id": "P1-3044d856e014615e",
+      "subject_id": "S62721aa0618e69f0",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "2c8d09bcd71a1f0034165b19f58970c575173b3547d05200a64c44c750d66670"
+    },
+    {
+      "case_id": "P1-39b069a4a8ecffef",
+      "subject_id": "S76f6e9945857f703",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "1849d922873fa626290ce9879b0a2803351d57d2b60ff89479c47ad07ab89ed6"
+    },
+    {
+      "case_id": "P1-21cd902d8337b5c6",
+      "subject_id": "S88321ac7c6187360",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "b286d456dfd5f8f90954afde13624dcc3564ca0d2a25afde2bccfebb2524004d"
+    },
+    {
+      "case_id": "P1-ab925237a21641b0",
+      "subject_id": "S8dc230d8249904fe",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "93133a49f30bedc4acac5753de97f8ee5a5d92e06f3548c5403890798e01b0c5"
+    },
+    {
+      "case_id": "P1-3255c1af0dee8fcd",
+      "subject_id": "S9c1105f6f43c701d",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "a31198efe9224eb68ba3e22f5c911b57fe1c1e87261705fc7536961afca20f38"
+    },
+    {
+      "case_id": "P1-5b46123dab2a5342",
+      "subject_id": "Sa3d3fd26204920e8",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "76592d3d8dc08a372aa28bfd69734356cdbfe1c6dc6da60888b4282e5eb1a09f"
+    },
+    {
+      "case_id": "P1-c7cbcc3d5dd7b50d",
+      "subject_id": "Sa7fc6d79b94af29e",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "42f2fd06bd848bfc273bdfa429f21177930d946e6d62a957648b0c203d726935"
+    },
+    {
+      "case_id": "P1-ff34442ce50b163d",
+      "subject_id": "Sad9219eb388c55bf",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "6e2ab75007cdaa72b891d92e50efe54eba284347eb42033bc6e2fa8a923a200c"
+    },
+    {
+      "case_id": "P1-e972bc8c35f57fe5",
+      "subject_id": "Saffd9934634bd9af",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "89df3e70b73555a7050911e28c8bfbc9ff231b2d3599667cf5bf4be4fb8670e9"
+    },
+    {
+      "case_id": "P1-11b33c5da323ef65",
+      "subject_id": "Sb74bfc982c72ee03",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "f5c6fccf8e56b6d6c2c2b7da2a9aaf627bb1b281f0906995407bc5f84abe45c8"
+    },
+    {
+      "case_id": "P1-115f62fcbea25325",
+      "subject_id": "Sb798b85e334c8dda",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "1f33fd6bb3fc169c27fbc0e9cc4ab52141a96db7ad642eb715ad64d30dc78aa4"
+    },
+    {
+      "case_id": "P1-95b120e330e4647a",
+      "subject_id": "Sbc0c48fc408e64fc",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "762ccfee098799aef1db33b499ee9bf4a4874834fb14aeb00df8687c2b9e7522"
+    },
+    {
+      "case_id": "P1-2cd820fb143e8e8f",
+      "subject_id": "Scb5d750bb68dd41e",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "8f1d91a902490415d572a666220b459182deccb6703ae3c8e147a609820b3a75"
+    },
+    {
+      "case_id": "P1-ef2c2c0581f0124b",
+      "subject_id": "Sf145fca47b49a749",
+      "block": 0,
+      "candidate_ids": [
+        "K006",
+        "K017",
+        "K041",
+        "K083",
+        "K094"
+      ],
+      "input_sha256": "b009e0fbeb29a1c6fb0e003a91addc37202f235bb859f7956ff960f1443e1b83"
+    }
+  ],
+  "upstream_pins_sha256": "0c3dd7af86f793448e9f38e8964ac2290b1db2f1db3abf526029175640e3f7f4",
+  "human_gold": false,
+  "selection": "All 16 participants, minimum block per participant; no prediction or Silver access",
+  "at": "2026-10-18T15:39:40.901523+00:00",
+  "id": "8b08550b390d5e62b47b53d0ce9b86a0be13ec9cb2a6fc562dc7927928590e20"
+}

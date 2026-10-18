@@ -1,0 +1,91 @@
+{
+  "self_refine": {
+    "command": [
+      "python",
+      "src/acronym/run.py",
+      "Using language models of code for few-shot commonsense"
+    ],
+    "exit_code": 1,
+    "log_sha256": "9f36959cea14ec5463af6a778f5d90b170d8248d2e9b90dcb20c1b773f2f3246",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:12.634434+00:00"
+  },
+  "critic": {
+    "command": [
+      "python",
+      "-m",
+      "src.program.critic",
+      "--help"
+    ],
+    "exit_code": 1,
+    "log_sha256": "46b3b4545c9284bd0f456a4763498c9f33b0763d6b6a3e36fc65926d326f1fb3",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:13.083932+00:00"
+  },
+  "rarr": {
+    "command": [
+      "python",
+      "run_editor_sequential.py",
+      "--help"
+    ],
+    "exit_code": 1,
+    "log_sha256": "2b52db50d692ffe612d4f7fcd1bf84f5bc482815f6e3e6b890c50dc8ddc12739",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:13.134332+00:00"
+  },
+  "re2": {
+    "command": [
+      "python",
+      "run_eval/run_eval_one_phase_my.py",
+      "--help"
+    ],
+    "exit_code": 1,
+    "log_sha256": "2187eb40d4e76e54d4f5e3b745ff9e46392acfb0ce17795bd7534184e034b445",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:13.178173+00:00"
+  },
+  "rerec": {
+    "command": [
+      "python",
+      "scripts/predict.py",
+      "--help"
+    ],
+    "exit_code": 1,
+    "log_sha256": "2a73f7aedb8e76b12323d88f4e5f59aea80262c07d13966334948c6e5f49385f",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:13.502206+00:00"
+  },
+  "rankingshap": {
+    "command": [
+      "python",
+      "generate_feature_attribution_explanations.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "log_sha256": "fcc89d968eac834afcedf80d090218cdc0e90481159cb0824a8192bc7f3e1d61",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:15.313259+00:00"
+  },
+  "trace": {
+    "command": [
+      "python",
+      "run_explain.py",
+      "--help"
+    ],
+    "exit_code": 0,
+    "log_sha256": "3dd9ccac90c90734cfd9566c663194a653105d7a943c1cc22ce22b78bd4ca57f",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:17.153529+00:00"
+  },
+  "pex_dpo": {
+    "command": [
+      "python",
+      "compute_pex_score.py",
+      "--help"
+    ],
+    "exit_code": 1,
+    "log_sha256": "7efc9cd29274f9b8d55419b738686a60db81da31669819ead2e69e67aaa8bb5c",
+    "kind": "ENTRYPOINT_ONLY_NOT_ALGORITHM_REPRODUCTION",
+    "at": "2026-10-18T15:43:18.304959+00:00"
+  }
+}

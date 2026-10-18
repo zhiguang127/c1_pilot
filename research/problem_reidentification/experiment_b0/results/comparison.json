@@ -1,0 +1,765 @@
+{
+  "status": "RUNNING_OR_INCOMPLETE",
+  "planned_records": 200,
+  "record_count": 102,
+  "panels": {
+    "main": {
+      "B1_direct": {
+        "planned_windows": 16,
+        "completed_records": 12,
+        "status_counts": {
+          "EXECUTED": 12
+        },
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 12,
+        "candidate_items_in_valid_outputs": 60,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 12,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 120,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 135,
+          "invalid_reference": 88,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 47
+        },
+        "model_calls_including_cache": 24,
+        "logical_input_tokens": 192346,
+        "logical_output_tokens": 11500,
+        "logical_cost_no_discount": 0.5720303999999999,
+        "tool_interactions": 0
+      },
+      "B2_re2_style": {
+        "planned_windows": 16,
+        "completed_records": 12,
+        "status_counts": {
+          "EXECUTED": 9,
+          "FAILED": 1,
+          "INVALID_OUTPUT": 2
+        },
+        "failure_reasons": {
+          "Extra data: line 1 column 1842 (char 1841)": 1
+        },
+        "validation_failures": {
+          "ranking_must_partition_all_candidates": 2
+        },
+        "valid_output_windows": 9,
+        "candidate_items_in_valid_outputs": 45,
+        "ranking_changed_from_B1": 9,
+        "ranking_comparison_denominator": 9,
+        "explanation_changed_windows": 9,
+        "applicability_changed_items": 4,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 45,
+        "pair_denominator": 90,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 82,
+          "invalid_reference": 71,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 9
+        },
+        "model_calls_including_cache": 23,
+        "logical_input_tokens": 186576,
+        "logical_output_tokens": 15400,
+        "logical_cost_no_discount": 0.5956224,
+        "tool_interactions": 0
+      },
+      "B3_self_refine": {
+        "planned_windows": 16,
+        "completed_records": 12,
+        "status_counts": {
+          "EXECUTED": 12
+        },
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 12,
+        "candidate_items_in_valid_outputs": 60,
+        "ranking_changed_from_B1": 5,
+        "ranking_comparison_denominator": 12,
+        "explanation_changed_windows": 11,
+        "applicability_changed_items": 6,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 17,
+        "pair_denominator": 120,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 142,
+          "invalid_reference": 91,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 51
+        },
+        "model_calls_including_cache": 24,
+        "logical_input_tokens": 212427,
+        "logical_output_tokens": 16297,
+        "logical_cost_no_discount": 0.666276,
+        "tool_interactions": 0
+      },
+      "B4_critic": {
+        "planned_windows": 16,
+        "completed_records": 10,
+        "status_counts": {
+          "EXECUTED": 7,
+          "FAILED": 2,
+          "INVALID_OUTPUT": 1
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 3507)": 1,
+          "Extra data: line 2 column 1 (char 3007)": 1
+        },
+        "validation_failures": {
+          "invalid_applicability": 1
+        },
+        "valid_output_windows": 7,
+        "candidate_items_in_valid_outputs": 35,
+        "ranking_changed_from_B1": 2,
+        "ranking_comparison_denominator": 7,
+        "explanation_changed_windows": 4,
+        "applicability_changed_items": 2,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 11,
+        "pair_denominator": 70,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 68,
+          "invalid_reference": 54,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 14
+        },
+        "model_calls_including_cache": 20,
+        "logical_input_tokens": 251192,
+        "logical_output_tokens": 10436,
+        "logical_cost_no_discount": 0.7030464,
+        "tool_interactions": 10
+      },
+      "B5_rarr_explanation_only": {
+        "planned_windows": 16,
+        "completed_records": 10,
+        "status_counts": {
+          "EXECUTED": 10
+        },
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 10,
+        "candidate_items_in_valid_outputs": 50,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 10,
+        "explanation_changed_windows": 2,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 4,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 100,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 114,
+          "invalid_reference": 67,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 47
+        },
+        "model_calls_including_cache": 24,
+        "logical_input_tokens": 123692,
+        "logical_output_tokens": 4125,
+        "logical_cost_no_discount": 0.3364608,
+        "tool_interactions": 10
+      },
+      "S3a_grounding": {
+        "planned_windows": 16,
+        "completed_records": 10,
+        "status_counts": {
+          "FAILED": 1,
+          "EXECUTED": 9
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 3809)": 1
+        },
+        "validation_failures": {},
+        "valid_output_windows": 9,
+        "candidate_items_in_valid_outputs": 45,
+        "ranking_changed_from_B1": 3,
+        "ranking_comparison_denominator": 9,
+        "explanation_changed_windows": 7,
+        "applicability_changed_items": 2,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 13,
+        "pair_denominator": 90,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 110,
+          "invalid_reference": 61,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 49
+        },
+        "model_calls_including_cache": 30,
+        "logical_input_tokens": 414478,
+        "logical_output_tokens": 12420,
+        "logical_cost_no_discount": 1.1139792,
+        "tool_interactions": 10
+      },
+      "S3b_claim": {
+        "planned_windows": 16,
+        "completed_records": 10,
+        "status_counts": {
+          "EXECUTED": 7,
+          "FAILED": 2,
+          "INVALID_OUTPUT": 1
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 3767)": 1,
+          "Extra data: line 2 column 1 (char 3932)": 1
+        },
+        "validation_failures": {
+          "ranking_must_partition_all_candidates": 1,
+          "candidate_item_set_invalid": 1
+        },
+        "valid_output_windows": 7,
+        "candidate_items_in_valid_outputs": 35,
+        "ranking_changed_from_B1": 6,
+        "ranking_comparison_denominator": 7,
+        "explanation_changed_windows": 6,
+        "applicability_changed_items": 3,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 26,
+        "pair_denominator": 70,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 80,
+          "invalid_reference": 45,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 35
+        },
+        "model_calls_including_cache": 30,
+        "logical_input_tokens": 416000,
+        "logical_output_tokens": 13477,
+        "logical_cost_no_discount": 1.1277792,
+        "tool_interactions": 10
+      },
+      "S4_relative": {
+        "planned_windows": 16,
+        "completed_records": 9,
+        "status_counts": {
+          "FAILED": 3,
+          "EXECUTED": 5,
+          "INVALID_OUTPUT": 1
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 4241)": 1,
+          "Extra data: line 2 column 1 (char 1443)": 1,
+          "Invalid control character at: line 1 column 511 (char 510)": 1
+        },
+        "validation_failures": {
+          "ranking_must_partition_all_candidates": 1
+        },
+        "valid_output_windows": 5,
+        "candidate_items_in_valid_outputs": 25,
+        "ranking_changed_from_B1": 2,
+        "ranking_comparison_denominator": 5,
+        "explanation_changed_windows": 4,
+        "applicability_changed_items": 2,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 4,
+        "pair_denominator": 50,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 66,
+          "invalid_reference": 38,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 28
+        },
+        "model_calls_including_cache": 25,
+        "logical_input_tokens": 344578,
+        "logical_output_tokens": 11776,
+        "logical_cost_no_discount": 0.9400368,
+        "tool_interactions": 9
+      },
+      "BM_self_refine": {
+        "planned_windows": 16,
+        "completed_records": 9,
+        "status_counts": {
+          "EXECUTED": 8,
+          "INVALID_OUTPUT": 1
+        },
+        "failure_reasons": {},
+        "validation_failures": {
+          "ranking_must_partition_all_candidates": 1
+        },
+        "valid_output_windows": 8,
+        "candidate_items_in_valid_outputs": 40,
+        "ranking_changed_from_B1": 5,
+        "ranking_comparison_denominator": 8,
+        "explanation_changed_windows": 7,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 10,
+        "pair_denominator": 80,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 93,
+          "invalid_reference": 58,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 35
+        },
+        "model_calls_including_cache": 18,
+        "logical_input_tokens": 158593,
+        "logical_output_tokens": 11493,
+        "logical_cost_no_discount": 0.490956,
+        "tool_interactions": 0
+      },
+      "BM_critic": {
+        "planned_windows": 16,
+        "completed_records": 8,
+        "status_counts": {
+          "EXECUTED": 8
+        },
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 8,
+        "candidate_items_in_valid_outputs": 40,
+        "ranking_changed_from_B1": 1,
+        "ranking_comparison_denominator": 8,
+        "explanation_changed_windows": 8,
+        "applicability_changed_items": 5,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 8,
+        "pair_denominator": 80,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {
+          "citations": 96,
+          "invalid_reference": 65,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 31
+        },
+        "model_calls_including_cache": 24,
+        "logical_input_tokens": 333545,
+        "logical_output_tokens": 9253,
+        "logical_cost_no_discount": 0.8893367999999999,
+        "tool_interactions": 8
+      }
+    },
+    "candidate_reverse": {
+      "B1_direct": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "B2_re2_style": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "B3_self_refine": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "B4_critic": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "B5_rarr_explanation_only": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "S3a_grounding": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "S3b_claim": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "S4_relative": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "BM_self_refine": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      },
+      "BM_critic": {
+        "planned_windows": 4,
+        "completed_records": 0,
+        "status_counts": {},
+        "failure_reasons": {},
+        "validation_failures": {},
+        "valid_output_windows": 0,
+        "candidate_items_in_valid_outputs": 0,
+        "ranking_changed_from_B1": 0,
+        "ranking_comparison_denominator": 0,
+        "explanation_changed_windows": 0,
+        "applicability_changed_items": 0,
+        "rarr_open_gates": 0,
+        "strict_pairs_changed_from_B1": 0,
+        "pair_denominator": 0,
+        "all_candidates_tied_windows": 0,
+        "self_reported_priority_identifiable": 0,
+        "mechanical_evidence_only": {},
+        "model_calls_including_cache": 0,
+        "logical_input_tokens": 0,
+        "logical_output_tokens": 0,
+        "logical_cost_no_discount": 0,
+        "tool_interactions": 0
+      }
+    }
+  },
+  "paired_comparisons": {
+    "B4_critic__S4_relative": {
+      "valid_paired_windows": 3,
+      "different_orders": 2,
+      "mechanical_invalid_citation_totals": {
+        "B4_critic": 27,
+        "S4_relative": 27
+      },
+      "decision_improvement": null
+    },
+    "BM_critic__S4_relative": {
+      "valid_paired_windows": 5,
+      "different_orders": 2,
+      "mechanical_invalid_citation_totals": {
+        "BM_critic": 41,
+        "S4_relative": 38
+      },
+      "decision_improvement": null
+    },
+    "BM_self_refine__S4_relative": {
+      "valid_paired_windows": 5,
+      "different_orders": 4,
+      "mechanical_invalid_citation_totals": {
+        "BM_self_refine": 39,
+        "S4_relative": 38
+      },
+      "decision_improvement": null
+    },
+    "S3a_grounding__S3b_claim": {
+      "valid_paired_windows": 6,
+      "different_orders": 5,
+      "mechanical_invalid_citation_totals": {
+        "S3a_grounding": 36,
+        "S3b_claim": 35
+      },
+      "decision_improvement": null
+    },
+    "S3b_claim__S4_relative": {
+      "valid_paired_windows": 3,
+      "different_orders": 3,
+      "mechanical_invalid_citation_totals": {
+        "S3b_claim": 23,
+        "S4_relative": 22
+      },
+      "decision_improvement": null
+    }
+  },
+  "executed_fairness_checks": {
+    "shared_initial_checks": 78,
+    "complete_tool_result_checks": 57,
+    "valid": true
+  },
+  "candidate_order_intervention": {
+    "B1_direct": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "B2_re2_style": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "B3_self_refine": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "B4_critic": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "B5_rarr_explanation_only": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "S3a_grounding": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "S3b_claim": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "S4_relative": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "BM_self_refine": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    },
+    "BM_critic": {
+      "planned": 4,
+      "valid_paired_windows": 0,
+      "same_priority_order": 0,
+      "same_pair_relations": 0,
+      "pair_denominator": 0
+    }
+  },
+  "human_gold": false,
+  "decision_accuracy": null,
+  "clinical_correctness": null,
+  "novel_constraint_contribution_established": false,
+  "price": {
+    "input": 2.4,
+    "output": 9.6,
+    "cached_input": 0.48,
+    "unit": "CNY per million tokens",
+    "source": "https://help.aliyun.com/zh/model-studio/qwen-max",
+    "checked_on": "2026-10-18",
+    "actual_invoice": null
+  },
+  "actual_requests_all_versions": 281,
+  "responses_metered": 265,
+  "unknown_or_interrupted_requests": 16,
+  "input_tokens": 2814071,
+  "output_tokens": 127541,
+  "estimated_cost_no_discount": 7.978164,
+  "estimated_cost_reported_cache": 7.68300624,
+  "reserved_ceiling_for_unresolved_calls": 1.3933727999999999,
+  "cap_cny": 20.0,
+  "private_manifest_sha256": "9158926cdd8fbf33359df07adf02ef8f6ee218b90f4775c9916baf6415389447",
+  "freeze_id": "df9d7c385ee56d0c0521ed79e8bdfdd689e7dcd25ceb042ce6b748c533941791",
+  "at": "2026-10-18T15:59:21.503082+00:00"
+}

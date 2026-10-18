@@ -1,0 +1,78 @@
+{
+  "self_refine": {
+    "repository": "madaan/self-refine",
+    "url": "https://github.com/madaan/self-refine",
+    "commit": "9a206d41e5d2d0c241bb441f41eeadb945afaa55",
+    "tracked_files": 186,
+    "license_files": [
+      "LICENSE"
+    ],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:04.235668+00:00"
+  },
+  "critic": {
+    "repository": "ZethWang/CRITIC",
+    "url": "https://github.com/ZethWang/CRITIC",
+    "commit": "5e865ed78cd1b325cf53b15c7209227760131abf",
+    "tracked_files": 89,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:07.680869+00:00"
+  },
+  "rarr": {
+    "repository": "anthonywchen/RARR",
+    "url": "https://github.com/anthonywchen/RARR",
+    "commit": "51a1a10fe5bada837a368f98cb55288ac5168c9e",
+    "tracked_files": 13,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:09.977563+00:00"
+  },
+  "re2": {
+    "repository": "zhiyuanc2001/RE2",
+    "url": "https://github.com/zhiyuanc2001/RE2",
+    "commit": "c317f196e34f1a3fbb06d61b48ca924feefbc374",
+    "tracked_files": 40,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:13.492664+00:00"
+  },
+  "rerec": {
+    "repository": "jiani-huang/ReRec",
+    "url": "https://github.com/jiani-huang/ReRec",
+    "commit": "65b78c5129617a3dcceb2739342e8b5915011dcf",
+    "tracked_files": 223,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:18.654686+00:00"
+  },
+  "rankingshap": {
+    "repository": "MariaHeuss/RankingShap",
+    "url": "https://github.com/MariaHeuss/RankingShap",
+    "commit": "36e45975f34ee167261af56c69521d55c998b282",
+    "tracked_files": 27,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:21.162967+00:00"
+  },
+  "trace": {
+    "repository": "devUuung/TRACE",
+    "url": "https://github.com/devUuung/TRACE",
+    "commit": "ab14d963e231f789316a929ae7497f3d1acc674f",
+    "tracked_files": 62,
+    "license_files": [
+      "LICENSE"
+    ],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:32.558809+00:00"
+  },
+  "pex_dpo": {
+    "repository": "lingjunzhao/PEX_consistency",
+    "url": "https://github.com/lingjunzhao/PEX_consistency",
+    "commit": "33f6b73590cf2f4a67235329db4b712420bc9156",
+    "tracked_files": 41,
+    "license_files": [],
+    "working_tree_clean": true,
+    "acquired_at": "2026-10-18T15:31:35.108808+00:00"
+  }
+}

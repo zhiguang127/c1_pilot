@@ -1,0 +1,111 @@
+{
+  "native_algorithm_scope": "minimal official original-domain execution, not full paper reproduction",
+  "rankingshap": {
+    "native_status": "NATIVE_REPRODUCED",
+    "domain": "author synthetic talent-search notebook",
+    "query": "average",
+    "seed": 0,
+    "log_sha256": "7e88e50fced65907425a9b7918f2a97af5f0459324a9b74b5ce4b70c01125031",
+    "feature_attributions": [
+      [
+        5,
+        0.6246666666666669
+      ],
+      [
+        1,
+        0.35855555555555546
+      ],
+      [
+        4,
+        0.1696666666666666
+      ],
+      [
+        3,
+        0.07133333333333317
+      ],
+      [
+        2,
+        -0.22422222222222216
+      ]
+    ],
+    "health_status": "BLOCKED_NO_FROZEN_PRIORITY_SCORER"
+  },
+  "trace": {
+    "native_status": "NATIVE_REPRODUCED",
+    "dataset": "MovieLens-100K",
+    "model": "official SASRec checkpoint",
+    "checkpoint_sha256": "afeb0ee968f2b4cfc40fbd8fd4172a5d24c95bdb44c4cb2df1d5df8ae9b36f03",
+    "raw_zip_sha256": "50d2a982c66986937beb9ffb3aa76efe955bf3d5c6b761f4e3a7cd717c6a3229",
+    "runs": {
+      "b0-native-smoke": {
+        "users_executed": 3,
+        "valid_counterfactuals": 0,
+        "query_counts": [
+          100,
+          100,
+          100
+        ],
+        "edit_counts": [
+          0,
+          0,
+          0
+        ],
+        "query_budget_per_user": 100,
+        "max_edits": 2,
+        "log_sha256": "ae979c79223fe540f616f9edb4eab6ebc46dce87c925e07dd3b97a8c213ae26a",
+        "native_output_sha256": "ae3e8e65361e48a0238fda71072579c26c0c5d323895a8cf82e40944b3677d1e",
+        "seed": 42,
+        "metrics": {
+          "queries": 100.0,
+          "hamming_mean": null,
+          "hamming_std": null,
+          "delta_nll": null,
+          "validity_rate": 0.0,
+          "validity": 0.0,
+          "time_seconds": 0.1408252716064453
+        }
+      },
+      "b0-native-author-budget": {
+        "users_executed": 3,
+        "valid_counterfactuals": 3,
+        "query_counts": [
+          1301,
+          10000,
+          7735
+        ],
+        "edit_counts": [
+          1,
+          3,
+          2
+        ],
+        "query_budget_per_user": 10000,
+        "max_edits": 5,
+        "log_sha256": "4fc381fafa40f73701e0044854e48956e9eef4de2202fbd29978cb44f589588e",
+        "native_output_sha256": "56568fc2cd8e884973d2be91b8aeb87b137af2d42d102d147925c42caab49f96",
+        "seed": 42,
+        "metrics": {
+          "queries": 6345.333333333333,
+          "hamming_mean": 2.0,
+          "hamming_std": 0.816496580927726,
+          "delta_nll": 0.026359399159749348,
+          "validity_rate": 1.0,
+          "validity": 1.0,
+          "time_seconds": 1.9439542293548584
+        }
+      }
+    },
+    "target": "bring-in, original rank 2..50",
+    "health_status": "BLOCKED_NO_HEALTH_INTERACTION_MODEL",
+    "scope_limit": "Same three randomly selected users, one seed, CPU instead of paper GPU; no health ranking claim"
+  },
+  "tracked_upstream_code_changes": {
+    "self_refine": [],
+    "critic": [],
+    "rarr": [],
+    "re2": [],
+    "rerec": [],
+    "rankingshap": [],
+    "trace": [],
+    "pex_dpo": []
+  }
+}

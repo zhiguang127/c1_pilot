@@ -1,0 +1,46 @@
+{
+  "kind": "ENGINEERING_VALIDATION_ONLY",
+  "suites": [
+    {
+      "suite": "B0",
+      "tests": 11,
+      "passed": true,
+      "log_sha256": "7f1c5b6d5db9664703b127c8716b38173d3b0a46542cc80dc93713246c17c23e"
+    },
+    {
+      "suite": "Experiment A",
+      "tests": 66,
+      "passed": true,
+      "log_sha256": "572f1cb14200e73254ad7ee3fd82a7fddca9a82fca380342d362b5b95c7777a8"
+    },
+    {
+      "suite": "P1",
+      "tests": 24,
+      "passed": true,
+      "log_sha256": "3359a3fe3f93bbc1114d906ee47de74f83a14e8b33081149b6da771ba0d5c499"
+    },
+    {
+      "suite": "legacy C1",
+      "tests": 87,
+      "passed": true,
+      "log_sha256": "aec0873d544357888d6c15c9771f895a6d8bd0d11d3db5dc4de7e828b5d87b7a"
+    }
+  ],
+  "frozen_inputs": {
+    "C1": 77,
+    "P1": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "A1": "6e92073cf3bfe0cb12ae63f7a281490ab54bf21a44a0ad5cad56e6885512d523",
+    "Silver": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e",
+    "baseline_predictions_match": true,
+    "label_files_match": true,
+    "source_condition_audit_files_match_release": true,
+    "source_condition_audit_count": 26
+  },
+  "inference_protocol_freeze_id": "df9d7c385ee56d0c0521ed79e8bdfdd689e7dcd25ceb042ce6b748c533941791",
+  "native_recipe_checks": {
+    "recipe-check-shap": 0,
+    "recipe-check-trace": 0
+  },
+  "initial_unsupported_environment_failure_preserved": "tests-a.log: system Python missing dependencies; supported pha environment 66/66 passed",
+  "human_annotations_created": 0
+}

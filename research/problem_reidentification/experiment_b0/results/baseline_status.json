@@ -1,0 +1,125 @@
+{
+  "methods": {
+    "self_refine": {
+      "repository": "https://github.com/madaan/self-refine",
+      "commit": "9a206d41e5d2d0c241bb441f41eeadb945afaa55",
+      "native_status": "TASK_ADAPTED",
+      "health_status": "TASK_ADAPTED",
+      "health_arm": "B3_self_refine",
+      "planned_health_windows": 16,
+      "health_accepted_windows": 15,
+      "health_execution_status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "critic": {
+      "repository": "https://github.com/ZethWang/CRITIC",
+      "commit": "5e865ed78cd1b325cf53b15c7209227760131abf",
+      "native_status": "BLOCKED",
+      "health_status": "TASK_ADAPTED",
+      "health_arm": "B4_critic",
+      "planned_health_windows": 16,
+      "health_accepted_windows": 11,
+      "health_execution_status_counts": {
+        "EXECUTED": 11,
+        "FAILED": 3,
+        "INVALID_OUTPUT": 2
+      },
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "rarr": {
+      "repository": "https://github.com/anthonywchen/RARR",
+      "commit": "51a1a10fe5bada837a368f98cb55288ac5168c9e",
+      "native_status": "BLOCKED",
+      "health_status": "TASK_ADAPTED",
+      "health_arm": "B5_rarr_explanation_only",
+      "planned_health_windows": 16,
+      "health_accepted_windows": 15,
+      "health_execution_status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "re2": {
+      "repository": "https://github.com/zhiyuanc2001/RE2",
+      "commit": "c317f196e34f1a3fbb06d61b48ca924feefbc374",
+      "native_status": "BLOCKED",
+      "health_status": "PAPER_INSPIRED",
+      "health_arm": "B2_re2_style",
+      "planned_health_windows": 16,
+      "health_accepted_windows": 12,
+      "health_execution_status_counts": {
+        "FAILED": 2,
+        "EXECUTED": 12,
+        "INVALID_OUTPUT": 2
+      },
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "rerec": {
+      "repository": "https://github.com/jiani-huang/ReRec",
+      "commit": "65b78c5129617a3dcceb2739342e8b5915011dcf",
+      "native_status": "BLOCKED",
+      "health_status": "BLOCKED",
+      "health_arm": null,
+      "planned_health_windows": 0,
+      "health_accepted_windows": 0,
+      "health_execution_status_counts": {},
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "rankingshap": {
+      "repository": "https://github.com/MariaHeuss/RankingShap",
+      "commit": "36e45975f34ee167261af56c69521d55c998b282",
+      "native_status": "NATIVE_REPRODUCED",
+      "health_status": "BLOCKED",
+      "health_arm": null,
+      "planned_health_windows": 0,
+      "health_accepted_windows": 0,
+      "health_execution_status_counts": {},
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "trace": {
+      "repository": "https://github.com/devUuung/TRACE",
+      "commit": "ab14d963e231f789316a929ae7497f3d1acc674f",
+      "native_status": "NATIVE_REPRODUCED",
+      "health_status": "BLOCKED",
+      "health_arm": null,
+      "planned_health_windows": 0,
+      "health_accepted_windows": 0,
+      "health_execution_status_counts": {},
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    },
+    "pex_dpo": {
+      "repository": "https://github.com/lingjunzhao/PEX_consistency",
+      "commit": "33f6b73590cf2f4a67235329db4b712420bc9156",
+      "native_status": "BLOCKED",
+      "health_status": "BLOCKED",
+      "health_arm": null,
+      "planned_health_windows": 0,
+      "health_accepted_windows": 0,
+      "health_execution_status_counts": {},
+      "complete_paper_result_reproduction": false,
+      "health_decision_accuracy": null
+    }
+  },
+  "execution_status": "COMPLETE_EXPLORATORY_EXECUTION",
+  "human_gold": false,
+  "native_scope": "NATIVE_REPRODUCED means official minimal original-domain algorithm executed; not paper metrics across datasets",
+  "re2_warning": "B2 is RE2-style Reason-then-Recommend Prompting; original SFT/GRPO model not executed",
+  "rarr_warning": "Original author generation/gate/editor functions executed with task/backend/source adapter and explanation-only decision lock; original web/passageranker not reproduced",
+  "recpie": {
+    "status": "BLOCKED",
+    "role": "RELATED_WORK_AND_FUTURE_TRAINING_CANDIDATE",
+    "credible_official_code_located": false,
+    "reproduced": false
+  }
+}

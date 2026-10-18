@@ -23,11 +23,17 @@ def render():
     for m, v in x["panels"]["main"].items():
         lines.append(f"| {names[m]} | {v['valid_output_windows']} / {v['completed_records']} / 16 | {v['status_counts'].get('INVALID_OUTPUT',0)} / {v['status_counts'].get('FAILED',0)} | {v['ranking_changed_from_B1']} / {v['ranking_comparison_denominator']} | {v['explanation_changed_windows']} | {v['applicability_changed_items']} | {v['tool_interactions']} |")
     lines += ["", "RARR 的排序和适用性变化为零是接口锁定的结果，不是从数据发现它永远不能修改排序。原算法不含此健康排序目标；本轮没有额外 reranking adapter。执行成功的模型反馈、修正、query、tool result 和失败响应均保存在忽略的 `local/`，没有用测试夹具替代真实模型。", "",
+        "依赖共同初始化而未运行的修正记录共有 " + str(sum(v['not_run_shared_initialization'] for v in x['panels']['main'].values())) + " 条，包含在表中执行失败列，但不能当成这些方法实际生成了错误答案；机器报告另列 `not_run_shared_initialization`。", "",
         "## 字面证据检查", "", "这里只检查 reference 存在、显式值及 null/零 RHR 的用途，不验证自由文本全部数值、医学语义、来源主张或优先级。空 evidence 单独记数；少引用不是正确性提高。", "",
         "| 方法 | 有效引用 / 全部引用 | 无效引用 / 错值 / 无效生理用途 | 无引用 item / 接受的 item |", "|---|---:|---:|---:|"]
     for m, v in x["panels"]["main"].items():
         a = v["mechanical_evidence_only"]
         lines.append(f"| {names[m]} | {a.get('valid_citations',0)} / {a.get('citations',0)} | {a.get('invalid_reference',0)} / {a.get('invalid_value',0)} / {a.get('unusable_physiology',0)} | {a.get('missing_evidence_items',0)} / {v['candidate_items_in_valid_outputs']} |")
+    lines += ["", "另作**事后格式诊断**：部分模型引用 `stats.phase.metrics.metric.stat`，恰好对应输入 JSON 的实际层级，但违反输出规范的四段写法。只在同一原记录能够解析时删除字面的 `.metrics` 层；不改 value、purpose、解释、适用性或排序，也不回写原预测。以下结果用于区分接口不符与真正错值，不是已运行的推荐修复实验，不能替代原严格结果或来源语义审查。", "",
+              "| 方法 | 仅格式映射引用数 | 映射后有效引用 / 全部引用 | 仍无效引用 / 错值 / 无效生理用途 |", "|---|---:|---:|---:|"]
+    for m, v in x["panels"]["main"].items():
+        a = v["posthoc_reference_format_diagnostic"]
+        lines.append(f"| {names[m]} | {a.get('format_only_references_mapped',0)} | {a.get('valid_citations',0)} / {a.get('citations',0)} | {a.get('invalid_reference',0)} / {a.get('invalid_value',0)} / {a.get('unusable_physiology',0)} |")
     lines += ["", "## 资源、工具与预算对齐", "",
         "所有修正臂使用字节完全相同的 B1 初始输出。CRITIC 与 ECR 的真实工具结果使用同一实现，均返回完整 42 行、质量标记、确定性统计、相同来源片段，无 Silver、Gold 或 Oracle。Self-Refine 在初始输入也拥有同一全部记录与统计。运行后已核查共同初始哈希 " + str(x["executed_fairness_checks"]["shared_initial_checks"]) + " 次，完整工具结果 " + str(x["executed_fairness_checks"]["complete_tool_result_checks"]) + " 次，当前均通过。",
         "", "基础模型统一 `qwen-max`、temperature=0、同一 DashScope 端点；其供应商 alias 不是不可变权重。普通 Self-Refine 反馈/修正上限为 1024/2048；普通 CRITIC 两阶段各 2048。BM Self-Refine 两阶段各 3072，BM CRITIC 与三个 ECR 臂三阶段各 2048，最大输出总量均 6144、一次最终修正。RARR 检查/编辑最多 256+256+2048。所有臂同一 120000 UTF8 字节输入保护，不截断记录，真实 token 窗口由供应商校验。",
@@ -59,7 +65,7 @@ def render():
         "", f"截至本快照共有 **{x['actual_requests_all_versions']} 个实际请求**、{x['responses_metered']} 个已计量响应，输入 {x['input_tokens']:,}、输出 {x['output_tokens']:,} token。按[已核验公开单价](https://help.aliyun.com/zh/model-studio/qwen-max)，不计缓存约 **¥{x['estimated_cost_no_discount']:.4f}**，按服务端缓存量约 **¥{x['estimated_cost_reported_cache']:.4f}**。另有 {x['unknown_or_interrupted_requests']} 个未获完整计量的请求，保留约 ¥{x['reserved_ceiling_for_unresolved_calls']:.4f} 的保守预算占用；不能将它们写为零费用。B0 上限 ¥20，与旧 Silver 预算分开，实际账单未知。",
         "", "机器聚合为 [comparison.json](results/comparison.json)，全部私人执行文件有内容哈希清单。审查规则见 [REVIEW_PROTOCOL.md](REVIEW_PROTOCOL.md)。最终仍需独立人工来源/解释检查、可判定优先级、更多参与者与窗口、固定初始状态的独立干预，以及真正 RE2/ReRec/PEX-DPO 训练对照。",
         "", "**目前没有证据证明某种解释约束在强已有方法之外具有可靠的独立推荐决策贡献；允许最终结论是普通推理、反馈或工具方法已经足够。**", ""]
-    (ROOT / "SOTA_COMPARISON.md").write_text("\n".join(lines), encoding="utf-8")
+    (ROOT / "SOTA_COMPARISON.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
     return complete
 
 

@@ -1,746 +1,1099 @@
 {
-  "status": "RUNNING_OR_INCOMPLETE",
+  "status": "COMPLETE_EXPLORATORY_EXECUTION",
   "planned_records": 200,
-  "record_count": 102,
+  "record_count": 200,
   "panels": {
     "main": {
       "B1_direct": {
         "planned_windows": 16,
-        "completed_records": 12,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 12
+          "EXECUTED": 15,
+          "FAILED": 1
         },
-        "failure_reasons": {},
+        "failure_reasons": {
+          "Expecting ',' delimiter: line 1 column 1593 (char 1592)": 1
+        },
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 12,
-        "candidate_items_in_valid_outputs": 60,
+        "valid_output_windows": 15,
+        "candidate_items_in_valid_outputs": 75,
         "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 12,
+        "ranking_comparison_denominator": 15,
         "explanation_changed_windows": 0,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
         "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 120,
+        "pair_denominator": 150,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 135,
-          "invalid_reference": 88,
+          "citations": 163,
+          "invalid_reference": 102,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 47
+          "valid_citations": 61
         },
-        "model_calls_including_cache": 24,
-        "logical_input_tokens": 192346,
-        "logical_output_tokens": 11500,
-        "logical_cost_no_discount": 0.5720303999999999,
+        "model_calls_including_cache": 31,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 163,
+          "invalid_reference": 6,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 157,
+          "format_only_references_mapped": 96
+        },
+        "logical_input_tokens": 251311,
+        "logical_output_tokens": 14687,
+        "logical_cost_no_discount": 0.7441416,
         "tool_interactions": 0
       },
       "B2_re2_style": {
         "planned_windows": 16,
-        "completed_records": 12,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 9,
-          "FAILED": 1,
+          "FAILED": 2,
+          "EXECUTED": 12,
           "INVALID_OUTPUT": 2
         },
         "failure_reasons": {
+          "Extra data: line 1 column 1920 (char 1919)": 1,
           "Extra data: line 1 column 1842 (char 1841)": 1
         },
+        "not_run_shared_initialization": 0,
         "validation_failures": {
           "ranking_must_partition_all_candidates": 2
         },
-        "valid_output_windows": 9,
-        "candidate_items_in_valid_outputs": 45,
-        "ranking_changed_from_B1": 9,
-        "ranking_comparison_denominator": 9,
-        "explanation_changed_windows": 9,
+        "valid_output_windows": 12,
+        "candidate_items_in_valid_outputs": 60,
+        "ranking_changed_from_B1": 11,
+        "ranking_comparison_denominator": 11,
+        "explanation_changed_windows": 11,
         "applicability_changed_items": 4,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 45,
-        "pair_denominator": 90,
+        "strict_pairs_changed_from_B1": 56,
+        "pair_denominator": 110,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 82,
-          "invalid_reference": 71,
+          "citations": 108,
+          "invalid_reference": 92,
           "invalid_value": 2,
           "unusable_physiology": 0,
           "missing_evidence_items": 0,
-          "valid_citations": 9
+          "valid_citations": 14
         },
-        "model_calls_including_cache": 23,
-        "logical_input_tokens": 186576,
-        "logical_output_tokens": 15400,
-        "logical_cost_no_discount": 0.5956224,
+        "model_calls_including_cache": 30,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 108,
+          "invalid_reference": 2,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 104,
+          "format_only_references_mapped": 90
+        },
+        "logical_input_tokens": 246166,
+        "logical_output_tokens": 19856,
+        "logical_cost_no_discount": 0.781416,
         "tool_interactions": 0
       },
       "B3_self_refine": {
         "planned_windows": 16,
-        "completed_records": 12,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 12
+          "EXECUTED": 15,
+          "FAILED": 1
         },
-        "failure_reasons": {},
+        "failure_reasons": {
+          "Frozen shared B1 initialization unavailable": 1
+        },
+        "not_run_shared_initialization": 1,
         "validation_failures": {},
-        "valid_output_windows": 12,
-        "candidate_items_in_valid_outputs": 60,
+        "valid_output_windows": 15,
+        "candidate_items_in_valid_outputs": 75,
         "ranking_changed_from_B1": 5,
-        "ranking_comparison_denominator": 12,
-        "explanation_changed_windows": 11,
-        "applicability_changed_items": 6,
+        "ranking_comparison_denominator": 15,
+        "explanation_changed_windows": 14,
+        "applicability_changed_items": 7,
         "rarr_open_gates": 0,
         "strict_pairs_changed_from_B1": 17,
-        "pair_denominator": 120,
+        "pair_denominator": 150,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 142,
-          "invalid_reference": 91,
+          "citations": 171,
+          "invalid_reference": 106,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 51
+          "valid_citations": 65
         },
-        "model_calls_including_cache": 24,
-        "logical_input_tokens": 212427,
-        "logical_output_tokens": 16297,
-        "logical_cost_no_discount": 0.666276,
+        "model_calls_including_cache": 30,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 171,
+          "invalid_reference": 7,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 164,
+          "format_only_references_mapped": 99
+        },
+        "logical_input_tokens": 267976,
+        "logical_output_tokens": 20075,
+        "logical_cost_no_discount": 0.8358624,
         "tool_interactions": 0
       },
       "B4_critic": {
         "planned_windows": 16,
-        "completed_records": 10,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 7,
-          "FAILED": 2,
-          "INVALID_OUTPUT": 1
+          "EXECUTED": 11,
+          "FAILED": 3,
+          "INVALID_OUTPUT": 2
         },
         "failure_reasons": {
           "Extra data: line 2 column 1 (char 3507)": 1,
-          "Extra data: line 2 column 1 (char 3007)": 1
+          "Extra data: line 2 column 1 (char 3007)": 1,
+          "Frozen shared B1 initialization unavailable": 1
         },
+        "not_run_shared_initialization": 1,
         "validation_failures": {
+          "ranking_must_partition_all_candidates": 1,
           "invalid_applicability": 1
         },
-        "valid_output_windows": 7,
-        "candidate_items_in_valid_outputs": 35,
-        "ranking_changed_from_B1": 2,
-        "ranking_comparison_denominator": 7,
-        "explanation_changed_windows": 4,
-        "applicability_changed_items": 2,
+        "valid_output_windows": 11,
+        "candidate_items_in_valid_outputs": 55,
+        "ranking_changed_from_B1": 3,
+        "ranking_comparison_denominator": 11,
+        "explanation_changed_windows": 7,
+        "applicability_changed_items": 4,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 11,
-        "pair_denominator": 70,
+        "strict_pairs_changed_from_B1": 18,
+        "pair_denominator": 110,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 68,
-          "invalid_reference": 54,
+          "citations": 108,
+          "invalid_reference": 80,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 14
+          "valid_citations": 28
         },
-        "model_calls_including_cache": 20,
-        "logical_input_tokens": 251192,
-        "logical_output_tokens": 10436,
-        "logical_cost_no_discount": 0.7030464,
-        "tool_interactions": 10
+        "model_calls_including_cache": 30,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 108,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 108,
+          "format_only_references_mapped": 80
+        },
+        "logical_input_tokens": 382973,
+        "logical_output_tokens": 14952,
+        "logical_cost_no_discount": 1.0626744,
+        "tool_interactions": 15
       },
       "B5_rarr_explanation_only": {
         "planned_windows": 16,
-        "completed_records": 10,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 10
+          "EXECUTED": 15,
+          "FAILED": 1
         },
-        "failure_reasons": {},
+        "failure_reasons": {
+          "Frozen shared B1 initialization unavailable": 1
+        },
+        "not_run_shared_initialization": 1,
         "validation_failures": {},
-        "valid_output_windows": 10,
-        "candidate_items_in_valid_outputs": 50,
+        "valid_output_windows": 15,
+        "candidate_items_in_valid_outputs": 75,
         "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 10,
-        "explanation_changed_windows": 2,
+        "ranking_comparison_denominator": 15,
+        "explanation_changed_windows": 3,
         "applicability_changed_items": 0,
-        "rarr_open_gates": 4,
+        "rarr_open_gates": 5,
         "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 100,
+        "pair_denominator": 150,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 114,
-          "invalid_reference": 67,
+          "citations": 163,
+          "invalid_reference": 102,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 47
+          "valid_citations": 61
         },
-        "model_calls_including_cache": 24,
-        "logical_input_tokens": 123692,
-        "logical_output_tokens": 4125,
-        "logical_cost_no_discount": 0.3364608,
-        "tool_interactions": 10
+        "model_calls_including_cache": 35,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 163,
+          "invalid_reference": 6,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 157,
+          "format_only_references_mapped": 96
+        },
+        "logical_input_tokens": 179782,
+        "logical_output_tokens": 5426,
+        "logical_cost_no_discount": 0.4835664,
+        "tool_interactions": 15
       },
       "S3a_grounding": {
         "planned_windows": 16,
-        "completed_records": 10,
+        "completed_records": 16,
         "status_counts": {
-          "FAILED": 1,
-          "EXECUTED": 9
+          "EXECUTED": 14,
+          "FAILED": 2
         },
         "failure_reasons": {
-          "Extra data: line 2 column 1 (char 3809)": 1
+          "Extra data: line 2 column 1 (char 3809)": 1,
+          "Frozen shared B1 initialization unavailable": 1
         },
+        "not_run_shared_initialization": 1,
         "validation_failures": {},
-        "valid_output_windows": 9,
-        "candidate_items_in_valid_outputs": 45,
-        "ranking_changed_from_B1": 3,
-        "ranking_comparison_denominator": 9,
-        "explanation_changed_windows": 7,
-        "applicability_changed_items": 2,
+        "valid_output_windows": 14,
+        "candidate_items_in_valid_outputs": 70,
+        "ranking_changed_from_B1": 5,
+        "ranking_comparison_denominator": 14,
+        "explanation_changed_windows": 10,
+        "applicability_changed_items": 7,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 13,
-        "pair_denominator": 90,
+        "strict_pairs_changed_from_B1": 22,
+        "pair_denominator": 140,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 110,
-          "invalid_reference": 61,
+          "citations": 160,
+          "invalid_reference": 97,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 49
+          "valid_citations": 63
         },
-        "model_calls_including_cache": 30,
-        "logical_input_tokens": 414478,
-        "logical_output_tokens": 12420,
-        "logical_cost_no_discount": 1.1139792,
-        "tool_interactions": 10
+        "model_calls_including_cache": 45,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 160,
+          "invalid_reference": 2,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 158,
+          "format_only_references_mapped": 95
+        },
+        "logical_input_tokens": 632555,
+        "logical_output_tokens": 18238,
+        "logical_cost_no_discount": 1.6932167999999999,
+        "tool_interactions": 15
       },
       "S3b_claim": {
         "planned_windows": 16,
-        "completed_records": 10,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 7,
-          "FAILED": 2,
-          "INVALID_OUTPUT": 1
+          "EXECUTED": 11,
+          "FAILED": 3,
+          "INVALID_OUTPUT": 2
         },
         "failure_reasons": {
           "Extra data: line 2 column 1 (char 3767)": 1,
+          "Frozen shared B1 initialization unavailable": 1,
           "Extra data: line 2 column 1 (char 3932)": 1
         },
+        "not_run_shared_initialization": 1,
         "validation_failures": {
-          "ranking_must_partition_all_candidates": 1,
+          "ranking_must_partition_all_candidates": 2,
           "candidate_item_set_invalid": 1
         },
-        "valid_output_windows": 7,
-        "candidate_items_in_valid_outputs": 35,
-        "ranking_changed_from_B1": 6,
-        "ranking_comparison_denominator": 7,
-        "explanation_changed_windows": 6,
-        "applicability_changed_items": 3,
+        "valid_output_windows": 11,
+        "candidate_items_in_valid_outputs": 55,
+        "ranking_changed_from_B1": 7,
+        "ranking_comparison_denominator": 11,
+        "explanation_changed_windows": 8,
+        "applicability_changed_items": 4,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 26,
-        "pair_denominator": 70,
+        "strict_pairs_changed_from_B1": 28,
+        "pair_denominator": 110,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 80,
-          "invalid_reference": 45,
+          "citations": 120,
+          "invalid_reference": 71,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 0,
-          "valid_citations": 35
+          "valid_citations": 49
         },
-        "model_calls_including_cache": 30,
-        "logical_input_tokens": 416000,
-        "logical_output_tokens": 13477,
-        "logical_cost_no_discount": 1.1277792,
-        "tool_interactions": 10
+        "model_calls_including_cache": 45,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 120,
+          "invalid_reference": 3,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 117,
+          "format_only_references_mapped": 68
+        },
+        "logical_input_tokens": 634198,
+        "logical_output_tokens": 18919,
+        "logical_cost_no_discount": 1.7036976,
+        "tool_interactions": 15
       },
       "S4_relative": {
         "planned_windows": 16,
-        "completed_records": 9,
+        "completed_records": 16,
         "status_counts": {
-          "FAILED": 3,
-          "EXECUTED": 5,
-          "INVALID_OUTPUT": 1
+          "INVALID_OUTPUT": 3,
+          "EXECUTED": 9,
+          "FAILED": 4
         },
         "failure_reasons": {
           "Extra data: line 2 column 1 (char 4241)": 1,
           "Extra data: line 2 column 1 (char 1443)": 1,
+          "Frozen shared B1 initialization unavailable": 1,
           "Invalid control character at: line 1 column 511 (char 510)": 1
         },
+        "not_run_shared_initialization": 1,
         "validation_failures": {
-          "ranking_must_partition_all_candidates": 1
+          "invalid_applicability": 1,
+          "ranking_must_partition_all_candidates": 2
         },
-        "valid_output_windows": 5,
-        "candidate_items_in_valid_outputs": 25,
-        "ranking_changed_from_B1": 2,
-        "ranking_comparison_denominator": 5,
-        "explanation_changed_windows": 4,
-        "applicability_changed_items": 2,
+        "valid_output_windows": 9,
+        "candidate_items_in_valid_outputs": 45,
+        "ranking_changed_from_B1": 5,
+        "ranking_comparison_denominator": 9,
+        "explanation_changed_windows": 8,
+        "applicability_changed_items": 6,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 4,
-        "pair_denominator": 50,
+        "strict_pairs_changed_from_B1": 18,
+        "pair_denominator": 90,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 66,
-          "invalid_reference": 38,
+          "citations": 106,
+          "invalid_reference": 68,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 0,
-          "valid_citations": 28
+          "valid_citations": 38
         },
-        "model_calls_including_cache": 25,
-        "logical_input_tokens": 344578,
-        "logical_output_tokens": 11776,
-        "logical_cost_no_discount": 0.9400368,
-        "tool_interactions": 9
+        "model_calls_including_cache": 43,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 106,
+          "invalid_reference": 2,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 104,
+          "format_only_references_mapped": 66
+        },
+        "logical_input_tokens": 604970,
+        "logical_output_tokens": 19146,
+        "logical_cost_no_discount": 1.6357296,
+        "tool_interactions": 15
       },
       "BM_self_refine": {
         "planned_windows": 16,
-        "completed_records": 9,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 8,
-          "INVALID_OUTPUT": 1
+          "EXECUTED": 14,
+          "INVALID_OUTPUT": 1,
+          "FAILED": 1
         },
-        "failure_reasons": {},
+        "failure_reasons": {
+          "Frozen shared B1 initialization unavailable": 1
+        },
+        "not_run_shared_initialization": 1,
         "validation_failures": {
           "ranking_must_partition_all_candidates": 1
         },
-        "valid_output_windows": 8,
-        "candidate_items_in_valid_outputs": 40,
-        "ranking_changed_from_B1": 5,
-        "ranking_comparison_denominator": 8,
-        "explanation_changed_windows": 7,
+        "valid_output_windows": 14,
+        "candidate_items_in_valid_outputs": 70,
+        "ranking_changed_from_B1": 6,
+        "ranking_comparison_denominator": 14,
+        "explanation_changed_windows": 13,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 10,
-        "pair_denominator": 80,
+        "strict_pairs_changed_from_B1": 17,
+        "pair_denominator": 140,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 93,
-          "invalid_reference": 58,
+          "citations": 152,
+          "invalid_reference": 93,
           "invalid_value": 0,
           "unusable_physiology": 0,
           "missing_evidence_items": 1,
-          "valid_citations": 35
+          "valid_citations": 59
         },
-        "model_calls_including_cache": 18,
-        "logical_input_tokens": 158593,
-        "logical_output_tokens": 11493,
-        "logical_cost_no_discount": 0.490956,
+        "model_calls_including_cache": 30,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 152,
+          "invalid_reference": 6,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 146,
+          "format_only_references_mapped": 87
+        },
+        "logical_input_tokens": 267478,
+        "logical_output_tokens": 19069,
+        "logical_cost_no_discount": 0.8250096,
         "tool_interactions": 0
       },
       "BM_critic": {
         "planned_windows": 16,
-        "completed_records": 8,
+        "completed_records": 16,
         "status_counts": {
-          "EXECUTED": 8
+          "EXECUTED": 13,
+          "INVALID_OUTPUT": 2,
+          "FAILED": 1
         },
-        "failure_reasons": {},
-        "validation_failures": {},
-        "valid_output_windows": 8,
-        "candidate_items_in_valid_outputs": 40,
-        "ranking_changed_from_B1": 1,
-        "ranking_comparison_denominator": 8,
-        "explanation_changed_windows": 8,
-        "applicability_changed_items": 5,
+        "failure_reasons": {
+          "Frozen shared B1 initialization unavailable": 1
+        },
+        "not_run_shared_initialization": 1,
+        "validation_failures": {
+          "ranking_must_partition_all_candidates": 2,
+          "candidate_item_set_invalid": 1
+        },
+        "valid_output_windows": 13,
+        "candidate_items_in_valid_outputs": 65,
+        "ranking_changed_from_B1": 3,
+        "ranking_comparison_denominator": 13,
+        "explanation_changed_windows": 13,
+        "applicability_changed_items": 6,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 8,
-        "pair_denominator": 80,
+        "strict_pairs_changed_from_B1": 16,
+        "pair_denominator": 130,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
         "mechanical_evidence_only": {
-          "citations": 96,
-          "invalid_reference": 65,
+          "citations": 142,
+          "invalid_reference": 99,
           "invalid_value": 0,
           "unusable_physiology": 0,
-          "missing_evidence_items": 0,
-          "valid_citations": 31
+          "missing_evidence_items": 1,
+          "valid_citations": 43
         },
-        "model_calls_including_cache": 24,
-        "logical_input_tokens": 333545,
-        "logical_output_tokens": 9253,
-        "logical_cost_no_discount": 0.8893367999999999,
-        "tool_interactions": 8
+        "model_calls_including_cache": 45,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 142,
+          "invalid_reference": 6,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 1,
+          "valid_citations": 136,
+          "format_only_references_mapped": 93
+        },
+        "logical_input_tokens": 630649,
+        "logical_output_tokens": 16651,
+        "logical_cost_no_discount": 1.6734072,
+        "tool_interactions": 15
       }
     },
     "candidate_reverse": {
       "B1_direct": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 4
+        },
         "failure_reasons": {},
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
+        "valid_output_windows": 4,
+        "candidate_items_in_valid_outputs": 20,
         "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
+        "ranking_comparison_denominator": 4,
         "explanation_changed_windows": 0,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
         "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "pair_denominator": 40,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
+        "mechanical_evidence_only": {
+          "citations": 52,
+          "invalid_reference": 32,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 18
+        },
+        "model_calls_including_cache": 8,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 52,
+          "invalid_reference": 0,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 50,
+          "format_only_references_mapped": 32
+        },
+        "logical_input_tokens": 63304,
+        "logical_output_tokens": 4245,
+        "logical_cost_no_discount": 0.19268159999999998,
         "tool_interactions": 0
       },
       "B2_re2_style": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 4
+        },
         "failure_reasons": {},
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
-        "applicability_changed_items": 0,
+        "valid_output_windows": 4,
+        "candidate_items_in_valid_outputs": 20,
+        "ranking_changed_from_B1": 4,
+        "ranking_comparison_denominator": 4,
+        "explanation_changed_windows": 4,
+        "applicability_changed_items": 5,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 21,
+        "pair_denominator": 40,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
+        "mechanical_evidence_only": {
+          "citations": 45,
+          "invalid_reference": 34,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 11
+        },
+        "model_calls_including_cache": 8,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 45,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 45,
+          "format_only_references_mapped": 34
+        },
+        "logical_input_tokens": 64210,
+        "logical_output_tokens": 5809,
+        "logical_cost_no_discount": 0.2098704,
         "tool_interactions": 0
       },
       "B3_self_refine": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
-        "failure_reasons": {},
+        "completed_records": 4,
+        "status_counts": {
+          "FAILED": 1,
+          "EXECUTED": 3
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 4046)": 1
+        },
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
+        "valid_output_windows": 3,
+        "candidate_items_in_valid_outputs": 15,
         "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
-        "applicability_changed_items": 0,
+        "ranking_comparison_denominator": 3,
+        "explanation_changed_windows": 3,
+        "applicability_changed_items": 1,
         "rarr_open_gates": 0,
         "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "pair_denominator": 30,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
+        "mechanical_evidence_only": {
+          "citations": 43,
+          "invalid_reference": 27,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 16
+        },
+        "model_calls_including_cache": 8,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 43,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 43,
+          "format_only_references_mapped": 27
+        },
+        "logical_input_tokens": 70610,
+        "logical_output_tokens": 6647,
+        "logical_cost_no_discount": 0.2332752,
         "tool_interactions": 0
       },
       "B4_critic": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 3,
+          "INVALID_OUTPUT": 1
+        },
         "failure_reasons": {},
-        "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
+        "not_run_shared_initialization": 0,
+        "validation_failures": {
+          "invalid_applicability": 1
+        },
+        "valid_output_windows": 3,
+        "candidate_items_in_valid_outputs": 15,
+        "ranking_changed_from_B1": 1,
+        "ranking_comparison_denominator": 3,
+        "explanation_changed_windows": 1,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 5,
+        "pair_denominator": 30,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 43,
+          "invalid_reference": 23,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 18
+        },
+        "model_calls_including_cache": 8,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 43,
+          "invalid_reference": 0,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 41,
+          "format_only_references_mapped": 23
+        },
+        "logical_input_tokens": 100564,
+        "logical_output_tokens": 3859,
+        "logical_cost_no_discount": 0.2784,
+        "tool_interactions": 4
       },
       "B5_rarr_explanation_only": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 4
+        },
         "failure_reasons": {},
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
+        "valid_output_windows": 4,
+        "candidate_items_in_valid_outputs": 20,
         "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
+        "ranking_comparison_denominator": 4,
+        "explanation_changed_windows": 1,
         "applicability_changed_items": 0,
-        "rarr_open_gates": 0,
+        "rarr_open_gates": 1,
         "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "pair_denominator": 40,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 52,
+          "invalid_reference": 32,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 18
+        },
+        "model_calls_including_cache": 9,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 52,
+          "invalid_reference": 0,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 50,
+          "format_only_references_mapped": 32
+        },
+        "logical_input_tokens": 44430,
+        "logical_output_tokens": 1040,
+        "logical_cost_no_discount": 0.116616,
+        "tool_interactions": 4
       },
       "S3a_grounding": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
-        "failure_reasons": {},
+        "completed_records": 4,
+        "status_counts": {
+          "FAILED": 1,
+          "EXECUTED": 3
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 1622)": 1
+        },
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
+        "valid_output_windows": 3,
+        "candidate_items_in_valid_outputs": 15,
+        "ranking_changed_from_B1": 2,
+        "ranking_comparison_denominator": 3,
+        "explanation_changed_windows": 2,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 10,
+        "pair_denominator": 30,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 39,
+          "invalid_reference": 28,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 11
+        },
+        "model_calls_including_cache": 11,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 39,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 39,
+          "format_only_references_mapped": 28
+        },
+        "logical_input_tokens": 149048,
+        "logical_output_tokens": 4933,
+        "logical_cost_no_discount": 0.405072,
+        "tool_interactions": 4
       },
       "S3b_claim": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 4
+        },
         "failure_reasons": {},
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
-        "applicability_changed_items": 0,
+        "valid_output_windows": 4,
+        "candidate_items_in_valid_outputs": 20,
+        "ranking_changed_from_B1": 2,
+        "ranking_comparison_denominator": 4,
+        "explanation_changed_windows": 3,
+        "applicability_changed_items": 1,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 6,
+        "pair_denominator": 40,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 50,
+          "invalid_reference": 36,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 14
+        },
+        "model_calls_including_cache": 12,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 50,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 50,
+          "format_only_references_mapped": 36
+        },
+        "logical_input_tokens": 166707,
+        "logical_output_tokens": 5236,
+        "logical_cost_no_discount": 0.45036239999999994,
+        "tool_interactions": 4
       },
       "S4_relative": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
-        "failure_reasons": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 3,
+          "FAILED": 1
+        },
+        "failure_reasons": {
+          "Extra data: line 2 column 1 (char 4070)": 1
+        },
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
+        "valid_output_windows": 3,
+        "candidate_items_in_valid_outputs": 15,
+        "ranking_changed_from_B1": 1,
+        "ranking_comparison_denominator": 3,
+        "explanation_changed_windows": 1,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 3,
+        "pair_denominator": 30,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 33,
+          "invalid_reference": 29,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 2
+        },
+        "model_calls_including_cache": 12,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 33,
+          "invalid_reference": 0,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 31,
+          "format_only_references_mapped": 29
+        },
+        "logical_input_tokens": 167560,
+        "logical_output_tokens": 6518,
+        "logical_cost_no_discount": 0.4647168,
+        "tool_interactions": 4
       },
       "BM_self_refine": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
-        "failure_reasons": {},
+        "completed_records": 4,
+        "status_counts": {
+          "FAILED": 2,
+          "EXECUTED": 2
+        },
+        "failure_reasons": {
+          "Extra data: line 1 column 1266 (char 1265)": 1,
+          "Extra data: line 2 column 1 (char 1313)": 1
+        },
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
+        "valid_output_windows": 2,
+        "candidate_items_in_valid_outputs": 10,
+        "ranking_changed_from_B1": 1,
+        "ranking_comparison_denominator": 2,
+        "explanation_changed_windows": 2,
         "applicability_changed_items": 0,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 2,
+        "pair_denominator": 20,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
+        "mechanical_evidence_only": {
+          "citations": 23,
+          "invalid_reference": 23,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 0
+        },
+        "model_calls_including_cache": 6,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 23,
+          "invalid_reference": 0,
+          "invalid_value": 0,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 23,
+          "format_only_references_mapped": 23
+        },
+        "logical_input_tokens": 52782,
+        "logical_output_tokens": 4338,
+        "logical_cost_no_discount": 0.1683216,
         "tool_interactions": 0
       },
       "BM_critic": {
         "planned_windows": 4,
-        "completed_records": 0,
-        "status_counts": {},
+        "completed_records": 4,
+        "status_counts": {
+          "EXECUTED": 4
+        },
         "failure_reasons": {},
+        "not_run_shared_initialization": 0,
         "validation_failures": {},
-        "valid_output_windows": 0,
-        "candidate_items_in_valid_outputs": 0,
-        "ranking_changed_from_B1": 0,
-        "ranking_comparison_denominator": 0,
-        "explanation_changed_windows": 0,
-        "applicability_changed_items": 0,
+        "valid_output_windows": 4,
+        "candidate_items_in_valid_outputs": 20,
+        "ranking_changed_from_B1": 2,
+        "ranking_comparison_denominator": 4,
+        "explanation_changed_windows": 2,
+        "applicability_changed_items": 2,
         "rarr_open_gates": 0,
-        "strict_pairs_changed_from_B1": 0,
-        "pair_denominator": 0,
+        "strict_pairs_changed_from_B1": 6,
+        "pair_denominator": 40,
         "all_candidates_tied_windows": 0,
         "self_reported_priority_identifiable": 0,
-        "mechanical_evidence_only": {},
-        "model_calls_including_cache": 0,
-        "logical_input_tokens": 0,
-        "logical_output_tokens": 0,
-        "logical_cost_no_discount": 0,
-        "tool_interactions": 0
+        "mechanical_evidence_only": {
+          "citations": 52,
+          "invalid_reference": 32,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 18
+        },
+        "model_calls_including_cache": 12,
+        "posthoc_reference_format_diagnostic": {
+          "citations": 52,
+          "invalid_reference": 0,
+          "invalid_value": 2,
+          "unusable_physiology": 0,
+          "missing_evidence_items": 0,
+          "valid_citations": 50,
+          "format_only_references_mapped": 32
+        },
+        "logical_input_tokens": 165134,
+        "logical_output_tokens": 4355,
+        "logical_cost_no_discount": 0.4381296,
+        "tool_interactions": 4
       }
     }
   },
   "paired_comparisons": {
     "B4_critic__S4_relative": {
-      "valid_paired_windows": 3,
-      "different_orders": 2,
+      "valid_paired_windows": 6,
+      "different_orders": 4,
       "mechanical_invalid_citation_totals": {
-        "B4_critic": 27,
-        "S4_relative": 27
+        "B4_critic": 48,
+        "S4_relative": 48
+      },
+      "posthoc_normalized_invalid_citation_totals": {
+        "B4_critic": 0,
+        "S4_relative": 2
       },
       "decision_improvement": null
     },
     "BM_critic__S4_relative": {
-      "valid_paired_windows": 5,
-      "different_orders": 2,
+      "valid_paired_windows": 8,
+      "different_orders": 5,
       "mechanical_invalid_citation_totals": {
-        "BM_critic": 41,
-        "S4_relative": 38
+        "BM_critic": 62,
+        "S4_relative": 59
+      },
+      "posthoc_normalized_invalid_citation_totals": {
+        "BM_critic": 2,
+        "S4_relative": 2
       },
       "decision_improvement": null
     },
     "BM_self_refine__S4_relative": {
-      "valid_paired_windows": 5,
-      "different_orders": 4,
+      "valid_paired_windows": 9,
+      "different_orders": 7,
       "mechanical_invalid_citation_totals": {
-        "BM_self_refine": 39,
-        "S4_relative": 38
+        "BM_self_refine": 69,
+        "S4_relative": 68
+      },
+      "posthoc_normalized_invalid_citation_totals": {
+        "BM_self_refine": 4,
+        "S4_relative": 2
       },
       "decision_improvement": null
     },
     "S3a_grounding__S3b_claim": {
-      "valid_paired_windows": 6,
-      "different_orders": 5,
+      "valid_paired_windows": 10,
+      "different_orders": 8,
       "mechanical_invalid_citation_totals": {
-        "S3a_grounding": 36,
-        "S3b_claim": 35
+        "S3a_grounding": 62,
+        "S3b_claim": 61
+      },
+      "posthoc_normalized_invalid_citation_totals": {
+        "S3a_grounding": 2,
+        "S3b_claim": 3
       },
       "decision_improvement": null
     },
     "S3b_claim__S4_relative": {
-      "valid_paired_windows": 3,
-      "different_orders": 3,
+      "valid_paired_windows": 6,
+      "different_orders": 6,
       "mechanical_invalid_citation_totals": {
-        "S3b_claim": 23,
-        "S4_relative": 22
+        "S3b_claim": 44,
+        "S4_relative": 43
+      },
+      "posthoc_normalized_invalid_citation_totals": {
+        "S3b_claim": 1,
+        "S4_relative": 2
       },
       "decision_improvement": null
     }
   },
   "executed_fairness_checks": {
-    "shared_initial_checks": 78,
-    "complete_tool_result_checks": 57,
+    "shared_initial_checks": 152,
+    "complete_tool_result_checks": 114,
     "valid": true
   },
   "candidate_order_intervention": {
     "B1_direct": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 4,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 23,
+      "pair_denominator": 40
     },
     "B2_re2_style": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 1,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 3,
+      "pair_denominator": 10
     },
     "B3_self_refine": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 3,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 21,
+      "pair_denominator": 30
     },
     "B4_critic": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 1,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 6,
+      "pair_denominator": 10
     },
     "B5_rarr_explanation_only": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 4,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 23,
+      "pair_denominator": 40
     },
     "S3a_grounding": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 3,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 17,
+      "pair_denominator": 30
     },
     "S3b_claim": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 3,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 18,
+      "pair_denominator": 30
     },
     "S4_relative": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 2,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 10,
+      "pair_denominator": 20
     },
     "BM_self_refine": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 1,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 5,
+      "pair_denominator": 10
     },
     "BM_critic": {
       "planned": 4,
-      "valid_paired_windows": 0,
+      "valid_paired_windows": 4,
       "same_priority_order": 0,
-      "same_pair_relations": 0,
-      "pair_denominator": 0
+      "same_pair_relations": 14,
+      "pair_denominator": 40
     }
   },
   "human_gold": false,
   "decision_accuracy": null,
   "clinical_correctness": null,
   "novel_constraint_contribution_established": false,
+  "reference_diagnostic_version": "POSTHOC_FORMAT_ONLY_V1_NOT_PREDICTION_REPAIR",
   "price": {
     "input": 2.4,
     "output": 9.6,
@@ -750,16 +1103,19 @@
     "checked_on": "2026-10-18",
     "actual_invoice": null
   },
-  "actual_requests_all_versions": 281,
-  "responses_metered": 265,
-  "unknown_or_interrupted_requests": 16,
-  "input_tokens": 2814071,
-  "output_tokens": 127541,
-  "estimated_cost_no_discount": 7.978164,
-  "estimated_cost_reported_cache": 7.68300624,
-  "reserved_ceiling_for_unresolved_calls": 1.3933727999999999,
+  "actual_requests_all_versions": 481,
+  "returned_models": [
+    "qwen-max"
+  ],
+  "responses_metered": 469,
+  "unknown_or_interrupted_requests": 12,
+  "input_tokens": 5181242,
+  "output_tokens": 224843,
+  "estimated_cost_no_discount": 14.5934736,
+  "estimated_cost_reported_cache": 14.148648,
+  "reserved_ceiling_for_unresolved_calls": 0.9075072,
   "cap_cny": 20.0,
-  "private_manifest_sha256": "9158926cdd8fbf33359df07adf02ef8f6ee218b90f4775c9916baf6415389447",
+  "private_manifest_sha256": "ced20bb33913d4f2d6eccf49a92a28e179551f5f99e31a3cac176ab636dd2b5d",
   "freeze_id": "df9d7c385ee56d0c0521ed79e8bdfdd689e7dcd25ceb042ce6b748c533941791",
-  "at": "2026-10-18T15:59:21.503082+00:00"
+  "at": "2026-10-18T16:20:40.627275+00:00"
 }

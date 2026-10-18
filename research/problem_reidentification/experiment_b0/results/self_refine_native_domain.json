@@ -1,0 +1,19 @@
+{
+  "status": "TASK_ADAPTED_NATIVE_DOMAIN_BACKEND_CHANGED",
+  "model": "qwen-max",
+  "actual_requests": 3,
+  "log_sha256": "35f72c927532516674ae1b7d5cf16a7592bb446a02f66ca13e832f9e2581b312",
+  "error": null,
+  "deviations": [
+    "Qwen-Max instead of original API model",
+    "temperature=0",
+    "512-token cap",
+    "explicit completion-format system wrapper"
+  ],
+  "official_classes": [
+    "AcronymGenTaskInit",
+    "AcronymGenFeedback",
+    "AcronymGenTaskIterate"
+  ],
+  "paper_result_reproduced": false
+}

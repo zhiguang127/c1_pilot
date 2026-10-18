@@ -16,7 +16,7 @@ def main():
     class Wrapper:
         @staticmethod
         def call(**kw):
-            text, meta = client.call(kw["prompt"], tag="native-domain:self-refine-acronym", limit=512,
+            text, meta = client.call(kw["prompt"], tag="native-domain:self-refine-acronym", limit=512, stop=kw.get("stop_token"),
                 system="Continue the author's acronym few-shot format. Include explicit Title:, Acronym: or Scores: prefixes as in the examples; no Markdown fences.")
             events.append(meta)
             return text

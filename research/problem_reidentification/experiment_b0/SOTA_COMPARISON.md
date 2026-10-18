@@ -1,6 +1,6 @@
 # B0：外部强基线与解释约束比较
 
-状态：**RUNNING_OR_INCOMPLETE**。这是没有独立优先级 Gold 的探索性执行，不是正式决策准确率评估。
+状态：**COMPLETE_EXPLORATORY_EXECUTION**。这是没有独立优先级 Gold 的探索性执行，不是正式决策准确率评估。
 
 ## 数据、实现和原生边界
 
@@ -16,18 +16,20 @@
 
 | 方法 | 接受 / 已完成 / 计划 | 结构失败 / 执行失败 | 排序变化 / 可配对 B1 | 解释变化 | 适用性变化条数 | 工具交互 |
 |---|---:|---:|---:|---:|---:|---:|
-| B1 Direct Ranking + 独立事后解释 | 12 / 12 / 16 | 0 / 0 | 0 / 12 | 0 | 0 | 0 |
-| B2 RE2-style Reason-then-Recommend Prompting | 9 / 12 / 16 | 2 / 1 | 9 / 9 | 9 | 4 | 0 |
-| B3 Self-Refine-adapted | 12 / 12 / 16 | 0 / 0 | 5 / 12 | 11 | 6 | 0 |
-| B4 CRITIC-adapted | 7 / 10 / 16 | 1 / 2 | 2 / 7 | 4 | 2 | 10 |
-| B5 RARR-adapted Explanation-only Repair | 10 / 10 / 16 | 0 / 0 | 0 / 10 | 2 | 0 | 10 |
-| S3a Grounding | 9 / 10 / 16 | 0 / 1 | 3 / 9 | 7 | 2 | 10 |
-| S3b + Claim Validity | 7 / 10 / 16 | 1 / 2 | 6 / 7 | 6 | 3 | 10 |
-| S4 + Candidate-Relative | 5 / 9 / 16 | 1 / 3 | 2 / 5 | 4 | 2 | 9 |
-| Budget-Matched Self-Refine | 8 / 9 / 16 | 1 / 0 | 5 / 8 | 7 | 0 | 0 |
-| Budget-Matched CRITIC | 8 / 8 / 16 | 0 / 0 | 1 / 8 | 8 | 5 | 8 |
+| B1 Direct Ranking + 独立事后解释 | 15 / 16 / 16 | 0 / 1 | 0 / 15 | 0 | 0 | 0 |
+| B2 RE2-style Reason-then-Recommend Prompting | 12 / 16 / 16 | 2 / 2 | 11 / 11 | 11 | 4 | 0 |
+| B3 Self-Refine-adapted | 15 / 16 / 16 | 0 / 1 | 5 / 15 | 14 | 7 | 0 |
+| B4 CRITIC-adapted | 11 / 16 / 16 | 2 / 3 | 3 / 11 | 7 | 4 | 15 |
+| B5 RARR-adapted Explanation-only Repair | 15 / 16 / 16 | 0 / 1 | 0 / 15 | 3 | 0 | 15 |
+| S3a Grounding | 14 / 16 / 16 | 0 / 2 | 5 / 14 | 10 | 7 | 15 |
+| S3b + Claim Validity | 11 / 16 / 16 | 2 / 3 | 7 / 11 | 8 | 4 | 15 |
+| S4 + Candidate-Relative | 9 / 16 / 16 | 3 / 4 | 5 / 9 | 8 | 6 | 15 |
+| Budget-Matched Self-Refine | 14 / 16 / 16 | 1 / 1 | 6 / 14 | 13 | 0 | 0 |
+| Budget-Matched CRITIC | 13 / 16 / 16 | 2 / 1 | 3 / 13 | 13 | 6 | 15 |
 
 RARR 的排序和适用性变化为零是接口锁定的结果，不是从数据发现它永远不能修改排序。原算法不含此健康排序目标；本轮没有额外 reranking adapter。执行成功的模型反馈、修正、query、tool result 和失败响应均保存在忽略的 `local/`，没有用测试夹具替代真实模型。
+
+依赖共同初始化而未运行的修正记录共有 8 条，包含在表中执行失败列，但不能当成这些方法实际生成了错误答案；机器报告另列 `not_run_shared_initialization`。
 
 ## 字面证据检查
 
@@ -35,20 +37,35 @@ RARR 的排序和适用性变化为零是接口锁定的结果，不是从数据
 
 | 方法 | 有效引用 / 全部引用 | 无效引用 / 错值 / 无效生理用途 | 无引用 item / 接受的 item |
 |---|---:|---:|---:|
-| B1 Direct Ranking + 独立事后解释 | 47 / 135 | 88 / 0 / 0 | 1 / 60 |
-| B2 RE2-style Reason-then-Recommend Prompting | 9 / 82 | 71 / 2 / 0 | 0 / 45 |
-| B3 Self-Refine-adapted | 51 / 142 | 91 / 0 / 0 | 1 / 60 |
-| B4 CRITIC-adapted | 14 / 68 | 54 / 0 / 0 | 1 / 35 |
-| B5 RARR-adapted Explanation-only Repair | 47 / 114 | 67 / 0 / 0 | 1 / 50 |
-| S3a Grounding | 49 / 110 | 61 / 0 / 0 | 1 / 45 |
-| S3b + Claim Validity | 35 / 80 | 45 / 0 / 0 | 0 / 35 |
-| S4 + Candidate-Relative | 28 / 66 | 38 / 0 / 0 | 0 / 25 |
-| Budget-Matched Self-Refine | 35 / 93 | 58 / 0 / 0 | 1 / 40 |
-| Budget-Matched CRITIC | 31 / 96 | 65 / 0 / 0 | 0 / 40 |
+| B1 Direct Ranking + 独立事后解释 | 61 / 163 | 102 / 0 / 0 | 1 / 75 |
+| B2 RE2-style Reason-then-Recommend Prompting | 14 / 108 | 92 / 2 / 0 | 0 / 60 |
+| B3 Self-Refine-adapted | 65 / 171 | 106 / 0 / 0 | 1 / 75 |
+| B4 CRITIC-adapted | 28 / 108 | 80 / 0 / 0 | 1 / 55 |
+| B5 RARR-adapted Explanation-only Repair | 61 / 163 | 102 / 0 / 0 | 1 / 75 |
+| S3a Grounding | 63 / 160 | 97 / 0 / 0 | 1 / 70 |
+| S3b + Claim Validity | 49 / 120 | 71 / 0 / 0 | 0 / 55 |
+| S4 + Candidate-Relative | 38 / 106 | 68 / 0 / 0 | 0 / 45 |
+| Budget-Matched Self-Refine | 59 / 152 | 93 / 0 / 0 | 1 / 70 |
+| Budget-Matched CRITIC | 43 / 142 | 99 / 0 / 0 | 1 / 65 |
+
+另作**事后格式诊断**：部分模型引用 `stats.phase.metrics.metric.stat`，恰好对应输入 JSON 的实际层级，但违反输出规范的四段写法。只在同一原记录能够解析时删除字面的 `.metrics` 层；不改 value、purpose、解释、适用性或排序，也不回写原预测。以下结果用于区分接口不符与真正错值，不是已运行的推荐修复实验，不能替代原严格结果或来源语义审查。
+
+| 方法 | 仅格式映射引用数 | 映射后有效引用 / 全部引用 | 仍无效引用 / 错值 / 无效生理用途 |
+|---|---:|---:|---:|
+| B1 Direct Ranking + 独立事后解释 | 96 | 157 / 163 | 6 / 0 / 0 |
+| B2 RE2-style Reason-then-Recommend Prompting | 90 | 104 / 108 | 2 / 2 / 0 |
+| B3 Self-Refine-adapted | 99 | 164 / 171 | 7 / 0 / 0 |
+| B4 CRITIC-adapted | 80 | 108 / 108 | 0 / 0 / 0 |
+| B5 RARR-adapted Explanation-only Repair | 96 | 157 / 163 | 6 / 0 / 0 |
+| S3a Grounding | 95 | 158 / 160 | 2 / 0 / 0 |
+| S3b + Claim Validity | 68 | 117 / 120 | 3 / 0 / 0 |
+| S4 + Candidate-Relative | 66 | 104 / 106 | 2 / 0 / 0 |
+| Budget-Matched Self-Refine | 87 | 146 / 152 | 6 / 0 / 0 |
+| Budget-Matched CRITIC | 93 | 136 / 142 | 6 / 0 / 0 |
 
 ## 资源、工具与预算对齐
 
-所有修正臂使用字节完全相同的 B1 初始输出。CRITIC 与 ECR 的真实工具结果使用同一实现，均返回完整 42 行、质量标记、确定性统计、相同来源片段，无 Silver、Gold 或 Oracle。Self-Refine 在初始输入也拥有同一全部记录与统计。运行后已核查共同初始哈希 78 次，完整工具结果 57 次，当前均通过。
+所有修正臂使用字节完全相同的 B1 初始输出。CRITIC 与 ECR 的真实工具结果使用同一实现，均返回完整 42 行、质量标记、确定性统计、相同来源片段，无 Silver、Gold 或 Oracle。Self-Refine 在初始输入也拥有同一全部记录与统计。运行后已核查共同初始哈希 152 次，完整工具结果 114 次，当前均通过。
 
 基础模型统一 `qwen-max`、temperature=0、同一 DashScope 端点；其供应商 alias 不是不可变权重。普通 Self-Refine 反馈/修正上限为 1024/2048；普通 CRITIC 两阶段各 2048。BM Self-Refine 两阶段各 3072，BM CRITIC 与三个 ECR 臂三阶段各 2048，最大输出总量均 6144、一次最终修正。RARR 检查/编辑最多 256+256+2048。所有臂同一 120000 UTF8 字节输入保护，不截断记录，真实 token 窗口由供应商校验。
 
@@ -56,26 +73,26 @@ RARR 的排序和适用性变化为零是接口锁定的结果，不是从数据
 
 | 方法 | 逻辑请求（含缓存） | 输入 token | 输出 token | 按公开价逻辑费用 ¥ |
 |---|---:|---:|---:|---:|
-| B1 Direct Ranking + 独立事后解释 | 24 | 192,346 | 11,500 | 0.5720 |
-| B2 RE2-style Reason-then-Recommend Prompting | 23 | 186,576 | 15,400 | 0.5956 |
-| B3 Self-Refine-adapted | 24 | 212,427 | 16,297 | 0.6663 |
-| B4 CRITIC-adapted | 20 | 251,192 | 10,436 | 0.7030 |
-| B5 RARR-adapted Explanation-only Repair | 24 | 123,692 | 4,125 | 0.3365 |
-| S3a Grounding | 30 | 414,478 | 12,420 | 1.1140 |
-| S3b + Claim Validity | 30 | 416,000 | 13,477 | 1.1278 |
-| S4 + Candidate-Relative | 25 | 344,578 | 11,776 | 0.9400 |
-| Budget-Matched Self-Refine | 18 | 158,593 | 11,493 | 0.4910 |
-| Budget-Matched CRITIC | 24 | 333,545 | 9,253 | 0.8893 |
+| B1 Direct Ranking + 独立事后解释 | 31 | 251,311 | 14,687 | 0.7441 |
+| B2 RE2-style Reason-then-Recommend Prompting | 30 | 246,166 | 19,856 | 0.7814 |
+| B3 Self-Refine-adapted | 30 | 267,976 | 20,075 | 0.8359 |
+| B4 CRITIC-adapted | 30 | 382,973 | 14,952 | 1.0627 |
+| B5 RARR-adapted Explanation-only Repair | 35 | 179,782 | 5,426 | 0.4836 |
+| S3a Grounding | 45 | 632,555 | 18,238 | 1.6932 |
+| S3b + Claim Validity | 45 | 634,198 | 18,919 | 1.7037 |
+| S4 + Candidate-Relative | 43 | 604,970 | 19,146 | 1.6357 |
+| Budget-Matched Self-Refine | 30 | 267,478 | 19,069 | 0.8250 |
+| Budget-Matched CRITIC | 45 | 630,649 | 16,651 | 1.6734 |
 
 每臂逻辑费用只衡量它自己的新增阶段；共同 B1 初始化费用单列、不在每个修正臂重复收费。缓存重放不算新独立试验；工程失败费用包含在下方总账中。
 
 | 配对 | 两侧有效窗口 | 不同排序 | 决策改善 |
 |---|---:|---:|---|
-| B4_critic__S4_relative | 3 | 2 | 无 Gold，不计算 |
-| BM_critic__S4_relative | 5 | 2 | 无 Gold，不计算 |
-| BM_self_refine__S4_relative | 5 | 4 | 无 Gold，不计算 |
-| S3a_grounding__S3b_claim | 6 | 5 | 无 Gold，不计算 |
-| S3b_claim__S4_relative | 3 | 3 | 无 Gold，不计算 |
+| B4_critic__S4_relative | 6 | 4 | 无 Gold，不计算 |
+| BM_critic__S4_relative | 8 | 5 | 无 Gold，不计算 |
+| BM_self_refine__S4_relative | 9 | 7 | 无 Gold，不计算 |
+| S3a_grounding__S3b_claim | 10 | 8 | 无 Gold，不计算 |
+| S3b_claim__S4_relative | 6 | 6 | 无 Gold，不计算 |
 
 ## 候选顺序干预
 
@@ -83,16 +100,16 @@ RARR 的排序和适用性变化为零是接口锁定的结果，不是从数据
 
 | 方法 | 相同排序 / 两侧有效窗口 | 相同候选对关系 / 可比关系 |
 |---|---:|---:|
-| B1 Direct Ranking + 独立事后解释 | 0 / 0 | 0 / 0 |
-| B2 RE2-style Reason-then-Recommend Prompting | 0 / 0 | 0 / 0 |
-| B3 Self-Refine-adapted | 0 / 0 | 0 / 0 |
-| B4 CRITIC-adapted | 0 / 0 | 0 / 0 |
-| B5 RARR-adapted Explanation-only Repair | 0 / 0 | 0 / 0 |
-| S3a Grounding | 0 / 0 | 0 / 0 |
-| S3b + Claim Validity | 0 / 0 | 0 / 0 |
-| S4 + Candidate-Relative | 0 / 0 | 0 / 0 |
-| Budget-Matched Self-Refine | 0 / 0 | 0 / 0 |
-| Budget-Matched CRITIC | 0 / 0 | 0 / 0 |
+| B1 Direct Ranking + 独立事后解释 | 0 / 4 | 23 / 40 |
+| B2 RE2-style Reason-then-Recommend Prompting | 0 / 1 | 3 / 10 |
+| B3 Self-Refine-adapted | 0 / 3 | 21 / 30 |
+| B4 CRITIC-adapted | 0 / 1 | 6 / 10 |
+| B5 RARR-adapted Explanation-only Repair | 0 / 4 | 23 / 40 |
+| S3a Grounding | 0 / 3 | 17 / 30 |
+| S3b + Claim Validity | 0 / 3 | 18 / 30 |
+| S4 + Candidate-Relative | 0 / 2 | 10 / 20 |
+| Budget-Matched Self-Refine | 0 / 1 | 5 / 10 |
+| Budget-Matched CRITIC | 0 / 4 | 14 / 40 |
 
 ## Q1–Q7：当前能回答什么
 
@@ -112,7 +129,7 @@ v1 的固定排序接口失败、v2 的 null-array JSON 接口失败、v3 的字
 
 初始来源 manifest 的部分历史 text SHA 与原 C1 冻结字节不同。B0 以已冻结 `data/input_freeze.json` 的实际文件哈希校验，并显式标出历史 manifest 是否匹配；未改来源、manifest 或任何 A 记录。旧 C1 77 个哈希、P1/A1 发布、Silver 发布、旧预测及原 Silver 标签文件均复核；见 [frozen_inputs_verified.json](results/frozen_inputs_verified.json)。
 
-截至本快照共有 **281 个实际请求**、265 个已计量响应，输入 2,814,071、输出 127,541 token。按[已核验公开单价](https://help.aliyun.com/zh/model-studio/qwen-max)，不计缓存约 **¥7.9782**，按服务端缓存量约 **¥7.6830**。另有 16 个未获完整计量的请求，保留约 ¥1.3934 的保守预算占用；不能将它们写为零费用。B0 上限 ¥20，与旧 Silver 预算分开，实际账单未知。
+截至本快照共有 **481 个实际请求**、469 个已计量响应，输入 5,181,242、输出 224,843 token。按[已核验公开单价](https://help.aliyun.com/zh/model-studio/qwen-max)，不计缓存约 **¥14.5935**，按服务端缓存量约 **¥14.1486**。另有 12 个未获完整计量的请求，保留约 ¥0.9075 的保守预算占用；不能将它们写为零费用。B0 上限 ¥20，与旧 Silver 预算分开，实际账单未知。
 
 机器聚合为 [comparison.json](results/comparison.json)，全部私人执行文件有内容哈希清单。审查规则见 [REVIEW_PROTOCOL.md](REVIEW_PROTOCOL.md)。最终仍需独立人工来源/解释检查、可判定优先级、更多参与者与窗口、固定初始状态的独立干预，以及真正 RE2/ReRec/PEX-DPO 训练对照。
 

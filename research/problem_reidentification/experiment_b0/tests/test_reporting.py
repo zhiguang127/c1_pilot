@@ -1,6 +1,6 @@
 import unittest
-from ..report import order, relation
-from ..core import Client, decode
+from ..report import order, relation, normalized_reference_diagnostic
+from ..core import Client, decode, selected
 
 
 class ReportingTests(unittest.TestCase):
@@ -20,6 +20,17 @@ class ReportingTests(unittest.TestCase):
     def test_multiple_json_objects_are_not_silently_discarded(self):
         with self.assertRaises(ValueError):
             decode('{"items":[]} {"items":[]}')
+
+    def test_format_diagnostic_preserves_values_and_does_not_mutate_output(self):
+        from research.problem_reidentification.experiment_a.silver.pipeline import resolve
+        case = selected()[0][0]
+        ref = "stats.current.sleep_minutes.mean"
+        actual, _ = resolve(case, ref)
+        output = {"items": [{"evidence": [{"ref": "stats.current.metrics.sleep_minutes.mean", "value": actual + 20, "purpose": "physiology"}]}]}
+        result = normalized_reference_diagnostic(output, case)
+        self.assertEqual(result["format_only_references_mapped"], 1)
+        self.assertEqual(result["invalid_value"], 1)
+        self.assertEqual(output["items"][0]["evidence"][0]["ref"], "stats.current.metrics.sleep_minutes.mean")
 
 
 if __name__ == "__main__":

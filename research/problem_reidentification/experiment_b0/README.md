@@ -19,4 +19,12 @@ python -m research.problem_reidentification.experiment_b0.report
 
 环境记录在 `configs/cpu-audit.lock.txt`。CPU 审计环境继承了主 Python 的可见包，不是作者原历史环境的严格重建；首次缺依赖、TLS 和入口路径失败保留，不能据其单一退出码断言算法本身不可用。健康 API 运行借用已有 `pha` Python 环境，但所有 B0 模型请求、预算、缓存和输出均写入 B0 自己的目录。
 
+原生 CPU 算法重跑入口如下。使用已固定的 checkout 和 CPU 审计环境，每次使用新 run-id，不能把同样本重跑算成新增独立案例。TRACE 需先按作者流程准备 MovieLens-100K；若系统 TLS 下载失败，本次是从同一 GroupLens 官方 URL 用系统 curl 下载，没有关闭证书验证。
+
+```powershell
+& research/problem_reidentification/experiment_b0/local/env/Scripts/python.exe -m research.problem_reidentification.experiment_b0.native_cpu rankingshap --run-id review-shap-01
+& research/problem_reidentification/experiment_b0/local/env/Scripts/python.exe -m research.problem_reidentification.experiment_b0.native_cpu trace-data --run-id review-data-01
+& research/problem_reidentification/experiment_b0/local/env/Scripts/python.exe -m research.problem_reidentification.experiment_b0.native_cpu trace --run-id review-trace-01
+```
+
 机器报告 `results/comparison.json` 记录所有计划分母、成功/结构失败/执行失败、预算对齐、顺序干预与费用。`EXECUTED` 只代表结构可接受的真实输出；自动引用审计不能证明医学、来源范围或优先级正确。运行时状态若为 `RUNNING_OR_INCOMPLETE`，不得将该快照解释为已完成。

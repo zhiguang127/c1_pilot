@@ -4,6 +4,8 @@
 
 `NATIVE_REPRODUCED` 在本文仅指**官方原任务最小算法已实际执行**，不代表论文完整结果、全部数据集或统计指标复现。`TASK_ADAPTED` 表示明确更换模型后端、任务、数据或接口；`PAPER_INSPIRED` 表示没有执行原训练或原算法；`BLOCKED` 表示记录的当前运行边界，不证明方法无效。原生与健康任务状态分栏，禁止相互替代。机器证据见 [upstream_pins.json](results/upstream_pins.json)、[native_entrypoints.json](results/native_entrypoints.json)；退出码 0 的 `--help` 也不是算法复现。
 
+逐项目最终双栏状态与实际健康任务接受数见 [baseline_status.json](results/baseline_status.json)；测试与冻结核验见 [validation.json](results/validation.json)。
+
 ## 版本与许可
 
 | 方法／官方仓库 | 固定 Commit SHA | 实际许可证据 |
@@ -26,6 +28,8 @@
 [原论文](https://arxiv.org/abs/2303.17651)是推理阶段的 Init → Feedback → Iterate，不需要新训练；同一个模型生成初稿、反馈和修正。官方提供 acronym、对话、代码、数学等任务；acronym 输入标题，输出缩写与多维反馈，依赖 `prompt-lib` 和模型 API，没有专门必须下载的 Self-Refine 权重。
 
 原 CLI `src/acronym/run.py` 的实际首次尝试失败于源码路径/依赖；保留 `local/entrypoint-self_refine.log`。健康适配复用官方 `src/utils.py:Prompt.make_query` 与 Init/Feedback/Iterate 组织，Init 使用共同 B1，运行一次真实反馈和一次真实修正，完整反馈、输入与最终输出均保留。并未把任意“再想想”单次 Prompt 冒充完整复现。跨任务 rubric、统一 JSON、模型与 token cap 都是新增逻辑；实际计数以比较报告为准。健康状态为 `TASK_ADAPTED`，原作者模型及七任务结果未复现。
+
+补充：按作者说明设置 PYTHONPATH 后，原 CLI 的下一阻碍为缺少 `prompt_lib`，对应失败日志也保留。随后在**原缩写任务**上原样执行 `AcronymGenTaskInit`、`AcronymGenFeedback`、`AcronymGenTaskIterate` 三个官方类：3 次真实 Qwen-Max 请求完成 Init→Feedback→Iterate。只替换后端 binding，使用 temperature=0、512-token cap 和显式补全格式 wrapper；它是原任务的 `TASK_ADAPTED` 后端执行，**不是原论文模型的 NATIVE_REPRODUCED**。见 [self_refine_native_domain.json](results/self_refine_native_domain.json)。
 
 ### CRITIC
 

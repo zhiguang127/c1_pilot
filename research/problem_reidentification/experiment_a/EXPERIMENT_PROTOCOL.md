@@ -1,5 +1,7 @@
 # Experiment A 协议 v1
 
+本页保留初始协议正文。凭据后的工程 Smoke 修正、协议 v2–v11 与最终执行边界见 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md) 及 `data/protocol_freeze_*.json`。A1 选择和 P1/C1 数据冻结始终不变；首例用于软件适配而非正式性能选择。标签解析与证据校验分离，Native 的真实调用预算和固定源 Controlled 设置分开。正式人类 Gold/多参与者评价尚未执行，不能把首例工程观察当成预注册检验结果。
+
 日期：2026-10-16；仓库起点为远程 main `32455e9cf1e9f2406d929c3ef022d14b19204965`。本地原分支落后一个合并提交且干净；PR #1 已合并。独立分支 `research/experiment-a-applicability`。不提出 M1/M2、不训练模型、不使用旧 provisional Qwen 标签、不修改 C1/P1。
 
 ## 研究对象和判断

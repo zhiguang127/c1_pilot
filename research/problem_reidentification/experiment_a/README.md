@@ -1,8 +1,8 @@
 # Experiment A：个人健康知识适用性审计
 
-状态：**`PENDING_HUMAN_ANNOTATION_AND_API_CREDENTIAL`**。这是可继续执行的研究工作区，不是已完成的科研结论。
+当前状态：**`PENDING_HUMAN_ANNOTATION`**。凭据已通过仓库外的用户绑定 DPAPI 配置；真实官方推理和同一案例的受控判断已继续执行。最新结果、费用和限制见 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md) 与 `results/credential_continuation.json`。这是工程与 Smoke 验证，不是已完成的科研结论。
 
-已运行：官方 MedCPT 三个编码器的 README 推理、真实 P1 数据上的本地检索、PHA 官方离线测试和计算工具。TrialGPT 与三种 PHA 架构的真实 LLM 推理仍缺凭据；未用假响应、旧 Qwen 标签或测试夹具替代。实际状态见 [BASELINE_RESULTS.md](BASELINE_RESULTS.md)、[REPRODUCTION_AUDIT.md](REPRODUCTION_AUDIT.md) 和 `results/`。
+已运行：官方 MedCPT 三个编码器的 README 推理、真实 P1 数据上的本地检索、TrialGPT 原匹配函数，以及 PHIA、PHA Parallel、PHA Orchestrator 的真实模型/工具执行。后三者以同一 Qwen 配置做服务端适配，原论文基础模型和历史环境未严格复现。未用假响应、旧 Qwen 标签或测试夹具替代；没有人工 Gold。实际状态见 [BASELINE_RESULTS.md](BASELINE_RESULTS.md)、[REPRODUCTION_AUDIT.md](REPRODUCTION_AUDIT.md) 和 `results/`。
 
 P1 的 48 个窗口 / 16 人 / 240 个固定候选组合直接只读复用。A1 另行冻结 6 组、26 条不同知识、1,248 个唯一组合；没有新增个人数据或人工 Gold。所有个人记录、模型输出、工具轨迹、人工提交和盲评卡位于被 Git 忽略的 `local/`。
 
@@ -35,8 +35,10 @@ python -m research.problem_reidentification.experiment_a check-baselines --outpu
 # 包装器也支持已有的用户绑定 DPAPI 凭据，且不打印、记录或持久化明文密钥。
 & "$a/configs/run_secure.ps1" trialgpt -m research.problem_reidentification.experiment_a reproduce --project trialgpt --output "$a/results/trialgpt_official_smoke.json"
 foreach ($architecture in @('phia','pha_parallel','pha_orchestrator')) {
-    & "$a/configs/run_secure.ps1" pha -m research.problem_reidentification.experiment_a reproduce --project $architecture --output "$a/results/${architecture}_official_smoke.json"
+    & "$a/configs/run_secure.ps1" pha -m research.problem_reidentification.experiment_a reproduce --project $architecture --output "$a/results/${architecture}_official_smoke-next.json"
 }
+# 当前已通过的官方报告由 configs/active_baselines.json 指定；新报告须人工审查后更新该映射。
+# 修改任何冻结的输入/适配代码后创建新的 protocol_freeze，不要回写现有 manifest。
 
 # 本地检索。HF_HOME 只作用于当前 shell；首次会下载约 2.27 GB 的 BGE 权重。
 $env:HF_HOME = Join-Path (Get-Location) "$a/local/hf-general"
@@ -87,4 +89,4 @@ python -m unittest discover -s research/problem_reidentification/p1/tests -v
 research/problem_reidentification/p1/local/checkenv/Scripts/python.exe -m unittest discover -s tests -v
 ```
 
-离线测试里的 synthetic fixture、SDK test double 和人类声明只验证软件，绝不进入实验结果。下一步最少需要：安全配置模型凭据；完成官方 LLM Smoke；运行共同案例的小规模受控判断并审查输出；核实付费预算；取得独立人工双评与裁决。没有这些证据，不能声称现有方法存在稳定失败或需要新算法。
+离线测试里的 synthetic fixture、SDK test double 和人类声明只验证软件，绝不进入实验结果。下一步最少需要：人工检查共同案例的真实输出与证据；确认付费批量预算；取得独立人工双评与裁决。没有这些证据，不能声称现有方法存在稳定失败或需要新算法。Native/Controlled、缓存重放、解析通过与证据正确性分别报告；历史失败版本不删除。

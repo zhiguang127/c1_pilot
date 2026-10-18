@@ -10,7 +10,7 @@ from research.problem_reidentification.experiment_a.src import common
 from research.problem_reidentification.experiment_a.src.conditions import applicability, aggregate
 from research.problem_reidentification.experiment_a.src.data import audit, candidates, evidence_value, representation
 from research.problem_reidentification.experiment_a.src.evaluation import classification, evaluate, trusted_gold
-from research.problem_reidentification.experiment_a.src.matching import validate_item, require_official_smoke, run
+from research.problem_reidentification.experiment_a.src.matching import parse_json, validate_item, validate_structure, require_official_smoke, run
 
 
 def software_fixture():
@@ -117,6 +117,11 @@ class AdapterTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_item(self.item, software_fixture(), self.knowledge)
 
+    def test_single_fenced_json_with_native_agent_prose(self):
+        self.assertEqual(parse_json('Native introduction\n```json\n{"fixture":true}\n```'), {"fixture": True})
+        with self.assertRaises(ValueError):
+            parse_json('```json\n{}\n```\n```json\n{}\n```')
+
     def test_model_cannot_cite_null_or_zero_rhr(self):
         for reference in ("d30.sleep_minutes", "d29.resting_heart_rate_bpm"):
             self.item["observations"] = [reference]
@@ -125,6 +130,12 @@ class AdapterTests(unittest.TestCase):
 
     def test_unknown_condition_reference_rejected(self):
         self.item["conditions"] = ["invented.0"]
+        with self.assertRaises(ValueError):
+            validate_item(self.item, software_fixture(), self.knowledge)
+
+    def test_valid_label_retained_even_when_evidence_is_invalid(self):
+        self.item["observations"] = ["d30.sleep_minutes"]
+        self.assertEqual(validate_structure(self.item)["applicability"], "applicable")
         with self.assertRaises(ValueError):
             validate_item(self.item, software_fixture(), self.knowledge)
 

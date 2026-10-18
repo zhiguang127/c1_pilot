@@ -1,0 +1,7 @@
+{
+  "trialgpt": "results/trialgpt_official_smoke.json",
+  "pha_ds": "results/pha_ds_official_smoke_v1.json",
+  "phia": "results/phia_official_smoke_v2.json",
+  "pha_parallel": "results/pha_parallel_official_smoke_v3.json",
+  "pha_orchestrator": "results/pha_orchestrator_official_smoke_v4.json"
+}

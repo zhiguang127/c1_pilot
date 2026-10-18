@@ -1,4 +1,6 @@
-# 实际执行结果
+# 实际执行结果：首阶段历史记录
+
+**本页下文保留首阶段结果；凭据配置后的真实官方推理、A0/E3/E4 Smoke 和费用已更新至 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md)。当前状态是 `PENDING_HUMAN_ANNOTATION`，不再缺模型凭据。** 旧 JSON/失败版本不回写；其中早期 PHIA/Parallel/Orchestrator 状态解释错误见 `results/reproduction_corrections.json`，不可将旧计量零值或诊断回退字符串解释为成功/零成本。
 
 状态：**`PENDING_HUMAN_ANNOTATION_AND_API_CREDENTIAL`**。下表只列真实运行，不提供虚构的研究分数。机器记录：`results/execution_final.json`、`results/reproduction_status.json`。
 

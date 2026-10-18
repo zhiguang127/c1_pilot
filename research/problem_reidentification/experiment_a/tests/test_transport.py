@@ -65,6 +65,25 @@ class TransportTest(unittest.TestCase):
                 client.chat.completions.create(model=MODEL, messages=[{"role": "user", "content": "long software-only fixture"}])
         self.assertFalse((self.directory / "ledger.json").exists())
 
+    def test_real_sdk_http_boundary_blocks_unmetered_responses(self):
+        import httpx
+        dispatched = []
+        def handler(request):
+            dispatched.append(str(request.url))
+            return httpx.Response(200, json={"id": "SOFTWARE_ONLY", "created": 0, "object": "chat.completion", "model": MODEL,
+                "choices": [{"index": 0, "finish_reason": "stop", "message": {"role": "assistant", "content": "SOFTWARE_ONLY"}}],
+                "usage": {"prompt_tokens": 1, "completion_tokens": 1, "total_tokens": 2}})
+        sdk = OpenAI(api_key="SOFTWARE_ONLY", base_url=BASE_URL,
+                     http_client=httpx.Client(transport=httpx.MockTransport(handler)))
+        with GovernedCalls(self.directory, max_calls=1) as calls:
+            if hasattr(sdk, "responses"):
+                with self.assertRaisesRegex(ValueError, "Ungoverned"):
+                    sdk.responses.create(model=MODEL, input="SOFTWARE_ONLY")
+            result = sdk.chat.completions.create(model=MODEL, messages=[{"role": "user", "content": "SOFTWARE_ONLY"}])
+            self.assertEqual(result.choices[0].message.content, "SOFTWARE_ONLY")
+        self.assertEqual(len(dispatched), 1)
+        self.assertEqual(calls.summary()["llm_calls"], 1)
+
     def test_exact_cache_reused_across_run_versions(self):
         client = OpenAI(api_key="SOFTWARE_FIXTURE", base_url=BASE_URL)
         owner = self

@@ -35,9 +35,17 @@ class GovernedCalls:
         self.attempts = read(self.ledger)["attempts"] if self.ledger.exists() else 0
 
     def install(self):
+        from openai import OpenAI
         from openai.resources.chat.completions import Completions
         old = Completions.create
+        old_request = OpenAI.request
         owner = self
+        def guarded_request(sdk_client, cast_to, options, *args, **kwargs):
+            # Defense in depth: new SDK routes (Responses, parse, embeddings)
+            # must not silently bypass cache, budget, token or endpoint checks.
+            if str(options.url) != "/chat/completions" or not getattr(owner.dispatch, "active", False):
+                raise ValueError("Ungoverned SDK network route refused")
+            return old_request(sdk_client, cast_to, options, *args, **kwargs)
         def create(resource, *args, **kwargs):
             # No credential or unrestricted endpoint can enter an experiment trace.
             actual_url = str(resource._client.base_url).rstrip("/")
@@ -66,6 +74,7 @@ class GovernedCalls:
                              "usage": cached["response"].get("usage"), "model": cached["response"].get("model")}
                     with owner.lock:
                         owner.events.append(event)
+                        write(owner.directory / "events.json", owner.events, overwrite=True)
                     return ChatCompletion.model_validate(cached["response"])
                 with owner.lock:
                     if owner.attempts >= owner.max_calls:
@@ -78,7 +87,11 @@ class GovernedCalls:
                 try:
                     resource._client.max_retries = 0
                     resource._client.timeout = 120
-                    response = old(resource, **kwargs)
+                    owner.dispatch.active = True
+                    try:
+                        response = old(resource, **kwargs)
+                    finally:
+                        owner.dispatch.active = False
                     body = response.model_dump(mode="json")
                     event = {"cache_hit": False, "request_sha256": key, "at": now(),
                              "duration_seconds": time.monotonic()-started, "usage": body.get("usage"),
@@ -102,6 +115,9 @@ class GovernedCalls:
                     raise
         Completions.create = create
         self._class, self._old = Completions, old
+        self.dispatch = threading.local()
+        self._sdk, self._old_request = OpenAI, old_request
+        OpenAI.request = guarded_request
         return self
 
     def __enter__(self):
@@ -109,6 +125,7 @@ class GovernedCalls:
 
     def __exit__(self, *exc):
         self._class.create = self._old
+        self._sdk.request = self._old_request
 
     def summary(self):
         usage = [e.get("usage") or {} for e in self.events if not e.get("cache_hit")]

@@ -14,7 +14,7 @@ def parser():
     q = sub.add_parser("check-baselines")
     q.add_argument("--output", required=True)
     q = sub.add_parser("reproduce")
-    q.add_argument("--project", choices=("medcpt", "trialgpt", "pha-offline", "phia", "pha_parallel", "pha_orchestrator"), required=True)
+    q.add_argument("--project", choices=("medcpt", "trialgpt", "pha-offline", "phia", "pha_ds", "pha_parallel", "pha_orchestrator"), required=True)
     q.add_argument("--output", required=True)
     sub.add_parser("download-medcpt")
     q = sub.add_parser("retrieve")
@@ -64,6 +64,8 @@ def execute(args):
     if command == "check-baselines":
         from .src.upstream import inventory
         result = {"official_sources": inventory(), "credential_available": credential_available(),
+                  "credential_available_scope": "Process environment only; secure wrapper may load DPAPI later",
+                  "dpapi_credential_present": (Path(__import__('os').environ.get('LOCALAPPDATA', '')) / 'C1Pilot/qwen-api-key.dpapi').is_file(),
                   "credential_values_read_or_logged": False, "provider": "DashScope", "model": "qwen3.8-max",
                   "native_azure_or_gemini_credentials": "not_configured_or_probed", "human_gold": "not_available"}
         write(args["output"], result)
@@ -110,6 +112,21 @@ def execute(args):
             args["rankings"] = args.pop("predictions")
         return function(**args)
     if command == "budget":
+        current = ROOT / "results/credential_continuation.json"
+        if current.exists():
+            r = read(current)
+            forecasts = r["one_case_batch_scaling_forecast"]
+            a0 = sum(x["cny_48_cases_ignoring_discounts_if_representative"] for x in forecasts.values())
+            additional_e3 = sum(48*(v["prompt_tokens_logical"]*12 + v["completion_tokens_logical"]*36)/1_000_000
+                                for v in r["e3_direct_smoke_views"] if v.get("information_view") in ("current", "statistics"))
+            result = {"status": "BATCH_PAUSED_UNTIL_EXPLICIT_BUDGET_AUTHORIZATION", "based_on": str(current.relative_to(ROOT)),
+                      "one_case_scaling_forecasts": forecasts,
+                      "a0_six_methods_estimated_cny_ignoring_discounts": a0,
+                      "a0_plus_additional_e3_estimated_cny_ignoring_discounts": a0+additional_e3,
+                      "actual_invoice_cost": None, "paid_batch_executed": False,
+                      "warning": r["forecast_limitations"], "smoke_costs": r["costs"]}
+            write(args["output"], result)
+            return result
         result = {"status": "BATCH_PAUSED_UNTIL_COST_AND_BUDGET_REVIEW", "a0_cases": 48, "a0_pairs": 240,
                   "estimated_call_caps_per_case": {"direct": 1, "trialgpt_style": 5, "phia": 12,
                       "pha_parallel": 12, "pha_orchestrator": 12, "pha_ds_trialgpt": 8},
@@ -124,8 +141,8 @@ def execute(args):
         write(args["output"], result)
         return result
     if command == "summarize":
-        from .src.reports import summarize
-        return summarize(**args)
+        from .src.continuation import build
+        return build(**args)
     raise ValueError("Unknown command")
 
 

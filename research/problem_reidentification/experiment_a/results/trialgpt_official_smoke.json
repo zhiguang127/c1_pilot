@@ -1,0 +1,64 @@
+{
+  "status": "OFFICIAL_FUNCTION_INFERENCE_PASSED_PROVIDER_ADAPTED",
+  "source": {
+    "directory": "TrialGPT",
+    "url": "https://github.com/ncbi-nlp/TrialGPT",
+    "commit": "1b3242cd50c153a9c324661d4a0bd94fc68a4226",
+    "license": "LICENSE",
+    "license_sha256": "704890f21e31860b65fd547cb4c2f8fb496f5dafa2ff23c8d261f3c0ad072815",
+    "source_modified": false
+  },
+  "function": "trialgpt_matching",
+  "runtime": {
+    "python": "3.11.14",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "packages": {
+      "annotated-types": "0.8.0",
+      "anyio": "4.15.1",
+      "certifi": "2026.7.22",
+      "click": "8.5.0",
+      "cloudpickle": "3.1.2",
+      "colorama": "0.4.6",
+      "distro": "1.9.0",
+      "h11": "0.16.0",
+      "httpcore": "1.0.9",
+      "httpx": "0.27.2",
+      "idna": "3.20",
+      "joblib": "1.6.0",
+      "nltk": "3.8.1",
+      "openai": "1.30.5",
+      "pydantic": "2.14.1",
+      "pydantic_core": "2.50.1",
+      "regex": "2026.9.29",
+      "sniffio": "1.3.1",
+      "tqdm": "4.70.1",
+      "typing-inspection": "0.4.4",
+      "typing_extensions": "4.16.0"
+    }
+  },
+  "source_edits": false,
+  "original_prompt_unchanged": true,
+  "native_azure_or_paper_model_reproduced": false,
+  "base_model": "qwen3.8-max",
+  "transport_changes": [
+    "Azure client object replaced by OpenAI-compatible DashScope client",
+    "Temperature 0, thinking disabled, max output 1024, no retries, request accounting"
+  ],
+  "synthetic_only": true,
+  "input_sha256": "bdba29574f23b250d49ca5780da3ed8cadfa69343477593f6b4be883a71648b2",
+  "output_sha256": "b24cafe2eb3e43403b663d7e596a236f0f3eb228880b0e2b116b55b572e0b031",
+  "criteria_parsed": true,
+  "llm_calls": 2,
+  "cached_calls": 0,
+  "prompt_tokens": 1145,
+  "completion_tokens": 91,
+  "api_cost": null,
+  "cost_note": "Provider billing/rate unavailable; not inferred from token count",
+  "returned_models": [
+    "qwen3.8-max"
+  ],
+  "max_calls": 2,
+  "max_output_tokens": 1024,
+  "failed_calls": 0,
+  "at": "2026-10-16T11:33:17.413682+00:00"
+}

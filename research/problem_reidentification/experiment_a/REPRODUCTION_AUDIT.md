@@ -1,5 +1,7 @@
 # 官方代码复现审计
 
+**当前补充：用户已配置凭据，TrialGPT 原 `trialgpt_matching` 与 PHA 的 PHIA / Parallel / Orchestrator 均已执行真实模型推理；原作者调度和计算工具保留，Qwen 服务端适配与所有修改单列。最新报告由 `configs/active_baselines.json` 指定，详见 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md)。下表及“缺凭据”段落是初次交付时的历史状态。** 原生基础模型/历史环境仍未严格复现；首次 PHIA 绕过旧计量、Parallel 部分组件失败、Orchestrator 预算回退的纠正记录保留在 `results/reproduction_corrections.json`，不能沿用它们的旧成功/零成本解释。
+
 审计日期：2026-10-16。三个 checkout 均位于忽略的 `local/upstream/`，未修改跟踪源码；每次加载校验 SHA 和 `git status`。源码、模型、完整日志不提交。许可证原件保留在本机；公共清单记录哈希。
 
 | 项目 | 官方来源与固定提交 | 实际证据 | 严格论文复现 |

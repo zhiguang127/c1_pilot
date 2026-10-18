@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-16T11:38:59.278593+00:00",
+  "source_url": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+  "model": "qwen3.8-max",
+  "region": "China North 2 Beijing",
+  "currency": "CNY",
+  "input_per_million_tokens": 12,
+  "output_per_million_tokens": 36,
+  "cached_input_per_million_tokens": 1.5,
+  "price_kind": "Published list price; actual account discounts, credits and invoice not accessed",
+  "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "actual_invoice_cost": null,
+  "note": "Any calculated token-price product is an estimate, never a verified actual charge"
+}

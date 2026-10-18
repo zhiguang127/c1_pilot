@@ -1,5 +1,7 @@
 # 基线配置
 
+**最新补充见 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md)。下表中“待执行”、缺价格和早期输出上限为初次交付时的历史配置。** 当前原生 Smoke 的输出上限为 8192，单次官方 Orchestrator 可用 24 个新请求；Controlled 每次输出上限 4096、每 run 的实际 cap 单独保留。DS 采用作者 8192 默认值，再由受控 transport cap 约束。原作者仅支持的空表列头已提供，不增加任何可选表记录。原生 DuckDuckGo 与 Controlled 固定来源分开。公开价格已核对，实际账单未访问；全量批量未授权或执行。
+
 机器：Windows 11，CPU 推理；设备有 NVIDIA RTX 5060 Ti / 16 GB，本轮未使用 GPU。单独环境和全部安装版本锁在 `configs/{medcpt,trialgpt,pha}.lock.txt`。官方模型哈希与输出在 `results/medcpt_official_smoke.json`，BGE 在 `results/bge_model_asset.json`。
 
 | 方法 | 固定配置 |

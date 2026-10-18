@@ -1,5 +1,9 @@
 # 实际执行记录
 
+**补充阶段已完成：** 用户明确提供指定模型配置后，凭据通过用户绑定 DPAPI 写在仓库外，未回显或提交明文。真正运行 TrialGPT 原匹配函数、三种 PHA 架构与 DataScienceAgent 官方样例；同一真实案例的六方法 A0、Direct 三视图 E3、真实 E4 组合均得到输出。最终计量 107 请求，另有早期 PHIA 漏计调用单列；不再宣称 API 费用为零。40/24/87 项最终测试通过。完整最新记录和局限见 [CONTINUATION_READOUT.md](CONTINUATION_READOUT.md)、`results/credential_continuation.json`、`results/reproduction_corrections.json`。下文保留初次交付时的历史过程；它的“缺凭据/未执行”不代表当前状态。
+
+2026-10-18 收尾复验：Experiment A 40/40、P1 24/24、旧 C1 87/87 重新通过；最新日志哈希写入上述聚合记录。最终协议 v11 覆盖全部适配/聚合代码、CLI、配置与测试，保留所有较早协议和推理原始版本。本次收尾没有发出新的模型请求；批量预算与独立人工 Gold 仍待落实。
+
 记录日期：2026-10-16。这里只记录实际完成和实际阻碍，不将 README 的未来命令当成已运行。完整安装/下载/测试 stdout、原始推理和缓存均保存在本机忽略的 local；公开 JSON 保存版本、结果和日志哈希。
 
 ## 仓库与数据

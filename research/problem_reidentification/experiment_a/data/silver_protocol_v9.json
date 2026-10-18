@@ -1,0 +1,32 @@
+{
+  "version": "silver-protocol-v9-final-delivery",
+  "at": "2026-10-18T10:40:02.278744+00:00",
+  "supersedes": "b9a0773fdc78f27a2838e1172d0e4d0c30b0954a8cce441d9409e3887827c890",
+  "reason": "Final delivery snapshot after completed 15-participant double annotation. Retains all model judgments and rejected evidence. Adds offline audited-reference purpose checks, deterministic original-index format probe, separate immutable private Silver release, aggregate-only exports and call metadata. No model prompt, chosen participants or frozen C1/P1/A1 inputs changed after held-out start.",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "87943210be64e5dcbc3751ea161f2279a00fdd5b3c37b1155ba1f995248fe47c",
+    "silver/api.py": "64456caa707c8d60fd7b9a60914b8b516740ac57c73e41e56b877021880e1ae2",
+    "silver/evidence.py": "5e534ffa570bc0426e875eacb4cef2332474db1c0136fe91ac184ef016061936",
+    "silver/pipeline.py": "48254e6d6614f074f9e68e14c06a442a044d2bf05cb3ca815663a89fa8ac19a9",
+    "silver/probes.py": "44dfbd41c17f99439e04b22b79deea2e8d806592c5b184ff4c852c88c8971710",
+    "silver/prompts.py": "4c7ab6587709d20c5237b153e89d90f4e211afa40a847d492bce1f8f876b884f",
+    "silver/release.py": "069fc5541452d0ddf5072718a2b84534ce2590444da8761cc3688a95cb887ae4",
+    "silver/report.py": "83ce0322a22afe2632890e9d0aeafd0241089d3a854d2e1dd5a02d5d9ef9358e",
+    "silver/schemas.py": "d3098e81b0636cf2596f88a05a37cd6fd360b10a68a19aa9e4cfbc554d467f21",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde",
+    "tests/test_silver.py": "179b45185ee039716b7d5068d9cdf800818b4b92394e190f5a3a4758524970dc",
+    "SILVER_ANNOTATION_PROTOCOL.md": "432db152246b148e842358988eff23dc3d789411dc1c69388014de0b76dd2d2c",
+    "SOURCE_CONDITION_AUDIT.md": "ad04404e97dc1ed3459a5fb035578d26976e9862f9738f7ea9d0d8f59b52bbe8",
+    "EVIDENCE_AUDIT.md": "bf80c8e9f03d7add4954c17ebbb1a7f019355064eb9aacb0fd156ba99162c4ea",
+    "SILVER_LABEL_ANALYSIS.md": "f1a91608f9a3147f9cb3af25bb95a0c1ecfcdd12b435ec06017dd31a93d89e2f",
+    "PROBLEM_DISCOVERY_READOUT.md": "d97c8fb91151ffc27ea85920b6405f7a8dcaad7feaff5c817a071b45ae3b5610"
+  },
+  "private_silver_release_id": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e",
+  "final_summary_sha256": "8148f799082fe66ec5fda0399ae90efe58d687b2c8061e2f2f532b5057aa39e8",
+  "old_baseline_protocol_sha256": "24cfe458158244718fc412c8ad198ece551bb64ea692327ca41f2b46159f2a1a",
+  "human_gold": false,
+  "paid_budget_cap_cny": 100,
+  "no_additional_model_inference_after_final_snapshot": true,
+  "release_id": "ebd2f36e84727f198a102aebc8b89ac9561fd1c9762cc5c97fef0a14e26c6041"
+}

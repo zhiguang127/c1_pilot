@@ -1,0 +1,57 @@
+{
+  "status": "BATCH_PAUSED_UNTIL_EXPLICIT_BUDGET_AUTHORIZATION",
+  "based_on": "results\\credential_continuation.json",
+  "one_case_scaling_forecasts": {
+    "direct": {
+      "calls_48_cases_if_first_case_representative": 48,
+      "cny_48_cases_ignoring_discounts_if_representative": 7.396992
+    },
+    "trialgpt_style": {
+      "calls_48_cases_if_first_case_representative": 240,
+      "cny_48_cases_ignoring_discounts_if_representative": 31.918464
+    },
+    "phia": {
+      "calls_48_cases_if_first_case_representative": 96,
+      "cny_48_cases_ignoring_discounts_if_representative": 73.052928
+    },
+    "pha_parallel": {
+      "calls_48_cases_if_first_case_representative": 576,
+      "cny_48_cases_ignoring_discounts_if_representative": 108.787968
+    },
+    "pha_orchestrator": {
+      "calls_48_cases_if_first_case_representative": 336,
+      "cny_48_cases_ignoring_discounts_if_representative": 70.020864
+    },
+    "pha_ds_trialgpt": {
+      "calls_48_cases_if_first_case_representative": 432,
+      "cny_48_cases_ignoring_discounts_if_representative": 55.5408
+    }
+  },
+  "a0_six_methods_estimated_cny_ignoring_discounts": 346.718016,
+  "a0_plus_additional_e3_estimated_cny_ignoring_discounts": 359.491968,
+  "actual_invoice_cost": null,
+  "paid_batch_executed": false,
+  "warning": "Only one prespecified P1 window; architecture tool/retry counts vary. Billing discounts and actual invoice unknown. No paid batch authorization inferred.",
+  "smoke_costs": {
+    "metered_request_attempts": 107,
+    "unique_cached_successful_requests": 107,
+    "prompt_tokens_metered_successes": 2072268,
+    "completion_tokens_metered_successes": 97828,
+    "provider_cached_input_tokens": 1257600,
+    "estimated_cny_ignoring_cache_discounts": 28.389024,
+    "estimated_cny_applying_reported_input_cache_discount": 15.184224,
+    "price_source": "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+    "price_checked_on": "2026-10-16",
+    "price_basis": "Published Beijing rates: CNY 12 input / 36 output / 1.5 cached input per million tokens",
+    "actual_invoice_cost": null,
+    "unmetered_legacy_phia_smoke": {
+      "exact_requests": null,
+      "observed_model_steps_lower_bound": 3,
+      "tokens": null,
+      "actual_cost": null,
+      "note": "First PHIA smoke used OneTwo Responses outside the old chat-only instrumentation; excluded from zero-cost claims"
+    },
+    "scope": "All recorded local official and A0 smoke attempts, including failed/replaced runs; excludes software fixtures",
+    "paid_48_case_batch_executed": false
+  }
+}

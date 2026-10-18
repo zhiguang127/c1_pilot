@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "id": "duration_and_timing",
+      "ids": [
+        "K005",
+        "K006",
+        "K017",
+        "K019"
+      ],
+      "contrast": "Repeated short sleep, schedule constraints, general clock variability, weekday/weekend difference"
+    },
+    {
+      "id": "episodic_and_persistent",
+      "ids": [
+        "K016",
+        "K034",
+        "K037",
+        "K038"
+      ],
+      "contrast": "Several short nights versus reported bad sleep and months-long insomnia history"
+    },
+    {
+      "id": "activity_intensity",
+      "ids": [
+        "K041",
+        "K042",
+        "K043",
+        "K044",
+        "K047"
+      ],
+      "contrast": "Low activity, gradual increase, moderate/vigorous intensity, established guideline attainment"
+    },
+    {
+      "id": "activity_sleep_context",
+      "ids": [
+        "K069",
+        "K070",
+        "K071",
+        "K072",
+        "K073"
+      ],
+      "contrast": "General association versus exercise timing, intensity, symptoms and joint diary evidence"
+    },
+    {
+      "id": "measurement_missingness",
+      "ids": [
+        "K089",
+        "K090",
+        "K091",
+        "K093",
+        "K094"
+      ],
+      "contrast": "Fit, overnight coverage, missing sleep data, device changes and sleep-period interpretation"
+    },
+    {
+      "id": "reference_windows",
+      "ids": [
+        "K082",
+        "K083",
+        "K086",
+        "K090"
+      ],
+      "contrast": "Personal ranges, repeated RHR, HRV collection period and overnight coverage"
+    }
+  ],
+  "selection": "Fixed source-text panels, no model predictions or labels",
+  "coverage_gaps": [
+    "No explicit source-supported recovery-state alternative identified; history-versus-recovery contrast not established",
+    "No invented numerical persistence thresholds; vague short/repeated/low conditions require human interpretation",
+    "Lexical neighbors and analyst panels do not establish human topical relevance"
+  ],
+  "case_selection": "All 48 frozen windows, all 16 participants; no outcome filtering",
+  "annotation_status": "PENDING_HUMAN_ANNOTATION",
+  "condition_status": "EXISTING_MACHINE_REVIEWED_DRAFT_NOT_HUMAN_CONFIRMED",
+  "pair_policy": "One judgment per unique case-knowledge pair, reused across overlapping panel descriptions"
+}

@@ -1,0 +1,17 @@
+{
+  "version": "silver-protocol-v2",
+  "at": "2026-10-18T10:01:56.300330+00:00",
+  "reason": "Explicit nested JSON schema after first source-only response used non-array evidence. Original response retained; no personal labeling has occurred.",
+  "supersedes": "574fe91627ed9b6c98deb957c026319d4ccb0e62bbe2aadca3a2c9a7f6b57421",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "10db1e59df5a164be9dbce65ca7463da98e818aa06121757e93438a556250808",
+    "silver/api.py": "dc2adaf6b77ba4b9565de8adc5e577a5aae5b7bc61da5a480c7cb9016ddbba9a",
+    "silver/evidence.py": "e101a63421b486e582e57b2bbe2c93889964f5b7c3d499c3a7d0d184aebd977b",
+    "silver/pipeline.py": "f9c2bda3619660bea8680816ba945525e5745abb199b339a104b22ff30991dcf",
+    "silver/prompts.py": "4e3fb594631c35074344e14a596b6f683e4c0ee66f374e48277c892c4aad4fa6",
+    "silver/report.py": "63d7764eaf75d77d9ca685dc11e6f833ad4a14229032bac892a6f555b3ffa146",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde"
+  },
+  "release_id": "b7baa5b9c9050515772325b9d2d5744aa62015ea74beede022465b843ad8b8bb"
+}

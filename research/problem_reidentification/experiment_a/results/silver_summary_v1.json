@@ -1,0 +1,1515 @@
+{
+  "version": "silver-analysis-v1",
+  "recorded_at": "2026-10-18T10:24:01.247469+00:00",
+  "label_provenance": "QWEN_MAX_SILVER",
+  "human_gold": false,
+  "plan_id": "40b8366886112e024872aa1857eb59d302afa8c4fa0c0acab9ee648799c645a6",
+  "input_integrity": {
+    "legacy_hashes_verified": 77,
+    "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "cases": 48,
+    "participants": 16,
+    "a0_pairs": 240
+  },
+  "source_audit": {
+    "knowledge_items": 26,
+    "conditions": 98,
+    "condition_support_counts": {
+      "EXPLICIT_SUPPORT": 52,
+      "GENERAL_ADVICE_ONLY": 8,
+      "OVERINTERPRETED": 2,
+      "UNVERIFIABLE": 36
+    },
+    "condition_role_counts": {
+      "claim_scope_restriction": 33,
+      "disputed": 27,
+      "necessary_prerequisite": 25,
+      "optional_background": 13
+    },
+    "core_support_counts": {
+      "EXPLICIT_SUPPORT": 25,
+      "UNVERIFIABLE": 1
+    },
+    "scope_disputed_items": 1,
+    "source_validation_error_count": 29,
+    "source_quote_mismatch_count": 2,
+    "model_omitted_conditions": 7,
+    "items": [
+      {
+        "knowledge_id": "K005",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "source_accessed_at": "2026-10-18T09:58:56.608107+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0011"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0011"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K006",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation",
+        "source_accessed_at": "2026-10-18T09:58:55.612758+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 1,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [
+          "no_source_evidence:population.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0027"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0027"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K016",
+        "source_url": "https://www.nhs.uk/conditions/insomnia/",
+        "source_accessed_at": "2026-10-18T09:58:56.658482+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 2,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [
+          {
+            "condition_id": "required_context.0",
+            "original_paragraph_id": "P0060",
+            "exact_quote_other_paragraph_ids": [
+              "P0061"
+            ],
+            "kind": "WRONG_PARAGRAPH_ID"
+          },
+          {
+            "condition_id": "required_context.0",
+            "original_paragraph_id": "P0061",
+            "exact_quote_other_paragraph_ids": [
+              "P0060"
+            ],
+            "kind": "WRONG_PARAGRAPH_ID"
+          }
+        ],
+        "verified_quote_count": 3,
+        "validation_error_codes": [
+          "quote_not_in_snapshot:required_context.0",
+          "quote_not_in_snapshot:required_context.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0003"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0060",
+              "P0061",
+              "P0062"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0012"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K017",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "source_accessed_at": "2026-10-18T09:58:56.608107+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 4,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0013",
+              "P0014"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "OVERINTERPRETED",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0013",
+              "P0014"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K019",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "source_accessed_at": "2026-10-18T09:58:56.608107+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0014"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0014"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K034",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/how-much-sleep",
+        "source_accessed_at": "2026-10-18T09:58:56.611869+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 3,
+        "model_omitted_condition_count": 2,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "missing_source_field:proposed_core_scope",
+          "source_condition_set_mismatch",
+          "no_source_evidence:population.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K037",
+        "source_url": "https://www.nhs.uk/conditions/insomnia/",
+        "source_accessed_at": "2026-10-18T09:58:56.658482+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 1,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [
+          "no_source_evidence:population.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0052"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0052"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K038",
+        "source_url": "https://www.nhs.uk/conditions/insomnia/",
+        "source_accessed_at": "2026-10-18T09:58:56.658482+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0012"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0012"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0012"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K041",
+        "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 3,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "no_source_evidence:population.0",
+          "no_source_evidence:observable_conditions.0",
+          "no_source_evidence:required_context.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K042",
+        "source_url": "https://medlineplus.gov/howmuchexercisedoineed.html",
+        "source_accessed_at": "2026-10-18T09:58:53.086135+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 3,
+        "model_omitted_condition_count": 3,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "missing_source_field:proposed_core_scope",
+          "source_condition_set_mismatch",
+          "no_source_evidence:population.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K043",
+        "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 4,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "no_source_evidence:population.0",
+          "no_source_evidence:observable_conditions.0",
+          "no_source_evidence:required_context.0",
+          "no_source_evidence:non_applicable_conditions.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "claim_scope_restriction",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "OVERINTERPRETED",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K044",
+        "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "W0025"
+            ]
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "W0032"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "W0032"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K047",
+        "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 4,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "no_source_evidence:population.0",
+          "no_source_evidence:observable_conditions.0",
+          "no_source_evidence:required_context.0",
+          "no_source_evidence:non_applicable_conditions.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K069",
+        "source_url": "https://www.cdc.gov/physical-activity-basics/benefits/index.html",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "W0025"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "W0025",
+              "W0034"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K070",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "source_accessed_at": "2026-10-18T09:58:56.608107+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "optional_background",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K071",
+        "source_url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "source_accessed_at": "2026-10-18T09:58:56.608107+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0015"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0015"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0015"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K072",
+        "source_url": "https://www.nhs.uk/conditions/insomnia/",
+        "source_accessed_at": "2026-10-18T09:58:56.658482+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 3,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "no_source_evidence:population.0",
+          "no_source_evidence:observable_conditions.0",
+          "no_source_evidence:required_context.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "optional_background",
+            "support": "GENERAL_ADVICE_ONLY",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K073",
+        "source_url": "https://www.cdc.gov/sleep/about/",
+        "source_accessed_at": "2026-10-18",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT_VIA_WEB",
+        "core_claim_support": "UNVERIFIABLE",
+        "source_scope_disputed": true,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K082",
+        "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0033"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0033"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0033"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K083",
+        "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0061"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0061"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K086",
+        "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0100"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0100"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0100"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K089",
+        "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 6,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0019",
+              "P0021"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0019",
+              "P0021"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0021",
+              "P0023"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K090",
+        "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 3,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0036"
+            ]
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0036"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0036"
+            ]
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K091",
+        "source_url": "https://support.google.com/googlehealth/answer/14236917?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 2,
+        "model_omitted_condition_count": 2,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "source_condition_set_mismatch",
+          "no_source_evidence:observable_conditions.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "SOFTWARE_UNRESOLVED_OMISSION_NOT_A_MODEL_JUDGMENT",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K093",
+        "source_url": "https://support.google.com/googlehealth/answer/14237938?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 3,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 0,
+        "validation_error_codes": [
+          "no_source_evidence:observable_conditions.0",
+          "no_source_evidence:required_context.0",
+          "no_source_evidence:non_applicable_conditions.0"
+        ],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "required_context.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          }
+        ]
+      },
+      {
+        "knowledge_id": "K094",
+        "source_url": "https://support.google.com/googlehealth/answer/14236407?hl=en",
+        "source_accessed_at": "2026-10-18T09:58:53.087131+00:00",
+        "source_fetch_status": "FETCHED_PRIMARY_TEXT",
+        "core_claim_support": "EXPLICIT_SUPPORT",
+        "source_scope_disputed": false,
+        "validation_error_count": 0,
+        "model_omitted_condition_count": 0,
+        "quote_locator_diagnostics": [],
+        "verified_quote_count": 2,
+        "validation_error_codes": [],
+        "conditions": [
+          {
+            "condition_id": "population.0",
+            "role": "disputed",
+            "support": "UNVERIFIABLE",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": []
+          },
+          {
+            "condition_id": "observable_conditions.0",
+            "role": "necessary_prerequisite",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0034"
+            ]
+          },
+          {
+            "condition_id": "non_applicable_conditions.0",
+            "role": "claim_scope_restriction",
+            "support": "EXPLICIT_SUPPORT",
+            "judgment_origin": "QWEN_MAX_SILVER",
+            "evidence_paragraph_ids": [
+              "P0007"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "smoke_double_annotation": {
+    "round_a_records": 5,
+    "round_b_records": 5,
+    "paired_records": 5,
+    "both_structurally_accepted": 5,
+    "paired_parseable_labels": 5,
+    "same_parseable_label": 4,
+    "raw_label_agreement": 0.8,
+    "same_label_among_both_accepted": 4,
+    "label_agreement_among_both_accepted": 0.8,
+    "both_no_review_required": 3,
+    "both_rounds_same_model": true,
+    "independent_human_consensus": false,
+    "validation_error_categories": {},
+    "review_required_by_round": {
+      "A": 2,
+      "B": 2
+    },
+    "source_scope_disputed_by_round": {
+      "A": 0,
+      "B": 0
+    },
+    "privacy_note": "Single-case per-class and per-knowledge labels remain private; original export draft retained privately"
+  },
+  "heldout_double_annotation": {
+    "round_a_records": 0,
+    "round_b_records": 0,
+    "paired_records": 0,
+    "both_structurally_accepted": 0,
+    "paired_parseable_labels": 0,
+    "same_parseable_label": 0,
+    "raw_label_agreement": null,
+    "same_label_among_both_accepted": 0,
+    "label_agreement_among_both_accepted": null,
+    "both_no_review_required": 0,
+    "both_rounds_same_model": true,
+    "independent_human_consensus": false,
+    "validation_error_categories": {},
+    "round_label_counts": {
+      "A": {},
+      "B": {}
+    },
+    "review_required_by_round": {
+      "A": 0,
+      "B": 0
+    },
+    "source_scope_disputed_by_round": {
+      "A": 0,
+      "B": 0
+    }
+  },
+  "heldout_selection": {
+    "eligible_participants": 15,
+    "one_window_per_participant": true,
+    "participant_overlap_with_prior_applicability_debugging": false,
+    "all_prior_retrieval_exposure": true,
+    "batch_authorized": true,
+    "batch_executed": false
+  },
+  "evidence_audit": {
+    "existing_predictions": 30,
+    "legacy_failures": 23,
+    "blinded_semantically_reviewed": 30,
+    "status_counts_nonexclusive": {
+      "INSUFFICIENT_INFORMATION": 10,
+      "INVALID_REFERENCE": 7,
+      "INVALID_VALUE": 2,
+      "UNRESOLVED": 3,
+      "VALID_EVIDENCE": 8
+    },
+    "validation_clean_reviews": 29,
+    "legacy_23_interpretations": {
+      "format_only": 4,
+      "no_legacy_failure": 4,
+      "potential_evidence_error": 15
+    },
+    "mechanical_finding_counts_nonexclusive": {
+      "INVALID_VALUE": 1,
+      "NO_STRUCTURED_OBSERVATIONS": 5,
+      "REFERENCE_EXISTS": 75,
+      "UNKNOWN_CONDITION_REFERENCE": 4,
+      "UNUSABLE_REFERENCE_NEEDS_PURPOSE_REVIEW": 19
+    },
+    "mechanically_confirmed_explicit_value_error_predictions": 1,
+    "semantic_statuses_are_same_family_model_judgments": true,
+    "applicability_errors_established": false
+  },
+  "exploratory_agreement_against_qwen_max_silver": {
+    "direct": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 3,
+        "different_label": 2,
+        "agreement_against_qwen_max_silver": 0.6,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 4,
+        "different_label": 1,
+        "agreement_against_qwen_max_silver": 0.8,
+        "silver_review_required_pairs": 2
+      }
+    },
+    "trialgpt_style": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 4,
+        "different_label": 1,
+        "agreement_against_qwen_max_silver": 0.8,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 3,
+        "different_label": 2,
+        "agreement_against_qwen_max_silver": 0.6,
+        "silver_review_required_pairs": 2
+      }
+    },
+    "phia": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 5,
+        "different_label": 0,
+        "agreement_against_qwen_max_silver": 1.0,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 4,
+        "different_label": 1,
+        "agreement_against_qwen_max_silver": 0.8,
+        "silver_review_required_pairs": 2
+      }
+    },
+    "pha_parallel": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 4,
+        "different_label": 1,
+        "agreement_against_qwen_max_silver": 0.8,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 3,
+        "different_label": 2,
+        "agreement_against_qwen_max_silver": 0.6,
+        "silver_review_required_pairs": 2
+      }
+    },
+    "pha_orchestrator": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 5,
+        "different_label": 0,
+        "agreement_against_qwen_max_silver": 1.0,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 4,
+        "different_label": 1,
+        "agreement_against_qwen_max_silver": 0.8,
+        "silver_review_required_pairs": 2
+      }
+    },
+    "pha_ds_trialgpt": {
+      "A": {
+        "compared_pairs": 5,
+        "same_label": 2,
+        "different_label": 3,
+        "agreement_against_qwen_max_silver": 0.4,
+        "silver_review_required_pairs": 2
+      },
+      "B": {
+        "compared_pairs": 5,
+        "same_label": 3,
+        "different_label": 2,
+        "agreement_against_qwen_max_silver": 0.6,
+        "silver_review_required_pairs": 2
+      }
+    }
+  },
+  "information_view_changes": {
+    "current": {
+      "pairs": 5,
+      "label_changes_vs_full": 0,
+      "unknown_labels": 1,
+      "rationale_causal_benefit_established": false
+    },
+    "statistics": {
+      "pairs": 5,
+      "label_changes_vs_full": 0,
+      "unknown_labels": 1,
+      "rationale_causal_benefit_established": false
+    }
+  },
+  "costs": {
+    "new_request_attempts": 61,
+    "successful_responses": 58,
+    "requested_model": "qwen-max",
+    "returned_models": [
+      "qwen-max"
+    ],
+    "server_fingerprint_values": [],
+    "server_version_limit": "Rolling alias; snapshot/weights not certified by response model string",
+    "prompt_tokens": 364935,
+    "completion_tokens": 50134,
+    "estimated_cny_no_discount": 1.3571304,
+    "estimated_cny_reported_cache": 1.26325008,
+    "budget_accounted_cny": 1.7012976,
+    "uncertain_attempts": 3,
+    "cap_cny": 100.0,
+    "max_calls": 96,
+    "price": {
+      "input_per_million_cny": 2.4,
+      "output_per_million_cny": 9.6,
+      "cached_input_per_million_cny": 0.48,
+      "source": "https://help.aliyun.com/zh/model-studio/qwen-max",
+      "checked_on": "2026-10-18",
+      "region": "Beijing",
+      "invoice_verified": false,
+      "documented_alias_equivalence": "qwen-max-2025-01-25",
+      "alias_is_immutable": false
+    },
+    "actual_invoice_cny": null,
+    "parameters": {
+      "model": "qwen-max",
+      "temperature": 0,
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": false,
+      "source_response_mode": "JSON Object; one explicit 8192-token source retry after truncation",
+      "final_label_evidence_response_mode": "Forced declarative function argument Schema; no external tool execution",
+      "max_tokens_source_and_evidence": 4096,
+      "max_tokens_labels": 5120,
+      "max_retries": 0
+    },
+    "sdk_versions": [
+      "3.31.0"
+    ]
+  },
+  "formal_accuracy": null,
+  "stable_unrepairable_failure_established": false,
+  "limitations": [
+    "Same model family, same-model repeated annotation, source scope proposals not human confirmed",
+    "Existing baseline comparisons cover one previously debugged participant/window only",
+    "No repair intervention was run; evidence faults do not establish an applicability-label error",
+    "Held-out participants are unexposed to prior applicability debugging, not to all E1 retrieval",
+    "Source snapshots are current; historical device documentation equivalence not established"
+  ]
+}

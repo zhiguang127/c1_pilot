@@ -1,0 +1,82 @@
+{
+  "label_provenance": "QWEN_MAX_SILVER",
+  "human_gold": false,
+  "latest_report": {
+    "path": "results/silver_summary_v3.json",
+    "sha256": "8148f799082fe66ec5fda0399ae90efe58d687b2c8061e2f2f532b5057aa39e8",
+    "label_provenance": "QWEN_MAX_SILVER"
+  },
+  "private_release_id": "2bd7232e05fa9bc02c53490430abd8c2bcb889a6174b1f1e7ecde9e9dd50804e",
+  "record_count": 160,
+  "tests": {
+    "experiment_a": {
+      "count": 66,
+      "passed": true,
+      "log_sha256": "e525a36a251edea67c363b14069bff86350f042af528bbc959fe6902f8b20d46"
+    },
+    "p1": {
+      "count": 24,
+      "passed": true,
+      "log_sha256": "8a3a09d8ebd8c6afc49512a094c1b90d6b68f48f9af287fd4096dc512d244e3a"
+    },
+    "c1": {
+      "count": 87,
+      "passed": true,
+      "log_sha256": "30b228552dac320d9e6f59de449b49481b0a166fafe0db6d54b2745f8982e61d"
+    }
+  },
+  "input_integrity": {
+    "legacy_hashes_verified": 77,
+    "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "cases": 48,
+    "participants": 16,
+    "a0_pairs": 240
+  },
+  "costs": {
+    "new_request_attempts": 91,
+    "successful_responses": 91,
+    "requested_model": "qwen-max",
+    "returned_models": [
+      "qwen-max"
+    ],
+    "server_fingerprint_values": [],
+    "server_version_limit": "Rolling alias; snapshot/weights not certified by response model string",
+    "prompt_tokens": 676302,
+    "completion_tokens": 148516,
+    "estimated_cny_no_discount": 3.0488784,
+    "estimated_cny_reported_cache": 2.8881513599999997,
+    "budget_accounted_cny": 3.0488784,
+    "uncertain_attempts": 0,
+    "cap_cny": 100.0,
+    "max_calls": 96,
+    "price": {
+      "input_per_million_cny": 2.4,
+      "output_per_million_cny": 9.6,
+      "cached_input_per_million_cny": 0.48,
+      "source": "https://help.aliyun.com/zh/model-studio/qwen-max",
+      "checked_on": "2026-10-18",
+      "region": "Beijing",
+      "invoice_verified": false,
+      "documented_alias_equivalence": "qwen-max-2025-01-25",
+      "alias_is_immutable": false
+    },
+    "actual_invoice_cny": null,
+    "parameters": {
+      "model": "qwen-max",
+      "temperature": 0,
+      "response_format": {
+        "type": "json_object"
+      },
+      "stream": false,
+      "source_response_mode": "JSON Object; one explicit 8192-token source retry after truncation",
+      "final_label_evidence_response_mode": "Forced declarative function argument Schema; no external tool execution",
+      "max_tokens_source_and_evidence": 4096,
+      "max_tokens_labels": 5120,
+      "max_retries": 0
+    },
+    "sdk_versions": [
+      "3.31.0"
+    ],
+    "explicit_format_retries": 3
+  }
+}

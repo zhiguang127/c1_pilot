@@ -1,0 +1,7 @@
+{
+  "status": "OFFICIAL_PARSER_ONLY_LLM_NOT_RUN",
+  "function": "parse_criteria",
+  "synthetic_only": true,
+  "output": "0. Age at least 18 years.\n1. A synthetic software criterion.\n",
+  "model_inference": false
+}

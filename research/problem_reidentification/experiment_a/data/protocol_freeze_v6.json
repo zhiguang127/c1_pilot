@@ -1,0 +1,32 @@
+{
+  "version": "experiment-a-protocol-v6",
+  "recorded_at": "2026-10-16T11:44:45.702876+00:00",
+  "supersedes": "5b06edcf6167e152c7393821b2f84ae8292584be8bc2094f54f634f5db90ce90",
+  "reason": "Restore official DSA output default 8192 for native smoke (controlled transport still 4096); permit disclosed intermediate truncations only when native retry returns complete specialist/final answers; E4 requires independent DSA smoke instead of unrelated whole-orchestrator gate.",
+  "prompt_changed_from_v5": false,
+  "files": {
+    "EXPERIMENT_PROTOCOL.md": "064d53e67f2e349359711f1d2b7f7fc3a99ef223d25e43159d7f4db556423d2b",
+    "ANNOTATION_PROTOCOL.md": "c9a4a97f7c71017161754447eed63a450b745ae80a78471bb449858c7b75ea2d",
+    "BASELINE_CONFIG.md": "bb48d1c3f368b6ed86504eec6d5aa26b57479d5f8c4215ca70ccfee240e38854",
+    "data/releases/a1-v1/freeze.json": "f496d5f31a5c9687f764a8664cdff326bfaa41c9c9b293beed47a4327775689c",
+    "src/__init__.py": "8c2fb89c8062257d573b37dc66984509b70314583b1f1dc12ea1fdbe8b902b8f",
+    "src/annotation.py": "127d238759f7a5fdc2017b3d476942b8b06da3c09b5f52b17e674c4ce20d6ccb",
+    "src/common.py": "bb2e594bec9fa30c7909a5e6b2057f015b071a3380716c1c32976f952feae3d1",
+    "src/conditions.py": "956d3c098f40f1cf5392164a47a5db4e4beeb9136b74178987b026c26c34ccfe",
+    "src/data.py": "7efe5e2211de3569d09c19d21d0736e181d3186e4358b8c7dba737a34247247a",
+    "src/evaluation.py": "23d9e14b7e373473d23d7315be54017329efc33d0ca7ab9cd3ee837a03578d06",
+    "src/matching.py": "9c11f23800d40bb2cbff48677cc851494aff6a97de153d3e55b044d9f2d04a79",
+    "src/pha.py": "0eeef865a4972411ed36f795c90eac65697534dba04988adef9e4becfd1aceb5",
+    "src/reports.py": "5fd0d1b4eb6df4179b03b24e35a88939368616a95221646a4bfe5cb2652642ce",
+    "src/retrieval.py": "071bcdd8a71541c1485534ba28461e49fd38de26d485b8dc12ae11c26c951026",
+    "src/transport.py": "9cdbb1543cd238b6f05e57a66f93d7aa18c0d13ae2ec1c852bb9ead837eb90a3",
+    "src/trialgpt.py": "b5ffa2723c8ffce53ad317f43e153fb49bec8266cb652f63c06f2185ab7631b9",
+    "src/upstream.py": "36c7459e05ea277ac26eb821aa782cf6aba1a66924095b7869cf026e1a1032f3",
+    "configs/medcpt.lock.txt": "ad795bf0aca3a4eeec19e021b0297a09e8f57619df703b2e177c8d3fc7ccf642",
+    "configs/pha.lock.txt": "dd5ab341b9c8103073916d33635d56ea756bd3728e1abd974d5dd96d662b4647",
+    "configs/trialgpt.lock.txt": "72c32a40f1917f5e496131ede78d79bb8adaa04da7bce689e38f0b636a1da05a",
+    "configs/active_protocol.json": "2c3e02272e73a35212839ef51d6b200c3b6be5c604a602ca5ca2b725d3ce1d03",
+    "configs/active_baselines.json": "3e31231a5b1a45f9aa9a829c67cd3df61f45b330310b2b5f4d5e5027e2fb1b17"
+  },
+  "release_id": "7a9d5d31178cc2addf3e920539d847204fdc368d18c840f30dfa4c1101ef998f"
+}

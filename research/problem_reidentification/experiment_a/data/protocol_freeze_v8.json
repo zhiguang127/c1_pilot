@@ -1,0 +1,32 @@
+{
+  "version": "experiment-a-protocol-v8",
+  "recorded_at": "2026-10-16T11:48:35.919528+00:00",
+  "supersedes": "376866627b96f78a546a9dcf45b2f02c867b349c7d8b0e106d052e17f972ec4d",
+  "reason": "Persist cache-hit usage events for accurate logical-token cost forecasts; route summary to current audit readout. No model prompt, label, candidate or data changes.",
+  "prompt_changed_from_v7": false,
+  "files": {
+    "EXPERIMENT_PROTOCOL.md": "064d53e67f2e349359711f1d2b7f7fc3a99ef223d25e43159d7f4db556423d2b",
+    "ANNOTATION_PROTOCOL.md": "c9a4a97f7c71017161754447eed63a450b745ae80a78471bb449858c7b75ea2d",
+    "BASELINE_CONFIG.md": "bb48d1c3f368b6ed86504eec6d5aa26b57479d5f8c4215ca70ccfee240e38854",
+    "data/releases/a1-v1/freeze.json": "f496d5f31a5c9687f764a8664cdff326bfaa41c9c9b293beed47a4327775689c",
+    "src/__init__.py": "8c2fb89c8062257d573b37dc66984509b70314583b1f1dc12ea1fdbe8b902b8f",
+    "src/annotation.py": "127d238759f7a5fdc2017b3d476942b8b06da3c09b5f52b17e674c4ce20d6ccb",
+    "src/common.py": "bb2e594bec9fa30c7909a5e6b2057f015b071a3380716c1c32976f952feae3d1",
+    "src/conditions.py": "956d3c098f40f1cf5392164a47a5db4e4beeb9136b74178987b026c26c34ccfe",
+    "src/data.py": "7efe5e2211de3569d09c19d21d0736e181d3186e4358b8c7dba737a34247247a",
+    "src/evaluation.py": "23d9e14b7e373473d23d7315be54017329efc33d0ca7ab9cd3ee837a03578d06",
+    "src/matching.py": "9c11f23800d40bb2cbff48677cc851494aff6a97de153d3e55b044d9f2d04a79",
+    "src/pha.py": "cb230afb79890a71cef95a2d607ca87056065e69904424eff451e7d3e31bf246",
+    "src/reports.py": "5fd0d1b4eb6df4179b03b24e35a88939368616a95221646a4bfe5cb2652642ce",
+    "src/retrieval.py": "071bcdd8a71541c1485534ba28461e49fd38de26d485b8dc12ae11c26c951026",
+    "src/transport.py": "98e1e262d436a8cbf0a33cc0b017a944f8f1b0e3cb293f1a5404a2397816a1cc",
+    "src/trialgpt.py": "b5ffa2723c8ffce53ad317f43e153fb49bec8266cb652f63c06f2185ab7631b9",
+    "src/upstream.py": "36c7459e05ea277ac26eb821aa782cf6aba1a66924095b7869cf026e1a1032f3",
+    "configs/medcpt.lock.txt": "ad795bf0aca3a4eeec19e021b0297a09e8f57619df703b2e177c8d3fc7ccf642",
+    "configs/pha.lock.txt": "dd5ab341b9c8103073916d33635d56ea756bd3728e1abd974d5dd96d662b4647",
+    "configs/trialgpt.lock.txt": "72c32a40f1917f5e496131ede78d79bb8adaa04da7bce689e38f0b636a1da05a",
+    "configs/active_protocol.json": "1e24d3598dc2cb6054ff7eec46278ec38e3864a75ddeae2d510778942752fe55",
+    "configs/active_baselines.json": "94bb53213d76c02d4f45f33adacd0e9355a954292253eae328a87ad4f3ebf7af"
+  },
+  "release_id": "fa8a3e22d2e6479b23fe2fe414f00cabca0e7e6c3c88ec19969ef3fc07a4488b"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PENDING_HUMAN_ANNOTATION",
+  "stage": "a0",
+  "data_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+  "formal_metrics": null,
+  "gold_pairs": 0,
+  "reason": "No independent human applicability Gold; no synthetic or old Qwen labels substituted"
+}

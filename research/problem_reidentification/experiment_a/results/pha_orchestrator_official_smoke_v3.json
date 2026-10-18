@@ -1,0 +1,37 @@
+{
+  "status": "OFFICIAL_ARCHITECTURE_RETURNED_RESPONSE_PROVIDER_ADAPTED",
+  "architecture": "pha_orchestrator",
+  "component_errors": [],
+  "incomplete_model_responses": 0,
+  "setting": "native_tools_official_synthetic_sample",
+  "source": {
+    "directory": "consumer-health-research",
+    "url": "https://github.com/Google-Health/consumer-health-research",
+    "commit": "3e9d1e4877a54cf81ce8ef34085006952dd19601",
+    "license": "personal_health_agent/LICENSE.txt",
+    "license_sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+    "source_modified": false
+  },
+  "source_edits": false,
+  "paper_base_model_reproduced": false,
+  "model": "qwen3.8-max",
+  "question_source": "notebooks/07_phia_baseline.ipynb and 06_parallel_baseline.ipynb",
+  "response_sha256": "c3c49819676cd8c85b79ea4b03a6a7a63c587c36b5e8fd028c82981e03ab3bca",
+  "response_is_validated_answer": false,
+  "transport_adapter": "OneTwo Responses-to-metered-ChatCompletions text bridge v2",
+  "tool_calls": 4,
+  "duration_seconds": 199.46899999999732,
+  "llm_calls": 12,
+  "cached_calls": 0,
+  "prompt_tokens": 201044,
+  "completion_tokens": 8891,
+  "api_cost": null,
+  "cost_note": "Provider billing/rate unavailable; not inferred from token count",
+  "returned_models": [
+    "qwen3.8-max"
+  ],
+  "max_calls": 12,
+  "max_output_tokens": 8192,
+  "failed_calls": 0,
+  "at": "2026-10-16T11:45:35.831152+00:00"
+}

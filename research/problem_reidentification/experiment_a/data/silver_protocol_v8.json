@@ -1,0 +1,19 @@
+{
+  "version": "silver-protocol-v8-format-resilience",
+  "at": "2026-10-18T10:27:02.879973+00:00",
+  "supersedes": "1a1e008c1e44da4ed24b32001cc56591177c2d2f5332951231ffde72448514d1",
+  "reason": "After a held-out function-argument JSON parse failure, continue independent cases and allow one explicit exact-request retry for malformed/truncated syntax only. Preserve failed raw response; never retry a label disagreement or evidence-validation failure. No prompt, cohort, knowledge, input table or model setting changed. Offline validator accepts a null/zero observation only when it explicitly supports missingness, preserving physiological rejection.",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "1eab65038df22aca8d9baf1015b85c36aa79ae553808c84be40f4faf324445a1",
+    "silver/api.py": "dc8678748f51e9ac795763b696aea667ec3895def425d8644f5ccd2ebda1f0bf",
+    "silver/evidence.py": "5e534ffa570bc0426e875eacb4cef2332474db1c0136fe91ac184ef016061936",
+    "silver/pipeline.py": "48254e6d6614f074f9e68e14c06a442a044d2bf05cb3ca815663a89fa8ac19a9",
+    "silver/prompts.py": "4c7ab6587709d20c5237b153e89d90f4e211afa40a847d492bce1f8f876b884f",
+    "silver/report.py": "e1654b6bcc9ec0340742c999da19497d02b47b775266a3b03f249f1fd73f480d",
+    "silver/schemas.py": "d3098e81b0636cf2596f88a05a37cd6fd360b10a68a19aa9e4cfbc554d467f21",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde"
+  },
+  "budget_cap_cny": 100,
+  "release_id": "b9a0773fdc78f27a2838e1172d0e4d0c30b0954a8cce441d9409e3887827c890"
+}

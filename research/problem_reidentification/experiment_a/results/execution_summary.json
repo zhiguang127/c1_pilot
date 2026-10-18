@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-10-16T10:23:46.617900+00:00",
+  "status": "PENDING_HUMAN_ANNOTATION_AND_API_CREDENTIAL",
+  "input_integrity": {
+    "legacy_hashes_verified": 77,
+    "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "cases": 48,
+    "participants": 16,
+    "a0_pairs": 240
+  },
+  "official_sources": {
+    "medcpt": {
+      "directory": "MedCPT",
+      "url": "https://github.com/ncbi/MedCPT",
+      "commit": "11e129be74102c98d16a11c310b0b5ce74c1db5e",
+      "license": "LICENSE",
+      "license_sha256": "20061e0e4ef5a82eb075b960725cc4dc04d23a4c3e1fbc94f58bb1fe0077d6f2",
+      "source_modified": false
+    },
+    "trialgpt": {
+      "directory": "TrialGPT",
+      "url": "https://github.com/ncbi-nlp/TrialGPT",
+      "commit": "1b3242cd50c153a9c324661d4a0bd94fc68a4226",
+      "license": "LICENSE",
+      "license_sha256": "704890f21e31860b65fd547cb4c2f8fb496f5dafa2ff23c8d261f3c0ad072815",
+      "source_modified": false
+    },
+    "pha": {
+      "directory": "consumer-health-research",
+      "url": "https://github.com/Google-Health/consumer-health-research",
+      "commit": "3e9d1e4877a54cf81ce8ef34085006952dd19601",
+      "license": "personal_health_agent/LICENSE.txt",
+      "license_sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+      "source_modified": false
+    }
+  },
+  "executed_local_runs": [
+    {
+      "run": "e1-bge-v1",
+      "manifest_sha256": "c92dd5e95ed21168c7597c17b8cbb6663f26f535721e01115566cbf8b4c9d306",
+      "status": "RETRIEVAL_EXECUTED_UNSCORED",
+      "method": "bge_m3",
+      "cases": 48,
+      "participants": 16,
+      "corpus": 96,
+      "information_view": "statistics",
+      "query_lexical_budget": 512,
+      "full_context": false,
+      "lexically_truncated_cases": 0,
+      "model_truncated_cases": 48,
+      "duration_seconds": 73.79699999999866,
+      "seconds_per_case_amortized": 1.537437499999972,
+      "llm_calls": 0,
+      "tool_calls": 0,
+      "api_cost": 0,
+      "formal_metrics": null,
+      "gold_status": "PENDING_HUMAN_ANNOTATION",
+      "input_fingerprint": "14234e155d3c3994f7ba70e8697dd1f681f1dafa514302909f6943347f99c85f"
+    },
+    {
+      "run": "e1-bm25-v1",
+      "manifest_sha256": "dc50d2032e0f2cd997ff66474282ad97bad288f5470189711ff4e87353502127",
+      "status": "RETRIEVAL_EXECUTED_UNSCORED",
+      "method": "bm25",
+      "cases": 48,
+      "participants": 16,
+      "corpus": 96,
+      "information_view": "statistics",
+      "query_lexical_budget": 512,
+      "full_context": false,
+      "lexically_truncated_cases": 0,
+      "model_truncated_cases": 0,
+      "duration_seconds": 0.1709999999984575,
+      "seconds_per_case_amortized": 0.0035624999999678644,
+      "llm_calls": 0,
+      "tool_calls": 0,
+      "api_cost": 0,
+      "formal_metrics": null,
+      "gold_status": "PENDING_HUMAN_ANNOTATION",
+      "input_fingerprint": "14234e155d3c3994f7ba70e8697dd1f681f1dafa514302909f6943347f99c85f"
+    },
+    {
+      "run": "e1-medcpt-cross-v1",
+      "manifest_sha256": "e11a2c1dadcd8c71aa88da5cd3512a57f385a1e77b404fc01468491fde7a79e6",
+      "status": "RETRIEVAL_EXECUTED_UNSCORED",
+      "method": "medcpt_cross",
+      "cases": 48,
+      "participants": 16,
+      "corpus": 96,
+      "information_view": "statistics",
+      "query_lexical_budget": 512,
+      "full_context": false,
+      "lexically_truncated_cases": 0,
+      "model_truncated_cases": 48,
+      "duration_seconds": 464.0779999999977,
+      "seconds_per_case_amortized": 9.668291666666619,
+      "llm_calls": 0,
+      "tool_calls": 0,
+      "api_cost": 0,
+      "formal_metrics": null,
+      "gold_status": "PENDING_HUMAN_ANNOTATION",
+      "input_fingerprint": "14234e155d3c3994f7ba70e8697dd1f681f1dafa514302909f6943347f99c85f"
+    },
+    {
+      "run": "e1-medcpt-v1",
+      "manifest_sha256": "38072c9fccbad70695faeec5167f4f37f9f4f0e8f65819865a48ca738d11933d",
+      "status": "RETRIEVAL_EXECUTED_UNSCORED",
+      "method": "medcpt",
+      "cases": 48,
+      "participants": 16,
+      "corpus": 96,
+      "information_view": "statistics",
+      "query_lexical_budget": 512,
+      "full_context": false,
+      "lexically_truncated_cases": 0,
+      "model_truncated_cases": 48,
+      "duration_seconds": 34.01600000000326,
+      "seconds_per_case_amortized": 0.7086666666667346,
+      "llm_calls": 0,
+      "tool_calls": 0,
+      "api_cost": 0,
+      "formal_metrics": null,
+      "gold_status": "PENDING_HUMAN_ANNOTATION",
+      "input_fingerprint": "14234e155d3c3994f7ba70e8697dd1f681f1dafa514302909f6943347f99c85f"
+    }
+  ],
+  "tests": {
+    "experiment_a": {
+      "command": "-m unittest discover -s research/problem_reidentification/experiment_a/tests -v",
+      "tests": 28,
+      "seconds": 0.574,
+      "passed": true,
+      "log_sha256": "02b50add91a857e0ebd74c6f395635c0bd95123808588842e9dfff075eecd66e"
+    },
+    "p1": {
+      "command": "-m unittest discover -s research/problem_reidentification/p1/tests -v",
+      "tests": 24,
+      "seconds": 5.168,
+      "passed": true,
+      "log_sha256": "f57fd8a434589509f0234d2ef2b10dac4e7c17b897cad5824ca9d8e0ec27b277"
+    },
+    "legacy_c1": {
+      "command": "-m unittest discover -s tests -v",
+      "tests": 87,
+      "seconds": 3.238,
+      "passed": true,
+      "log_sha256": "bf1aec9d76719dbc0b0a28469b897a217fd4139d429d1903e70b123d61e95cc5"
+    },
+    "pha_official_offline": {
+      "summary": "124 passed, 15 skipped, 12 deselected in 9.08s",
+      "log_sha256": "7b46cceaf305310f98e350869ee9575a7c099daee0fe020109ed4455e67c7f6c",
+      "is_model_inference": false
+    }
+  },
+  "formal_metrics": null,
+  "gold_pairs": 0,
+  "conclusion": "Insufficient evidence to establish success, stable failure, or need for a new algorithm"
+}

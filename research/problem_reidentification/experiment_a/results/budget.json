@@ -1,0 +1,26 @@
+{
+  "status": "BATCH_PAUSED_UNTIL_COST_AND_BUDGET_REVIEW",
+  "a0_cases": 48,
+  "a0_pairs": 240,
+  "estimated_call_caps_per_case": {
+    "direct": 1,
+    "trialgpt_style": 5,
+    "phia": 12,
+    "pha_parallel": 12,
+    "pha_orchestrator": 12,
+    "pha_ds_trialgpt": 8
+  },
+  "a0_e2_e4_call_cap": 2400,
+  "e3_extra_direct_current_and_statistics_calls": 96,
+  "native_smoke_call_cap": 38,
+  "output_token_cap_per_a0_call": 4096,
+  "a0_e2_e4_output_tokens_upper_bound": 9830400,
+  "input_character_cap_per_call": 250000,
+  "input_token_forecast": null,
+  "verified_rate_per_million_tokens": null,
+  "estimated_money": null,
+  "reason": "No verified provider billing rate or approved batch budget; tool/agent iterations make point estimates unreliable before smoke",
+  "actual_cost": 0,
+  "a1_paid_inference_planned": false,
+  "cache": "Exact request SHA256, persistent attempt ledger and per-case checkpoints"
+}

@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-16T11:52:54.694973+00:00",
+  "corrections": [
+    {
+      "report": "results/phia_official_smoke.json",
+      "status": "UNMETERED_RESPONSES_ROUTE_NOT_ELIGIBLE_FOR_COMPARISON",
+      "measured_chat_calls": 0,
+      "actual_model_calls": null,
+      "observed_react_model_steps_lower_bound": 3,
+      "tokens": null,
+      "cost": null,
+      "reason": "Pinned OneTwo used Responses outside initial chat-only instrumentation; zero in the old measured field must not be read as zero model calls or zero cost",
+      "superseded_by": "results/phia_official_smoke_v2.json"
+    },
+    {
+      "report": "results/pha_parallel_official_smoke_v2.json",
+      "status": "PARTIAL_NATIVE_COMPONENT_FAILURE",
+      "incomplete_model_responses": 2,
+      "component_error": "domain_expert",
+      "reason": "Synthesis returned prose after a specialist failed under the 2048 output cap; original success status was too permissive",
+      "superseded_by": "results/pha_parallel_official_smoke_v3.json"
+    },
+    {
+      "report": "results/pha_orchestrator_official_smoke_v3.json",
+      "status": "BUDGET_EXHAUSTED_WITH_DIAGNOSTIC_FALLBACK",
+      "reason": "Original final output was a 61-character orchestrator budget-error string. Earlier status check missed this prefix; it is not a successful official final answer.",
+      "superseded_by": "results/pha_orchestrator_official_smoke_v4.json"
+    }
+  ],
+  "upstream_source_changed": false
+}

@@ -1,0 +1,34 @@
+{
+  "official_sources": {
+    "medcpt": {
+      "directory": "MedCPT",
+      "url": "https://github.com/ncbi/MedCPT",
+      "commit": "11e129be74102c98d16a11c310b0b5ce74c1db5e",
+      "license": "LICENSE",
+      "license_sha256": "20061e0e4ef5a82eb075b960725cc4dc04d23a4c3e1fbc94f58bb1fe0077d6f2",
+      "source_modified": false
+    },
+    "trialgpt": {
+      "directory": "TrialGPT",
+      "url": "https://github.com/ncbi-nlp/TrialGPT",
+      "commit": "1b3242cd50c153a9c324661d4a0bd94fc68a4226",
+      "license": "LICENSE",
+      "license_sha256": "704890f21e31860b65fd547cb4c2f8fb496f5dafa2ff23c8d261f3c0ad072815",
+      "source_modified": false
+    },
+    "pha": {
+      "directory": "consumer-health-research",
+      "url": "https://github.com/Google-Health/consumer-health-research",
+      "commit": "3e9d1e4877a54cf81ce8ef34085006952dd19601",
+      "license": "personal_health_agent/LICENSE.txt",
+      "license_sha256": "49bbe9114e49214df2ccc324cb3ac8d1d1aa1c3a0947f94c286765e86647b32e",
+      "source_modified": false
+    }
+  },
+  "credential_available": false,
+  "credential_values_read_or_logged": false,
+  "provider": "DashScope",
+  "model": "qwen3.8-max",
+  "native_azure_or_gemini_credentials": "not_configured_or_probed",
+  "human_gold": "not_available"
+}

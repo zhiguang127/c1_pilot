@@ -1,0 +1,17 @@
+{
+  "version": "silver-protocol-v3",
+  "at": "2026-10-18T10:04:40.536193+00:00",
+  "supersedes": "b7baa5b9c9050515772325b9d2d5744aa62015ea74beede022465b843ad8b8bb",
+  "reason": "Deterministically decode JSON arrays serialized as strings; retain quote errors and model-omitted conditions as explicitly software-unresolved, never model-confirmed. Repair private blind-export destination variable; exclusive writes protected all original predictions. No personal labels yet.",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "10db1e59df5a164be9dbce65ca7463da98e818aa06121757e93438a556250808",
+    "silver/api.py": "dc2adaf6b77ba4b9565de8adc5e577a5aae5b7bc61da5a480c7cb9016ddbba9a",
+    "silver/evidence.py": "0c695caf8f6338aced6aea455cfff9d4069ea73ee14f3981470437efec7a2e87",
+    "silver/pipeline.py": "e4021efa41ec72f49f1ad4f0da55096b36e31d709728f3cdd3a2ae54fc66f9ba",
+    "silver/prompts.py": "4e3fb594631c35074344e14a596b6f683e4c0ee66f374e48277c892c4aad4fa6",
+    "silver/report.py": "08129817d0d5e9be700a7e9f62f3707b6c3cbd0cf8059f10996ddd44b40d2cf5",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde"
+  },
+  "release_id": "25df89da77c421a9ba2bcc0d394a4de50af697770d5db42380e66ac2079dc6df"
+}

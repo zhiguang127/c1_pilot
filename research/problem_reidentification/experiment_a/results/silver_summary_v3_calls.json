@@ -1,0 +1,3303 @@
+{
+  "label_provenance": "QWEN_MAX_SILVER",
+  "price": {
+    "input_per_million_cny": 2.4,
+    "output_per_million_cny": 9.6,
+    "cached_input_per_million_cny": 0.48,
+    "source": "https://help.aliyun.com/zh/model-studio/qwen-max",
+    "checked_on": "2026-10-18",
+    "region": "Beijing",
+    "invoice_verified": false,
+    "documented_alias_equivalence": "qwen-max-2025-01-25",
+    "alias_is_immutable": false
+  },
+  "actual_invoice_cny": null,
+  "attempts": [
+    {
+      "tag": "source:K005",
+      "request_sha256": "a694271ef6ac81a767b5d488a35124b3bdc6c5b8c70137f2fc79ddbecc79efeb",
+      "at": "2026-10-18T10:00:20.037169+00:00",
+      "input_token_ceiling": 9552,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.06224639999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b50b8d9f-18d6-9834-a0ba-a57e82c15eec",
+        "server_created": 1792317635,
+        "usage": {
+          "completion_tokens": 603,
+          "prompt_tokens": 2079,
+          "total_tokens": 2682,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.578000000008615,
+        "estimated_cny_no_discount": 0.0107784,
+        "estimated_cny_reported_cache": 0.0107784,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0107784
+    },
+    {
+      "tag": "source:K005",
+      "request_sha256": "137d0e94d3473b297e04679cb858b8202c9d65c8dd3014f24f4905aad7f853c2",
+      "at": "2026-10-18T10:01:56.823105+00:00",
+      "input_token_ceiling": 10458,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0644208,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-d471c703-5b42-965a-9253-0bd02e49f28f",
+        "server_created": 1792317731,
+        "usage": {
+          "completion_tokens": 595,
+          "prompt_tokens": 2270,
+          "total_tokens": 2865,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.812999999994645,
+        "estimated_cny_no_discount": 0.01116,
+        "estimated_cny_reported_cache": 0.01116,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.01116
+    },
+    {
+      "tag": "source:K006",
+      "request_sha256": "8605a952e00b1a399f4c054b8917a7b6c623c83467feaccc44d7a650063f86a2",
+      "at": "2026-10-18T10:02:11.640488+00:00",
+      "input_token_ceiling": 9863,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0629928,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-15a16793-697b-9870-b55f-0b31c307d188",
+        "server_created": 1792317744,
+        "usage": {
+          "completion_tokens": 510,
+          "prompt_tokens": 2142,
+          "total_tokens": 2652,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 12.937999999994645,
+        "estimated_cny_no_discount": 0.010036799999999999,
+        "estimated_cny_reported_cache": 0.010036799999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.010036799999999999
+    },
+    {
+      "tag": "source:K016",
+      "request_sha256": "5ba29d0fe56b4d225b5e3e5069d61886e7cb8b4cb2b7dbf5ef8e599ae71ddf45",
+      "at": "2026-10-18T10:02:24.579987+00:00",
+      "input_token_ceiling": 15022,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0753744,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-50cf1ae6-b9e1-9676-af1d-2ce93cff4019",
+        "server_created": 1792317760,
+        "usage": {
+          "completion_tokens": 632,
+          "prompt_tokens": 3432,
+          "total_tokens": 4064,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 16.484000000025844,
+        "estimated_cny_no_discount": 0.014304,
+        "estimated_cny_reported_cache": 0.014304,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.014304
+    },
+    {
+      "tag": "source:K017",
+      "request_sha256": "7f571f6adec48ee6196a16c61570f824f8a0cad86b0d0fc6ec3166ec41a8d319",
+      "at": "2026-10-18T10:02:41.077407+00:00",
+      "input_token_ceiling": 10107,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0635784,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-f939a639-10d7-982e-b719-fc43fa5741b2",
+        "server_created": 1792317774,
+        "usage": {
+          "completion_tokens": 522,
+          "prompt_tokens": 2252,
+          "total_tokens": 2774,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 13.859000000025844,
+        "estimated_cny_no_discount": 0.010416,
+        "estimated_cny_reported_cache": 0.010416,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.010416
+    },
+    {
+      "tag": "source:K019",
+      "request_sha256": "b902cc866c8dbdadeec5b29b0a5bb0de85879704861637dd906e4c773b1e341f",
+      "at": "2026-10-18T10:02:54.939939+00:00",
+      "input_token_ceiling": 10518,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0645648,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-54d7a7f4-25d0-906c-bdbb-90d942a7f664",
+        "server_created": 1792317790,
+        "usage": {
+          "completion_tokens": 651,
+          "prompt_tokens": 2282,
+          "total_tokens": 2933,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 16.125,
+        "estimated_cny_no_discount": 0.0117264,
+        "estimated_cny_reported_cache": 0.0117264,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0117264
+    },
+    {
+      "tag": "source:K034",
+      "request_sha256": "d56105016207efc6fe49ee405bff0e33b565f042fd1c4bc745ead3f0e8daf3db",
+      "at": "2026-10-18T10:03:11.069243+00:00",
+      "input_token_ceiling": 10201,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.063804,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-c6f27282-3f89-94c1-8b38-6a783f47e902",
+        "server_created": 1792317794,
+        "usage": {
+          "completion_tokens": 117,
+          "prompt_tokens": 2265,
+          "total_tokens": 2382,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 3.5309999999881256,
+        "estimated_cny_no_discount": 0.006559199999999999,
+        "estimated_cny_reported_cache": 0.00557616,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.006559199999999999
+    },
+    {
+      "tag": "source:K037",
+      "request_sha256": "2edc801dbe862dc44f5495688997f7e42f8d850f0efc0db1b474a161dcf5bea8",
+      "at": "2026-10-18T10:04:41.063019+00:00",
+      "input_token_ceiling": 14791,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07482,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-05bf99ff-4703-9f21-8898-ddf5791e9954",
+        "server_created": 1792317895,
+        "usage": {
+          "completion_tokens": 589,
+          "prompt_tokens": 3398,
+          "total_tokens": 3987,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.421999999991385,
+        "estimated_cny_no_discount": 0.013809599999999998,
+        "estimated_cny_reported_cache": 0.013809599999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.013809599999999998
+    },
+    {
+      "tag": "source:K038",
+      "request_sha256": "c6d0bbcd7870c0eda6be6b6ce8dbfa515683755060b3670b9f3dfc260a2e186c",
+      "at": "2026-10-18T10:04:55.504333+00:00",
+      "input_token_ceiling": 14778,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07478879999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-359fbfa0-7933-9088-9f43-564d45331cbc",
+        "server_created": 1792317916,
+        "usage": {
+          "completion_tokens": 698,
+          "prompt_tokens": 3396,
+          "total_tokens": 4094,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 21.32799999997951,
+        "estimated_cny_no_discount": 0.0148512,
+        "estimated_cny_reported_cache": 0.0148512,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0148512
+    },
+    {
+      "tag": "source:K041",
+      "request_sha256": "cd7904c05c47a6a2fda9062c75f6acb521b5a80f61749bad0ea90735a2a3d11b",
+      "at": "2026-10-18T10:05:16.838591+00:00",
+      "input_token_ceiling": 13713,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07223279999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-92e4d56e-51a3-97f7-852b-4c21ed99e985",
+        "server_created": 1792317934,
+        "usage": {
+          "completion_tokens": 764,
+          "prompt_tokens": 3189,
+          "total_tokens": 3953,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 18.094000000011874,
+        "estimated_cny_no_discount": 0.014988,
+        "estimated_cny_reported_cache": 0.014988,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.014988
+    },
+    {
+      "tag": "source:K042",
+      "request_sha256": "e2067689051fbc4c2b5145fedb1b7770d2b5b53cb4b874a0e52323f0a94f9933",
+      "at": "2026-10-18T10:07:10.737649+00:00",
+      "input_token_ceiling": 13372,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07141439999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-5dc3ba77-04ff-9f39-9583-2ebdce813644",
+        "server_created": 1792318035,
+        "usage": {
+          "completion_tokens": 176,
+          "prompt_tokens": 2922,
+          "total_tokens": 3098,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 5.437999999994645,
+        "estimated_cny_no_discount": 0.008702399999999999,
+        "estimated_cny_reported_cache": 0.007719360000000001,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.008702399999999999
+    },
+    {
+      "tag": "source:K044",
+      "request_sha256": "7fb52e01aba1efa81d39963ae5bb3a63091f2bfde4cc69d1ffe9b492626338fd",
+      "at": "2026-10-18T10:07:11.743510+00:00",
+      "input_token_ceiling": 13754,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0723312,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-77a39817-19fd-939e-8d19-a0c228fb37a1",
+        "server_created": 1792318046,
+        "usage": {
+          "completion_tokens": 624,
+          "prompt_tokens": 3176,
+          "total_tokens": 3800,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.078000000008615,
+        "estimated_cny_no_discount": 0.0136128,
+        "estimated_cny_reported_cache": 0.0136128,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0136128
+    },
+    {
+      "tag": "source:K043",
+      "request_sha256": "6c27c32d201fc05feb4fd384a8ee99072d00aa5b26e896ae1e37725f77ed6952",
+      "at": "2026-10-18T10:07:12.752153+00:00",
+      "input_token_ceiling": 13871,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.072612,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-ce353471-5845-9ab7-b46d-76a58b1dee47",
+        "server_created": 1792318048,
+        "usage": {
+          "completion_tokens": 623,
+          "prompt_tokens": 3192,
+          "total_tokens": 3815,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.85899999999674,
+        "estimated_cny_no_discount": 0.013641599999999999,
+        "estimated_cny_reported_cache": 0.013641599999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.013641599999999999
+    },
+    {
+      "tag": "source:K047",
+      "request_sha256": "7619f20ef7c456aab944389a1cac0b4ff9b7b2298c44246547de6e0734f9aeba",
+      "at": "2026-10-18T10:07:16.180104+00:00",
+      "input_token_ceiling": 13876,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.072624,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-55ed09bb-8c47-9cc3-adc8-96d0c8870834",
+        "server_created": 1792318050,
+        "usage": {
+          "completion_tokens": 538,
+          "prompt_tokens": 3180,
+          "total_tokens": 3718,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.48399999999674,
+        "estimated_cny_no_discount": 0.012796799999999999,
+        "estimated_cny_reported_cache": 0.012796799999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.012796799999999999
+    },
+    {
+      "tag": "source:K069",
+      "request_sha256": "e5b1a51d6a92ba882f3c29954f54a0fd82ebfd07694502ec7db8ee86643658a1",
+      "at": "2026-10-18T10:07:26.823863+00:00",
+      "input_token_ceiling": 22447,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0931944,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-3714eab1-eda4-9e00-9dcd-9253b4f61207",
+        "server_created": 1792318065,
+        "usage": {
+          "completion_tokens": 586,
+          "prompt_tokens": 5172,
+          "total_tokens": 5758,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 18.421999999991385,
+        "estimated_cny_no_discount": 0.018038399999999996,
+        "estimated_cny_reported_cache": 0.018038399999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.018038399999999996
+    },
+    {
+      "tag": "source:K070",
+      "request_sha256": "cce5b69f4340ee574fa5b2ba946e6fb54360f14f59e546023e84c92d15bc9de5",
+      "at": "2026-10-18T10:07:28.622245+00:00",
+      "input_token_ceiling": 10499,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0645192,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-fe35a074-d028-938a-b959-c0bf44a9cd88",
+        "server_created": 1792318070,
+        "usage": {
+          "completion_tokens": 528,
+          "prompt_tokens": 2272,
+          "total_tokens": 2800,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 22.546999999991385,
+        "estimated_cny_no_discount": 0.0105216,
+        "estimated_cny_reported_cache": 0.0105216,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0105216
+    },
+    {
+      "tag": "source:K071",
+      "request_sha256": "7fcc1a613a697a7c7078b89bf4ae9a39bd294f1d409e6f7f77a06515272cd1e8",
+      "at": "2026-10-18T10:07:30.670142+00:00",
+      "input_token_ceiling": 10449,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0643992,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-374ac8b9-85a7-9405-b7b6-99cbf20efb56",
+        "server_created": 1792318065,
+        "usage": {
+          "completion_tokens": 598,
+          "prompt_tokens": 2262,
+          "total_tokens": 2860,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.562000000005355,
+        "estimated_cny_no_discount": 0.0111696,
+        "estimated_cny_reported_cache": 0.01018656,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0111696
+    },
+    {
+      "tag": "source:K072",
+      "request_sha256": "7b839abe12f1ff9cb570f72f93423fc61d1382d15ac32ecfc419d8b7c5550ed6",
+      "at": "2026-10-18T10:07:45.249566+00:00",
+      "input_token_ceiling": 14840,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07493760000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-94955758-2df2-919c-8e57-4b6246716024",
+        "server_created": 1792318081,
+        "usage": {
+          "completion_tokens": 567,
+          "prompt_tokens": 3400,
+          "total_tokens": 3967,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 16.60899999999674,
+        "estimated_cny_no_discount": 0.013603200000000001,
+        "estimated_cny_reported_cache": 0.013603200000000001,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.013603200000000001
+    },
+    {
+      "tag": "source:K073",
+      "request_sha256": "bdec37a5d2f179786e3e334315dd8f3ac30b4544d4685b6392def926451c0d4b",
+      "at": "2026-10-18T10:07:46.255609+00:00",
+      "input_token_ceiling": 16506,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.078936,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-58c2e98a-121e-9076-9508-22919e5bd222",
+        "server_created": 1792318077,
+        "usage": {
+          "completion_tokens": 458,
+          "prompt_tokens": 4155,
+          "total_tokens": 4613,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 11.577999999979511,
+        "estimated_cny_no_discount": 0.0143688,
+        "estimated_cny_reported_cache": 0.013385759999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0143688
+    },
+    {
+      "tag": "source:K082",
+      "request_sha256": "e6e7690b9cb755b1b8c0e6901548122c4108499c47b537f8febb8b5a8dfe7b7a",
+      "at": "2026-10-18T10:07:51.189582+00:00",
+      "input_token_ceiling": 15050,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.07544160000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-71e3cc4a-09f4-9323-afc2-ff8dd0cdf3a1",
+        "server_created": 1792318086,
+        "usage": {
+          "completion_tokens": 667,
+          "prompt_tokens": 3391,
+          "total_tokens": 4058,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.875,
+        "estimated_cny_no_discount": 0.014541599999999998,
+        "estimated_cny_reported_cache": 0.014541599999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.014541599999999998
+    },
+    {
+      "tag": "source:K083",
+      "request_sha256": "6d5c8a7b87693d0c39cd985356c5032fbd34a8483ff1596382a637c32758d642",
+      "at": "2026-10-18T10:07:57.844649+00:00",
+      "input_token_ceiling": 21107,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0899784,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-80448879-1239-95f0-b76b-abe71b3d401d",
+        "server_created": 1792318090,
+        "usage": {
+          "completion_tokens": 497,
+          "prompt_tokens": 4818,
+          "total_tokens": 5315,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 13.125,
+        "estimated_cny_no_discount": 0.0163344,
+        "estimated_cny_reported_cache": 0.0163344,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0163344
+    },
+    {
+      "tag": "source:K086",
+      "request_sha256": "cfa3c25640d61b3ec8233b71ce8a520019e8049ec6e01d73d4b5b4895341b3a9",
+      "at": "2026-10-18T10:08:01.868635+00:00",
+      "input_token_ceiling": 23903,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09668879999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-35b2b342-cbf7-9797-9bb6-303a9c8e687f",
+        "server_created": 1792318109,
+        "usage": {
+          "completion_tokens": 732,
+          "prompt_tokens": 5402,
+          "total_tokens": 6134,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 27.828000000008615,
+        "estimated_cny_no_discount": 0.019992,
+        "estimated_cny_reported_cache": 0.019992,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.019992
+    },
+    {
+      "tag": "source:K089",
+      "request_sha256": "96182f59f60adc344f2b8be82d7d9df6f53092631c17784ae1daf5810dfe8d43",
+      "at": "2026-10-18T10:08:07.071091+00:00",
+      "input_token_ceiling": 21432,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09075839999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-30846055-e82e-95d0-bfc4-ce766fd1d693",
+        "server_created": 1792318185,
+        "usage": {
+          "completion_tokens": 4096,
+          "prompt_tokens": 4825,
+          "total_tokens": 8921,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "length",
+        "duration_seconds": 98.56299999999464,
+        "estimated_cny_no_discount": 0.0509016,
+        "estimated_cny_reported_cache": 0.04991856,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0509016,
+      "error_type": "ValueError",
+      "http_status": null
+    },
+    {
+      "tag": "source:K090",
+      "request_sha256": "b39fb383bc43741f94bcfa870583f764adf6a0181688994d461842bfdf94f377",
+      "at": "2026-10-18T10:08:10.984903+00:00",
+      "input_token_ceiling": 15084,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0755232,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e7ebcc2b-85db-95fc-b95b-08a034cb79f3",
+        "server_created": 1792318105,
+        "usage": {
+          "completion_tokens": 593,
+          "prompt_tokens": 3390,
+          "total_tokens": 3983,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.375,
+        "estimated_cny_no_discount": 0.013828799999999999,
+        "estimated_cny_reported_cache": 0.01284576,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.013828799999999999
+    },
+    {
+      "tag": "source:K091",
+      "request_sha256": "9464c8212b48892cc25463a45bd78ee056de6bbd26341162784740db86668028",
+      "at": "2026-10-18T10:08:25.373205+00:00",
+      "input_token_ceiling": 15097,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0755544,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-d038cfb4-8ab2-903c-838e-79ce57187765",
+        "server_created": 1792318123,
+        "usage": {
+          "completion_tokens": 623,
+          "prompt_tokens": 3401,
+          "total_tokens": 4024,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 18.21799999999348,
+        "estimated_cny_no_discount": 0.0141432,
+        "estimated_cny_reported_cache": 0.0141432,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0141432
+    },
+    {
+      "tag": "source:K093",
+      "request_sha256": "40fa2639f12272f15dcd7da6ede4c812b54fb86182fb0af919876d6b7331ae7f",
+      "at": "2026-10-18T10:08:29.694121+00:00",
+      "input_token_ceiling": 22188,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09257279999999998,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-3c50b173-0478-9c80-a002-0dc080baba30",
+        "server_created": 1792318126,
+        "usage": {
+          "completion_tokens": 641,
+          "prompt_tokens": 5004,
+          "total_tokens": 5645,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 17.187999999994645,
+        "estimated_cny_no_discount": 0.0181632,
+        "estimated_cny_reported_cache": 0.0181632,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0181632
+    },
+    {
+      "tag": "source:K094",
+      "request_sha256": "39c1c4e02463b05d819021241667749d6f3d721566a494feb246ff7c22df5b82",
+      "at": "2026-10-18T10:08:43.600952+00:00",
+      "input_token_ceiling": 19018,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0849648,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e2429935-761d-9585-8182-3a95ff1789f3",
+        "server_created": 1792318136,
+        "usage": {
+          "completion_tokens": 508,
+          "prompt_tokens": 4317,
+          "total_tokens": 4825,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 512,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 12.875,
+        "estimated_cny_no_discount": 0.015237599999999999,
+        "estimated_cny_reported_cache": 0.014254560000000001,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.015237599999999999
+    },
+    {
+      "tag": "source-expanded:K089",
+      "request_sha256": "346e6f36230d4e2f55d67a3186d1ff88f5a645c404f33d64fe22f04ed4c112b0",
+      "at": "2026-10-18T10:10:10.187580+00:00",
+      "input_token_ceiling": 21432,
+      "output_token_ceiling": 8192,
+      "reserved_cny": 0.13008,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-4d0ba89e-4b4c-952d-a647-695e976375c9",
+        "server_created": 1792318231,
+        "usage": {
+          "completion_tokens": 803,
+          "prompt_tokens": 4825,
+          "total_tokens": 5628,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 21.921999999991385,
+        "estimated_cny_no_discount": 0.0192888,
+        "estimated_cny_reported_cache": 0.011424479999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0192888
+    },
+    {
+      "tag": "label:smoke:B",
+      "request_sha256": "2202a3676d656f9781b1f513a5d4ba384abf849897077464a42f2df9b61d3d65",
+      "at": "2026-10-18T10:11:25.148817+00:00",
+      "input_token_ceiling": 24675,
+      "output_token_ceiling": 6144,
+      "reserved_cny": 0.1182024,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-0fadd299-2f66-91d0-9fa6-9bd97e64fb67",
+        "server_created": 1792318300,
+        "usage": {
+          "completion_tokens": 537,
+          "prompt_tokens": 8823,
+          "total_tokens": 9360,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 16.0,
+        "estimated_cny_no_discount": 0.0263304,
+        "estimated_cny_reported_cache": 0.0263304,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0263304
+    },
+    {
+      "tag": "label:smoke:A",
+      "request_sha256": "e5622b6088a7ec87f2e4d7396d9731fa46f0d1c9303e4118da57fcec5f282666",
+      "at": "2026-10-18T10:11:26.156197+00:00",
+      "input_token_ceiling": 24675,
+      "output_token_ceiling": 6144,
+      "reserved_cny": 0.1182024,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-aef360f2-e311-9101-972a-7fdf5ef39e30",
+        "server_created": 1792318320,
+        "usage": {
+          "completion_tokens": 1208,
+          "prompt_tokens": 8823,
+          "total_tokens": 10031,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 34.421999999991385,
+        "estimated_cny_no_discount": 0.032772,
+        "estimated_cny_reported_cache": 0.032772,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.032772
+    },
+    {
+      "tag": "evidence:1",
+      "request_sha256": "ed4af47b03efd4cba3fd0455cec2e2007c2f86c14a4cf347a95d96358dad6966",
+      "at": "2026-10-18T10:11:42.530621+00:00",
+      "input_token_ceiling": 27017,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.10416239999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-3fa2e87f-0651-9ee3-ba59-1dcb6166d863",
+        "server_created": 1792318317,
+        "usage": {
+          "completion_tokens": 440,
+          "prompt_tokens": 9351,
+          "total_tokens": 9791,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.39100000000326,
+        "estimated_cny_no_discount": 0.026666399999999996,
+        "estimated_cny_reported_cache": 0.026666399999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.026666399999999996
+    },
+    {
+      "tag": "evidence:0",
+      "request_sha256": "a8aa2c7110ff9032aefe86ac810e668df1dcabf43d077632c562aa176de4edec",
+      "at": "2026-10-18T10:11:43.533116+00:00",
+      "input_token_ceiling": 26920,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.10392960000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-919de053-9aba-9a4a-8652-38bc127eeed7",
+        "server_created": 1792318323,
+        "usage": {
+          "completion_tokens": 514,
+          "prompt_tokens": 9281,
+          "total_tokens": 9795,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 20.48399999999674,
+        "estimated_cny_no_discount": 0.027208799999999995,
+        "estimated_cny_reported_cache": 0.027208799999999995,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.027208799999999995
+    },
+    {
+      "tag": "evidence:2",
+      "request_sha256": "b1edf277818fd0db86120e792a3dd6b90cdcb42cd1d7a115dc2146417e0aa0d7",
+      "at": "2026-10-18T10:11:44.541765+00:00",
+      "input_token_ceiling": 23541,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09582,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-764e9240-ba6e-90f0-9a25-b019c7edc45c",
+        "server_created": 1792318320,
+        "usage": {
+          "completion_tokens": 393,
+          "prompt_tokens": 8570,
+          "total_tokens": 8963,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.921999999991385,
+        "estimated_cny_no_discount": 0.0243408,
+        "estimated_cny_reported_cache": 0.0243408,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0243408
+    },
+    {
+      "tag": "evidence:3",
+      "request_sha256": "3e5e741790f72f3c52ff0aa96dc8d5eaeac467c8a47f846df26e7581afd30917",
+      "at": "2026-10-18T10:11:57.937411+00:00",
+      "input_token_ceiling": 23551,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.095844,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-eae8afe4-04ec-9edb-8e06-12155e03e219",
+        "server_created": 1792318336,
+        "usage": {
+          "completion_tokens": 691,
+          "prompt_tokens": 8487,
+          "total_tokens": 9178,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 18.625,
+        "estimated_cny_no_discount": 0.0270024,
+        "estimated_cny_reported_cache": 0.0270024,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0270024
+    },
+    {
+      "tag": "evidence:4",
+      "request_sha256": "4b620a768204ca4daaf55eb3f548b1fa3217fe6068ee24c410be908a991763b3",
+      "at": "2026-10-18T10:12:00.467435+00:00",
+      "input_token_ceiling": 24567,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09828239999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-84fc44b3-d0e0-9b3d-91b6-2662755bcda7",
+        "server_created": 1792318348,
+        "usage": {
+          "completion_tokens": 869,
+          "prompt_tokens": 8875,
+          "total_tokens": 9744,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 28.344000000011874,
+        "estimated_cny_no_discount": 0.029642400000000003,
+        "estimated_cny_reported_cache": 0.029642400000000003,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.029642400000000003
+    },
+    {
+      "tag": "evidence:5",
+      "request_sha256": "477e431b283a7ffce1747134c7131e2560630cc73c56254996962ae87210f00d",
+      "at": "2026-10-18T10:12:04.031646+00:00",
+      "input_token_ceiling": 25477,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1004664,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-876f3975-8d2f-9722-927e-481665d45345",
+        "server_created": 1792318352,
+        "usage": {
+          "completion_tokens": 930,
+          "prompt_tokens": 8888,
+          "total_tokens": 9818,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 28.85899999999674,
+        "estimated_cny_no_discount": 0.0302592,
+        "estimated_cny_reported_cache": 0.02239488,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0302592
+    },
+    {
+      "tag": "evidence:6",
+      "request_sha256": "44d3ec9190e7adcf3af0c8eacefea3c9f6e6161291de66e07d1b11a5d0381a29",
+      "at": "2026-10-18T10:12:16.582594+00:00",
+      "input_token_ceiling": 20034,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0874032,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b92d9cb1-d117-94e7-84ed-2d160be198c8",
+        "server_created": 1792318345,
+        "usage": {
+          "completion_tokens": 229,
+          "prompt_tokens": 7549,
+          "total_tokens": 7778,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 8.78100000001723,
+        "estimated_cny_no_discount": 0.020316,
+        "estimated_cny_reported_cache": 0.012451679999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.020316
+    },
+    {
+      "tag": "evidence:7",
+      "request_sha256": "772021f5c47af4f8478a04d4ae016b671fbaf71bb8894ed9f60d0b992eda3eae",
+      "at": "2026-10-18T10:12:25.379534+00:00",
+      "input_token_ceiling": 25697,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1009944,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-2d62b55c-4a14-911f-ad11-97a33df75fcc",
+        "server_created": 1792318359,
+        "usage": {
+          "completion_tokens": 427,
+          "prompt_tokens": 9322,
+          "total_tokens": 9749,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 14.48399999999674,
+        "estimated_cny_no_discount": 0.026472,
+        "estimated_cny_reported_cache": 0.026472,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.026472
+    },
+    {
+      "tag": "evidence:8",
+      "request_sha256": "31e5203d79d287dc45d8877bdd32451149ff3e3a270cdfa0c7aba8b25234fe17",
+      "at": "2026-10-18T10:12:28.823551+00:00",
+      "input_token_ceiling": 21920,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0919296,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-39ead113-6b75-923b-9013-43cb10c5e233",
+        "server_created": 1792318371,
+        "usage": {
+          "completion_tokens": 801,
+          "prompt_tokens": 8111,
+          "total_tokens": 8912,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 22.515999999974156,
+        "estimated_cny_no_discount": 0.027155999999999996,
+        "estimated_cny_reported_cache": 0.019291680000000002,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.027155999999999996
+    },
+    {
+      "tag": "evidence:9",
+      "request_sha256": "fb98e0a6ff1d8593282f5b47df97a0ff5da49a760f7f9e007ab58be102a53430",
+      "at": "2026-10-18T10:12:32.909829+00:00",
+      "input_token_ceiling": 23308,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09526079999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e399f67e-f8cb-9f48-9d65-a4d22fe8583b",
+        "server_created": 1792318380,
+        "usage": {
+          "completion_tokens": 804,
+          "prompt_tokens": 8392,
+          "total_tokens": 9196,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 27.64100000000326,
+        "estimated_cny_no_discount": 0.027859199999999997,
+        "estimated_cny_reported_cache": 0.019994879999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.027859199999999997
+    },
+    {
+      "tag": "evidence:10",
+      "request_sha256": "3fb1eca2f80755d5a93532bb07efdc761d3fc1aca1ebc7635777741ad68934de",
+      "at": "2026-10-18T10:12:39.882187+00:00",
+      "input_token_ceiling": 25808,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.10126079999999998,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-6296df4f-bdb1-98ef-8a27-5deeca6f676d",
+        "server_created": 1792318375,
+        "usage": {
+          "completion_tokens": 606,
+          "prompt_tokens": 8895,
+          "total_tokens": 9501,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "stop",
+        "duration_seconds": 15.655999999988126,
+        "estimated_cny_no_discount": 0.027165599999999998,
+        "estimated_cny_reported_cache": 0.01930128,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.027165599999999998
+    },
+    {
+      "tag": "label:smoke:B",
+      "request_sha256": "b0e4f8448ef65a782713d88c1a6a2eee70190ae209326ef2c48177f4b0506362",
+      "at": "2026-10-18T10:19:11.467106+00:00",
+      "input_token_ceiling": 27437,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1150008,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-97469f2e-7745-9a7e-9411-686d59b1bbf8",
+        "server_created": 1792318834,
+        "usage": {
+          "completion_tokens": 3443,
+          "prompt_tokens": 9676,
+          "total_tokens": 13119,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 83.4539999999979,
+        "estimated_cny_no_discount": 0.0562752,
+        "estimated_cny_reported_cache": 0.0562752,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0562752
+    },
+    {
+      "tag": "label:smoke:A",
+      "request_sha256": "dc82d4d69b476b7af5ac5e678f20ebc127a82a381c6ba1f529c7fa7d6f66e02c",
+      "at": "2026-10-18T10:19:12.473076+00:00",
+      "input_token_ceiling": 27437,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1150008,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-180ed1a9-3a54-9ef4-90d4-becd8dfa88a1",
+        "server_created": 1792318863,
+        "usage": {
+          "completion_tokens": 5120,
+          "prompt_tokens": 9676,
+          "total_tokens": 14796,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 111.125,
+        "estimated_cny_no_discount": 0.07237439999999999,
+        "estimated_cny_reported_cache": 0.07237439999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.07237439999999999,
+      "error_type": "ValueError",
+      "http_status": null
+    },
+    {
+      "tag": "evidence:0",
+      "request_sha256": "27aa057bdc96d86d6890dd64ebaae0bfa5da7b76798007eb3b07b79472979243",
+      "at": "2026-10-18T10:19:26.639011+00:00",
+      "input_token_ceiling": 20598,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.08875679999999998,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-644bc38f-7987-94ad-83da-1bb92ab9674c",
+        "server_created": 1792318777,
+        "usage": {
+          "completion_tokens": 283,
+          "prompt_tokens": 7894,
+          "total_tokens": 8177,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 10.812999999994645,
+        "estimated_cny_no_discount": 0.0216624,
+        "estimated_cny_reported_cache": 0.0216624,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0216624
+    },
+    {
+      "tag": "evidence:2",
+      "request_sha256": "9789a6f14d0dffe2669ecb3620d26252c373c5c92189eaf8caf0e863e0da14e8",
+      "at": "2026-10-18T10:19:27.642261+00:00",
+      "input_token_ceiling": 20837,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.08933039999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-94186d9b-db67-9670-b97f-be406d5d2f1a",
+        "server_created": 1792318779,
+        "usage": {
+          "completion_tokens": 334,
+          "prompt_tokens": 7926,
+          "total_tokens": 8260,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 11.797000000020489,
+        "estimated_cny_no_discount": 0.0222288,
+        "estimated_cny_reported_cache": 0.014364479999999999,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0222288
+    },
+    {
+      "tag": "evidence:1",
+      "request_sha256": "2f92d0f439b0bd7ecd6d8208805e77f0e74336a13f0a2cf092e0c2a32d5486ef",
+      "at": "2026-10-18T10:19:28.648945+00:00",
+      "input_token_ceiling": 23757,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09633839999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-cc88edb8-c993-94d9-8110-3ed4536189a2",
+        "server_created": 1792318782,
+        "usage": {
+          "completion_tokens": 456,
+          "prompt_tokens": 8729,
+          "total_tokens": 9185,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 14.485000000015134,
+        "estimated_cny_no_discount": 0.025327199999999998,
+        "estimated_cny_reported_cache": 0.025327199999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.025327199999999998
+    },
+    {
+      "tag": "evidence:3",
+      "request_sha256": "a3b84b6d62db42c44c283cce83a4110bd9a146b2ad97177dc178958a4c53e881",
+      "at": "2026-10-18T10:19:37.463812+00:00",
+      "input_token_ceiling": 25824,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.10129919999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b353a5c9-9e74-982b-81ca-264c541c51b5",
+        "server_created": 1792318798,
+        "usage": {
+          "completion_tokens": 708,
+          "prompt_tokens": 9311,
+          "total_tokens": 10019,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 21.703000000008615,
+        "estimated_cny_no_discount": 0.029143199999999998,
+        "estimated_cny_reported_cache": 0.029143199999999998,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.029143199999999998
+    },
+    {
+      "tag": "evidence:4",
+      "request_sha256": "753117ce564c23c9237297d53efe018bbc369d5c35b86969f1aeab58345be749",
+      "at": "2026-10-18T10:19:39.449273+00:00",
+      "input_token_ceiling": 25645,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1008696,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-1420a354-5768-9e3a-8a3f-8e63e3eec041",
+        "server_created": 1792318832,
+        "usage": {
+          "completion_tokens": 840,
+          "prompt_tokens": 9234,
+          "total_tokens": 10074,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 53.57799999997951,
+        "estimated_cny_no_discount": 0.0302256,
+        "estimated_cny_reported_cache": 0.0302256,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0302256
+    },
+    {
+      "tag": "evidence:5",
+      "request_sha256": "1697d5152218d74a02126b16b747bc566085e4593033bc15bf6922bfb46c1cb6",
+      "at": "2026-10-18T10:19:43.148330+00:00",
+      "input_token_ceiling": 25655,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1008936,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e039d049-bfee-9aad-a9ea-c0f485e61285",
+        "server_created": 1792318805,
+        "usage": {
+          "completion_tokens": 830,
+          "prompt_tokens": 9151,
+          "total_tokens": 9981,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 22.40700000000652,
+        "estimated_cny_no_discount": 0.0299304,
+        "estimated_cny_reported_cache": 0.0299304,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0299304
+    },
+    {
+      "tag": "evidence:6",
+      "request_sha256": "7e0d99b46b737669db87febfabcd32d19f8d18f4468dc0a0f5d0be4e3855d875",
+      "at": "2026-10-18T10:19:59.174720+00:00",
+      "input_token_ceiling": 26671,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.103332,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-772fcbbd-d618-9513-9a4e-e5d3d1c834bc",
+        "server_created": 1792318827,
+        "usage": {
+          "completion_tokens": 1012,
+          "prompt_tokens": 9539,
+          "total_tokens": 10551,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 28.5,
+        "estimated_cny_no_discount": 0.03260879999999999,
+        "estimated_cny_reported_cache": 0.024744479999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.03260879999999999
+    },
+    {
+      "tag": "evidence:7",
+      "request_sha256": "ba50f9c0aa0e2a023b9681a1b8cf192cd897643d75c5571643d149fa2e4568d4",
+      "at": "2026-10-18T10:20:05.560692+00:00",
+      "input_token_ceiling": 27581,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.105516,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-0bc8f08f-7801-9f4a-93f0-b9f67f09590d",
+        "server_created": 1792318826,
+        "usage": {
+          "completion_tokens": 754,
+          "prompt_tokens": 9552,
+          "total_tokens": 10306,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 21.140999999974156,
+        "estimated_cny_no_discount": 0.030163199999999998,
+        "estimated_cny_reported_cache": 0.022298879999999997,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.030163199999999998
+    },
+    {
+      "tag": "evidence:8",
+      "request_sha256": "0f52884d052c68868bb32ce726726b96c35cbace84f3ec645b66a5815ddc4844",
+      "at": "2026-10-18T10:20:26.722857+00:00",
+      "input_token_ceiling": 22138,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.09245279999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-8022d79f-ff7f-939f-a171-e5c6674be718",
+        "server_created": 1792318839,
+        "usage": {
+          "completion_tokens": 456,
+          "prompt_tokens": 8213,
+          "total_tokens": 8669,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 12.671999999991385,
+        "estimated_cny_no_discount": 0.0240888,
+        "estimated_cny_reported_cache": 0.0240888,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0240888
+    },
+    {
+      "tag": "evidence:9",
+      "request_sha256": "07b50b2644fed721820ba814164eff89bd3983a1d3f096070a806dcd4b7c7ca3",
+      "at": "2026-10-18T10:20:27.683902+00:00",
+      "input_token_ceiling": 27801,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.106044,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-43d868ba-543e-9237-8af2-e6d3c1f9dcfb",
+        "server_created": 1792318840,
+        "usage": {
+          "completion_tokens": 465,
+          "prompt_tokens": 9986,
+          "total_tokens": 10451,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 12.546000000002095,
+        "estimated_cny_no_discount": 0.028430399999999998,
+        "estimated_cny_reported_cache": 0.02056608,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.028430399999999998
+    },
+    {
+      "tag": "evidence:10",
+      "request_sha256": "85cc0ea914cf27d792846fc5cda46fa91de7eaf87271cf05fa6d0f43a570b82e",
+      "at": "2026-10-18T10:20:33.035355+00:00",
+      "input_token_ceiling": 24024,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.0969792,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-74f4c9ab-7a7b-9a4a-ab05-7408bc5ecf44",
+        "server_created": 1792318857,
+        "usage": {
+          "completion_tokens": 784,
+          "prompt_tokens": 8775,
+          "total_tokens": 9559,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 4096,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 24.171999999991385,
+        "estimated_cny_no_discount": 0.0285864,
+        "estimated_cny_reported_cache": 0.02072208,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0285864
+    },
+    {
+      "tag": "evidence:11",
+      "request_sha256": "93956e1fe57f8d1067a2eb639f3d80c71d207ef3cc56367ab91b03feb4b3cfc4",
+      "at": "2026-10-18T10:20:39.418102+00:00",
+      "input_token_ceiling": 25412,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1003104,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-62c9008b-2ac5-9227-a16c-d8f536a97d6a",
+        "server_created": 1792318861,
+        "usage": {
+          "completion_tokens": 772,
+          "prompt_tokens": 9056,
+          "total_tokens": 9828,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 22.187000000005355,
+        "estimated_cny_no_discount": 0.029145599999999997,
+        "estimated_cny_reported_cache": 0.029145599999999997,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.029145599999999997
+    },
+    {
+      "tag": "evidence:12",
+      "request_sha256": "a4c79001d153109cc4ae06086167e7e2e9c9f607d1142739276fb08aa0f62f96",
+      "at": "2026-10-18T10:20:40.234293+00:00",
+      "input_token_ceiling": 27912,
+      "output_token_ceiling": 4096,
+      "reserved_cny": 0.1063104,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-6fada410-8312-9aa7-bead-d0d810f6a5bd",
+        "server_created": 1792318861,
+        "usage": {
+          "completion_tokens": 681,
+          "prompt_tokens": 9559,
+          "total_tokens": 10240,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 256,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 21.64100000000326,
+        "estimated_cny_no_discount": 0.029479199999999997,
+        "estimated_cny_reported_cache": 0.028987680000000002,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.029479199999999997
+    },
+    {
+      "tag": "label:smoke:A",
+      "request_sha256": "862e1ed0ae6f9fd174d02580460079dd188352fb68e1b80fbf806e1781bbb460",
+      "at": "2026-10-18T10:22:03.496040+00:00",
+      "input_token_ceiling": 27292,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11465279999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-d8174589-32ec-9896-bedf-d132ffde09aa",
+        "server_created": 1792319000,
+        "usage": {
+          "completion_tokens": 2657,
+          "prompt_tokens": 9741,
+          "total_tokens": 12398,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 77.68700000000536,
+        "estimated_cny_no_discount": 0.0488856,
+        "estimated_cny_reported_cache": 0.0488856,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0488856
+    },
+    {
+      "tag": "label:smoke:B",
+      "request_sha256": "ffb71b262bb16e8a6240ef7228388e13eb0286e7b7c3469c38e112ca2f6becf4",
+      "at": "2026-10-18T10:22:04.510576+00:00",
+      "input_token_ceiling": 27292,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11465279999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-6a5c6776-4fde-9cf5-9a00-bec9e8fabe4e",
+        "server_created": 1792318984,
+        "usage": {
+          "completion_tokens": 2551,
+          "prompt_tokens": 9741,
+          "total_tokens": 12292,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 60.51600000000326,
+        "estimated_cny_no_discount": 0.047868,
+        "estimated_cny_reported_cache": 0.047868,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.047868
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "2b0aff684a651f0c66ca8df1775b414bec2cfaa8daf42864b7b2765506e31e3b",
+      "at": "2026-10-18T10:23:46.823460+00:00",
+      "input_token_ceiling": 27393,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1148952,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-f2823f76-dcc8-99fe-b37b-9ea99ccc9e61",
+        "server_created": 1792319089,
+        "usage": {
+          "completion_tokens": 2554,
+          "prompt_tokens": 9602,
+          "total_tokens": 12156,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 63.04700000002049,
+        "estimated_cny_no_discount": 0.0475632,
+        "estimated_cny_reported_cache": 0.0475632,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0475632
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "abfb2dbd372712bba05f0b466e4a734b6b084da0334d09c06d9e2e50190e79ea",
+      "at": "2026-10-18T10:23:47.828766+00:00",
+      "input_token_ceiling": 27177,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11437679999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-f8c776bc-04d9-9eda-abfc-360a8e288a55",
+        "server_created": 1792319135,
+        "usage": {
+          "completion_tokens": 5120,
+          "prompt_tokens": 9329,
+          "total_tokens": 14449,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 107.93700000000536,
+        "estimated_cny_no_discount": 0.07154160000000001,
+        "estimated_cny_reported_cache": 0.07154160000000001,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.07154160000000001,
+      "error_type": "JSONDecodeError",
+      "http_status": null
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "0daf561e2f9c396782ba2ef77df95b4fb3e69d97c7648b441f4b6dc42beed394",
+      "at": "2026-10-18T10:23:48.841220+00:00",
+      "input_token_ceiling": 27393,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1148952,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-a9ebe58e-4360-9f5b-8fc6-1d9ed4f5ba73",
+        "server_created": 1792319094,
+        "usage": {
+          "completion_tokens": 2567,
+          "prompt_tokens": 9602,
+          "total_tokens": 12169,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 65.43799999999464,
+        "estimated_cny_no_discount": 0.047688,
+        "estimated_cny_reported_cache": 0.047688,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.047688
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "8c31beb4d426d9ea1e5cbf2cf18c53b920236bd23c60b2247b30e0d3e3eea617",
+      "at": "2026-10-18T10:24:50.054746+00:00",
+      "input_token_ceiling": 27177,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11437679999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-783ba739-f313-910f-aa07-53a9f9c6e93a",
+        "server_created": 1792319178,
+        "usage": {
+          "completion_tokens": 3636,
+          "prompt_tokens": 9329,
+          "total_tokens": 12965,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 88.9210000000021,
+        "estimated_cny_no_discount": 0.0572952,
+        "estimated_cny_reported_cache": 0.0572952,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0572952
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "713121f9298bbdf052013bcef18657cb617f986a725b43c54a3b649730ffae7b",
+      "at": "2026-10-18T10:24:54.432148+00:00",
+      "input_token_ceiling": 27202,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11443679999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-23133d03-dc73-9f75-8bba-66dcffbe94da",
+        "server_created": 1792319156,
+        "usage": {
+          "completion_tokens": 2504,
+          "prompt_tokens": 9292,
+          "total_tokens": 11796,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 61.95299999997951,
+        "estimated_cny_no_discount": 0.0463392,
+        "estimated_cny_reported_cache": 0.0463392,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0463392
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "c46293f535bc4da77c4d821be8ab313053cf08faff285a9bbbd5bc343086cb68",
+      "at": "2026-10-18T10:25:35.786660+00:00",
+      "input_token_ceiling": 27202,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11443679999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e78abcea-68d6-95f3-913b-627dd81548a2",
+        "server_created": 1792319200,
+        "usage": {
+          "completion_tokens": 2871,
+          "prompt_tokens": 9292,
+          "total_tokens": 12163,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 65.18700000000536,
+        "estimated_cny_no_discount": 0.049862399999999994,
+        "estimated_cny_reported_cache": 0.049862399999999994,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.049862399999999994
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "3365597fcf16905229e00aa634b331f11876fbad7d6647237cb5576dca0cb458",
+      "at": "2026-10-18T10:27:03.435110+00:00",
+      "input_token_ceiling": 27273,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11460719999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-855264d6-979a-9da8-a86c-8da980a8d2af",
+        "server_created": 1792319302,
+        "usage": {
+          "completion_tokens": 2916,
+          "prompt_tokens": 9930,
+          "total_tokens": 12846,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 79.26599999997416,
+        "estimated_cny_no_discount": 0.0518256,
+        "estimated_cny_reported_cache": 0.0518256,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0518256
+    },
+    {
+      "tag": "label:heldout:A:format-retry",
+      "request_sha256": "abfb2dbd372712bba05f0b466e4a734b6b084da0334d09c06d9e2e50190e79ea",
+      "at": "2026-10-18T10:27:04.438885+00:00",
+      "input_token_ceiling": 27177,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11437679999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-cecd2301-5cb3-97d3-9282-43101c76b478",
+        "server_created": 1792319289,
+        "usage": {
+          "completion_tokens": 2550,
+          "prompt_tokens": 9329,
+          "total_tokens": 11879,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 8192,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 65.34399999998277,
+        "estimated_cny_no_discount": 0.0468696,
+        "estimated_cny_reported_cache": 0.03114096,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0468696
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "d5cb2f13857548c9cb9c7efd2be1630b4dcbbc8a5426b190b71e2beb28a85ce6",
+      "at": "2026-10-18T10:27:05.444560+00:00",
+      "input_token_ceiling": 27273,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11460719999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-d7bbe124-ef22-90ef-b185-5a800c1aafa7",
+        "server_created": 1792319317,
+        "usage": {
+          "completion_tokens": 3967,
+          "prompt_tokens": 9930,
+          "total_tokens": 13897,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 92.01599999997416,
+        "estimated_cny_no_discount": 0.0619152,
+        "estimated_cny_reported_cache": 0.059949119999999995,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0619152
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "5a908f808837ca298a9643766ccee477de3d513c5813b0d2e8cc8625b21035a1",
+      "at": "2026-10-18T10:28:09.925007+00:00",
+      "input_token_ceiling": 27314,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11470559999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-87b7abf4-ac61-9953-ad49-86251c591a70",
+        "server_created": 1792319352,
+        "usage": {
+          "completion_tokens": 2356,
+          "prompt_tokens": 9363,
+          "total_tokens": 11719,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 63.125,
+        "estimated_cny_no_discount": 0.045088800000000005,
+        "estimated_cny_reported_cache": 0.045088800000000005,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.045088800000000005
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "cc7342bb39e9b4eb2ab995c253c91930a47a9d1252e49f553b49b84c09d7bebe",
+      "at": "2026-10-18T10:28:22.905694+00:00",
+      "input_token_ceiling": 27314,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11470559999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-216d5e41-cc66-977d-9719-5887594a7b94",
+        "server_created": 1792319455,
+        "usage": {
+          "completion_tokens": 2441,
+          "prompt_tokens": 9363,
+          "total_tokens": 11804,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 152.68700000000536,
+        "estimated_cny_no_discount": 0.0459048,
+        "estimated_cny_reported_cache": 0.0459048,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0459048
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "1da8015d936517bf3795033e749606ab218833ded44ae84cf561aa356177e916",
+      "at": "2026-10-18T10:28:37.666621+00:00",
+      "input_token_ceiling": 27351,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11479439999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-20dc2a9c-a31e-96a9-ab7c-808bc10cc56c",
+        "server_created": 1792319431,
+        "usage": {
+          "completion_tokens": 5120,
+          "prompt_tokens": 9630,
+          "total_tokens": 14750,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 114.46799999999348,
+        "estimated_cny_no_discount": 0.072264,
+        "estimated_cny_reported_cache": 0.072264,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.072264,
+      "error_type": "JSONDecodeError",
+      "http_status": null
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "7ba5e9da644e7d6964f92beb10800f7f17c281904f99f900d0424a499f956604",
+      "at": "2026-10-18T10:29:13.217108+00:00",
+      "input_token_ceiling": 27351,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11479439999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-da43b118-0c6a-9778-92a0-ca873761e0d5",
+        "server_created": 1792319414,
+        "usage": {
+          "completion_tokens": 2522,
+          "prompt_tokens": 9630,
+          "total_tokens": 12152,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 61.062999999994645,
+        "estimated_cny_no_discount": 0.047323199999999996,
+        "estimated_cny_reported_cache": 0.047323199999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.047323199999999996
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "8b9ca0d8dd3c0ef01d4e6f7e794fb6f0cfe891148149fe1594765526b594e8f3",
+      "at": "2026-10-18T10:30:14.389079+00:00",
+      "input_token_ceiling": 27346,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11478239999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b6e0291f-4e3a-965f-be13-aef91ad4b434",
+        "server_created": 1792319497,
+        "usage": {
+          "completion_tokens": 2707,
+          "prompt_tokens": 9738,
+          "total_tokens": 12445,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 82.92200000002049,
+        "estimated_cny_no_discount": 0.049358400000000004,
+        "estimated_cny_reported_cache": 0.049358400000000004,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.049358400000000004
+    },
+    {
+      "tag": "label:heldout:A:format-retry",
+      "request_sha256": "1da8015d936517bf3795033e749606ab218833ded44ae84cf561aa356177e916",
+      "at": "2026-10-18T10:30:32.155299+00:00",
+      "input_token_ceiling": 27351,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11479439999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-19753923-e905-9bf3-bb42-b7d8393b7192",
+        "server_created": 1792319494,
+        "usage": {
+          "completion_tokens": 2669,
+          "prompt_tokens": 9630,
+          "total_tokens": 12299,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 8192,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 62.296999999991385,
+        "estimated_cny_no_discount": 0.0487344,
+        "estimated_cny_reported_cache": 0.033005759999999995,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0487344
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "b038cf5a544bc468d8358d42f7b094ffff21b173dfdf7d36f8e075989defbe63",
+      "at": "2026-10-18T10:30:55.702061+00:00",
+      "input_token_ceiling": 27346,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11478239999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e7d45d50-9fa6-985d-ab31-8ff4305a6725",
+        "server_created": 1792319531,
+        "usage": {
+          "completion_tokens": 3051,
+          "prompt_tokens": 9738,
+          "total_tokens": 12789,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 76.42200000002049,
+        "estimated_cny_no_discount": 0.0526608,
+        "estimated_cny_reported_cache": 0.0526608,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0526608
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "73ea6f950d54cd2c3460682282c39b849625c429bfc25339862797db5de6a1c8",
+      "at": "2026-10-18T10:31:34.685972+00:00",
+      "input_token_ceiling": 27063,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1141032,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-54119324-2534-90e1-b3ea-1dc8a0db9997",
+        "server_created": 1792319555,
+        "usage": {
+          "completion_tokens": 2480,
+          "prompt_tokens": 9769,
+          "total_tokens": 12249,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 60.96899999998277,
+        "estimated_cny_no_discount": 0.0472536,
+        "estimated_cny_reported_cache": 0.0472536,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0472536
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "eb41e62524bf6b0e35a0b089db6409a81c366848189b8d8f7b6a81e31c7c1da2",
+      "at": "2026-10-18T10:31:37.572437+00:00",
+      "input_token_ceiling": 27063,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1141032,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b65a1582-0c96-9794-98dd-d89037daf016",
+        "server_created": 1792319561,
+        "usage": {
+          "completion_tokens": 2785,
+          "prompt_tokens": 9769,
+          "total_tokens": 12554,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 64.51599999997416,
+        "estimated_cny_no_discount": 0.0501816,
+        "estimated_cny_reported_cache": 0.0501816,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0501816
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "c15aa75d63c0796ffc7a5f02ab4f19c27d325c9dc0453634bf48aad5bb78f262",
+      "at": "2026-10-18T10:32:12.288211+00:00",
+      "input_token_ceiling": 27154,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11432160000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-c72ba01e-2776-911d-a85e-b96cf550d4b6",
+        "server_created": 1792319590,
+        "usage": {
+          "completion_tokens": 2578,
+          "prompt_tokens": 9298,
+          "total_tokens": 11876,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 58.90600000001723,
+        "estimated_cny_no_discount": 0.047064,
+        "estimated_cny_reported_cache": 0.047064,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.047064,
+      "error_type": "JSONDecodeError",
+      "http_status": null
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "5f37aa83ef372207760cb78ebaac1cf1ae39dae090774e0f8562353efb9c6f90",
+      "at": "2026-10-18T10:32:35.869229+00:00",
+      "input_token_ceiling": 27154,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11432160000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-e27f6083-ad43-924d-884d-9174b8741e56",
+        "server_created": 1792319627,
+        "usage": {
+          "completion_tokens": 2808,
+          "prompt_tokens": 9298,
+          "total_tokens": 12106,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 72.0,
+        "estimated_cny_no_discount": 0.049272,
+        "estimated_cny_reported_cache": 0.049272,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.049272
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "d318a0b7ec303e7c99b0a36a1fb79f44cedbc42a695fd9c379b1b769d908fb82",
+      "at": "2026-10-18T10:32:42.298100+00:00",
+      "input_token_ceiling": 27161,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11433839999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-347e35c2-8ea5-9807-976a-79b6716d79b3",
+        "server_created": 1792319669,
+        "usage": {
+          "completion_tokens": 4644,
+          "prompt_tokens": 9061,
+          "total_tokens": 13705,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 106.96799999999348,
+        "estimated_cny_no_discount": 0.06632880000000001,
+        "estimated_cny_reported_cache": 0.06436272,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.06632880000000001
+    },
+    {
+      "tag": "label:heldout:A:format-retry",
+      "request_sha256": "c15aa75d63c0796ffc7a5f02ab4f19c27d325c9dc0453634bf48aad5bb78f262",
+      "at": "2026-10-18T10:33:11.200051+00:00",
+      "input_token_ceiling": 27154,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11432160000000001,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-db6c5a75-2957-9ee7-8129-265cb9bcd5b4",
+        "server_created": 1792319651,
+        "usage": {
+          "completion_tokens": 2595,
+          "prompt_tokens": 9298,
+          "total_tokens": 11893,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 8192,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 60.937000000005355,
+        "estimated_cny_no_discount": 0.0472272,
+        "estimated_cny_reported_cache": 0.031498559999999995,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0472272
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "1234c2861ccd82a181a60fb4441b87816521ade5392e14d1ef365e37d4860a25",
+      "at": "2026-10-18T10:33:47.999385+00:00",
+      "input_token_ceiling": 27161,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11433839999999999,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-18c53c19-9a44-9f6e-bd8f-38717ae21dfb",
+        "server_created": 1792319709,
+        "usage": {
+          "completion_tokens": 2835,
+          "prompt_tokens": 9061,
+          "total_tokens": 11896,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 81.59299999999348,
+        "estimated_cny_no_discount": 0.048962399999999996,
+        "estimated_cny_reported_cache": 0.048962399999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.048962399999999996
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "93b95c2bc05ff36ff35e911ca685957140bf49010728b7193ce2804e057009bc",
+      "at": "2026-10-18T10:34:12.269004+00:00",
+      "input_token_ceiling": 27401,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1149144,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-6c260b06-eddb-9252-a91e-727b31932b29",
+        "server_created": 1792319731,
+        "usage": {
+          "completion_tokens": 2747,
+          "prompt_tokens": 9048,
+          "total_tokens": 11795,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 79.82800000000861,
+        "estimated_cny_no_discount": 0.0480864,
+        "estimated_cny_reported_cache": 0.0480864,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0480864
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "43c2d9fabfdba6f946c65a2c5310166d2a5f562cae8831199e0adb6613d00981",
+      "at": "2026-10-18T10:34:29.363259+00:00",
+      "input_token_ceiling": 27401,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1149144,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-851a9dfc-f88a-92ab-af82-63933f61facc",
+        "server_created": 1792319749,
+        "usage": {
+          "completion_tokens": 3153,
+          "prompt_tokens": 9048,
+          "total_tokens": 12201,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 80.79699999999139,
+        "estimated_cny_no_discount": 0.051984,
+        "estimated_cny_reported_cache": 0.05001792,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.051984
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "74608c707fee2f46c8e74a9b7d5eb93af6a6f82f247ca75a6744d0b2bbac86b4",
+      "at": "2026-10-18T10:35:09.703237+00:00",
+      "input_token_ceiling": 27381,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1148664,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-3bc61f11-a22c-9898-8927-3a60d18a666f",
+        "server_created": 1792319777,
+        "usage": {
+          "completion_tokens": 2664,
+          "prompt_tokens": 9923,
+          "total_tokens": 12587,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 68.48400000002584,
+        "estimated_cny_no_discount": 0.0493896,
+        "estimated_cny_reported_cache": 0.04742352,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0493896
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "ee0ed2bebf32e6573250f058289f7530e7df127b57843196fe0fc02d5cd56d40",
+      "at": "2026-10-18T10:35:32.236556+00:00",
+      "input_token_ceiling": 27381,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.1148664,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-b94773b8-de83-9cee-acc5-59e4e74f090f",
+        "server_created": 1792319783,
+        "usage": {
+          "completion_tokens": 2232,
+          "prompt_tokens": 9923,
+          "total_tokens": 12155,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 0,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 51.921999999991385,
+        "estimated_cny_no_discount": 0.0452424,
+        "estimated_cny_reported_cache": 0.0452424,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0452424
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "d90e91d09a1f7254ea85b850e1ef81ab680db3b34ea3db62f624b1e7214be388",
+      "at": "2026-10-18T10:35:50.287811+00:00",
+      "input_token_ceiling": 27335,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.114756,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-7576e842-b4db-903c-8b05-0d482db795ff",
+        "server_created": 1792319829,
+        "usage": {
+          "completion_tokens": 2625,
+          "prompt_tokens": 9860,
+          "total_tokens": 12485,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 79.45300000000861,
+        "estimated_cny_no_discount": 0.048864,
+        "estimated_cny_reported_cache": 0.046897919999999996,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.048864
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "63742e3e3c771748972e3dfcfe0e4fead2930a402c038b3043b77f2cdfb92212",
+      "at": "2026-10-18T10:36:18.431697+00:00",
+      "input_token_ceiling": 27335,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.114756,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-f9a2fd69-993b-90bf-bba6-f8dacc267290",
+        "server_created": 1792319869,
+        "usage": {
+          "completion_tokens": 3118,
+          "prompt_tokens": 9860,
+          "total_tokens": 12978,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 91.625,
+        "estimated_cny_no_discount": 0.0535968,
+        "estimated_cny_reported_cache": 0.05163072,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0535968
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "41948175f168493ad80fe756daa005416c4d4e41de7f1c1fa36b9640f96f7b01",
+      "at": "2026-10-18T10:36:24.303696+00:00",
+      "input_token_ceiling": 27120,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11424,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-a7be11d4-eba0-93a7-b12a-bfcaa1f0e964",
+        "server_created": 1792319851,
+        "usage": {
+          "completion_tokens": 2848,
+          "prompt_tokens": 9129,
+          "total_tokens": 11977,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 67.40599999998813,
+        "estimated_cny_no_discount": 0.04925039999999999,
+        "estimated_cny_reported_cache": 0.04728432,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.04925039999999999
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "5110f982f832872a22ae3b53545de00e70a4c41ea84a0851aa97631ff94fa5b0",
+      "at": "2026-10-18T10:37:09.966176+00:00",
+      "input_token_ceiling": 27120,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.11424,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-6471f83e-4d2e-916e-8a03-dbcdb91e2f91",
+        "server_created": 1792319922,
+        "usage": {
+          "completion_tokens": 3607,
+          "prompt_tokens": 9129,
+          "total_tokens": 12736,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 92.26600000000326,
+        "estimated_cny_no_discount": 0.0565368,
+        "estimated_cny_reported_cache": 0.05457072,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0565368
+    },
+    {
+      "tag": "label:heldout:A",
+      "request_sha256": "071264f2fc7ab5d78ff299b32601b9b2e387f35295bf07128cb69c88a4000e24",
+      "at": "2026-10-18T10:37:31.855511+00:00",
+      "input_token_ceiling": 27375,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.114852,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-7e928bb8-74e7-905b-b6b9-7416804bec12",
+        "server_created": 1792319912,
+        "usage": {
+          "completion_tokens": 2674,
+          "prompt_tokens": 8583,
+          "total_tokens": 11257,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 60.75,
+        "estimated_cny_no_discount": 0.0462696,
+        "estimated_cny_reported_cache": 0.04430352,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.0462696
+    },
+    {
+      "tag": "label:heldout:B",
+      "request_sha256": "e7abeeb18128b64b70eb37f7b63f0e124bf04828867bf161d35160d5d6cdd0c2",
+      "at": "2026-10-18T10:37:50.189805+00:00",
+      "input_token_ceiling": 27375,
+      "output_token_ceiling": 5120,
+      "reserved_cny": 0.114852,
+      "status": "RESPONSE_RECEIVED",
+      "model_requested": "qwen-max",
+      "metadata": {
+        "returned_model": "qwen-max",
+        "system_fingerprint": null,
+        "response_id": "chatcmpl-16ccedd9-10b5-9d3e-b8df-2d727e574bbf",
+        "server_created": 1792319929,
+        "usage": {
+          "completion_tokens": 2438,
+          "prompt_tokens": 8583,
+          "total_tokens": 11021,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cache_write_tokens": null,
+            "cached_tokens": 1024,
+            "image_tokens": null,
+            "text_tokens": null
+          }
+        },
+        "finish_reason": "tool_calls",
+        "duration_seconds": 59.23499999998603,
+        "estimated_cny_no_discount": 0.044004,
+        "estimated_cny_reported_cache": 0.04203792,
+        "api_sdk_version": "3.31.0",
+        "actual_invoice_cny": null
+      },
+      "charged_estimate_cny": 0.044004
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "silver-protocol-v5-before-function-smoke",
+  "at": "2026-10-18T10:19:10.930841+00:00",
+  "supersedes": "d2ba3fbc511dea9de0f2764bf0d51df096b4db81fcd45dcf0a082d1c4e3fea4e",
+  "reason": "JSON Object smoke emitted null evidence lists and missing candidates; retain failed rounds and evidence reviews separately. Use qwen-max forced function arguments with explicit schema; no executable tool. Complete 42-row input retained, maximum label output 5120 to fit conservative context ceiling. No held-out inference yet.",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "10db1e59df5a164be9dbce65ca7463da98e818aa06121757e93438a556250808",
+    "silver/api.py": "b3182e5675ddedf899f012ff3c7c775ef776afdd44f837731dd951da2df997af",
+    "silver/evidence.py": "dfed2701b090c0ce920d89c87ee855d13cb8595d42fed5f8f810c8287d6c95f6",
+    "silver/pipeline.py": "0a34bd704a387884526a8573985b312762030a0483d1b6da7679de29c5e63d79",
+    "silver/prompts.py": "a9481b28a6c1e819dc699bad35b8268495bff32735e910e6729a84525e71acb3",
+    "silver/report.py": "a04be77575259a0a381f0d67ce89d21a1e088aff532702b56197ef93b2066bf1",
+    "silver/schemas.py": "faaa58116e8d4f997e96927a00ec27e3831b321066618c05fce51fa47d4bb7a5",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde"
+  },
+  "forecast_sha256": "c39d30747083e27b2d4fff61487feeb902c90ca36a8734da2ba09cbdfab983a3",
+  "budget_cap_cny": 100,
+  "heldout_executed": false,
+  "release_id": "7c218fd1281e3b3f9c9e862dfb01a043264c72ee14539e7eb4caa4f6f6e15fc0"
+}

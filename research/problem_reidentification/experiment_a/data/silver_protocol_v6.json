@@ -1,0 +1,20 @@
+{
+  "version": "silver-protocol-v6-before-heldout",
+  "at": "2026-10-18T10:22:02.729167+00:00",
+  "supersedes": "7c218fd1281e3b3f9c9e862dfb01a043264c72ee14539e7eb4caa4f6f6e15fc0",
+  "reason": "Function smoke B completed with real arrays but three citation-contract failures; A returned a complete record plus an unparseable extra call and was rejected. Preserve both raw responses and B checkpoint. Add reference syntax descriptions and exactly-one-call instruction, remove redundant scope revision prose from labels, keep original daily evidence unchanged. No held-out selection changed or held-out model call made.",
+  "files": {
+    "silver/__init__.py": "12dd68aae2589bb6c8f09a7049c8f7661c7c5f9389075218a0ac74d48bdef49c",
+    "silver/__main__.py": "10db1e59df5a164be9dbce65ca7463da98e818aa06121757e93438a556250808",
+    "silver/api.py": "b3182e5675ddedf899f012ff3c7c775ef776afdd44f837731dd951da2df997af",
+    "silver/evidence.py": "dfed2701b090c0ce920d89c87ee855d13cb8595d42fed5f8f810c8287d6c95f6",
+    "silver/pipeline.py": "83f0253373d4eab5028f4be2b71dfdec91333435b8926552af21cbee554e5d26",
+    "silver/prompts.py": "4c7ab6587709d20c5237b153e89d90f4e211afa40a847d492bce1f8f876b884f",
+    "silver/report.py": "c39fccb63d6aa9a7b8e5604b463ad8121508f7d6d47e09a83a5a767c8af8df9c",
+    "silver/schemas.py": "d3098e81b0636cf2596f88a05a37cd6fd360b10a68a19aa9e4cfbc554d467f21",
+    "silver/sources.py": "3089d00809643d478c65fc544fdf9b2f5c3dcec17043edd74b3e8642ce6fdbde"
+  },
+  "budget_cap_cny": 100,
+  "heldout_executed": false,
+  "release_id": "ef9d5e27fece49fd3c392e98ccfaf623c4c278ed88edbe9c0f0aff7dd70f724f"
+}

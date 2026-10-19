@@ -4,7 +4,7 @@ Status: **PREPARED_NOT_ANNOTATED**. Human raters recorded: **0**. Independent hu
 
 ## Provenance and unchanged inputs
 
-Fetched live upstream branches and inspected draft PR #3 before creating `research/experiment-c0-chain-audit` on B0. The local, remote and PR heads all matched the requested reference `b15a4583c44760ca7ce966d153e17e351cb116d4`. PR #3 was open, draft and unmerged; no changed-head conflict was found. C0 targets `research/experiment-b0-sota` and remains draft/unmerged.
+Fetched live upstream branches and inspected draft PR #3 before creating `research/experiment-c0-chain-audit` on B0. The local, remote and PR heads all matched the requested reference `b15a4583c44760ca7ce966d153e17e351cb116d4`. PR #3 was open, draft and unmerged; no changed-head conflict was found. The C0 branch was committed and pushed successfully. Draft-PR creation targeting `research/experiment-b0-sota` was blocked by GitHub integration permissions (HTTP 403). No C0 PR exists; no alternate identity/channel was used to bypass the restriction. The full public patch, proposed PR body and error response are preserved in ignored local execution records. No PR was merged.
 
 - Upstream main: `17943de366f15b38b8255e5978d67f2dc8b3960a`.
 - Upstream Experiment A: `18e2fa2e59e14fd69ef4400bd9d38831128bf0f7`.
@@ -12,7 +12,7 @@ Fetched live upstream branches and inspected draft PR #3 before creating `resear
 - B0 freeze ID: `df9d7c385ee56d0c0521ed79e8bdfdd689e7dcd25ceb042ce6b748c533941791`.
 - P1 release ID: `872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604`.
 
-Copied the supplied C0 bundle into a previously absent C0 directory, then hardened C0's freeze/run verification, private ID seed and steward separation. No B0/Experiment A predictions, sources or protocols were changed. The execution Git HEAD was the B0 parent because C0 was then uncommitted; the exact C0 Python byte hashes are in `results/local_execution_summary.json`, and the C0 commit is recorded by the draft PR. This avoids claiming the parent commit contains C0.
+Copied the supplied C0 bundle into a previously absent C0 directory, then hardened C0's freeze/run verification, private ID seed and steward separation. No B0/Experiment A predictions, sources or protocols were changed. The execution Git HEAD was the B0 parent because C0 was then uncommitted; the exact C0 Python byte hashes are in `results/local_execution_summary.json`. The pipeline and execution results were committed at `09bae80` before this delivery-status update. This avoids claiming the parent commit contains C0.
 
 ## Exact denominators and failed-run accounting
 

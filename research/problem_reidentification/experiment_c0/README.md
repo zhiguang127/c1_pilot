@@ -6,7 +6,7 @@ This offline diagnostic uses existing frozen B0 predictions. It makes no API/mod
 
 ## Frozen scope
 
-- Parent: draft, unmerged B0 PR #3, `research/experiment-b0-sota`, checked at `b15a4583c44760ca7ce966d153e17e351cb116d4`. The C0 branch and draft PR target B0; neither PR is to be merged.
+- Parent: draft, unmerged B0 PR #3, `research/experiment-b0-sota`, checked at `b15a4583c44760ca7ce966d153e17e351cb116d4`. The pushed C0 branch is stacked on B0. C0 draft-PR creation was blocked by GitHub integration permissions (HTTP 403); no C0 PR was created, and no alternate credential/channel was used. The intended base is B0; keep both PRs draft and unmerged when C0 can be created.
 - All 16 participants' earliest 42-day windows; five original candidates each: K006, K017, K041, K083, K094. A1 alternative candidate panels are excluded.
 - Six diagnostic arms: Direct, RE2-style prompting (not fine-tuned RE2), Self-Refine-adapted, CRITIC-adapted, budget-matched CRITIC, S4 candidate-relative prompting. These are existing B0 arms, not a new algorithm.
 - B0 provides no explicit user goal or unique priority policy. Use **UNDETERMINED** for priority/contrastive judgments that require that missing information. Physiological observations do not supply a user's goal.

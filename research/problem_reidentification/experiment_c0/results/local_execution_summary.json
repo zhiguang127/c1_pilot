@@ -136,5 +136,16 @@
       "network_and_model_calls_blocked": true
     }
   },
-  "provenance_note": "Execution HEAD is the B0 parent; C0 code was uncommitted and is identified by byte hashes. PR commit records the source version."
+  "provenance_note": "Execution HEAD is the B0 parent; C0 code was uncommitted and is identified by byte hashes. Pipeline commit 09bae80 contains these exact code bytes. Draft PR creation was permission-blocked; no C0 PR exists.",
+  "delivery": {
+    "branch": "research/experiment-c0-chain-audit",
+    "base": "research/experiment-b0-sota",
+    "branch_pushed": true,
+    "pull_request_status": "BLOCKED_PERMISSION",
+    "http_status": 403,
+    "pull_request_created": false,
+    "merged": false,
+    "alternate_credential_or_channel_used": false,
+    "pipeline_commit": "09bae80"
+  }
 }

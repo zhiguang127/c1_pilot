@@ -1,0 +1,129 @@
+{
+  "status": "PUBLIC_PREFLIGHT_COMPLETE_PRIVATE_REVIEW_PENDING",
+  "source_status": "COMPLETE_EXPLORATORY_EXECUTION",
+  "source_records": 200,
+  "methods": [
+    {
+      "method": "B1_direct",
+      "planned": 16,
+      "valid_outputs": 15,
+      "status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "full_order_stability": [
+        0,
+        4
+      ],
+      "pair_relation_stability": [
+        23,
+        40
+      ],
+      "all_tie_outputs": 0
+    },
+    {
+      "method": "B2_re2_style",
+      "planned": 16,
+      "valid_outputs": 12,
+      "status_counts": {
+        "FAILED": 2,
+        "EXECUTED": 12,
+        "INVALID_OUTPUT": 2
+      },
+      "full_order_stability": [
+        0,
+        1
+      ],
+      "pair_relation_stability": [
+        3,
+        10
+      ],
+      "all_tie_outputs": 0
+    },
+    {
+      "method": "B3_self_refine",
+      "planned": 16,
+      "valid_outputs": 15,
+      "status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "full_order_stability": [
+        0,
+        3
+      ],
+      "pair_relation_stability": [
+        21,
+        30
+      ],
+      "all_tie_outputs": 0
+    },
+    {
+      "method": "B4_critic",
+      "planned": 16,
+      "valid_outputs": 11,
+      "status_counts": {
+        "EXECUTED": 11,
+        "FAILED": 3,
+        "INVALID_OUTPUT": 2
+      },
+      "full_order_stability": [
+        0,
+        1
+      ],
+      "pair_relation_stability": [
+        6,
+        10
+      ],
+      "all_tie_outputs": 0
+    },
+    {
+      "method": "BM_critic",
+      "planned": 16,
+      "valid_outputs": 13,
+      "status_counts": {
+        "EXECUTED": 13,
+        "INVALID_OUTPUT": 2,
+        "FAILED": 1
+      },
+      "full_order_stability": [
+        0,
+        4
+      ],
+      "pair_relation_stability": [
+        14,
+        40
+      ],
+      "all_tie_outputs": 0
+    },
+    {
+      "method": "S4_relative",
+      "planned": 16,
+      "valid_outputs": 9,
+      "status_counts": {
+        "INVALID_OUTPUT": 3,
+        "EXECUTED": 9,
+        "FAILED": 4
+      },
+      "full_order_stability": [
+        0,
+        2
+      ],
+      "pair_relation_stability": [
+        10,
+        20
+      ],
+      "all_tie_outputs": 0
+    }
+  ],
+  "total_valid_method_windows": 75,
+  "total_planned_method_windows": 96,
+  "human_gold": 0,
+  "verified_chain_failures": null,
+  "explanation_fidelity": null,
+  "behavioral_faithfulness": null,
+  "decision_accuracy": null,
+  "decision_improvement": null,
+  "annotator_agreement": null,
+  "scope": "Existing B0 aggregate only; not a new model run or gold annotation"
+}

@@ -1,0 +1,140 @@
+{
+  "status": "PREPARED_NOT_ANNOTATED",
+  "case_cards": 16,
+  "explanation_cards": 140,
+  "missing_or_invalid_slots": 21,
+  "planned_slots": 96,
+  "valid_slots": 75,
+  "participants": 16,
+  "days_per_case": 42,
+  "candidates_per_case": 5,
+  "diagnostic_methods": 6,
+  "missing_record_slots": 0,
+  "human_raters_recorded": 0,
+  "human_gold": 0,
+  "verified_chain_failures": null,
+  "explanation_fidelity": null,
+  "behavioral_faithfulness": null,
+  "decision_accuracy": null,
+  "decision_improvement": null,
+  "annotator_agreement": null,
+  "method_counts": [
+    {
+      "method": "B1_direct",
+      "planned": 16,
+      "valid_outputs": 15,
+      "status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "explanation_cards": 33
+    },
+    {
+      "method": "B2_re2_style",
+      "planned": 16,
+      "valid_outputs": 12,
+      "status_counts": {
+        "FAILED": 2,
+        "EXECUTED": 12,
+        "INVALID_OUTPUT": 2
+      },
+      "explanation_cards": 19
+    },
+    {
+      "method": "B3_self_refine",
+      "planned": 16,
+      "valid_outputs": 15,
+      "status_counts": {
+        "EXECUTED": 15,
+        "FAILED": 1
+      },
+      "explanation_cards": 26
+    },
+    {
+      "method": "B4_critic",
+      "planned": 16,
+      "valid_outputs": 11,
+      "status_counts": {
+        "EXECUTED": 11,
+        "FAILED": 3,
+        "INVALID_OUTPUT": 2
+      },
+      "explanation_cards": 21
+    },
+    {
+      "method": "BM_critic",
+      "planned": 16,
+      "valid_outputs": 13,
+      "status_counts": {
+        "EXECUTED": 13,
+        "INVALID_OUTPUT": 2,
+        "FAILED": 1
+      },
+      "explanation_cards": 23
+    },
+    {
+      "method": "S4_relative",
+      "planned": 16,
+      "valid_outputs": 9,
+      "status_counts": {
+        "INVALID_OUTPUT": 3,
+        "EXECUTED": 9,
+        "FAILED": 4
+      },
+      "explanation_cards": 18
+    }
+  ],
+  "blinding_checks": {
+    "method_identifier_matches": 0,
+    "private_identity_matches": 0,
+    "stage1_model_metadata_matches": 0
+  },
+  "provenance": {
+    "b0_head": "b15a4583c44760ca7ce966d153e17e351cb116d4",
+    "execution_head": "b15a4583c44760ca7ce966d153e17e351cb116d4",
+    "b0_comparison_blob": "4d28ec893cd5cc25c7ef859e248177e7eac8783f",
+    "b0_freeze_id": "df9d7c385ee56d0c0521ed79e8bdfdd689e7dcd25ceb042ce6b748c533941791",
+    "p1_release_id": "872d04eb05394b3f3ac37c05dcefe320181e9375a674ba7c4fb57c8853742604",
+    "c0_code_sha256": {
+      "__init__.py": "8b0d523a3084cf79de1fb33e42de2c4681111bce9fbc0117da11f163363a6a97",
+      "pilot.py": "a75cb8343c8c46ba8922497445c1d05070f8eaab53eecec1bfbe1b9da08850be"
+    }
+  },
+  "frozen_payload_hashes_verified": 16,
+  "model_requests": 0,
+  "review_status": "Both stages await independent humans; no annotation or fidelity claim",
+  "validation": {
+    "unit_tests_passed": 17,
+    "unit_tests_failed": 0,
+    "bundle_unit_tests_passed": 8,
+    "required_command_exit_codes": {
+      "unittest": 0,
+      "public-audit": 0,
+      "b0-verify": 0,
+      "prepare-local": 0
+    },
+    "private_replay": {
+      "status": "PASS",
+      "private_artifacts_verified": 10,
+      "stage1_replayed": 16,
+      "stage2_replayed": 140,
+      "crosswalk_rows": 156,
+      "failure_slots": 21,
+      "all_slots": 96,
+      "blank_template_rows": 312,
+      "source_run_hashes_verified": 160,
+      "network_and_model_calls_blocked_during_replay": true,
+      "stage1_source_payloads_preserved_except_identity_fields": true,
+      "stage2_ranking_items_reasons_preserved": true
+    },
+    "public_subset_matches_full_summary": true,
+    "original_content_verification": {
+      "status": "PASS",
+      "stage1_payloads_directly_compared": 16,
+      "stage2_outputs_directly_compared": 140,
+      "original_failure_records_directly_compared": 21,
+      "network_and_model_calls_blocked": true
+    }
+  },
+  "provenance_note": "Execution HEAD is the B0 parent; C0 code was uncommitted and is identified by byte hashes. PR commit records the source version."
+}

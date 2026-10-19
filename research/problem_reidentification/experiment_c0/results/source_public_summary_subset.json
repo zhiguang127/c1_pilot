@@ -1,0 +1,26 @@
+{
+  "source_repo": "zhiguang127/c1_pilot",
+  "source_ref": "b15a4583c44760ca7ce966d153e17e351cb116d4",
+  "source_blob_sha": "4d28ec893cd5cc25c7ef859e248177e7eac8783f",
+  "status": "COMPLETE_EXPLORATORY_EXECUTION",
+  "planned_records": 200,
+  "record_count": 200,
+  "human_gold": false,
+  "decision_accuracy": null,
+  "panels": {"main": {
+    "B1_direct": {"planned_windows": 16,"completed_records": 16,"status_counts": {"EXECUTED": 15,"FAILED": 1},"valid_output_windows": 15,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0},
+    "B2_re2_style": {"planned_windows": 16,"completed_records": 16,"status_counts": {"FAILED": 2,"EXECUTED": 12,"INVALID_OUTPUT": 2},"valid_output_windows": 12,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0},
+    "B3_self_refine": {"planned_windows": 16,"completed_records": 16,"status_counts": {"EXECUTED": 15,"FAILED": 1},"valid_output_windows": 15,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0},
+    "B4_critic": {"planned_windows": 16,"completed_records": 16,"status_counts": {"EXECUTED": 11,"FAILED": 3,"INVALID_OUTPUT": 2},"valid_output_windows": 11,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0},
+    "BM_critic": {"planned_windows": 16,"completed_records": 16,"status_counts": {"EXECUTED": 13,"INVALID_OUTPUT": 2,"FAILED": 1},"valid_output_windows": 13,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0},
+    "S4_relative": {"planned_windows": 16,"completed_records": 16,"status_counts": {"INVALID_OUTPUT": 3,"EXECUTED": 9,"FAILED": 4},"valid_output_windows": 9,"all_candidates_tied_windows": 0,"self_reported_priority_identifiable": 0}
+  }},
+  "candidate_order_intervention": {
+    "B1_direct": {"same_priority_order": 0,"valid_paired_windows": 4,"same_pair_relations": 23,"pair_denominator": 40},
+    "B2_re2_style": {"same_priority_order": 0,"valid_paired_windows": 1,"same_pair_relations": 3,"pair_denominator": 10},
+    "B3_self_refine": {"same_priority_order": 0,"valid_paired_windows": 3,"same_pair_relations": 21,"pair_denominator": 30},
+    "B4_critic": {"same_priority_order": 0,"valid_paired_windows": 1,"same_pair_relations": 6,"pair_denominator": 10},
+    "BM_critic": {"same_priority_order": 0,"valid_paired_windows": 4,"same_pair_relations": 14,"pair_denominator": 40},
+    "S4_relative": {"same_priority_order": 0,"valid_paired_windows": 2,"same_pair_relations": 10,"pair_denominator": 20}
+  }
+}

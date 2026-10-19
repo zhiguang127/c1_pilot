@@ -1,0 +1,3 @@
+# Contains raw longitudinal records, model outputs, adjudications and steward crosswalk.
+local/
+__pycache__/
